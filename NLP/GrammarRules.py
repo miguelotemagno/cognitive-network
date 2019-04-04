@@ -196,7 +196,7 @@ class GrammarRules:
                         #print ("%s {%s}") % (text, expr)
                         eval = re.compile(expr)
                     except ValueError:
-                        print ("%s {%s} %s") % (text, expr, ValueError)
+                        print ("ERROR getVerb(%s): {%s} %s") % (text, expr, ValueError)
 
                     if eval.match(text):
                         return verb
@@ -208,15 +208,22 @@ class GrammarRules:
     def getVerbTense(self, verb, text):
         char = text[0]
         isIn = re.compile('^(ger|par|i([cpf]|nf|pi|pps)?|sp[i]?[2]?|sf)$')
-        
-        if char in self.rules:
-            for tense, hash in self.rules[char][verb].iteritems():
-                if isIn.match(tense):
-                    expr = '^'+hash+'$'
-                    eval = re.compile(expr)
-                    if eval.match(text):
-                        return tense
-        
+
+        try:
+            if char in self.rules:
+                for tense, hash in self.rules[char][verb].iteritems():
+                    if isIn.match(tense):
+                        expr = '^'+hash+'$'
+                        eval = re.compile(expr)
+                        if eval.match(text):
+                            return tense
+        except ValueError:
+            print("ERROR getVerbTense(%s,%s): %s\n" % (verb, text, str(ValueError)))
+        except IndexError:
+            print("ERROR getVerbTense(%s,%s): %s\n" % (verb, text, str(IndexError)))
+        except KeyError:
+            print("ERROR getVerbTense(%s,%s): %s\n" % (verb, text, str(KeyError)))
+
         return None
 
     ##########################################################################
@@ -224,15 +231,22 @@ class GrammarRules:
     def getVerbPron(self, verb, text):
         char = text[0]
         isIn = re.compile('^(yo|tu|el_la|nos|uds|ellos)$')
-        
-        if char in self.rules:
-            for pron, hash in self.rules[char][verb].iteritems():
-                if isIn.match(pron):
-                    expr = '^'+hash+'$'
-                    eval = re.compile(expr)
-                    if eval.match(text):
-                        return pron
-        
+
+        try:
+            if char in self.rules:
+                for pron, hash in self.rules[char][verb].iteritems():
+                    if isIn.match(pron):
+                        expr = '^'+hash+'$'
+                        eval = re.compile(expr)
+                        if eval.match(text):
+                            return pron
+        except ValueError:
+            print("ERROR getVerbTense(%s,%s): %s\n" % (verb, text, str(ValueError)))
+        except IndexError:
+            print("ERROR getVerbTense(%s,%s): %s\n" % (verb, text, str(IndexError)))
+        except KeyError:
+            print("ERROR getVerbTense(%s,%s): %s\n" % (verb, text, str(KeyError)))
+
         return None
 
     ##########################################################################

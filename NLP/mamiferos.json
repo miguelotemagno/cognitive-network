@@ -8,12 +8,12 @@
         [
             2,
             3,
-            "pertenece"
+            "pertenece de"
         ],
         [
             2,
             9,
-            "pertenece"
+            "pertenece a"
         ],
         [
             2,
@@ -38,7 +38,7 @@
         [
             17,
             17,
-            "comer"
+            "puede comer"
         ],
         [
             18,
@@ -68,7 +68,7 @@
         [
             21,
             22,
-            "nace"
+            "nace de"
         ],
         [
             21,
@@ -76,33 +76,38 @@
             "bebe"
         ],
         [
+            21,
             24,
-            25,
-            "es"
-        ],
-        [
-            25,
-            17,
-            "es"
+            "puede poseer"
         ],
         [
             25,
             26,
-            "tiene"
-        ],
-        [
-            25,
-            27,
-            "desciende"
-        ],
-        [
-            28,
-            21,
             "es"
         ],
         [
-            29,
+            26,
+            17,
+            "es"
+        ],
+        [
+            26,
+            27,
+            "tiene"
+        ],
+        [
+            26,
             28,
+            "desciende de"
+        ],
+        [
+            29,
+            30,
+            "es"
+        ],
+        [
+            31,
+            30,
             "es"
         ]
     ],
@@ -183,14 +188,9 @@
             12.0
         ],
         [
+            21,
             24,
-            25,
             13.0
-        ],
-        [
-            25,
-            17,
-            19.0
         ],
         [
             25,
@@ -198,26 +198,36 @@
             14.0
         ],
         [
-            25,
+            26,
+            17,
+            19.0
+        ],
+        [
+            26,
             27,
             15.0
         ],
         [
+            26,
             28,
-            21,
             16.0
         ],
         [
             29,
-            28,
+            30,
             17.0
+        ],
+        [
+            31,
+            30,
+            18.0
         ]
     ],
     "contentList": [
         "",
-        "en la naturaleza encontramos diversas especies , toda especie pertenece a uno de dos grupos : los vertebrados y los invertebrados",
+        "en la naturaleza encontramos diversas especies , toda especie pertenece a uno de dos grupos , los vertebrados y los invertebrados",
         "de estos grupos obtenemos clasificaciones , y de estas clases identificamos diversas familias",
-        "cada especie pertenece a una familia , y estas familias se distinguen como mamiferos , reptiles , aves , etc",
+        "cada especie pertenece a una familia , y de estas familias se distinguen como mamiferos , reptiles , aves , etc",
         "entre los mamiferos clasificamos las especies , y cada especie tiene sus cualidades y atributos",
         "todo animal nace de otro animal",
         "todo animal puede comer otro animal",
@@ -227,17 +237,17 @@
         "todo gato es un mamifero",
         "todo mamifero nace de una placenta",
         "todo mamifero bebe leche",
+        "un mamifero puede poseer pelos",
         "el pajaro es una ave",
         "toda ave tiene plumas",
         "el ave desciende de dinosaurios",
-        "todo humano es un mamifero",
-        "todo hombre es un humano",
-        "toda mujer es humano",
+        "la mujer es humano",
+        "el hombre es humano",
         "toda ave es un animal",
         "toda ave nace de un huevo",
         "todo mamifero es un animal"
     ],
-    "height": 30,
+    "height": 32,
     "net": {
         "functions": [
             [
@@ -280,10 +290,12 @@
                 "mamifero",
                 "placenta",
                 "leche",
+                "pelos",
                 "pajaro",
                 "ave",
                 "plumas",
                 "dinosaurios",
+                "mujer",
                 "humano",
                 "hombre"
             ],
@@ -312,12 +324,14 @@
                 "mamifero_21",
                 "placenta_22",
                 "leche_23",
-                "pajaro_24",
-                "ave_25",
-                "plumas_26",
-                "dinosaurios_27",
-                "humano_28",
-                "hombre_29"
+                "pelos_24",
+                "pajaro_25",
+                "ave_26",
+                "plumas_27",
+                "dinosaurios_28",
+                "mujer_29",
+                "humano_30",
+                "hombre_31"
             ],
             "start": [],
             "width": 0
@@ -445,35 +459,45 @@
             },
             {
                 "function": "null",
-                "id": "pajaro_24",
+                "id": "pelos_24",
+                "name": "pelos"
+            },
+            {
+                "function": "null",
+                "id": "pajaro_25",
                 "name": "pajaro"
             },
             {
                 "function": "null",
-                "id": "ave_25",
+                "id": "ave_26",
                 "name": "ave"
             },
             {
                 "function": "null",
-                "id": "plumas_26",
+                "id": "plumas_27",
                 "name": "plumas"
             },
             {
                 "function": "null",
-                "id": "dinosaurios_27",
+                "id": "dinosaurios_28",
                 "name": "dinosaurios"
             },
             {
                 "function": "null",
-                "id": "humano_28",
+                "id": "mujer_29",
+                "name": "mujer"
+            },
+            {
+                "function": "null",
+                "id": "humano_30",
                 "name": "humano"
             },
             {
                 "function": "null",
-                "id": "hombre_29",
+                "id": "hombre_31",
                 "name": "hombre"
             }
         ]
     },
-    "width": 30
+    "width": 32
 }

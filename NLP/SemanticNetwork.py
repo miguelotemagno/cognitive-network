@@ -678,10 +678,12 @@ class SemanticNetwork:
         thisNoun = None
         prevNoun = None
         lastNoun = None
-        lastConj = None
+        conj = None
+        det = None
         lastTag = None
         text = []
-
+        tags = []
+        words = []
         textId = 1.0 * len(self.text)
 
         # try:
@@ -689,19 +691,43 @@ class SemanticNetwork:
             (word, tag, type) = token
             text.append(word)
 
+            if tag == 'DET':
+                det = word
+                tags.append(tag)
+                words.append(word)
+
             if tag == 'CONJ':
-                lastConj = word if self.rules.isConjunction(word) == 'conjCopulative' else None
+                conj = word if self.rules.isConjunction(word) == 'conjCopulative' else None
+                tags.append(tag)
+                words.append(word)
+
             if tag == 'PREP':
                 prep = None if self.rules.isPreposition(word) is None else word
+                tags.append(tag)
+                words.append(word)
+
             if tag == 'AUX':
                 aux = self.rules.getVerb(word)
                 aux = None if self.rules.isAuxiliar(aux) is None else word
+                tags.append(tag)
+                words.append(word)
+
+            if self.rules.isVerb().match(word):
+                if self.rules.getVerb(word) is not None:
+                    tag = 'VERB'
+
             if tag == 'VERB':
                 #verb = self.rules.getVerb(word)
-                verb = "%s %s" % (aux, word)  if aux is not None else word
-                verb = "%s %s" % (word, prep) if prep is not None else word
-            if tag == 'NOUN' and not self.rules.isVerb().match(word):
-                noun = "%s %s" % (noun, word) if lastTag == 'NOUN' else word
+                # verb = "%s %s" % (aux, word)  if aux is not None else word
+                # verb = "%s %s" % (word, prep) if prep is not None else word
+                verb = word
+                tags.append(tag)
+                words.append(word)
+
+            if tag == 'NOUN':
+                noun = "%s %s" % (lastNoun, word) if lastTag == 'NOUN' else word
+                tags.append(tag)
+                words.append(word)
 
                 if thisNoun is None:
                     thisNoun = noun
@@ -709,7 +735,7 @@ class SemanticNetwork:
                     prep = None
                     aux = None
                 elif lastTag == 'CONJ':
-                    if lastConj == 'y':
+                    if conj == 'y':
                         # TODO
                         pass
                 else:
@@ -734,9 +760,15 @@ class SemanticNetwork:
                 lastNoun = noun
 
             if thisNoun is not None and prevNoun is not None and verb is not None:
-                print ("%s --(%s)--> %s\n") % (prevNoun, verb, thisNoun)
                 origin  = self.net.search({'name': prevNoun})
                 destiny = self.net.search({'name': thisNoun})
+
+                #prep = "%s %s" % (prep, det) if re.search('PREP DET', ' '.join(tags)) else prep
+                verb = "%s %s" % (aux, verb) if re.search('AUX VERB', ' '.join(tags)) else verb
+                verb = "%s %s" % (verb, prep) if re.search('VERB (PREP\s?)+', ' '.join(tags)) else verb
+
+                print (">>\t%s\n\t%s") % (' '.join(tags), ' '.join(words))
+                print ("\t%s --(%s)--> %s\n") % (prevNoun, verb, thisNoun)
 
                 if verb not in self.actionList:
                     self.actionList.append(verb)
@@ -749,15 +781,18 @@ class SemanticNetwork:
                     self.net.setConnection(o, d, verb, matrix=self.actions)
                     prevNoun = None
                     thisNoun = None
+                    tags = []
+                    words = []
                 else:
                     prevNoun = thisNoun
                     thisNoun = None
 
+                det = None
                 noun = None
                 verb = None
                 prep = None
                 aux = None
-                lastConj = None
+                conj = None
 
             lastTag = tag
 

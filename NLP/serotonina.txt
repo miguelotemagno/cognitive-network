@@ -1,0 +1,817 @@
+ alternate editar wikipedia (es)
+
+serotonina
+
+ de wikipedia, la enciclopedia libre
+ ir a la navegacion ir a la busqueda
+ commons emblem under construction green.svg
+ uno o varios wikipedistas estan trabajando actualmente en este articulo
+ o seccion.
+ es posible que a causa de ello haya lagunas de contenido o deficiencias
+ de formato. si quieres, puedes ayudar y editar, pero antes de realizar
+ correcciones mayores contactalos en sus paginas de discusion o en la
+ pagina de discusion del articulo para poder coordinar la redaccion.
+
+ 5 hidroxitriptamina
+ serotonin.svg
+ formula quimica.
+ serotonin spartan hf based on xtal 3d balls web.png
+ estructura tridimensional
+ nombre iupac
+ 3 (2 aminoetil) 1h indol 5 ol
+ general
+ otros nombres serotonina (5 ht)
+ formula molecular c 10 h 12 n 2 o
+ identificadores
+ numero cas 50 67 9 1 
+ chebi 49894 28790, 49894
+ chembl chembl39
+ chemspider 5013
+ drugbank 08839
+ pubchem 5202
+ unii 333do1rdjy
+ kegg c00780
+ inchi
+ inchi 1s c10h12n2o c11 4 3 7 6 12 10 2 1 8(13)5 9(7)10 h1 2,5 6,12 13h,
+ 3 4,11h2
+ key: qzaygjvttncvmb uhfffaoysa n
+ propiedades fisicas
+ masa molar 176,215 g mol
+ punto de fusion 441 k (168 )
+ riesgos
+ ld 50 60 mg kg (oral, ratas)
+ compuestos relacionados
+ valores en el si y en condiciones estandar
+ (25 y 1 atm), salvo que se indique lo contrario.
+ editar datos en wikidata 
+
+ la 5 hidroxitriptamina (5 ht) o serotonina es un neurotransmisor que se
+ sintetiza a partir de la transformacion del aminoacido triptofano. se
+ la encuentra en plantas y animales interviniendo en muchos procesos
+ fisiologicos.
+ el 90 del total de la serotonina presente en el cuerpo humano, puede
+ encontrarse en el tracto gastrointestinal y en las plaquetas de la
+ sangre, el resto es sintetizado en neuronas del cerebro.
+ es un neuromodulador fundamental del sistema nervioso del humano. los
+ procesos conductuales y neuropsicologicos modulados por la serotonina
+ incluyen: el estado de animo, la percepcion, la recompensa, la ira, la
+ agresion, el apetito, la memoria, la sexualidad y la atencion. su
+ metabolismo esta asociado en varios trastornos psiquiatricos y su
+ concentracion se ve reducida por el estres. 2 
+ 
+
+indice
+
+ 1 historia
+ 2 caracteristicas
+ 3 neurotransmision
+ 3.1 criterios de neurotransmisor
+ 3.2 principales neurotransmisores
+ 3.3 eventos bioquimicos
+ 3.4 relacion anatomica
+ 3.5 microanatomia
+ o 3.5.1 receptores
+ o 3.5.2 factores geneticos
+ o 3.5.3 terminacion
+ 4 sintesis
+ 5 implicaciones funcionales
+ 6 las propiedades afrodisiacas de la serotonina
+ 7 referencias
+
+historia editar 
+
+ en 1935, el investigador italiano vittorio erspamer habia demostrado
+ que una sustancia hasta entonces desconocida, a la que llamo
+ enteramina, producida por las celulas enterocromafines del intestino,
+ estimulaba la contraccion intestinal. 3 el nombre serotonina refleja
+ unicamente las circunstancias en las que se descubrio el compuesto. fue
+ inicialmente identificado como una sustancia vasoconstrictora en el
+ plasma sanguineo o serum, de ahi su nombre serotonina un agente del
+ serum que aumenta al tono vascular.
+ a finales de los anos 40, se aislo y se nombro la serotonina por
+ maurice m. rapport, arda green e irvine page, de la clinica de
+ cleveland, 4 este agente fue identificado entonces quimicamente como
+ la 5 hidroxitriptamina (5 ht) por rapport y desde entonces se le han
+ asociado una amplia gama de propiedades fisiologicas. el de 5 ht ha
+ sido el nombre mas adoptado por la industria farmaceutica. 5 
+
+caracteristicas editar 
+
+ la 5 ht es una molecula que se incluye dentro del grupo de las
+ monoaminas sintetizada en este caso, a partir del aminoacido
+ triptofano.
+ aproximadamente el 90 del total de la serotonina (5 ht) presente en
+ el cuerpo humano, se encuentra en el tracto gastrointestinal. las
+ celulas enterocromafines y las neuronas serotoninergicas del plexo
+ mienterico sintetizan, almacenan y secretan serotonina, que funciona
+ como reguladora de la secrecion, de la motilidad y de la sensacion del
+ intestino. 6 
+ luego de liberada desde el intestino, la serotonina puede ser
+ encontrada en las plaquetas de la sangre, que la captan del suero y la
+ distribuyen. la recaptacion de serotonina (5 ht), mediante la proteina
+ transmembrana de transporte la 5 htt, representa el mecanismo principal
+ del aclaramiento de 5 ht del plasma sanguineo. 7 al llegar a la
+ lesion de un vaso, la plaqueta libera la serotonina que actua como
+ vasoconstrictor, funcionando asi como modulador de la coagulacion.
+ 8 
+ un porcentaje de la serotonina es sintetizado en neuronas
+ serotoninergicas del sistema nervioso central. las neuronas
+ serotoninergicas residen principalmente en los nucleos del rafe dorsal,
+ mediano y caudal del tronco cerebral. estos nucleos proyectan a casi
+ todas las partes del cerebro. 9 como neurotransmisor la serotonina
+ transmite senales entre las neuronas regulando la intensidad de su
+ descarga. durante el desarrollo prenatal es un factor trofico en el
+ desarrollo cerebral, y presenta distintos patrones de expresion durante
+ el desarrollo embrionario y fetal. 10 se produce dentro del cerebro,
+ y no cruza la barrera hematoencefalica.
+
+ la serotonina es metabolizada a acido 5 hidroxindolacetico,
+ principalmente por el higado, y se excreta por los rinones en su fase
+ final.
+
+ la serotonina influye en una variedad de funciones corporales y
+ psicologicas; por ejemplo, se relaciona con el metabolismo del hueso,
+ la produccion de leche materna, la regeneracion hepatica y la division
+ celular.
+ estimula el centro de vomito en el cerebro, causando nauseas. puede
+ haber un aumento en la osteoporosis. con respecto a la sexualidad se ha
+ demostrado que un porcentaje de las personas que toman medicamentos
+ isrs tienen una reduccion del deseo y de su funcion sexual, como efecto
+ secundario de la droga. sin embargo, el papel de la 5 ht en el
+ comportamiento, sigue siendo poco conocido debido a la falta de metodos
+ para enfocar el cerebro y la sintesis en adultos.
+
+neurotransmision editar 
+
+ articulo principal: neurotransmision
+ fig.1 partes de una neurona.
+
+ varias neuronas se interconectan formando redes o circuitos neuronales,
+ que transmiten senales por zonas definidas del sistema nervioso y las
+ funciones complejas de este sistema nervioso son consecuencia de la
+ interaccion entre estas redes de neuronas, y no de las caracteristicas
+ especificas de cada neurona individual. 11 
+
+ el pericarion o soma es la zona de protoplasma de la neurona que rodea
+ el nucleo y es el centro metabolico de la neurona, donde se realizan
+ las actividades fundamentales. el axon unico, conduce el impulso
+ nervioso de la neurona hacia otras celulas, ramificandose en su porcion
+ terminal y siendo la prolongacion mas larga. las dendritas son
+ prolongaciones plasmaticas cortas, que se encuentran en gran numero en
+ toda la neurona y tienen como funcion recibir senales. 12 
+
+ la celula nerviosa tiene dos funciones principales, la propagacion del
+ potencial de accion (impulso o senal nerviosa) a traves del axon y su
+ transmision a otras neuronas o a celulas efectoras para inducir una
+ respuesta.
+
+criterios de neurotransmisor editar 
+
+ presencia del neurotransmisor:
+ el agente quimico debe estar localizado en los elementos
+ presinapticos y probablemente distribuido en todo el cerebro.
+ la neurona debe contener los precursores, las enzimas selectivas o
+ un mecanismo de transporte especifico para el neurotransmisor.
+ en la sinapsis debe existir receptores para el neurotransmisor.
+
+ liberacion:
+ la estimulacion de las aferencias debe producir liberacion del
+ neurotransmisor en cantidades fisiologicas.
+
+ identidad de accion:
+ la aplicacion directa del neurotransmisor a la sinapsis debe
+ producir efectos identicos a los producidos por estimulacion
+ electrica.
+
+ activacion del receptor del neurotransmisor
+ la interaccion del neurotransmisor con su receptor debe inducir
+ cambios en la membrana que produzcan potenciales postsinapticos
+ excitatorios o inhibitorios.
+ la estimulacion aferente o la aplicacion directa de la sustancia
+ debe producir efectos semejantes a los producidos por la aplicacion
+ de agentes farmacologicos.
+
+ inactivacion:
+ deben existir mecanismos de inactivacion (difusion, enzimas
+ metabolicas, sistemas de recaptacion) que hagan concluir la
+ interaccion del neurotransmisor con el receptor. 13 
+
+principales neurotransmisores editar 
+
+ neurotransmisores, son las sustancias quimicas que se encargan de la
+ transmision de las senales a traves de las sinapsis, desde una neurona
+ hasta la siguiente. la serotonina forma parte del grupo de
+ neurotransmisor monoamina: noradrenalina, adrenalina, acetilcolina,
+ histamina, dopamina, etc.
+
+eventos bioquimicos editar 
+
+ sintesis del neurotransmisor: el cuerpo neuronal produce ciertas
+ enzimas que estan implicadas en la sintesis. estas enzimas actuan
+ sobre determinadas moleculas precursoras captadas por la neurona
+ para formar el correspondiente neurotransmisor
+ almacenamiento de moleculas de neurotransmisor en vesiculas
+ sinapticas, en las cuales el contenido (generalmente varios
+ millares de moleculas) es cuantico. algunas moleculas
+ neurotransmisoras se liberan de forma constante en la terminacion,
+ pero en cantidad insuficiente para producir una respuesta
+ fisiologica significativa.
+ liberacion de transmisores por exocitosis. a la neurona
+ presinaptica llega un impulso nervioso y abre los canales de ca 2.
+ el ca 2 entra y el neurotransmisor es vertido en el espacio
+ sinaptico.
+ el neurotransmisor se une al neuroreceptor. la sustancia es capaz
+ de estimular o inhibir rapida o lentamente, puede liberarse hacia
+ la sangre para actuar sobre varias celulas y a distancia del sitio
+ de liberacion, puede permitir, facilitar o antagonizar los efectos
+ de otros neurotransmisores. tambien puede activar otras sustancias
+ del interior de la celula para producir efectos biologicos. ademas,
+ una misma neurona puede tener efectos diferentes sobre las
+ estructuras postsinapticas, dependiendo del tipo de receptor
+ postsinaptico presente.
+ iniciacion de las acciones del segundo mensajero. el receptor de la
+ neurona postsinaptica envia unas respuestas intracelulares que
+ pueden desencadenar diferentes respuestas. inactivacion del
+ transmisor, ya sea por degradacion quimica o por reabsorcion en las
+ membranas.
+ el neurotransmisor tiene que desaparecer por la presencia de un
+ enzima especifico que inactive el neurotransmisor o a traves de la
+ recaptacion, proceso mediante el que la celula presinaptica vuelve
+ a coger el neurotransmisor y lo guarda en su interior (implica un
+ ahorro de energia). 14 
+
+ fig.4 neurotransmision quimica.
+
+ las alteraciones de la sintesis, el almacenamiento, la liberacion, la
+ degradacion de los neurotransmisores, el cambio en el numero o
+ actividad de los receptores, pueden afectar a la neurotransmision.
+ muchos trastornos neurologicos y psiquiatricos son debidos a un aumento
+ o disminucion de la actividad de determinados neurotransmisores y
+ muchas drogas pueden modificarla; algunas producen efectos adversos,
+ como los alucinogenos , y otras pueden corregir algunas disfunciones
+ patologicas, como los antipsicoticos. 15 como todos los
+ neurotransmisores, los efectos de la 5 ht en el humor y el estado
+ mental humanos, y su papel en la conciencia, son muy dificiles de
+ determinar.
+ entre las principales funciones de la serotonina esta la de regular
+ el apetito mediante la saciedad, equilibrar el deseo sexual,
+ controlar la temperatura corporal, la actividad motora y las
+ funciones perceptivas y cognitivas.
+ la serotonina interviene en otros conocidos neurotransmisores como
+ la dopamina y la noradrenalina, que estan relacionados con la
+ angustia, ansiedad, miedo, agresividad, asi como los problemas
+ alimenticios.
+ la serotonina tambien interviene en los parametros de densidad
+ osea. 16 17 las personas que toman antidepresivos del tipo
+ inhibidores de la recaptacion de la serotonina pueden generar
+ osteoporosis (reducir la densidad osea).
+
+relacion anatomica editar 
+
+ las neuronas de los nucleos del rafe son la fuente principal de
+ liberacion de la 5 ht en el cerebro. 18 
+
+ los nucleos del rafe son conjuntos de neuronas distribuidas en nueve
+ grupos pares y localizadas a lo largo de toda la longitud del tronco
+ encefalico, el cual esta centrado alrededor de la formacion reticular.
+ vias de la serotonina (5 ht).
+
+ los axones de las neuronas en el nucleo rostral dorsal del rafe
+ terminan en, por ejemplo:
+ talamo
+ nucleo estriado
+ hipotalamo
+ nucleo accumbens
+ neocortex
+ giro cingulado
+ cingulo
+ hipocampo
+ amigdala
+
+ las axones de las neuronas de los nucleos del rafe terminan en, por
+ ejemplo:
+ nucleos cerebelosos profundos
+ corteza cerebelosa
+ medula espinal
+
+ asi, la activacion de este sistema serotoninergico tiene efectos en
+ varias areas del cerebro, lo que explica los efectos terapeuticos en su
+ modulacion.
+
+microanatomia editar 
+
+ la 5 ht, como se piensa, es liberada de las varicosidades
+ serotonergicas al espacio extra neuronal, en otras palabras, desde los
+ hinchazones (varicosidades) y a lo largo del axon, no solo por botones
+ sinapticos terminales (esquema de neurotransmision clasico). desde este
+ punto es libre de difundirse sobre una region relativamente grande de
+ espacio ( 20 m) y activar los receptores 5 ht localizados sobre las
+ dendritas, pericariones y las terminaciones presinapticas de neuronas
+ adyacentes. 19 
+
+receptores editar 
+
+ articulo principal: receptor de serotonina
+
+ no existe un receptor unico para la serotonina, sino que se ha visto
+ que estos comprenden una gran familia de receptores con funciones
+ especificas en las areas pre y postsinapticas. estudios farmacologicos
+ y fisiologicos han contribuido a la definicion de muchos subtipos de
+ receptores. 20 
+
+ los receptores postsinapticos de serotonina (r5 ht) tienen efectos
+ inhitorios o excitatorios sobre las neuronas corticales. los receptores
+ de serotonina con efectos inhitorios son (htr 1a y htr 5a), en tanto
+ los receptores de serotonina con efectos excitatorios son (htr 2a,
+ htr 2c, htr 4, htr 6) 10 
+ fig.5 receptores de la serotonina.
+
+ existen 7 tipos de receptores de serotonina, que a su vez presentan
+ algunas diferencias entre especies: los receptores de 5ht 1 a 5ht 7.
+ la familia de receptores 5ht 1 son aquellos que tienen un efecto
+ inhibidor de la actividad. 5ht 1a actua en los somas de las
+ neuronas serotoninergicas o en las areas terminales de dichas
+ neuronas, normalmente en el sistema limbico o la corteza cerebral.
+ en ellos, la union de serotonina inhibe la propia sintesis del nt.
+ los receptores 5ht1b y 1d en humanos, al unir la serotonina inhiben
+ la liberacion de dicho neurotransmisor mediante la falta de
+ adenilato ciclasa en los receptores postsinapticos que se
+ encuentran en la hendidura sinaptica.
+ los receptores de la familia 5ht 2 activan neuronas,
+ serotoninergicas o heterorreceptores. en ellas estimulan la
+ produccion de segundos mensajeros como el ip3 o el dag. los 5ht 2a
+ actuan a nivel de corteza cerebral y 5ht 2c en los plexos
+ coroideos, controlando el liquido cefalorraquideo.
+ los receptores 5ht 3 estan acoplados a canales ionicos de potasio,
+ sodio o calcio, se denominan ionotropicos. se localizan en el
+ tronco del encefalo y estan formados por 5 subunidades (del tipo
+ 5ht 3a y 3b) y es muy similar al receptor nicotinico. se encuentra
+ en neuronas serotoninergicas, heterorreceptoras, donde interviene
+ en la percepcion del dolor mediante la liberacion de la sustancia
+ p, neuronas de gaba, dopamina y acetilcolinergicas donde se encarga
+ de la liberacion de dopamida y otros neurotransmisores.
+ los tipos 5ht 4, 6 y 7 estan acoplados, todos ellos, a las
+ importantes proteina g. cuando activan las proteinas g facilitan la
+ activacion de la adenilato ciclasa, aumentando los niveles internos
+ de ampc, aumentando la capacidad de transmitir una senal de la
+ neurona. 5 ht4 se encuentra en neuronas dopaminergicas del
+ hipocampo donde actua como heterorreceptor facilitando la
+ liberacion de dopamina, que conlleva una mejora de los procesos
+ cognitivos de memoria.
+ por otra parte de 5ht 5 se conoce muy poco y su funcion exacta
+ todavia permanece sin descubrir. cita requerida 
+ el 5ht 6 esta estrechamente relacionada con la regulacion de los
+ comportamientos emocionales. es con este receptor de serotonina con
+ el que actuan muchos psicotropicos, teniendo el lsd mas afinidad
+ por este receptor que la propia serotonina. muchos farmacos contra
+ la esquizofrenia estan relacionados con la inhibicion de estos
+ receptores. se encuentra en el hipocampo, la corteza cerebral y el
+ sistema limbico.
+ los receptores 5ht 7 se encuentran en el nucleo supraquiasmatico
+ del hipotalamo. realiza su actividad mediante la activacion de la
+ adenilato ciclasa y el ampc. se encarga de regular los ciclos
+ circadianos electrofisiologicos y metabolicos, relacionados con el
+ hambre o el sueno. 21 
+
+factores geneticos editar 
+
+ las variaciones geneticas en los alelos que codifican para los
+ receptores de serotonina actualmente son conocidos por tener un impacto
+ significativo sobre la probabilidad en la generacion de ciertos
+ problemas y desordenes fisiologicos. por ejemplo, una mutacion en el
+ alelo que codifica para el receptor htr2a conlleva la duplicacion del
+ riesgo de suicidio de quienes tienen ese genotipo.
+
+ sin embargo, las pruebas de este hallazgo aun tienen que ser
+ reproducidas satisfactoriamente, pues se observa que se han generado
+ dudas sobre la validez de este descubrimiento. es muy improbable que un
+ gen individual sea el responsable del incremento de suicidios. es mas
+ probable que un numero de genes se combinen con factores exogenos para
+ afectar el comportamiento de este modo.
+
+ este gen (htr2a) codifica uno de los receptores para la serotonina. las
+ mutaciones en este gen estan asociadas con la susceptibilidad a la
+ esquizofrenia y el trastorno obsesivo compulsivo, y tambien estan
+ asociados con la respuesta al antidepresivo citalopram en pacientes con
+ trastorno depresivo mayor.
+
+terminacion editar 
+
+ la accion serotoninergica es terminada primariamente mediante la
+ captacion de 5 ht en la sinapsis. se piensa que mediante un
+ transportador de monoaminas especifico para 5 ht, el transportador de
+ recaptacion de 5 ht, en la neurona presinaptica. varios agentes pueden
+ inhibir la recaptacion de 5 ht incluyendo el mdma o extasis,
+ anfetamina, cocaina, dextrometorfano (un antitusivo), antidepresivos
+ triciclicos (tcas) y los inhibidores selectivos de la recaptacion de
+ serotonina (isrs).
+
+sintesis editar 
+
+ sintesis de la serotonina.
+
+ en el cuerpo, la serotonina es sintetizada en la neurona, tanto en el
+ nucleo como en las terminaciones a partir del aminoacido triptofano que
+ involucra dos enzimas: triptofano hidroxilasa (tph) y una l aminoacido
+ aromatico descarboxilasa (ddc). una vez que el triptofano se encuentra
+ dentro de las neuronas adecuadas la enzima triptofano hidroxilasa
+ generara 5 hidroxitriptofano, mediante la adicion de un grupo hidroxilo
+ al triptofano, formando la 5 hidroxitriptofano. la descarboxilasa de
+ aminoacidos, la segunda enzima presente en este proceso, toma la
+ 5 hidroxitriptofano y le quita el grupo carboxilo dando como resultado
+ la serotonina. la reaccion mediada por tph es una etapa limitante en la
+ via. la tph ha sido vista en dos formas existentes en la naturaleza:
+ tph1, encontrada en varios tejidos, y la tph2, que es una isoforma
+ cerebro especifica. hay evidencia de polimorfismos geneticos en ambos
+ tipos con influencia sobre la susceptibilidad a la ansiedad y la
+ depresion. tambien hay evidencia de como las hormonas ovaricas pueden
+ afectar la expresion de la tph en varias especies, sugiriendo un
+ posible mecanismo para la depresion posparto y el sindrome de estres
+ premenstrual.
+
+ como ya se menciono la sintesis de la serotonina tiene lugar en las
+ neuronas serotoninergicas donde se produce a partir del triptofano.
+ este aminoacido si puede pasar a traves de la barrera hematoencefalica
+ y se obtiene de la dieta en cantidades suficientes para la sintesis de
+ la serotonina y otros compuestos. el triptofano es un aminoacido
+ aromatico neutro y compite por el transportador de membrana con la
+ tirosina. 22 
+
+ la serotonina ingerida por via oral no pasa dentro de las vias
+ serotoninergicas del sistema nervioso central porque esta no cruza la
+ barrera hematoencefalica. sin embargo, el triptofano y sus metabolitos
+ 5 hidroxitriptofano (5 htp), con los cuales la serotonina es
+ sintetizada, si pueden, y cruzan la barrera hematoencefalica. estos
+ agentes estan disponibles como suplementos dietarios y pueden ser
+ agentes serotoninergicos efectivos. un producto del clivaje es el acido
+ 5 hidroxindolacetico (5 hiaa), el cual es excretado en la orina.
+ algunas veces, la serotonina y el 5 hiaa son producidos en cantidades
+ excesivas por ciertos tumores o canceres, y los niveles de tales
+ sustancias puede ser medida en orina para verificar la presencia de
+ dichas patologias.
+
+implicaciones funcionales editar 
+
+ investigaciones recientes sugieren que la serotonina juega un papel
+ importante en la regeneracion hepatica y actua como mitogeno (que
+ induce la division celular) a lo largo del cuerpo. 23 
+
+ la funcion serotoninergica es fundamentalmente
+ inhibitoria. cita requerida ejerce influencia sobre el sueno y se
+ relaciona tambien con los estados de animo, las emociones y los estados
+ depresivos. afecta al funcionamiento vascular asi como a la frecuencia
+ del latido cardiaco.
+
+ regula la secrecion de hormonas, como la del crecimiento. 24 cambios
+ en el nivel de esta sustancia se asocian con desequilibrios mentales
+ como la esquizofrenia o el autismo infantil.
+
+ tambien desempena una funcion importante en el trastorno
+ obsesivo compulsivo, un desorden de ansiedad. algunos hongos
+ alucinogenos, el lsd y el mdma actuan intensamente en los receptores
+ serotoninicos. entre las funciones fisiologicas de la serotonina
+ destaca la inhibicion de la secrecion gastrica, la estimulacion de la
+ musculatura lisa y la secrecion de hormonas por parte de la hipofisis.
+ los bajos niveles de serotonina en personas con fibromialgia explican
+ en parte el porque de los dolores y los problemas para dormir. dichos
+ niveles bajos se han asociado tambien a estados agresivos, depresion y
+ ansiedad e incluso a las migranas, debido a que cuando los niveles de
+ serotonina bajan, los vasos sanguineos se dilatan. desempena una
+ funcion importante en la proliferacion linfocitaria dependiendo del
+ tipo de receptor estimulado (5 ht 1a vs. 5 ht 7 ).
+
+ la serotonina tiene efecto modulador general e inhibidor de la
+ conducta, influye sobre casi todas las funciones cerebrales, inhibiendo
+ en forma directa o por estimulacion del gaba (acido
+ gamma amino butirico). 25 de este modo regula la timia que es el
+ comportamiento exterior del individuo, el sueno, actividad sexual,
+ apetito, ritmos circadianos, funciones neuroendocrinas, temperatura
+ corporal, dolor, actividad motora y funciones cognitivas:
+ regulacion del sueno: la serotonina es el mediador responsable de
+ las fases iii y iv del sueno lento. el ritmo sueno vigilia esta
+ regulado por el balance adrenergico serotoninergico, y la
+ disminucion de la latencia rem, caracteristica de los estados
+ depresivos que es debida a un desbalance
+ serotoninergico colinergico.
+ regulacion de la actividad sexual: la serotonina presenta un efecto
+ inhibitorio sobre la liberacion hipotalamica de gonadotrofinas con
+ la consecuente disminucion de la respuesta sexual normal. la
+ disminucion farmacologica de la serotonina directa o por
+ competitividad aminergica facilita la conducta sexual.
+ regulacion de las funciones neuroendocrinas: la serotonina es uno
+ de los principales neurotransmisores del nucleo supraquiasmatico
+ hipotalamico del cual depende la sincronizacion de los ritmos
+ circadianos endogenos de todo el organismo. influye tambien en la
+ regulacion inhibitoria o estimuladora de los factores peptidergicos
+ de los ejes hipotalamo hipofiso perifericos.
+ regulacion termo nociceptiva: la serotonina produce un efecto dual
+ sobre la termia segun sea el receptor estimulado. el 5th1 produce
+ hipotermia y el 5ht2 hipertermia. en el sueno de ondas lentas se
+ produce el pico minimo de temperatura coincidente con la aparicion
+ del pico maximo de secrecion de hormona del crecimiento. la
+ serotonina es un neuromodulador nociceptivo importante. los
+ agonistas producen analgesia en animales de laboratorio, siendo
+ bien conocido el efecto antalgico de los antidepresivos
+ triciclicos. 26 
+
+las propiedades afrodisiacas de la serotonina editar 
+
+ el comportamiento humano depende de la cantidad de luz que el cuerpo
+ recibe por dia. de esta manera se produce durante las estaciones menos
+ soleadas (otono e invierno) un aumento de la depresion y falta de
+ estimulo sexual. cuando llega la primavera y el verano, la serotonina
+ se condiciona a la luz que recibe del organismo, lo que conlleva un
+ aumento progresivo del bienestar y la felicidad con mayor estimulo
+ sexual, producto de las concentraciones de este neurotransmisor en el
+ cerebro. 27 
+
+ se podria decir que la serotonina es la hormona del placer , ademas de
+ ser la hormona del humor . veamos esto mediante un claro ejemplo. para
+ que se produzca la eyaculacion u orgasmo, el hipotalamo libera
+ oxitocina a traves de la hipofisis (hormona que se segrega en la
+ neurohipofisis y que tambien es responsable de las contracciones
+ durante el parto). despues de eyacular, aumenta considerablemente la
+ cantidad de serotonina en el cerebro lo que provoca un estado de placer
+ y tranquilidad. 28 
+
+ despues del placer, se produce un mecanismo de realimentacion que
+ reabsorbe la serotonina. este mecanismo estimula la liberacion de
+ hormonas como somatotropina (hormona del crecimiento) y prolactina
+ (tiene accion sobre las glandulas mamarias actuando en su crecimiento y
+ formacion de leche) e inhibe la secrecion de las hormonas luteinizante
+ (lh), y foliculoestimulante (fsh) que son las encargadas de estimular
+ la sintesis de amp ciclico que a su vez estimula la biosintesis de
+ esteroides sexuales. 29 este mecanismo de realimentacion no seria
+ posible si no se produjese la absorcion de serotonina por la
+ hipofisis. 30 asi pues, se sabe que la presencia de serotonina
+ produce el placer, y la reabsorcion de esta neurohormona, desencadena
+ una serie de reacciones que estimulan la secrecion de hormonas, que a
+ su vez producen infimamente crecimiento y controlan la maduracion de
+ foliculos, y la secrecion de hormonas sexuales y la
+ espermatogenesis(hombre) entre otras cosas. dahstrom y fuxe
+ describieron 9 grupos de celulas que contienen serotonina de b1 a b9:
+ el grupo mas grande de celulas serotonergicas es el grupo b7
+ contiguo al b6.
+ el grupo b6 y b7 son el nucleo dorsal del rafe.
+ el b8 es el nucleo medio del rafe. nucleo central superior.
+ el b9 tecmento lateral del puente y del cerebro medio.
+ el b1 a b5 caudalmente y contienen un numero bajo de celulas
+ serotonergicas.
+
+referencias editar 
+
+ 1. numero cas
+ 2. berger m; gray ja.; roth bl. (2009). the expanded biology of
+ serotonin . annu rev med 60: 355 366.
+ doi:10.1146 annurev.med.60.042307.110802. fechaacceso requiere
+ url (ayuda)
+ 3. negri l (2006). vittorio erspamer (1909 1999) . med secoli (en
+ italiano) 18 (1): 97 113. pmid 17526278.
+ 4. maurice m. rapport, arda a. green, irvine h. page (1948). serum
+ vasoconstrictor (serotonin). iv. isolation and caracterizacion . j.
+ biol. chem. 176 (3): 1243 1252.
+ 5. delgado, c. (2004). introduccion a la quimica terapeutica.
+ ediciones diaz de santos; pp. 152 156.
+ 6. gershon, md.;; tack, j. (2007). the serotonin signaling system:
+ from basic understanding to drug development for functional gi
+ disorders 132 (1). pp. 397 414.
+ 7. scharinger c, rabl u, kasess ch, meyer bm, hofmaier t, diers k,
+ bartova l, pail g, huf w, uzelac z, hartinger b kalcher k, perkmann
+ t, pezawas p (2014). platelet serotonin transporter function
+ predicts default mode network activity . plos one 9 (3): e92543.
+ 8. lin oa, karim za, vemana hp, espinosa evp, khasawneh ft (2014).
+ the antidepressant 5 ht2a receptor antagonists pizotifen and
+ cyproheptadine inhibit serotonin enhanced platelet function. . plos
+ one 9 (1): e87026. consultado el 4 de febrero de 2019.
+ 9. kawai m,; rosen cj (2010). minireview: a skeleton in serotonin s
+ closet? . endocrinology 151 (9): 4103 4108.
+ doi:10.1210 es.2010 0499. fechaacceso requiere url (ayuda)
+ 10. a b lambe, ek;; fillman, sg;; webster, mj;; shannon weickert,
+ c. (2011). serotonin receptor expression in human prefrontal
+ cortex: balancing excitation and inhibition across postnatal
+ development . journal.pone (plosone) 6 (7): e22799. consultado el 3
+ de febrero de 2019.
+ 11. berman, s. (2013). fisiologia medica. mcgraw hill interamericana
+ editores.
+ 12. bustamante, e. (2007). cap.4 las celulas nerviosas . el sistema
+ nervioso: desde las neuronas hasta el cerebro humano. universidad
+ antioquia; p. 53.
+ 13. departamento de biopsicologia. (2004). neurotransmisores.
+ universidad de argentina john f kennedy. instituto de investigacion
+ y docencia de neuropsicologia; pp. 6 7.
+ 14. departamento de biopsicologia. (2004). neurotransmisores.
+ universidad de argentina john f kennedy. instituto de investigacion
+ y docencia de neuropsicologia; pp. 2 4
+ 15. velasco, a. (1988). compendio de psiconeurofarmacologia.
+ ediciones diaz de santos; p. 22.
+ 16. frost m, andersen te, yadav v, brixen k, karsenty g, kassem m
+ (2010). patients with high bone mass phenotype owing to lrp5 t253i
+ mutation have low plasma levels of serotonin . j bone miner res. 25
+ (3): 673 5. pmid 20200960. doi:10.1002 jbmr.44.
+ 17. rosen cj (2009). breaking into bone biology: serotonin s
+ secrets . nat med. 15 (2): 145 6. pmid 19197289.
+ doi:10.1038 nm0209 145.
+ 18. george j. siegel, ed. (1999). understanding the neuroanatomical
+ organization of serotonergic cells in the brain provides insight
+ into the functions of this neurotransmitter . basic neurochemistry.
+ bernard w. agranoff, stephen k. fisher, r. wayne albers, michael d.
+ uhler (6. edicion edicion). lippincott williams and wilkins. isbn
+ 0 397 51820 x. en 1964, dahlstrom y fuxe (discutido en 2 ),
+ usando la tecnica falck hillarp de histofluorescencia, observaron
+ que la mayoria de los nucleos neuronales serotoninergicos son
+ encontrados en grupos celulares corporales, que previamente habian
+ sido designados como nucleos del rafe. 
+ 19. "serotonin", syd baumel, 1999, ed: mcgraw hill professional.
+ 20. r eceptores de serotonina. . 2015. p. la guia de la biologia.
+ falta la url (ayuda); fechaacceso requiere url (ayuda)
+ 21. valencia., o. (2007). caracterizacion de los receptores 5ht
+ durante la ontogenia del sistema nervioso de la rata. unidad
+ academica de ciencias quimicas. universidad autonoma de zacatecas;
+ pp. 12 25.
+ 22. lima., l. (2008). sintesis de serotonina y presencia de
+ hidroxilasa. laboratorio de neuroquimica. instituto venezolano de
+ investigacion cientifica; p. 12.
+ 23. lesurtel m. et al (2006). platelet derived serotonin mediates
+ liver regeneration . science 312 (5770): 104 7. pmid 16601191.
+ 24. "secrets of serotonin", carol hart; 1996; st. martin s press.
+ 25. figueres, g. (1997). antidepressant drugs inhibit aglical
+ 5 hydroxytrytamine transporter (en ingles). eur neurosel; p. 228.
+ 26. figueres, g. (1997). antidepressant drugs inhibit aglical
+ 5 hydroxytrytamine transporter (en ingles). eur neurosel; p. 230.
+ 27. "serotonin and the regulation of mammalian circadian
+ rhythmicity", morin lp. ann med. 1999 feb;31(1):12 33.
+ 28. "serotonin, serotonergic receptors, selective serotonin reuptake
+ inhibitors and sexual behaviour.", olivier b, van oorschot r,
+ waldinger md.int clin psychopharmacol. 1998 jul;13 suppl 6:s9 14.
+ 29. "female sexual side effects associated with selective serotonin
+ reuptake inhibitors: a descriptive clinical study of 33 patients",
+ shen ww, hsu jh.int j psychiatry med. 1995;25(3):239 48.
+ 30. "psychotropic medications and their effects on sexual function:
+ diagnosis, biology, and treatment approaches",gitlin mj.; j clin
+ psychiatry. 1994 sep;55(9):406 13.
+
+ obtenido de
+ https: es.wikipedia.org w index.php?title serotonina oldid 114249257 
+ categoria:
+ neurotransmisores
+
+ categorias ocultas:
+ wikipedia:paginas con referencias sin url y con fecha de acceso
+ wikipedia:paginas con referencias web sin url
+ wikipedia:paginas con enlaces magicos de isbn
+ wikipedia:paginas con enlaces magicos de pmid
+ wikipedia:articulos en desarrollo
+ wikipedia:articulos con datos por trasladar a wikidata
+ wikipedia:articulos destacados en la wikipedia en aleman
+ wikipedia:articulos con pasajes que requieren referencias
+
+menu de navegacion
+
+herramientas personales
+
+ no has accedido
+ discusion
+ contribuciones
+ crear una cuenta
+ acceder
+
+espacios de nombres
+
+ articulo
+ discusion
+
+ 
+
+variantes
+
+vistas
+
+ leer
+ editar
+ ver historial
+
+ 
+
+mas
+
+buscar
+
+ buscar ir
+
+navegacion
+
+ portada
+ portal de la comunidad
+ actualidad
+ cambios recientes
+ paginas nuevas
+ pagina aleatoria
+ ayuda
+ donaciones
+ notificar un error
+
+imprimir exportar
+
+ crear un libro
+ descargar como pdf
+ version para imprimir
+
+en otros proyectos
+
+ wikimedia commons
+
+herramientas
+
+ lo que enlaza aqui
+ cambios en enlazadas
+ subir archivo
+ paginas especiales
+ enlace permanente
+ informacion de la pagina
+ elemento de wikidata
+ citar esta pagina
+
+en otros idiomas
+
+ 
+ asturianu
+ az rbaycanca
+ 
+ 
+ ( )
+ 
+ 
+ bosanski
+ catal 
+ e tina
+ dansk
+ deutsch
+ 
+ english
+ esperanto
+ eesti
+ euskara
+ estremenu
+ 
+ suomi
+ fran ais
+ gaeilge
+ galego
+ 
+ hrvatski
+ magyar
+ 
+ bahasa indonesia
+ italiano
+ 
+ 
+ 
+ 
+ latina
+ lietuvi 
+ latvie u
+ 
+ 
+ bahasa melayu
+ nederlands
+ norsk
+ occitan
+ polski
+ portugu s
+ rom n 
+ 
+ scots
+ srpskohrvatski 
+ simple english
+ sloven ina
+ sloven ina
+ srpski
+ svenska
+ 
+ 
+ tagalog
+ t rk e
+ 
+ o zbekcha 
+ ti ng vi t
+ 
+
+ editar enlaces
+
+ esta pagina se edito por ultima vez el 27 feb 2019 a las 15:47.
+ el texto esta disponible bajo la licencia creative commons
+ atribucion compartir igual 3.0; pueden aplicarse clausulas
+ adicionales. al usar este sitio, usted acepta nuestros terminos de
+ uso y nuestra politica de privacidad.
+ wikipedia es una marca registrada de la fundacion wikimedia, inc.,
+ una organizacion sin animo de lucro.
+
+ politica de privacidad
+ acerca de wikipedia
+ limitacion de responsabilidad
+ desarrolladores
+ declaracion de cookies
+ version para moviles
+
+ wikimedia foundation
+ powered by mediawiki

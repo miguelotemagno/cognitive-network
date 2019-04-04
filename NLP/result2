@@ -1,0 +1,102 @@
+=> loadFromFile (semanticTrainer.txt)
+
+009) texto:los obreros extranjeros aun no terminan la obra.
+     nucleo:terminan
+     sujeto:{[('los', 'DET'), ('obreros', 'NOUN'), ('extranjeros', 'NOUN'), ('aun', 'ADV'), ('no', u'ADV'), ('terminan', u'VERB')]}
+     predicado:{[('la', 'DET'), ('obra', 'NOUN')]}
+
+010) texto:la obra aun no fue terminada por los obreros extranjeros.
+     nucleo:terminada
+     sujeto:{[('la', 'DET'), ('obra', 'NOUN'), ('aun', 'ADV'), ('no', u'ADV'), ('fue', u'VERB'), ('terminada', u'VERB')]}
+     predicado:{[('por', 'PREP'), ('los', 'DET'), ('obreros', 'NOUN')]}
+
+011) texto:este domingo iremos a acampar en el bosque.
+     nucleo:iremos
+     sujeto:{[('este', 'PRON'), ('domingo', 'NOUN'), ('iremos', u'VERB')]}
+     predicado:{[('a', u'PREP'), ('acampar', u'VERB'), ('en', u'PREP'), ('el', 'DET'), ('bosque', 'NOUN')]}
+
+012) texto:nadie corrio tanto como lo hice yo.
+     nucleo:como
+     sujeto:{[('nadie', u'PRON'), ('corrio', u'VERB'), ('tanto', 'PRON'), ('como', 'ADJ')]}
+     predicado:{[('lo', 'DET'), ('hice', u'VERB')]}
+
+013) texto:los militares desfilaban con mucho orgullo.
+     nucleo:desfilaban
+     sujeto:{[('los', 'DET'), ('militares', u'NOUN'), ('desfilaban', u'VERB')]}
+     predicado:{[('con', u'PREP'), ('mucho', 'DET'), ('orgullo', 'NOUN')]}
+
+014) texto:los jovenes prefieren el rock.
+     nucleo:prefieren
+     sujeto:{[('los', 'DET'), ('jovenes', u'NOUN'), ('prefieren', u'VERB')]}
+     predicado:{[('el', 'DET'), ('rock', 'NOUN')]}
+
+015) texto:el salon fue pintado de blanco.
+     nucleo:pintado
+     sujeto:{[('el', 'DET'), ('salon', 'NOUN'), ('fue', u'VERB'), ('pintado', 'VERB')]}
+     predicado:{[('de', 'PREP'), ('blanco', u'ADJ'), ('.', u'PUNC')]}
+
+016) texto:mercedes jugaba con su hermanito.
+     nucleo:jugaba
+     sujeto:{[('mercedes', u'NOUN'), ('jugaba', u'VERB')]}
+     predicado:{[('con', u'PREP'), ('su', 'DET'), ('hermanito', u'NOUN'), ('.', u'PUNC')]}
+
+018) texto:la cerveza esta muy helada.
+     nucleo:esta
+     sujeto:{[('la', 'DET'), ('cerveza', u'NOUN'), ('esta', 'ADJ')]}
+     predicado:{[('muy', 'DET'), ('helada', u'NOUN'), ('.', u'PUNC')]}
+
+020) texto:los ninos juegan a las escondidas.
+     nucleo:juegan
+     sujeto:{[('los', 'DET'), ('ninos', 'NOUN'), ('juegan', u'VERB')]}
+     predicado:{[('a', u'PREP'), ('las', 'DET'), ('escondidas', u'ADJ')]}
+
+033) texto:los caramelos son de menta.
+     nucleo:son
+     sujeto:{[('los', 'DET'), ('caramelos', 'NOUN'), ('son', u'VERB')]}
+     predicado:{[('de', 'PREP'), ('menta', u'NOUN')]}
+
+034) texto:los panales eran de mala calidad.
+     nucleo:eran
+     sujeto:{[('los', 'DET'), ('panales', 'NOUN'), ('eran', u'VERB')]}
+     predicado:{[('de', 'PREP'), ('mala', u'ADJ'), ('calidad', u'NOUN'), ('.', u'PUNC')]}
+
+038) texto:mis mascotas esperan su alimento.
+     nucleo:esperan
+     sujeto:{[('mis', u'ADJ'), ('mascotas', u'NOUN'), ('esperan', u'VERB')]}
+     predicado:{[('su', 'DET'), ('alimento', u'NOUN'), ('.', u'PUNC')]}
+
+039) texto:el libro tiene la firma del autor.
+     nucleo:tiene
+     sujeto:{[('el', 'DET'), ('libro', u'NOUN'), ('tiene', u'VERB')]}
+     predicado:{[('la', 'DET'), ('firma', 'NOUN')]}
+
+041) texto:el bebe ya quiere dormir.
+     nucleo:quiere
+     sujeto:{[('el', 'DET'), ('bebe', u'VERB'), ('ya', u'CONJ'), ('quiere', u'VERB')]}
+     predicado:{[('dormir', u'VERB'), ('.', u'PUNC')]}
+
+044) texto:las matematicas son divertidas.
+     nucleo:son
+     sujeto:{[('las', 'DET'), ('matematicas', 'NOUN'), ('son', u'VERB')]}
+     predicado:{[('divertidas', u'ADJ')]}
+
+045) texto:los osos se preparan para hibernar.
+     nucleo:preparan
+     sujeto:{[('los', 'DET'), ('osos', 'NOUN'), ('se', u'PRON'), ('preparan', u'VERB')]}
+     predicado:{[('para', u'PREP'), ('hibernar', 'NOUN')]}
+
+046) texto:la casa se ve mas ordenada.
+     nucleo:ve
+     sujeto:{[('la', 'DET'), ('casa', u'NOUN'), ('se', u'PRON'), ('ve', u'VERB')]}
+     predicado:{[('mas', 'ADJ'), ('ordenada', 'NOUN'), ('.', u'PUNC')]}
+
+047) texto:el lapiz esta sin punta.
+     nucleo:esta
+     sujeto:{[('el', 'DET'), ('lapiz', u'NOUN'), ('esta', 'ADJ')]}
+     predicado:{[('sin', u'PREP'), ('punta', 'NOUN')]}
+
+048) texto:yo pude dormir bien.
+     nucleo:dormir
+     sujeto:{[('yo', u'PRON'), ('pude', u'VERB'), ('dormir', u'VERB')]}
+     predicado:{[('bien', 'ADV'), ('.', u'PUNC')]}
+

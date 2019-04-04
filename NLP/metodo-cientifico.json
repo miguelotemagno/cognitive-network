@@ -1,0 +1,2384 @@
+{
+    "actions": [
+        [
+            0,
+            1,
+            "inicio"
+        ],
+        [
+            0,
+            4,
+            "es"
+        ],
+        [
+            0,
+            9,
+            "del"
+        ],
+        [
+            0,
+            28,
+            "sin"
+        ],
+        [
+            0,
+            31,
+            "de"
+        ],
+        [
+            5,
+            6,
+            "mediante"
+        ],
+        [
+            8,
+            9,
+            "de"
+        ],
+        [
+            9,
+            138,
+            "mediante"
+        ],
+        [
+            10,
+            11,
+            "de"
+        ],
+        [
+            10,
+            72,
+            "de"
+        ],
+        [
+            10,
+            75,
+            "en"
+        ],
+        [
+            12,
+            13,
+            "en"
+        ],
+        [
+            14,
+            15,
+            "son"
+        ],
+        [
+            15,
+            38,
+            "es"
+        ],
+        [
+            16,
+            17,
+            "hasta"
+        ],
+        [
+            18,
+            0,
+            "entiende"
+        ],
+        [
+            19,
+            9,
+            "en"
+        ],
+        [
+            20,
+            19,
+            "del"
+        ],
+        [
+            21,
+            22,
+            "contra"
+        ],
+        [
+            23,
+            24,
+            "puede"
+        ],
+        [
+            26,
+            27,
+            "con"
+        ],
+        [
+            29,
+            9,
+            "a"
+        ],
+        [
+            29,
+            29,
+            "en"
+        ],
+        [
+            29,
+            152,
+            "de"
+        ],
+        [
+            32,
+            0,
+            "por"
+        ],
+        [
+            33,
+            34,
+            "hay"
+        ],
+        [
+            35,
+            36,
+            "con"
+        ],
+        [
+            37,
+            35,
+            "de"
+        ],
+        [
+            39,
+            40,
+            "ser"
+        ],
+        [
+            41,
+            42,
+            "usa"
+        ],
+        [
+            44,
+            45,
+            "es"
+        ],
+        [
+            45,
+            50,
+            "sobre"
+        ],
+        [
+            45,
+            66,
+            "puede verificar"
+        ],
+        [
+            47,
+            48,
+            "escucha"
+        ],
+        [
+            47,
+            59,
+            "puede decir"
+        ],
+        [
+            51,
+            52,
+            "ser"
+        ],
+        [
+            52,
+            56,
+            "de"
+        ],
+        [
+            53,
+            54,
+            "ha"
+        ],
+        [
+            54,
+            55,
+            "a"
+        ],
+        [
+            55,
+            65,
+            "es"
+        ],
+        [
+            55,
+            163,
+            "a"
+        ],
+        [
+            57,
+            50,
+            "a"
+        ],
+        [
+            62,
+            84,
+            "dar"
+        ],
+        [
+            63,
+            64,
+            "de"
+        ],
+        [
+            65,
+            129,
+            "controlando"
+        ],
+        [
+            66,
+            67,
+            "para"
+        ],
+        [
+            66,
+            68,
+            "por"
+        ],
+        [
+            66,
+            71,
+            "por"
+        ],
+        [
+            69,
+            70,
+            "se"
+        ],
+        [
+            71,
+            88,
+            "por"
+        ],
+        [
+            72,
+            66,
+            "sobre"
+        ],
+        [
+            73,
+            74,
+            "se ha"
+        ],
+        [
+            76,
+            77,
+            "en"
+        ],
+        [
+            79,
+            50,
+            "de"
+        ],
+        [
+            80,
+            53,
+            "de"
+        ],
+        [
+            81,
+            62,
+            "a"
+        ],
+        [
+            83,
+            45,
+            "es"
+        ],
+        [
+            85,
+            86,
+            "en"
+        ],
+        [
+            87,
+            124,
+            "entre"
+        ],
+        [
+            91,
+            92,
+            "es"
+        ],
+        [
+            94,
+            95,
+            "de"
+        ],
+        [
+            96,
+            97,
+            "a"
+        ],
+        [
+            98,
+            99,
+            "del"
+        ],
+        [
+            100,
+            9,
+            "por"
+        ],
+        [
+            101,
+            102,
+            "en"
+        ],
+        [
+            103,
+            104,
+            "habian logrado"
+        ],
+        [
+            104,
+            105,
+            "del"
+        ],
+        [
+            106,
+            107,
+            "se ha"
+        ],
+        [
+            109,
+            110,
+            "predecir"
+        ],
+        [
+            112,
+            113,
+            "del"
+        ],
+        [
+            115,
+            116,
+            "hay"
+        ],
+        [
+            118,
+            29,
+            "sobre"
+        ],
+        [
+            119,
+            120,
+            "dicho"
+        ],
+        [
+            121,
+            121,
+            "de"
+        ],
+        [
+            122,
+            121,
+            "es"
+        ],
+        [
+            123,
+            9,
+            "hay nada"
+        ],
+        [
+            124,
+            10,
+            "hecho"
+        ],
+        [
+            124,
+            75,
+            "en"
+        ],
+        [
+            125,
+            126,
+            "sean"
+        ],
+        [
+            127,
+            126,
+            "en"
+        ],
+        [
+            128,
+            9,
+            "comprender"
+        ],
+        [
+            130,
+            43,
+            "de"
+        ],
+        [
+            131,
+            65,
+            "de"
+        ],
+        [
+            133,
+            134,
+            "se hace"
+        ],
+        [
+            135,
+            62,
+            "sin"
+        ],
+        [
+            136,
+            52,
+            "podremos"
+        ],
+        [
+            139,
+            22,
+            "sobre"
+        ],
+        [
+            139,
+            158,
+            "ha"
+        ],
+        [
+            140,
+            141,
+            "de"
+        ],
+        [
+            142,
+            143,
+            "hay"
+        ],
+        [
+            145,
+            146,
+            "se ha"
+        ],
+        [
+            148,
+            5,
+            "de"
+        ],
+        [
+            148,
+            28,
+            "se funciona"
+        ],
+        [
+            148,
+            149,
+            "de"
+        ],
+        [
+            148,
+            176,
+            "hemos es"
+        ],
+        [
+            150,
+            151,
+            "en"
+        ],
+        [
+            150,
+            161,
+            "sujeto"
+        ],
+        [
+            152,
+            62,
+            "de"
+        ],
+        [
+            152,
+            150,
+            "en"
+        ],
+        [
+            153,
+            22,
+            "tiene"
+        ],
+        [
+            155,
+            156,
+            "a"
+        ],
+        [
+            159,
+            160,
+            "consigue"
+        ],
+        [
+            160,
+            150,
+            "asegura"
+        ],
+        [
+            160,
+            166,
+            "de"
+        ],
+        [
+            160,
+            174,
+            "estaba"
+        ],
+        [
+            161,
+            162,
+            "de"
+        ],
+        [
+            164,
+            165,
+            "copia"
+        ],
+        [
+            167,
+            121,
+            "pueden tener"
+        ],
+        [
+            168,
+            169,
+            "sea"
+        ],
+        [
+            171,
+            172,
+            "con"
+        ],
+        [
+            173,
+            29,
+            "de"
+        ]
+    ],
+    "connects": [
+        [
+            0,
+            1,
+            1
+        ],
+        [
+            0,
+            4,
+            1
+        ],
+        [
+            0,
+            9,
+            1
+        ],
+        [
+            0,
+            28,
+            1
+        ],
+        [
+            0,
+            31,
+            1
+        ],
+        [
+            5,
+            6,
+            1
+        ],
+        [
+            8,
+            9,
+            1
+        ],
+        [
+            9,
+            138,
+            1
+        ],
+        [
+            10,
+            11,
+            1
+        ],
+        [
+            10,
+            72,
+            1
+        ],
+        [
+            10,
+            75,
+            1
+        ],
+        [
+            12,
+            13,
+            1
+        ],
+        [
+            14,
+            15,
+            1
+        ],
+        [
+            15,
+            38,
+            1
+        ],
+        [
+            16,
+            17,
+            1
+        ],
+        [
+            18,
+            0,
+            1
+        ],
+        [
+            19,
+            9,
+            1
+        ],
+        [
+            20,
+            19,
+            1
+        ],
+        [
+            21,
+            22,
+            1
+        ],
+        [
+            23,
+            24,
+            1
+        ],
+        [
+            26,
+            27,
+            1
+        ],
+        [
+            29,
+            9,
+            1
+        ],
+        [
+            29,
+            29,
+            1
+        ],
+        [
+            29,
+            152,
+            1
+        ],
+        [
+            32,
+            0,
+            1
+        ],
+        [
+            33,
+            34,
+            1
+        ],
+        [
+            35,
+            36,
+            1
+        ],
+        [
+            37,
+            35,
+            1
+        ],
+        [
+            39,
+            40,
+            1
+        ],
+        [
+            41,
+            42,
+            1
+        ],
+        [
+            44,
+            45,
+            1
+        ],
+        [
+            45,
+            50,
+            1
+        ],
+        [
+            45,
+            66,
+            1
+        ],
+        [
+            47,
+            48,
+            1
+        ],
+        [
+            47,
+            59,
+            1
+        ],
+        [
+            51,
+            52,
+            1
+        ],
+        [
+            52,
+            56,
+            1
+        ],
+        [
+            53,
+            54,
+            1
+        ],
+        [
+            54,
+            55,
+            1
+        ],
+        [
+            55,
+            65,
+            1
+        ],
+        [
+            55,
+            163,
+            1
+        ],
+        [
+            57,
+            50,
+            1
+        ],
+        [
+            62,
+            84,
+            1
+        ],
+        [
+            63,
+            64,
+            1
+        ],
+        [
+            65,
+            129,
+            1
+        ],
+        [
+            66,
+            67,
+            1
+        ],
+        [
+            66,
+            68,
+            1
+        ],
+        [
+            66,
+            71,
+            1
+        ],
+        [
+            69,
+            70,
+            1
+        ],
+        [
+            71,
+            88,
+            1
+        ],
+        [
+            72,
+            66,
+            1
+        ],
+        [
+            73,
+            74,
+            1
+        ],
+        [
+            76,
+            77,
+            1
+        ],
+        [
+            79,
+            50,
+            1
+        ],
+        [
+            80,
+            53,
+            1
+        ],
+        [
+            81,
+            62,
+            1
+        ],
+        [
+            83,
+            45,
+            1
+        ],
+        [
+            85,
+            86,
+            1
+        ],
+        [
+            87,
+            124,
+            1
+        ],
+        [
+            91,
+            92,
+            1
+        ],
+        [
+            94,
+            95,
+            1
+        ],
+        [
+            96,
+            97,
+            1
+        ],
+        [
+            98,
+            99,
+            1
+        ],
+        [
+            100,
+            9,
+            1
+        ],
+        [
+            101,
+            102,
+            1
+        ],
+        [
+            103,
+            104,
+            1
+        ],
+        [
+            104,
+            105,
+            1
+        ],
+        [
+            106,
+            107,
+            1
+        ],
+        [
+            109,
+            110,
+            1
+        ],
+        [
+            112,
+            113,
+            1
+        ],
+        [
+            115,
+            116,
+            1
+        ],
+        [
+            118,
+            29,
+            1
+        ],
+        [
+            119,
+            120,
+            1
+        ],
+        [
+            121,
+            121,
+            1
+        ],
+        [
+            122,
+            121,
+            1
+        ],
+        [
+            123,
+            9,
+            1
+        ],
+        [
+            124,
+            10,
+            1
+        ],
+        [
+            124,
+            75,
+            1
+        ],
+        [
+            125,
+            126,
+            1
+        ],
+        [
+            127,
+            126,
+            1
+        ],
+        [
+            128,
+            9,
+            1
+        ],
+        [
+            130,
+            43,
+            1
+        ],
+        [
+            131,
+            65,
+            1
+        ],
+        [
+            133,
+            134,
+            1
+        ],
+        [
+            135,
+            62,
+            1
+        ],
+        [
+            136,
+            52,
+            1
+        ],
+        [
+            139,
+            22,
+            1
+        ],
+        [
+            139,
+            158,
+            1
+        ],
+        [
+            140,
+            141,
+            1
+        ],
+        [
+            142,
+            143,
+            1
+        ],
+        [
+            145,
+            146,
+            1
+        ],
+        [
+            148,
+            5,
+            1
+        ],
+        [
+            148,
+            28,
+            1
+        ],
+        [
+            148,
+            149,
+            1
+        ],
+        [
+            148,
+            176,
+            1
+        ],
+        [
+            150,
+            151,
+            1
+        ],
+        [
+            150,
+            161,
+            1
+        ],
+        [
+            152,
+            62,
+            1
+        ],
+        [
+            152,
+            150,
+            1
+        ],
+        [
+            153,
+            22,
+            1
+        ],
+        [
+            155,
+            156,
+            1
+        ],
+        [
+            159,
+            160,
+            1
+        ],
+        [
+            160,
+            150,
+            1
+        ],
+        [
+            160,
+            166,
+            1
+        ],
+        [
+            160,
+            174,
+            1
+        ],
+        [
+            161,
+            162,
+            1
+        ],
+        [
+            164,
+            165,
+            1
+        ],
+        [
+            167,
+            121,
+            1
+        ],
+        [
+            168,
+            169,
+            1
+        ],
+        [
+            171,
+            172,
+            1
+        ],
+        [
+            173,
+            29,
+            1
+        ]
+    ],
+    "height": 177,
+    "net": {
+        "functions": [
+            [
+                "null"
+            ]
+        ],
+        "graph": {
+            "connects": [],
+            "factor": 0,
+            "factorFinnish": 0,
+            "factorStart": 0,
+            "finnish": [],
+            "first": 0,
+            "height": 0,
+            "id": "",
+            "iterations": 0,
+            "name": "net",
+            "nodeNames": [
+                "ciencia",
+                "escepticismo",
+                "ingredientes",
+                "asustan",
+                "conjunto",
+                "conocimientos",
+                "observacion",
+                "razonamiento",
+                "advertencia",
+                "cientifico",
+                "cientificos",
+                "paises",
+                "celebrado",
+                "canada",
+                "soluciones",
+                "cientificas",
+                "escasez",
+                "destruccion",
+                "ambiente",
+                "climatico",
+                "riesgo",
+                "ignorancia",
+                "cientifica",
+                "humanidad",
+                "graficos",
+                "poblaciones",
+                "humanas",
+                "tecnologia",
+                "mayoria",
+                "gente",
+                "ecologico",
+                "conocimiento",
+                "intentan",
+                "universidad",
+                "grados",
+                "ciencias",
+                "ensena",
+                "facultad",
+                "humanos",
+                "explicaciones",
+                "complejas",
+                "mente",
+                "inteligencia",
+                "experiencias",
+                "frecuencia",
+                "suficiente",
+                "situacion",
+                "agricultor",
+                "procedente",
+                "trueno",
+                "informacion",
+                "tranquilizador",
+                "capaces",
+                "significa",
+                "experiencia",
+                "continuacion",
+                "percepciones",
+                "comunes",
+                "cotidiana",
+                "dios",
+                "enfadado",
+                "consecuencias",
+                "resultados",
+                "aceptacion",
+                "logicamente",
+                "cuales",
+                "explicacion",
+                "inclina",
+                "teista",
+                "aceptan",
+                "inteligente",
+                "cinetica",
+                "naturaleza",
+                "historia",
+                "aceptado",
+                "condiciones",
+                "procedimiento",
+                "situaciones",
+                "pertinentes",
+                "acumulado",
+                "modificacion",
+                "siguiente",
+                "probado",
+                "innovacion",
+                "anterior",
+                "equivalentes",
+                "predicciones",
+                "eleccion",
+                "velocidad",
+                "resistencia",
+                "verificabilidad",
+                "favor",
+                "prediccion",
+                "efectuado",
+                "electricidad",
+                "magnetismo",
+                "electromagneticas",
+                "velocidades",
+                "comprobacion",
+                "italiano",
+                "descubrimiento",
+                "magnetico",
+                "longitudes",
+                "opticas",
+                "componente",
+                "magnetica",
+                "aportaciones",
+                "completado",
+                "verificacion",
+                "grecia",
+                "aseveraciones",
+                "satisfactoria",
+                "simples",
+                "pasado",
+                "enunciado",
+                "consideraciones",
+                "finalmente",
+                "importancia",
+                "creacion",
+                "libro",
+                "sagrado",
+                "errores",
+                "intenta",
+                "interes",
+                "observaciones",
+                "humildes",
+                "sirvientes",
+                "interesados",
+                "logra",
+                "precision",
+                "realizacion",
+                "comprension",
+                "aparatos",
+                "tratamiento",
+                "estadistico",
+                "confirman",
+                "ajustan",
+                "similares",
+                "siguientes",
+                "validez",
+                "pseudociencia",
+                "respetabilidad",
+                "permita",
+                "fenomenos",
+                "observados",
+                "experimentados",
+                "verificado",
+                "independiente",
+                "astrologia",
+                "grupos",
+                "personalidad",
+                "verdad",
+                "manera",
+                "base",
+                "actitud",
+                "solucion",
+                "conveniente",
+                "permitan",
+                "replicado",
+                "esceptico",
+                "carta",
+                "puedes",
+                "revistas",
+                "familiares",
+                "amigos",
+                "companeros",
+                "asegurandoles",
+                "aislados",
+                "proporcion",
+                "entrevistados",
+                "entonces",
+                "experimentacion",
+                "disenos",
+                "interesa",
+                "especialmente",
+                "realidad",
+                "mito"
+            ],
+            "nodes": [
+                "ciencia_0",
+                "escepticismo_1",
+                "ingredientes_2",
+                "asustan_3",
+                "conjunto_4",
+                "conocimientos_5",
+                "observacion_6",
+                "razonamiento_7",
+                "advertencia_8",
+                "cientifico_9",
+                "cientificos_10",
+                "paises_11",
+                "celebrado_12",
+                "canada_13",
+                "soluciones_14",
+                "cientificas_15",
+                "escasez_16",
+                "destruccion_17",
+                "ambiente_18",
+                "climatico_19",
+                "riesgo_20",
+                "ignorancia_21",
+                "cientifica_22",
+                "humanidad_23",
+                "graficos_24",
+                "poblaciones_25",
+                "humanas_26",
+                "tecnologia_27",
+                "mayoria_28",
+                "gente_29",
+                "ecologico_30",
+                "conocimiento_31",
+                "intentan_32",
+                "universidad_33",
+                "grados_34",
+                "ciencias_35",
+                "ensena_36",
+                "facultad_37",
+                "humanos_38",
+                "explicaciones_39",
+                "complejas_40",
+                "mente_41",
+                "inteligencia_42",
+                "experiencias_43",
+                "frecuencia_44",
+                "suficiente_45",
+                "situacion_46",
+                "agricultor_47",
+                "procedente_48",
+                "trueno_49",
+                "informacion_50",
+                "tranquilizador_51",
+                "capaces_52",
+                "significa_53",
+                "experiencia_54",
+                "continuacion_55",
+                "percepciones_56",
+                "comunes_57",
+                "cotidiana_58",
+                "dios_59",
+                "enfadado_60",
+                "consecuencias_61",
+                "resultados_62",
+                "aceptacion_63",
+                "logicamente_64",
+                "cuales_65",
+                "explicacion_66",
+                "inclina_67",
+                "teista_68",
+                "aceptan_69",
+                "inteligente_70",
+                "cinetica_71",
+                "naturaleza_72",
+                "historia_73",
+                "aceptado_74",
+                "condiciones_75",
+                "procedimiento_76",
+                "situaciones_77",
+                "pertinentes_78",
+                "acumulado_79",
+                "modificacion_80",
+                "siguiente_81",
+                "probado_82",
+                "innovacion_83",
+                "anterior_84",
+                "equivalentes_85",
+                "predicciones_86",
+                "eleccion_87",
+                "velocidad_88",
+                "resistencia_89",
+                "verificabilidad_90",
+                "favor_91",
+                "prediccion_92",
+                "efectuado_93",
+                "electricidad_94",
+                "magnetismo_95",
+                "electromagneticas_96",
+                "velocidades_97",
+                "comprobacion_98",
+                "italiano_99",
+                "descubrimiento_100",
+                "magnetico_101",
+                "longitudes_102",
+                "opticas_103",
+                "componente_104",
+                "magnetica_105",
+                "aportaciones_106",
+                "completado_107",
+                "verificacion_108",
+                "grecia_109",
+                "aseveraciones_110",
+                "satisfactoria_111",
+                "simples_112",
+                "pasado_113",
+                "enunciado_114",
+                "consideraciones_115",
+                "finalmente_116",
+                "importancia_117",
+                "creacion_118",
+                "libro_119",
+                "sagrado_120",
+                "errores_121",
+                "intenta_122",
+                "interes_123",
+                "observaciones_124",
+                "humildes_125",
+                "sirvientes_126",
+                "interesados_127",
+                "logra_128",
+                "precision_129",
+                "realizacion_130",
+                "comprension_131",
+                "aparatos_132",
+                "tratamiento_133",
+                "estadistico_134",
+                "confirman_135",
+                "ajustan_136",
+                "similares_137",
+                "siguientes_138",
+                "validez_139",
+                "pseudociencia_140",
+                "respetabilidad_141",
+                "permita_142",
+                "fenomenos_143",
+                "observados_144",
+                "experimentados_145",
+                "verificado_146",
+                "independiente_147",
+                "astrologia_148",
+                "grupos_149",
+                "personalidad_150",
+                "verdad_151",
+                "manera_152",
+                "base_153",
+                "actitud_154",
+                "solucion_155",
+                "conveniente_156",
+                "permitan_157",
+                "replicado_158",
+                "esceptico_159",
+                "carta_160",
+                "puedes_161",
+                "revistas_162",
+                "familiares_163",
+                "amigos_164",
+                "companeros_165",
+                "asegurandoles_166",
+                "aislados_167",
+                "proporcion_168",
+                "entrevistados_169",
+                "entonces_170",
+                "experimentacion_171",
+                "disenos_172",
+                "interesa_173",
+                "especialmente_174",
+                "realidad_175",
+                "mito_176"
+            ],
+            "start": [],
+            "width": 0
+        },
+        "nodes": [
+            {
+                "function": "null",
+                "id": "ciencia_0",
+                "name": "ciencia"
+            },
+            {
+                "function": "null",
+                "id": "escepticismo_1",
+                "name": "escepticismo"
+            },
+            {
+                "function": "null",
+                "id": "ingredientes_2",
+                "name": "ingredientes"
+            },
+            {
+                "function": "null",
+                "id": "asustan_3",
+                "name": "asustan"
+            },
+            {
+                "function": "null",
+                "id": "conjunto_4",
+                "name": "conjunto"
+            },
+            {
+                "function": "null",
+                "id": "conocimientos_5",
+                "name": "conocimientos"
+            },
+            {
+                "function": "null",
+                "id": "observacion_6",
+                "name": "observacion"
+            },
+            {
+                "function": "null",
+                "id": "razonamiento_7",
+                "name": "razonamiento"
+            },
+            {
+                "function": "null",
+                "id": "advertencia_8",
+                "name": "advertencia"
+            },
+            {
+                "function": "null",
+                "id": "cientifico_9",
+                "name": "cientifico"
+            },
+            {
+                "function": "null",
+                "id": "cientificos_10",
+                "name": "cientificos"
+            },
+            {
+                "function": "null",
+                "id": "paises_11",
+                "name": "paises"
+            },
+            {
+                "function": "null",
+                "id": "celebrado_12",
+                "name": "celebrado"
+            },
+            {
+                "function": "null",
+                "id": "canada_13",
+                "name": "canada"
+            },
+            {
+                "function": "null",
+                "id": "soluciones_14",
+                "name": "soluciones"
+            },
+            {
+                "function": "null",
+                "id": "cientificas_15",
+                "name": "cientificas"
+            },
+            {
+                "function": "null",
+                "id": "escasez_16",
+                "name": "escasez"
+            },
+            {
+                "function": "null",
+                "id": "destruccion_17",
+                "name": "destruccion"
+            },
+            {
+                "function": "null",
+                "id": "ambiente_18",
+                "name": "ambiente"
+            },
+            {
+                "function": "null",
+                "id": "climatico_19",
+                "name": "climatico"
+            },
+            {
+                "function": "null",
+                "id": "riesgo_20",
+                "name": "riesgo"
+            },
+            {
+                "function": "null",
+                "id": "ignorancia_21",
+                "name": "ignorancia"
+            },
+            {
+                "function": "null",
+                "id": "cientifica_22",
+                "name": "cientifica"
+            },
+            {
+                "function": "null",
+                "id": "humanidad_23",
+                "name": "humanidad"
+            },
+            {
+                "function": "null",
+                "id": "graficos_24",
+                "name": "graficos"
+            },
+            {
+                "function": "null",
+                "id": "poblaciones_25",
+                "name": "poblaciones"
+            },
+            {
+                "function": "null",
+                "id": "humanas_26",
+                "name": "humanas"
+            },
+            {
+                "function": "null",
+                "id": "tecnologia_27",
+                "name": "tecnologia"
+            },
+            {
+                "function": "null",
+                "id": "mayoria_28",
+                "name": "mayoria"
+            },
+            {
+                "function": "null",
+                "id": "gente_29",
+                "name": "gente"
+            },
+            {
+                "function": "null",
+                "id": "ecologico_30",
+                "name": "ecologico"
+            },
+            {
+                "function": "null",
+                "id": "conocimiento_31",
+                "name": "conocimiento"
+            },
+            {
+                "function": "null",
+                "id": "intentan_32",
+                "name": "intentan"
+            },
+            {
+                "function": "null",
+                "id": "universidad_33",
+                "name": "universidad"
+            },
+            {
+                "function": "null",
+                "id": "grados_34",
+                "name": "grados"
+            },
+            {
+                "function": "null",
+                "id": "ciencias_35",
+                "name": "ciencias"
+            },
+            {
+                "function": "null",
+                "id": "ensena_36",
+                "name": "ensena"
+            },
+            {
+                "function": "null",
+                "id": "facultad_37",
+                "name": "facultad"
+            },
+            {
+                "function": "null",
+                "id": "humanos_38",
+                "name": "humanos"
+            },
+            {
+                "function": "null",
+                "id": "explicaciones_39",
+                "name": "explicaciones"
+            },
+            {
+                "function": "null",
+                "id": "complejas_40",
+                "name": "complejas"
+            },
+            {
+                "function": "null",
+                "id": "mente_41",
+                "name": "mente"
+            },
+            {
+                "function": "null",
+                "id": "inteligencia_42",
+                "name": "inteligencia"
+            },
+            {
+                "function": "null",
+                "id": "experiencias_43",
+                "name": "experiencias"
+            },
+            {
+                "function": "null",
+                "id": "frecuencia_44",
+                "name": "frecuencia"
+            },
+            {
+                "function": "null",
+                "id": "suficiente_45",
+                "name": "suficiente"
+            },
+            {
+                "function": "null",
+                "id": "situacion_46",
+                "name": "situacion"
+            },
+            {
+                "function": "null",
+                "id": "agricultor_47",
+                "name": "agricultor"
+            },
+            {
+                "function": "null",
+                "id": "procedente_48",
+                "name": "procedente"
+            },
+            {
+                "function": "null",
+                "id": "trueno_49",
+                "name": "trueno"
+            },
+            {
+                "function": "null",
+                "id": "informacion_50",
+                "name": "informacion"
+            },
+            {
+                "function": "null",
+                "id": "tranquilizador_51",
+                "name": "tranquilizador"
+            },
+            {
+                "function": "null",
+                "id": "capaces_52",
+                "name": "capaces"
+            },
+            {
+                "function": "null",
+                "id": "significa_53",
+                "name": "significa"
+            },
+            {
+                "function": "null",
+                "id": "experiencia_54",
+                "name": "experiencia"
+            },
+            {
+                "function": "null",
+                "id": "continuacion_55",
+                "name": "continuacion"
+            },
+            {
+                "function": "null",
+                "id": "percepciones_56",
+                "name": "percepciones"
+            },
+            {
+                "function": "null",
+                "id": "comunes_57",
+                "name": "comunes"
+            },
+            {
+                "function": "null",
+                "id": "cotidiana_58",
+                "name": "cotidiana"
+            },
+            {
+                "function": "null",
+                "id": "dios_59",
+                "name": "dios"
+            },
+            {
+                "function": "null",
+                "id": "enfadado_60",
+                "name": "enfadado"
+            },
+            {
+                "function": "null",
+                "id": "consecuencias_61",
+                "name": "consecuencias"
+            },
+            {
+                "function": "null",
+                "id": "resultados_62",
+                "name": "resultados"
+            },
+            {
+                "function": "null",
+                "id": "aceptacion_63",
+                "name": "aceptacion"
+            },
+            {
+                "function": "null",
+                "id": "logicamente_64",
+                "name": "logicamente"
+            },
+            {
+                "function": "null",
+                "id": "cuales_65",
+                "name": "cuales"
+            },
+            {
+                "function": "null",
+                "id": "explicacion_66",
+                "name": "explicacion"
+            },
+            {
+                "function": "null",
+                "id": "inclina_67",
+                "name": "inclina"
+            },
+            {
+                "function": "null",
+                "id": "teista_68",
+                "name": "teista"
+            },
+            {
+                "function": "null",
+                "id": "aceptan_69",
+                "name": "aceptan"
+            },
+            {
+                "function": "null",
+                "id": "inteligente_70",
+                "name": "inteligente"
+            },
+            {
+                "function": "null",
+                "id": "cinetica_71",
+                "name": "cinetica"
+            },
+            {
+                "function": "null",
+                "id": "naturaleza_72",
+                "name": "naturaleza"
+            },
+            {
+                "function": "null",
+                "id": "historia_73",
+                "name": "historia"
+            },
+            {
+                "function": "null",
+                "id": "aceptado_74",
+                "name": "aceptado"
+            },
+            {
+                "function": "null",
+                "id": "condiciones_75",
+                "name": "condiciones"
+            },
+            {
+                "function": "null",
+                "id": "procedimiento_76",
+                "name": "procedimiento"
+            },
+            {
+                "function": "null",
+                "id": "situaciones_77",
+                "name": "situaciones"
+            },
+            {
+                "function": "null",
+                "id": "pertinentes_78",
+                "name": "pertinentes"
+            },
+            {
+                "function": "null",
+                "id": "acumulado_79",
+                "name": "acumulado"
+            },
+            {
+                "function": "null",
+                "id": "modificacion_80",
+                "name": "modificacion"
+            },
+            {
+                "function": "null",
+                "id": "siguiente_81",
+                "name": "siguiente"
+            },
+            {
+                "function": "null",
+                "id": "probado_82",
+                "name": "probado"
+            },
+            {
+                "function": "null",
+                "id": "innovacion_83",
+                "name": "innovacion"
+            },
+            {
+                "function": "null",
+                "id": "anterior_84",
+                "name": "anterior"
+            },
+            {
+                "function": "null",
+                "id": "equivalentes_85",
+                "name": "equivalentes"
+            },
+            {
+                "function": "null",
+                "id": "predicciones_86",
+                "name": "predicciones"
+            },
+            {
+                "function": "null",
+                "id": "eleccion_87",
+                "name": "eleccion"
+            },
+            {
+                "function": "null",
+                "id": "velocidad_88",
+                "name": "velocidad"
+            },
+            {
+                "function": "null",
+                "id": "resistencia_89",
+                "name": "resistencia"
+            },
+            {
+                "function": "null",
+                "id": "verificabilidad_90",
+                "name": "verificabilidad"
+            },
+            {
+                "function": "null",
+                "id": "favor_91",
+                "name": "favor"
+            },
+            {
+                "function": "null",
+                "id": "prediccion_92",
+                "name": "prediccion"
+            },
+            {
+                "function": "null",
+                "id": "efectuado_93",
+                "name": "efectuado"
+            },
+            {
+                "function": "null",
+                "id": "electricidad_94",
+                "name": "electricidad"
+            },
+            {
+                "function": "null",
+                "id": "magnetismo_95",
+                "name": "magnetismo"
+            },
+            {
+                "function": "null",
+                "id": "electromagneticas_96",
+                "name": "electromagneticas"
+            },
+            {
+                "function": "null",
+                "id": "velocidades_97",
+                "name": "velocidades"
+            },
+            {
+                "function": "null",
+                "id": "comprobacion_98",
+                "name": "comprobacion"
+            },
+            {
+                "function": "null",
+                "id": "italiano_99",
+                "name": "italiano"
+            },
+            {
+                "function": "null",
+                "id": "descubrimiento_100",
+                "name": "descubrimiento"
+            },
+            {
+                "function": "null",
+                "id": "magnetico_101",
+                "name": "magnetico"
+            },
+            {
+                "function": "null",
+                "id": "longitudes_102",
+                "name": "longitudes"
+            },
+            {
+                "function": "null",
+                "id": "opticas_103",
+                "name": "opticas"
+            },
+            {
+                "function": "null",
+                "id": "componente_104",
+                "name": "componente"
+            },
+            {
+                "function": "null",
+                "id": "magnetica_105",
+                "name": "magnetica"
+            },
+            {
+                "function": "null",
+                "id": "aportaciones_106",
+                "name": "aportaciones"
+            },
+            {
+                "function": "null",
+                "id": "completado_107",
+                "name": "completado"
+            },
+            {
+                "function": "null",
+                "id": "verificacion_108",
+                "name": "verificacion"
+            },
+            {
+                "function": "null",
+                "id": "grecia_109",
+                "name": "grecia"
+            },
+            {
+                "function": "null",
+                "id": "aseveraciones_110",
+                "name": "aseveraciones"
+            },
+            {
+                "function": "null",
+                "id": "satisfactoria_111",
+                "name": "satisfactoria"
+            },
+            {
+                "function": "null",
+                "id": "simples_112",
+                "name": "simples"
+            },
+            {
+                "function": "null",
+                "id": "pasado_113",
+                "name": "pasado"
+            },
+            {
+                "function": "null",
+                "id": "enunciado_114",
+                "name": "enunciado"
+            },
+            {
+                "function": "null",
+                "id": "consideraciones_115",
+                "name": "consideraciones"
+            },
+            {
+                "function": "null",
+                "id": "finalmente_116",
+                "name": "finalmente"
+            },
+            {
+                "function": "null",
+                "id": "importancia_117",
+                "name": "importancia"
+            },
+            {
+                "function": "null",
+                "id": "creacion_118",
+                "name": "creacion"
+            },
+            {
+                "function": "null",
+                "id": "libro_119",
+                "name": "libro"
+            },
+            {
+                "function": "null",
+                "id": "sagrado_120",
+                "name": "sagrado"
+            },
+            {
+                "function": "null",
+                "id": "errores_121",
+                "name": "errores"
+            },
+            {
+                "function": "null",
+                "id": "intenta_122",
+                "name": "intenta"
+            },
+            {
+                "function": "null",
+                "id": "interes_123",
+                "name": "interes"
+            },
+            {
+                "function": "null",
+                "id": "observaciones_124",
+                "name": "observaciones"
+            },
+            {
+                "function": "null",
+                "id": "humildes_125",
+                "name": "humildes"
+            },
+            {
+                "function": "null",
+                "id": "sirvientes_126",
+                "name": "sirvientes"
+            },
+            {
+                "function": "null",
+                "id": "interesados_127",
+                "name": "interesados"
+            },
+            {
+                "function": "null",
+                "id": "logra_128",
+                "name": "logra"
+            },
+            {
+                "function": "null",
+                "id": "precision_129",
+                "name": "precision"
+            },
+            {
+                "function": "null",
+                "id": "realizacion_130",
+                "name": "realizacion"
+            },
+            {
+                "function": "null",
+                "id": "comprension_131",
+                "name": "comprension"
+            },
+            {
+                "function": "null",
+                "id": "aparatos_132",
+                "name": "aparatos"
+            },
+            {
+                "function": "null",
+                "id": "tratamiento_133",
+                "name": "tratamiento"
+            },
+            {
+                "function": "null",
+                "id": "estadistico_134",
+                "name": "estadistico"
+            },
+            {
+                "function": "null",
+                "id": "confirman_135",
+                "name": "confirman"
+            },
+            {
+                "function": "null",
+                "id": "ajustan_136",
+                "name": "ajustan"
+            },
+            {
+                "function": "null",
+                "id": "similares_137",
+                "name": "similares"
+            },
+            {
+                "function": "null",
+                "id": "siguientes_138",
+                "name": "siguientes"
+            },
+            {
+                "function": "null",
+                "id": "validez_139",
+                "name": "validez"
+            },
+            {
+                "function": "null",
+                "id": "pseudociencia_140",
+                "name": "pseudociencia"
+            },
+            {
+                "function": "null",
+                "id": "respetabilidad_141",
+                "name": "respetabilidad"
+            },
+            {
+                "function": "null",
+                "id": "permita_142",
+                "name": "permita"
+            },
+            {
+                "function": "null",
+                "id": "fenomenos_143",
+                "name": "fenomenos"
+            },
+            {
+                "function": "null",
+                "id": "observados_144",
+                "name": "observados"
+            },
+            {
+                "function": "null",
+                "id": "experimentados_145",
+                "name": "experimentados"
+            },
+            {
+                "function": "null",
+                "id": "verificado_146",
+                "name": "verificado"
+            },
+            {
+                "function": "null",
+                "id": "independiente_147",
+                "name": "independiente"
+            },
+            {
+                "function": "null",
+                "id": "astrologia_148",
+                "name": "astrologia"
+            },
+            {
+                "function": "null",
+                "id": "grupos_149",
+                "name": "grupos"
+            },
+            {
+                "function": "null",
+                "id": "personalidad_150",
+                "name": "personalidad"
+            },
+            {
+                "function": "null",
+                "id": "verdad_151",
+                "name": "verdad"
+            },
+            {
+                "function": "null",
+                "id": "manera_152",
+                "name": "manera"
+            },
+            {
+                "function": "null",
+                "id": "base_153",
+                "name": "base"
+            },
+            {
+                "function": "null",
+                "id": "actitud_154",
+                "name": "actitud"
+            },
+            {
+                "function": "null",
+                "id": "solucion_155",
+                "name": "solucion"
+            },
+            {
+                "function": "null",
+                "id": "conveniente_156",
+                "name": "conveniente"
+            },
+            {
+                "function": "null",
+                "id": "permitan_157",
+                "name": "permitan"
+            },
+            {
+                "function": "null",
+                "id": "replicado_158",
+                "name": "replicado"
+            },
+            {
+                "function": "null",
+                "id": "esceptico_159",
+                "name": "esceptico"
+            },
+            {
+                "function": "null",
+                "id": "carta_160",
+                "name": "carta"
+            },
+            {
+                "function": "null",
+                "id": "puedes_161",
+                "name": "puedes"
+            },
+            {
+                "function": "null",
+                "id": "revistas_162",
+                "name": "revistas"
+            },
+            {
+                "function": "null",
+                "id": "familiares_163",
+                "name": "familiares"
+            },
+            {
+                "function": "null",
+                "id": "amigos_164",
+                "name": "amigos"
+            },
+            {
+                "function": "null",
+                "id": "companeros_165",
+                "name": "companeros"
+            },
+            {
+                "function": "null",
+                "id": "asegurandoles_166",
+                "name": "asegurandoles"
+            },
+            {
+                "function": "null",
+                "id": "aislados_167",
+                "name": "aislados"
+            },
+            {
+                "function": "null",
+                "id": "proporcion_168",
+                "name": "proporcion"
+            },
+            {
+                "function": "null",
+                "id": "entrevistados_169",
+                "name": "entrevistados"
+            },
+            {
+                "function": "null",
+                "id": "entonces_170",
+                "name": "entonces"
+            },
+            {
+                "function": "null",
+                "id": "experimentacion_171",
+                "name": "experimentacion"
+            },
+            {
+                "function": "null",
+                "id": "disenos_172",
+                "name": "disenos"
+            },
+            {
+                "function": "null",
+                "id": "interesa_173",
+                "name": "interesa"
+            },
+            {
+                "function": "null",
+                "id": "especialmente_174",
+                "name": "especialmente"
+            },
+            {
+                "function": "null",
+                "id": "realidad_175",
+                "name": "realidad"
+            },
+            {
+                "function": "null",
+                "id": "mito_176",
+                "name": "mito"
+            }
+        ]
+    },
+    "width": 177
+}

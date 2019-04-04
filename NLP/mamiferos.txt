@@ -1,0 +1,25 @@
+En la naturaleza encontramos diversas especies, toda especie pertenece a uno de dos grupos: los vertebrados y los invertebrados.
+De estos grupos obtenemos clasificaciones, y de estas clases identificamos diversas familias.
+
+Cada especie pertenece a una familia, y estas familias se distinguen como mamiferos, reptiles, aves, etc.
+Entre los mamiferos clasificamos las especies, y cada especie tiene sus cualidades y atributos.
+Entre los cuales definimos las siguientes reglas:
+
+todo animal nace de otro animal.
+todo animal puede comer otro animal.
+todo gato tiene cola.
+todo perro tiene cola.
+todo perro es un mamifero.
+todo gato es un mamifero.
+todo mamifero nace de una placenta.
+todo mamifero bebe leche.
+un mamifero puede poseer pelos.
+el pajaro es una ave.
+toda ave tiene plumas.
+el ave desciende de dinosaurios.
+todo humano es un mamifero.
+todo hombre es un humano.
+toda mujer es humano.
+toda ave es un animal.
+toda ave nace de un huevo.
+todo mamifero es un animal.

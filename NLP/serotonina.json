@@ -1,0 +1,4554 @@
+{
+    "actions": [
+        [
+            1,
+            2,
+            "en"
+        ],
+        [
+            3,
+            4,
+            "de"
+        ],
+        [
+            6,
+            7,
+            "en"
+        ],
+        [
+            7,
+            303,
+            "subir"
+        ],
+        [
+            8,
+            9,
+            "en"
+        ],
+        [
+            8,
+            10,
+            "poder"
+        ],
+        [
+            8,
+            302,
+            "has"
+        ],
+        [
+            11,
+            12,
+            "es"
+        ],
+        [
+            12,
+            18,
+            "en"
+        ],
+        [
+            12,
+            19,
+            "de"
+        ],
+        [
+            12,
+            41,
+            "del"
+        ],
+        [
+            12,
+            54,
+            "tiene"
+        ],
+        [
+            12,
+            57,
+            "de"
+        ],
+        [
+            12,
+            62,
+            "a"
+        ],
+        [
+            12,
+            65,
+            "en"
+        ],
+        [
+            12,
+            97,
+            "de"
+        ],
+        [
+            12,
+            98,
+            "unir"
+        ],
+        [
+            12,
+            101,
+            "en"
+        ],
+        [
+            12,
+            118,
+            "de"
+        ],
+        [
+            12,
+            170,
+            "en"
+        ],
+        [
+            12,
+            171,
+            "pueden generar"
+        ],
+        [
+            12,
+            185,
+            "en"
+        ],
+        [
+            12,
+            189,
+            "tienen"
+        ],
+        [
+            12,
+            268,
+            "presenta"
+        ],
+        [
+            12,
+            277,
+            "es"
+        ],
+        [
+            12,
+            285,
+            "del"
+        ],
+        [
+            13,
+            14,
+            "de"
+        ],
+        [
+            13,
+            80,
+            "del"
+        ],
+        [
+            13,
+            91,
+            "por"
+        ],
+        [
+            13,
+            101,
+            "en"
+        ],
+        [
+            13,
+            107,
+            "con"
+        ],
+        [
+            13,
+            123,
+            "de"
+        ],
+        [
+            13,
+            143,
+            "en"
+        ],
+        [
+            13,
+            145,
+            "en"
+        ],
+        [
+            13,
+            194,
+            "de"
+        ],
+        [
+            15,
+            15,
+            "de"
+        ],
+        [
+            15,
+            226,
+            "es"
+        ],
+        [
+            15,
+            237,
+            "sin"
+        ],
+        [
+            16,
+            17,
+            "en"
+        ],
+        [
+            18,
+            139,
+            "de"
+        ],
+        [
+            19,
+            20,
+            "es"
+        ],
+        [
+            20,
+            57,
+            "en"
+        ],
+        [
+            21,
+            22,
+            "en"
+        ],
+        [
+            23,
+            24,
+            "por"
+        ],
+        [
+            25,
+            26,
+            "en"
+        ],
+        [
+            27,
+            28,
+            "habia demostrado"
+        ],
+        [
+            28,
+            19,
+            "hacia"
+        ],
+        [
+            29,
+            30,
+            "por"
+        ],
+        [
+            31,
+            32,
+            "del"
+        ],
+        [
+            33,
+            34,
+            "de"
+        ],
+        [
+            34,
+            92,
+            "debe"
+        ],
+        [
+            35,
+            11,
+            "fue"
+        ],
+        [
+            36,
+            22,
+            "han"
+        ],
+        [
+            37,
+            38,
+            "de"
+        ],
+        [
+            38,
+            12,
+            "de"
+        ],
+        [
+            39,
+            40,
+            "por"
+        ],
+        [
+            41,
+            12,
+            "resultado"
+        ],
+        [
+            41,
+            15,
+            "al"
+        ],
+        [
+            41,
+            42,
+            "de"
+        ],
+        [
+            41,
+            294,
+            "de"
+        ],
+        [
+            43,
+            31,
+            "desde"
+        ],
+        [
+            45,
+            12,
+            "de"
+        ],
+        [
+            45,
+            80,
+            "hagan"
+        ],
+        [
+            45,
+            142,
+            "en"
+        ],
+        [
+            46,
+            47,
+            "mediante"
+        ],
+        [
+            48,
+            49,
+            "de"
+        ],
+        [
+            49,
+            98,
+            "de"
+        ],
+        [
+            49,
+            235,
+            "para"
+        ],
+        [
+            50,
+            51,
+            "plasma"
+        ],
+        [
+            52,
+            12,
+            "libera"
+        ],
+        [
+            53,
+            54,
+            "funcionando"
+        ],
+        [
+            56,
+            12,
+            "de"
+        ],
+        [
+            57,
+            191,
+            "en"
+        ],
+        [
+            58,
+            59,
+            "es"
+        ],
+        [
+            60,
+            61,
+            "de"
+        ],
+        [
+            63,
+            64,
+            "por"
+        ],
+        [
+            66,
+            21,
+            "con"
+        ],
+        [
+            67,
+            68,
+            "de"
+        ],
+        [
+            68,
+            250,
+            "de"
+        ],
+        [
+            70,
+            71,
+            "en"
+        ],
+        [
+            73,
+            56,
+            "ha demostrado"
+        ],
+        [
+            74,
+            75,
+            "de"
+        ],
+        [
+            76,
+            77,
+            "formando"
+        ],
+        [
+            78,
+            79,
+            "son"
+        ],
+        [
+            80,
+            81,
+            "de"
+        ],
+        [
+            82,
+            147,
+            "en"
+        ],
+        [
+            84,
+            85,
+            "en"
+        ],
+        [
+            87,
+            88,
+            "son"
+        ],
+        [
+            87,
+            184,
+            "sobre"
+        ],
+        [
+            89,
+            90,
+            "en"
+        ],
+        [
+            91,
+            13,
+            "del"
+        ],
+        [
+            91,
+            244,
+            "de"
+        ],
+        [
+            93,
+            94,
+            "en"
+        ],
+        [
+            95,
+            49,
+            "contener"
+        ],
+        [
+            96,
+            13,
+            "de"
+        ],
+        [
+            96,
+            222,
+            "para"
+        ],
+        [
+            97,
+            12,
+            "de"
+        ],
+        [
+            97,
+            13,
+            "para"
+        ],
+        [
+            97,
+            109,
+            "en"
+        ],
+        [
+            97,
+            183,
+            "de"
+        ],
+        [
+            97,
+            193,
+            "en"
+        ],
+        [
+            98,
+            99,
+            "de"
+        ],
+        [
+            98,
+            128,
+            "de"
+        ],
+        [
+            98,
+            152,
+            "de"
+        ],
+        [
+            98,
+            269,
+            "sobre"
+        ],
+        [
+            100,
+            98,
+            "debe"
+        ],
+        [
+            102,
+            103,
+            "de"
+        ],
+        [
+            103,
+            220,
+            "es terminada"
+        ],
+        [
+            104,
+            13,
+            "del"
+        ],
+        [
+            104,
+            28,
+            "de"
+        ],
+        [
+            105,
+            99,
+            "por"
+        ],
+        [
+            106,
+            107,
+            "del"
+        ],
+        [
+            106,
+            180,
+            "de"
+        ],
+        [
+            107,
+            12,
+            "de"
+        ],
+        [
+            107,
+            84,
+            "para"
+        ],
+        [
+            107,
+            149,
+            "de"
+        ],
+        [
+            107,
+            198,
+            "al"
+        ],
+        [
+            107,
+            213,
+            "para"
+        ],
+        [
+            108,
+            109,
+            "en"
+        ],
+        [
+            112,
+            104,
+            "por"
+        ],
+        [
+            113,
+            45,
+            "pueden"
+        ],
+        [
+            113,
+            113,
+            "pueden ser"
+        ],
+        [
+            113,
+            114,
+            "de"
+        ],
+        [
+            114,
+            17,
+            "han"
+        ],
+        [
+            115,
+            116,
+            "deben"
+        ],
+        [
+            115,
+            117,
+            "de"
+        ],
+        [
+            118,
+            90,
+            "en"
+        ],
+        [
+            118,
+            119,
+            "son"
+        ],
+        [
+            118,
+            158,
+            "pueden"
+        ],
+        [
+            119,
+            145,
+            "del"
+        ],
+        [
+            120,
+            121,
+            "de"
+        ],
+        [
+            128,
+            124,
+            "estan"
+        ],
+        [
+            129,
+            130,
+            "sobre"
+        ],
+        [
+            131,
+            13,
+            "formar"
+        ],
+        [
+            132,
+            13,
+            "de"
+        ],
+        [
+            133,
+            134,
+            "en"
+        ],
+        [
+            135,
+            136,
+            "es"
+        ],
+        [
+            137,
+            138,
+            "en"
+        ],
+        [
+            139,
+            140,
+            "en"
+        ],
+        [
+            144,
+            98,
+            "de"
+        ],
+        [
+            147,
+            107,
+            "de"
+        ],
+        [
+            151,
+            132,
+            "de"
+        ],
+        [
+            153,
+            97,
+            "de"
+        ],
+        [
+            153,
+            157,
+            "de"
+        ],
+        [
+            153,
+            163,
+            "del"
+        ],
+        [
+            153,
+            165,
+            "funciones"
+        ],
+        [
+            155,
+            156,
+            "a"
+        ],
+        [
+            158,
+            97,
+            "en"
+        ],
+        [
+            159,
+            160,
+            "pueden"
+        ],
+        [
+            162,
+            12,
+            "de"
+        ],
+        [
+            163,
+            164,
+            "mediante"
+        ],
+        [
+            166,
+            167,
+            "con"
+        ],
+        [
+            168,
+            252,
+            "a"
+        ],
+        [
+            172,
+            45,
+            "de"
+        ],
+        [
+            173,
+            98,
+            "de"
+        ],
+        [
+            174,
+            175,
+            "en"
+        ],
+        [
+            175,
+            12,
+            "contienen"
+        ],
+        [
+            176,
+            177,
+            "del"
+        ],
+        [
+            178,
+            179,
+            "de"
+        ],
+        [
+            180,
+            156,
+            "de"
+        ],
+        [
+            181,
+            182,
+            "en"
+        ],
+        [
+            185,
+            186,
+            "de"
+        ],
+        [
+            188,
+            97,
+            "de"
+        ],
+        [
+            190,
+            97,
+            "entre"
+        ],
+        [
+            196,
+            197,
+            "estan"
+        ],
+        [
+            199,
+            200,
+            "se actua"
+        ],
+        [
+            202,
+            107,
+            "por"
+        ],
+        [
+            203,
+            166,
+            "estan"
+        ],
+        [
+            204,
+            97,
+            "de"
+        ],
+        [
+            205,
+            206,
+            "en"
+        ],
+        [
+            207,
+            208,
+            "sobre"
+        ],
+        [
+            209,
+            210,
+            "de"
+        ],
+        [
+            211,
+            212,
+            "en"
+        ],
+        [
+            214,
+            215,
+            "de"
+        ],
+        [
+            216,
+            217,
+            "con"
+        ],
+        [
+            218,
+            219,
+            "en"
+        ],
+        [
+            222,
+            42,
+            "de"
+        ],
+        [
+            222,
+            108,
+            "de"
+        ],
+        [
+            223,
+            224,
+            "de"
+        ],
+        [
+            225,
+            172,
+            "de"
+        ],
+        [
+            227,
+            134,
+            "con"
+        ],
+        [
+            227,
+            228,
+            "mediante"
+        ],
+        [
+            227,
+            229,
+            "toma"
+        ],
+        [
+            231,
+            232,
+            "en"
+        ],
+        [
+            234,
+            61,
+            "pueden"
+        ],
+        [
+            239,
+            62,
+            "es"
+        ],
+        [
+            241,
+            242,
+            "por"
+        ],
+        [
+            243,
+            12,
+            "de"
+        ],
+        [
+            243,
+            22,
+            "se han"
+        ],
+        [
+            243,
+            119,
+            "de"
+        ],
+        [
+            246,
+            12,
+            "juega"
+        ],
+        [
+            247,
+            72,
+            "actua"
+        ],
+        [
+            249,
+            204,
+            "de"
+        ],
+        [
+            250,
+            99,
+            "de"
+        ],
+        [
+            251,
+            180,
+            "a"
+        ],
+        [
+            251,
+            235,
+            "a"
+        ],
+        [
+            255,
+            99,
+            "por"
+        ],
+        [
+            256,
+            257,
+            "es"
+        ],
+        [
+            258,
+            259,
+            "funciones"
+        ],
+        [
+            261,
+            12,
+            "del"
+        ],
+        [
+            261,
+            153,
+            "de"
+        ],
+        [
+            261,
+            259,
+            "funciones"
+        ],
+        [
+            263,
+            264,
+            "por"
+        ],
+        [
+            265,
+            266,
+            "de"
+        ],
+        [
+            270,
+            271,
+            "con"
+        ],
+        [
+            272,
+            273,
+            "del"
+        ],
+        [
+            274,
+            258,
+            "de"
+        ],
+        [
+            275,
+            276,
+            "de"
+        ],
+        [
+            276,
+            283,
+            "del"
+        ],
+        [
+            278,
+            279,
+            "en"
+        ],
+        [
+            280,
+            281,
+            "siendo"
+        ],
+        [
+            282,
+            12,
+            "llega"
+        ],
+        [
+            284,
+            13,
+            "de"
+        ],
+        [
+            286,
+            287,
+            "libera"
+        ],
+        [
+            289,
+            290,
+            "del"
+        ],
+        [
+            290,
+            179,
+            "en"
+        ],
+        [
+            291,
+            103,
+            "tiene"
+        ],
+        [
+            292,
+            293,
+            "de"
+        ],
+        [
+            295,
+            296,
+            "de"
+        ],
+        [
+            297,
+            238,
+            "de"
+        ],
+        [
+            298,
+            175,
+            "en"
+        ],
+        [
+            299,
+            300,
+            "habian"
+        ],
+        [
+            304,
+            9,
+            "de"
+        ],
+        [
+            305,
+            9,
+            "de"
+        ],
+        [
+            306,
+            307,
+            "de"
+        ]
+    ],
+    "connects": [
+        [
+            1,
+            2,
+            2.0
+        ],
+        [
+            3,
+            4,
+            3.0
+        ],
+        [
+            6,
+            7,
+            4.0
+        ],
+        [
+            7,
+            303,
+            109.0
+        ],
+        [
+            8,
+            9,
+            4.0
+        ],
+        [
+            8,
+            10,
+            4.0
+        ],
+        [
+            8,
+            302,
+            108.0
+        ],
+        [
+            11,
+            12,
+            5.0
+        ],
+        [
+            12,
+            18,
+            8.0
+        ],
+        [
+            12,
+            19,
+            13.0
+        ],
+        [
+            12,
+            41,
+            35.0
+        ],
+        [
+            12,
+            54,
+            92.0
+        ],
+        [
+            12,
+            57,
+            82.0
+        ],
+        [
+            12,
+            62,
+            19.0
+        ],
+        [
+            12,
+            65,
+            20.0
+        ],
+        [
+            12,
+            97,
+            56.0
+        ],
+        [
+            12,
+            98,
+            62.0
+        ],
+        [
+            12,
+            101,
+            87.0
+        ],
+        [
+            12,
+            118,
+            95.0
+        ],
+        [
+            12,
+            170,
+            50.0
+        ],
+        [
+            12,
+            171,
+            52.0
+        ],
+        [
+            12,
+            185,
+            74.0
+        ],
+        [
+            12,
+            189,
+            58.0
+        ],
+        [
+            12,
+            268,
+            94.0
+        ],
+        [
+            12,
+            277,
+            96.0
+        ],
+        [
+            12,
+            285,
+            101.0
+        ],
+        [
+            13,
+            14,
+            5.0
+        ],
+        [
+            13,
+            80,
+            31.0
+        ],
+        [
+            13,
+            91,
+            46.0
+        ],
+        [
+            13,
+            101,
+            29.0
+        ],
+        [
+            13,
+            107,
+            33.0
+        ],
+        [
+            13,
+            123,
+            35.0
+        ],
+        [
+            13,
+            143,
+            40.0
+        ],
+        [
+            13,
+            145,
+            46.0
+        ],
+        [
+            13,
+            194,
+            62.0
+        ],
+        [
+            15,
+            15,
+            76.0
+        ],
+        [
+            15,
+            226,
+            81.0
+        ],
+        [
+            15,
+            237,
+            83.0
+        ],
+        [
+            16,
+            17,
+            6.0
+        ],
+        [
+            18,
+            139,
+            98.0
+        ],
+        [
+            19,
+            20,
+            8.0
+        ],
+        [
+            20,
+            57,
+            16.0
+        ],
+        [
+            21,
+            22,
+            8.0
+        ],
+        [
+            23,
+            24,
+            8.0
+        ],
+        [
+            25,
+            26,
+            9.0
+        ],
+        [
+            27,
+            28,
+            9.0
+        ],
+        [
+            28,
+            19,
+            42.0
+        ],
+        [
+            29,
+            30,
+            9.0
+        ],
+        [
+            31,
+            32,
+            9.0
+        ],
+        [
+            33,
+            34,
+            11.0
+        ],
+        [
+            34,
+            92,
+            26.0
+        ],
+        [
+            35,
+            11,
+            11.0
+        ],
+        [
+            36,
+            22,
+            11.0
+        ],
+        [
+            37,
+            38,
+            11.0
+        ],
+        [
+            38,
+            12,
+            89.0
+        ],
+        [
+            39,
+            40,
+            11.0
+        ],
+        [
+            41,
+            12,
+            76.0
+        ],
+        [
+            41,
+            15,
+            76.0
+        ],
+        [
+            41,
+            42,
+            12.0
+        ],
+        [
+            41,
+            294,
+            104.0
+        ],
+        [
+            43,
+            31,
+            13.0
+        ],
+        [
+            45,
+            12,
+            74.0
+        ],
+        [
+            45,
+            80,
+            33.0
+        ],
+        [
+            45,
+            142,
+            73.0
+        ],
+        [
+            46,
+            47,
+            14.0
+        ],
+        [
+            48,
+            49,
+            14.0
+        ],
+        [
+            49,
+            98,
+            103.0
+        ],
+        [
+            49,
+            235,
+            80.0
+        ],
+        [
+            50,
+            51,
+            14.0
+        ],
+        [
+            52,
+            12,
+            15.0
+        ],
+        [
+            53,
+            54,
+            15.0
+        ],
+        [
+            56,
+            12,
+            16.0
+        ],
+        [
+            57,
+            191,
+            60.0
+        ],
+        [
+            58,
+            59,
+            17.0
+        ],
+        [
+            60,
+            61,
+            17.0
+        ],
+        [
+            63,
+            64,
+            19.0
+        ],
+        [
+            66,
+            21,
+            20.0
+        ],
+        [
+            67,
+            68,
+            20.0
+        ],
+        [
+            68,
+            250,
+            103.0
+        ],
+        [
+            70,
+            71,
+            88.0
+        ],
+        [
+            73,
+            56,
+            22.0
+        ],
+        [
+            74,
+            75,
+            22.0
+        ],
+        [
+            76,
+            77,
+            23.0
+        ],
+        [
+            78,
+            79,
+            23.0
+        ],
+        [
+            80,
+            81,
+            23.0
+        ],
+        [
+            82,
+            147,
+            56.0
+        ],
+        [
+            84,
+            85,
+            25.0
+        ],
+        [
+            87,
+            88,
+            25.0
+        ],
+        [
+            87,
+            184,
+            55.0
+        ],
+        [
+            89,
+            90,
+            25.0
+        ],
+        [
+            91,
+            13,
+            26.0
+        ],
+        [
+            91,
+            244,
+            87.0
+        ],
+        [
+            93,
+            94,
+            26.0
+        ],
+        [
+            95,
+            49,
+            27.0
+        ],
+        [
+            96,
+            13,
+            46.0
+        ],
+        [
+            96,
+            222,
+            73.0
+        ],
+        [
+            97,
+            12,
+            67.0
+        ],
+        [
+            97,
+            13,
+            28.0
+        ],
+        [
+            97,
+            109,
+            62.0
+        ],
+        [
+            97,
+            183,
+            55.0
+        ],
+        [
+            97,
+            193,
+            62.0
+        ],
+        [
+            98,
+            99,
+            29.0
+        ],
+        [
+            98,
+            128,
+            64.0
+        ],
+        [
+            98,
+            152,
+            46.0
+        ],
+        [
+            98,
+            269,
+            94.0
+        ],
+        [
+            100,
+            98,
+            29.0
+        ],
+        [
+            102,
+            103,
+            30.0
+        ],
+        [
+            103,
+            220,
+            72.0
+        ],
+        [
+            104,
+            13,
+            30.0
+        ],
+        [
+            104,
+            28,
+            32.0
+        ],
+        [
+            105,
+            99,
+            30.0
+        ],
+        [
+            106,
+            107,
+            31.0
+        ],
+        [
+            106,
+            180,
+            54.0
+        ],
+        [
+            107,
+            12,
+            66.0
+        ],
+        [
+            107,
+            84,
+            56.0
+        ],
+        [
+            107,
+            149,
+            45.0
+        ],
+        [
+            107,
+            198,
+            63.0
+        ],
+        [
+            107,
+            213,
+            68.0
+        ],
+        [
+            108,
+            109,
+            31.0
+        ],
+        [
+            112,
+            104,
+            32.0
+        ],
+        [
+            113,
+            45,
+            74.0
+        ],
+        [
+            113,
+            113,
+            84.0
+        ],
+        [
+            113,
+            114,
+            32.0
+        ],
+        [
+            114,
+            17,
+            57.0
+        ],
+        [
+            115,
+            116,
+            33.0
+        ],
+        [
+            115,
+            117,
+            33.0
+        ],
+        [
+            118,
+            90,
+            46.0
+        ],
+        [
+            118,
+            119,
+            34.0
+        ],
+        [
+            118,
+            158,
+            48.0
+        ],
+        [
+            119,
+            145,
+            42.0
+        ],
+        [
+            120,
+            121,
+            34.0
+        ],
+        [
+            128,
+            124,
+            49.0
+        ],
+        [
+            129,
+            130,
+            38.0
+        ],
+        [
+            131,
+            13,
+            38.0
+        ],
+        [
+            132,
+            13,
+            38.0
+        ],
+        [
+            133,
+            134,
+            38.0
+        ],
+        [
+            135,
+            136,
+            38.0
+        ],
+        [
+            137,
+            138,
+            38.0
+        ],
+        [
+            139,
+            140,
+            38.0
+        ],
+        [
+            144,
+            98,
+            42.0
+        ],
+        [
+            147,
+            107,
+            43.0
+        ],
+        [
+            151,
+            132,
+            46.0
+        ],
+        [
+            153,
+            97,
+            46.0
+        ],
+        [
+            153,
+            157,
+            48.0
+        ],
+        [
+            153,
+            163,
+            93.0
+        ],
+        [
+            153,
+            165,
+            93.0
+        ],
+        [
+            155,
+            156,
+            48.0
+        ],
+        [
+            158,
+            97,
+            88.0
+        ],
+        [
+            159,
+            160,
+            48.0
+        ],
+        [
+            162,
+            12,
+            49.0
+        ],
+        [
+            163,
+            164,
+            49.0
+        ],
+        [
+            166,
+            167,
+            49.0
+        ],
+        [
+            168,
+            252,
+            90.0
+        ],
+        [
+            172,
+            45,
+            52.0
+        ],
+        [
+            173,
+            98,
+            52.0
+        ],
+        [
+            174,
+            175,
+            54.0
+        ],
+        [
+            175,
+            12,
+            104.0
+        ],
+        [
+            176,
+            177,
+            54.0
+        ],
+        [
+            178,
+            179,
+            54.0
+        ],
+        [
+            180,
+            156,
+            93.0
+        ],
+        [
+            181,
+            182,
+            54.0
+        ],
+        [
+            185,
+            186,
+            55.0
+        ],
+        [
+            188,
+            97,
+            57.0
+        ],
+        [
+            190,
+            97,
+            59.0
+        ],
+        [
+            196,
+            197,
+            63.0
+        ],
+        [
+            199,
+            200,
+            64.0
+        ],
+        [
+            202,
+            107,
+            66.0
+        ],
+        [
+            203,
+            166,
+            66.0
+        ],
+        [
+            204,
+            97,
+            66.0
+        ],
+        [
+            205,
+            206,
+            67.0
+        ],
+        [
+            207,
+            208,
+            67.0
+        ],
+        [
+            209,
+            210,
+            67.0
+        ],
+        [
+            211,
+            212,
+            68.0
+        ],
+        [
+            214,
+            215,
+            68.0
+        ],
+        [
+            216,
+            217,
+            71.0
+        ],
+        [
+            218,
+            219,
+            71.0
+        ],
+        [
+            222,
+            42,
+            73.0
+        ],
+        [
+            222,
+            108,
+            81.0
+        ],
+        [
+            223,
+            224,
+            74.0
+        ],
+        [
+            225,
+            172,
+            74.0
+        ],
+        [
+            227,
+            134,
+            83.0
+        ],
+        [
+            227,
+            228,
+            76.0
+        ],
+        [
+            227,
+            229,
+            76.0
+        ],
+        [
+            231,
+            232,
+            78.0
+        ],
+        [
+            234,
+            61,
+            80.0
+        ],
+        [
+            239,
+            62,
+            86.0
+        ],
+        [
+            241,
+            242,
+            87.0
+        ],
+        [
+            243,
+            12,
+            90.0
+        ],
+        [
+            243,
+            22,
+            90.0
+        ],
+        [
+            243,
+            119,
+            87.0
+        ],
+        [
+            246,
+            12,
+            88.0
+        ],
+        [
+            247,
+            72,
+            88.0
+        ],
+        [
+            249,
+            204,
+            89.0
+        ],
+        [
+            250,
+            99,
+            89.0
+        ],
+        [
+            251,
+            180,
+            93.0
+        ],
+        [
+            251,
+            235,
+            90.0
+        ],
+        [
+            255,
+            99,
+            92.0
+        ],
+        [
+            256,
+            257,
+            93.0
+        ],
+        [
+            258,
+            259,
+            93.0
+        ],
+        [
+            261,
+            12,
+            93.0
+        ],
+        [
+            261,
+            153,
+            94.0
+        ],
+        [
+            261,
+            259,
+            95.0
+        ],
+        [
+            263,
+            264,
+            93.0
+        ],
+        [
+            265,
+            266,
+            93.0
+        ],
+        [
+            270,
+            271,
+            94.0
+        ],
+        [
+            272,
+            273,
+            95.0
+        ],
+        [
+            274,
+            258,
+            95.0
+        ],
+        [
+            275,
+            276,
+            95.0
+        ],
+        [
+            276,
+            283,
+            99.0
+        ],
+        [
+            278,
+            279,
+            97.0
+        ],
+        [
+            280,
+            281,
+            97.0
+        ],
+        [
+            282,
+            12,
+            99.0
+        ],
+        [
+            284,
+            13,
+            99.0
+        ],
+        [
+            286,
+            287,
+            102.0
+        ],
+        [
+            289,
+            290,
+            103.0
+        ],
+        [
+            290,
+            179,
+            103.0
+        ],
+        [
+            291,
+            103,
+            103.0
+        ],
+        [
+            292,
+            293,
+            103.0
+        ],
+        [
+            295,
+            296,
+            107.0
+        ],
+        [
+            297,
+            238,
+            107.0
+        ],
+        [
+            298,
+            175,
+            107.0
+        ],
+        [
+            299,
+            300,
+            107.0
+        ],
+        [
+            304,
+            9,
+            109.0
+        ],
+        [
+            305,
+            9,
+            109.0
+        ],
+        [
+            306,
+            307,
+            110.0
+        ]
+    ],
+    "contentList": [
+        "",
+        "de wikipedia , la enciclopedia libre ir a la navegacion ir a la busqueda commons emblem under construction green",
+        "svg uno o varios wikipedistas estan trabajando actualmente en este articulo o seccion",
+        "es posible que a causa de ello haya lagunas de contenido o deficiencias de formato",
+        "si quieres , puedes ayudar y editar , pero antes de realizar correcciones mayores contactalos en sus paginas de discusion o en la pagina de discusion del articulo para poder coordinar la redaccion",
+        "la 5 hidroxitriptamina ( 5 ht ) o serotonina es un neurotransmisor que se sintetiza a partir de la transformacion del aminoacido triptofano",
+        "se la encuentra en plantas y animales interviniendo en muchos procesos fisiologicos",
+        "el 90 del total de la serotonina presente en el cuerpo humano , puede encontrarse en el tracto gastrointestinal y en las plaquetas de la sangre , el resto es sintetizado en neuronas del cerebro",
+        "su metabolismo esta asociado en varios trastornos psiquiatricos y su concentracion se ve reducida por el estres",
+        "en 1935 , el investigador italiano vittorio erspamer habia demostrado que una sustancia hasta entonces desconocida , a la que llamo enteramina , producida por las celulas enterocromafines del intestino , estimulaba la contraccion intestinal",
+        "rapport , arda green e irvine page , de la clinica de cleveland , 4 este agente fue identificado entonces quimicamente como la 5 hidroxitriptamina ( 5 ht ) por rapport y desde entonces se le han asociado una amplia gama de propiedades fisiologicas",
+        "el de 5 ht ha sido el nombre mas adoptado por la industria farmaceutica",
+        "la 5 ht es una molecula que se incluye dentro del grupo de las monoaminas sintetizada en este caso , a partir del aminoacido triptofano",
+        "6 luego de liberada desde el intestino , la serotonina puede ser encontrada en las plaquetas de la sangre , que la captan del suero y la distribuyen",
+        "la recaptacion de serotonina ( 5 ht ) , mediante la proteina transmembrana de transporte la 5 htt , representa el mecanismo principal del aclaramiento de 5 ht del plasma sanguineo",
+        "7 al llegar a la lesion de un vaso , la plaqueta libera la serotonina que actua como vasoconstrictor , funcionando asi como modulador de la coagulacion",
+        "8 un porcentaje de la serotonina es sintetizado en neuronas serotoninergicas del sistema nervioso central",
+        "durante el desarrollo prenatal es un factor trofico en el desarrollo cerebral , y presenta distintos patrones de expresion durante el desarrollo embrionario y fetal",
+        "10 se produce dentro del cerebro , y no cruza la barrera hematoencefalica",
+        "la serotonina es metabolizada a acido 5 hidroxindolacetico , principalmente por el higado , y se excreta por los rinones en su fase final",
+        "la serotonina influye en una variedad de funciones corporales y psicologicas ; por ejemplo , se relaciona con el metabolismo del hueso , la produccion de leche materna , la regeneracion hepatica y la division celular",
+        "con respecto a la sexualidad se ha demostrado que un porcentaje de las personas que toman medicamentos isrs tienen una reduccion del deseo y de su funcion sexual , como efecto secundario de la droga",
+        "varias neuronas se interconectan formando redes o circuitos neuronales , que transmiten senales por zonas definidas del sistema nervioso y las funciones complejas de este sistema nervioso son consecuencia de la interaccion entre estas redes de neuronas , y no de las caracteristicas especificas de cada neurona individual",
+        "el pericarion o soma es la zona de protoplasma de la neurona que rodea el nucleo y es el centro metabolico de la neurona , donde se realizan las actividades fundamentales",
+        "el axon unico , conduce el impulso nervioso de la neurona hacia otras celulas , ramificandose en su porcion terminal y siendo la prolongacion mas larga",
+        "las dendritas son prolongaciones plasmaticas cortas , que se encuentran en gran numero en toda la neurona y tienen como funcion recibir senales",
+        "presencia del neurotransmisor : el agente quimico debe estar localizado en los elementos presinapticos y probablemente distribuido en todo el cerebro",
+        "la neurona debe contener los precursores , las enzimas selectivas o un mecanismo de transporte especifico para el neurotransmisor",
+        "en la sinapsis debe existir receptores para el neurotransmisor",
+        "liberacion : la estimulacion de las aferencias debe producir liberacion del neurotransmisor en cantidades fisiologicas",
+        "identidad de accion : la aplicacion directa del neurotransmisor a la sinapsis debe producir efectos identicos a los producidos por estimulacion electrica",
+        "activacion del receptor del neurotransmisor la interaccion del neurotransmisor con su receptor debe inducir cambios en la membrana que produzcan potenciales postsinapticos excitatorios o inhibitorios",
+        "la estimulacion aferente o la aplicacion directa de la sustancia debe producir efectos semejantes a los producidos por la aplicacion de agentes farmacologicos",
+        "inactivacion : deben existir mecanismos de inactivacion ( difusion , enzimas metabolicas , sistemas de recaptacion ) que hagan concluir la interaccion del neurotransmisor con el receptor",
+        "neurotransmisores , son las sustancias quimicas que se encargan de la transmision de las senales a traves de las sinapsis , desde una neurona hasta la siguiente",
+        "la serotonina forma parte del grupo de neurotransmisor monoamina : noradrenalina , adrenalina , acetilcolina , histamina , dopamina , etc",
+        "sintesis del neurotransmisor : el cuerpo neuronal produce ciertas enzimas que estan implicadas en la sintesis",
+        "estas enzimas actuan sobre determinadas moleculas precursoras captadas por la neurona para formar el correspondiente neurotransmisor almacenamiento de moleculas de neurotransmisor en vesiculas sinapticas , en las cuales el contenido ( generalmente varios millares de moleculas ) es cuantico",
+        "algunas moleculas neurotransmisoras se liberan de forma constante en la terminacion , pero en cantidad insuficiente para producir una respuesta fisiologica significativa",
+        "a la neurona presinaptica llega un impulso nervioso y abre los canales de ca 2",
+        "el ca 2 entra y el neurotransmisor es vertido en el espacio sinaptico",
+        "la sustancia es capaz de estimular o inhibir rapida o lentamente , puede liberarse hacia la sangre para actuar sobre varias celulas y a distancia del sitio de liberacion , puede permitir , facilitar o antagonizar los efectos de otros neurotransmisores",
+        "tambien puede activar otras sustancias del interior de la celula para producir efectos biologicos",
+        "ademas , una misma neurona puede tener efectos diferentes sobre las estructuras postsinapticas , dependiendo del tipo de receptor postsinaptico presente",
+        "el receptor de la neurona postsinaptica envia unas respuestas intracelulares que pueden desencadenar diferentes respuestas",
+        "el neurotransmisor tiene que desaparecer por la presencia de un enzima especifico que inactive el neurotransmisor o a traves de la recaptacion , proceso mediante el que la celula presinaptica vuelve a coger el neurotransmisor y lo guarda en su interior ( implica un ahorro de energia )",
+        "las alteraciones de la sintesis , el almacenamiento , la liberacion , la degradacion de los neurotransmisores , el cambio en el numero o actividad de los receptores , pueden afectar a la neurotransmision",
+        "muchos trastornos neurologicos y psiquiatricos son debidos a un aumento o disminucion de la actividad de determinados neurotransmisores y muchas drogas pueden modificarla ; algunas producen efectos adversos , como los alucinogenos , y otras pueden corregir algunas disfunciones patologicas , como los antipsicoticos",
+        "entre las principales funciones de la serotonina esta la de regular el apetito mediante la saciedad , equilibrar el deseo sexual , controlar la temperatura corporal , la actividad motora y las funciones perceptivas y cognitivas",
+        "la serotonina interviene en otros conocidos neurotransmisores como la dopamina y la noradrenalina , que estan relacionados con la angustia , ansiedad , miedo , agresividad , asi como los problemas alimenticios",
+        "la serotonina tambien interviene en los parametros de densidad osea",
+        "16 17 las personas que toman antidepresivos del tipo inhibidores de la recaptacion de la serotonina pueden generar osteoporosis ( reducir la densidad osea )",
+        "las neuronas de los nucleos del rafe son la fuente principal de liberacion de la 5 ht en el cerebro",
+        "los nucleos del rafe son conjuntos de neuronas distribuidas en nueve grupos pares y localizadas a lo largo de toda la longitud del tronco encefalico , el cual esta centrado alrededor de la formacion reticular",
+        "asi , la activacion de este sistema serotoninergico tiene efectos en varias areas del cerebro , lo que explica los efectos terapeuticos en su modulacion",
+        "desde este punto es libre de difundirse sobre una region relativamente grande de espacio ( 20 m ) y activar los receptores 5 ht localizados sobre las dendritas , pericariones y las terminaciones presinapticas de neuronas adyacentes",
+        "no existe un receptor unico para la serotonina , sino que se ha visto que estos comprenden una gran familia de receptores con funciones especificas en las areas pre y postsinapticas",
+        "estudios farmacologicos y fisiologicos han contribuido a la definicion de muchos subtipos de receptores",
+        "los receptores postsinapticos de serotonina ( r5 ht ) tienen efectos inhitorios o excitatorios sobre las neuronas corticales",
+        "existen 7 tipos de receptores de serotonina , que a su vez presentan algunas diferencias entre especies : los receptores de 5ht 1 a 5ht 7",
+        "5ht 1a actua en los somas de las neuronas serotoninergicas o en las areas terminales de dichas neuronas , normalmente en el sistema limbico o la corteza cerebral",
+        "los receptores 5ht1b y 1d en humanos , al unir la serotonina inhiben la liberacion de dicho neurotransmisor mediante la falta de adenilato ciclasa en los receptores postsinapticos que se encuentran en la hendidura sinaptica",
+        "los 5ht 2a actuan a nivel de corteza cerebral y 5ht 2c en los plexos coroideos , controlando el liquido cefalorraquideo",
+        "se localizan en el tronco del encefalo y estan formados por 5 subunidades ( del tipo 5ht 3a y 3b ) y es muy similar al receptor nicotinico",
+        "5 ht4 se encuentra en neuronas dopaminergicas del hipocampo donde actua como heterorreceptor facilitando la liberacion de dopamina , que conlleva una mejora de los procesos cognitivos de memoria",
+        "es con este receptor de serotonina con el que actuan muchos psicotropicos , teniendo el lsd mas afinidad por este receptor que la propia serotonina",
+        "muchos farmacos contra la esquizofrenia estan relacionados con la inhibicion de estos receptores",
+        "las variaciones geneticas en los alelos que codifican para los receptores de serotonina actualmente son conocidos por tener un impacto significativo sobre la probabilidad en la generacion de ciertos problemas y desordenes fisiologicos",
+        "por ejemplo , una mutacion en el alelo que codifica para el receptor htr2a conlleva la duplicacion del riesgo de suicidio de quienes tienen ese genotipo",
+        "es muy improbable que un gen individual sea el responsable del incremento de suicidios",
+        "las mutaciones en este gen estan asociadas con la susceptibilidad a la esquizofrenia y el trastorno obsesivo compulsivo , y tambien estan asociados con la respuesta al antidepresivo citalopram en pacientes con trastorno depresivo mayor",
+        "la accion serotoninergica es terminada primariamente mediante la captacion de 5 ht en la sinapsis",
+        "se piensa que mediante un transportador de monoaminas especifico para 5 ht , el transportador de recaptacion de 5 ht , en la neurona presinaptica",
+        "varios agentes pueden inhibir la recaptacion de 5 ht incluyendo el mdma o extasis , anfetamina , cocaina , dextrometorfano ( un antitusivo ) , antidepresivos triciclicos ( tcas ) y los inhibidores selectivos de la recaptacion de serotonina ( isrs )",
+        "en el cuerpo , la serotonina es sintetizada en la neurona , tanto en el nucleo como en las terminaciones a partir del aminoacido triptofano que involucra dos enzimas : triptofano hidroxilasa ( tph ) y una l aminoacido aromatico descarboxilasa ( ddc )",
+        "una vez que el triptofano se encuentra dentro de las neuronas adecuadas la enzima triptofano hidroxilasa generara 5 hidroxitriptofano , mediante la adicion de un grupo hidroxilo al triptofano , formando la 5 hidroxitriptofano",
+        "la descarboxilasa de aminoacidos , la segunda enzima presente en este proceso , toma la 5 hidroxitriptofano y le quita el grupo carboxilo dando como resultado la serotonina",
+        "la reaccion mediada por tph es una etapa limitante en la via",
+        "la tph ha sido vista en dos formas existentes en la naturaleza : tph1 , encontrada en varios tejidos , y la tph2 , que es una isoforma cerebro especifica",
+        "tambien hay evidencia de como las hormonas ovaricas pueden afectar la expresion de la tph en varias especies , sugiriendo un posible mecanismo para la depresion posparto y el sindrome de estres premenstrual",
+        "como ya se menciono la sintesis de la serotonina tiene lugar en las neuronas serotoninergicas donde se produce a partir del triptofano",
+        "el triptofano es un aminoacido aromatico neutro y compite por el transportador de membrana con la tirosina",
+        "la serotonina ingerida por via oral no pasa dentro de las vias serotoninergicas del sistema nervioso central porque esta no cruza la barrera hematoencefalica",
+        "sin embargo , el triptofano y sus metabolitos 5 hidroxitriptofano ( 5 htp ) , con los cuales la serotonina es sintetizada , si pueden , y cruzan la barrera hematoencefalica",
+        "estos agentes estan disponibles como suplementos dietarios y pueden ser agentes serotoninergicos efectivos",
+        "un producto del clivaje es el acido 5 hidroxindolacetico ( 5 hiaa ) , el cual es excretado en la orina",
+        "algunas veces , la serotonina y el 5 hiaa son producidos en cantidades excesivas por ciertos tumores o canceres , y los niveles de tales sustancias puede ser medida en orina para verificar la presencia de dichas patologias",
+        "investigaciones recientes sugieren que la serotonina juega un papel importante en la regeneracion hepatica y actua como mitogeno ( que induce la division celular ) a lo largo del cuerpo",
+        "algunos hongos alucinogenos , el lsd y el mdma actuan intensamente en los receptores serotoninicos",
+        "entre las funciones fisiologicas de la serotonina destaca la inhibicion de la secrecion gastrica , la estimulacion de la musculatura lisa y la secrecion de hormonas por parte de la hipofisis",
+        "dichos niveles bajos se han asociado tambien a estados agresivos , depresion y ansiedad e incluso a las migranas , debido a que cuando los niveles de serotonina bajan , los vasos sanguineos se dilatan",
+        "la serotonina tiene efecto modulador general e inhibidor de la conducta , influye sobre casi todas las funciones cerebrales , inhibiendo en forma directa o por estimulacion del gaba ( acido gamma amino butirico )",
+        "25 de este modo regula la timia que es el comportamiento exterior del individuo , el sueno , actividad sexual , apetito , ritmos circadianos , funciones neuroendocrinas , temperatura corporal , dolor , actividad motora y funciones cognitivas : regulacion del sueno : la serotonina es el mediador responsable de las fases iii y iv del sueno lento",
+        "el ritmo sueno vigilia esta regulado por el balance adrenergico serotoninergico , y la disminucion de la latencia rem , caracteristica de los estados depresivos que es debida a un desbalance serotoninergico colinergico",
+        "regulacion de la actividad sexual : la serotonina presenta un efecto inhibitorio sobre la liberacion hipotalamica de gonadotrofinas con la consecuente disminucion de la respuesta sexual normal",
+        "regulacion de las funciones neuroendocrinas : la serotonina es uno de los principales neurotransmisores del nucleo supraquiasmatico hipotalamico del cual depende la sincronizacion de los ritmos circadianos endogenos de todo el organismo",
+        "la serotonina es un neuromodulador nociceptivo importante",
+        "los agonistas producen analgesia en animales de laboratorio , siendo bien conocido el efecto antalgico de los antidepresivos triciclicos",
+        "el comportamiento humano depende de la cantidad de luz que el cuerpo recibe por dia",
+        "cuando llega la primavera y el verano , la serotonina se condiciona a la luz que recibe del organismo , lo que conlleva un aumento progresivo del bienestar y la felicidad con mayor estimulo sexual , producto de las concentraciones de este neurotransmisor en el cerebro",
+        "se podria decir que la serotonina es la hormona del placer , ademas de ser la hormona del humor",
+        "para que se produzca la eyaculacion u orgasmo , el hipotalamo libera oxitocina a traves de la hipofisis ( hormona que se segrega en la neurohipofisis y que tambien es responsable de las contracciones durante el parto )",
+        "este mecanismo estimula la liberacion de hormonas como somatotropina ( hormona del crecimiento ) y prolactina ( tiene accion sobre las glandulas mamarias actuando en su crecimiento y formacion de leche ) e inhibe la secrecion de las hormonas luteinizante ( lh ) , y foliculoestimulante ( fsh ) que son las encargadas de estimular la sintesis de amp ciclico que a su vez estimula la biosintesis de esteroides sexuales",
+        "dahstrom y fuxe describieron 9 grupos de celulas que contienen serotonina de b1 a b9 : el grupo mas grande de celulas serotonergicas es el grupo b7 contiguo al b6",
+        "el grupo b6 y b7 son el nucleo dorsal del rafe",
+        "el b8 es el nucleo medio del rafe",
+        "patients with high bone mass phenotype owing to lrp5 t253i mutation have low plasma levels of serotonin",
+        "en 1964 , dahlstrom y fuxe ( discutido en 2 ) , usando la tecnica falck hillarp de histofluorescencia , observaron que la mayoria de los nucleos neuronales serotoninergicos son encontrados en grupos celulares corporales , que previamente habian sido designados como nucleos del rafe",
+        "no has accedido discusion contribuciones crear una cuenta acceder",
+        "lo que enlaza aqui cambios en enlazadas subir archivo paginas especiales enlace permanente informacion de la pagina elemento de wikidata citar esta pagina",
+        "wikipedia es una marca registrada de la fundacion wikimedia , inc"
+    ],
+    "height": 308,
+    "net": {
+        "functions": [
+            [
+                "null"
+            ]
+        ],
+        "graph": {
+            "connects": [],
+            "factor": 0,
+            "factorFinnish": 0,
+            "factorStart": 0,
+            "finnish": [],
+            "first": 0,
+            "height": 0,
+            "id": "",
+            "iterations": 0,
+            "name": "net",
+            "nodeNames": [
+                "navegacion",
+                "wikipedistas",
+                "seccion",
+                "causa",
+                "deficiencias",
+                "formato",
+                "correcciones",
+                "paginas",
+                "discusion",
+                "pagina",
+                "redaccion",
+                "hidroxitriptamina",
+                "serotonina",
+                "neurotransmisor",
+                "transformacion",
+                "triptofano",
+                "animales",
+                "fisiologicos",
+                "humano",
+                "sangre",
+                "sintetizado",
+                "metabolismo",
+                "asociado",
+                "concentracion",
+                "estres",
+                "investigador",
+                "italiano",
+                "vittorio",
+                "sustancia",
+                "enteramina",
+                "enterocromafines",
+                "intestino",
+                "contraccion",
+                "clinica",
+                "agente",
+                "identificado",
+                "entonces",
+                "propiedades",
+                "fisiologicas",
+                "adoptado",
+                "farmaceutica",
+                "grupo",
+                "monoaminas",
+                "liberada",
+                "suero",
+                "recaptacion",
+                "proteina",
+                "transmembrana",
+                "representa",
+                "mecanismo",
+                "aclaramiento",
+                "sanguineo",
+                "lesion",
+                "vasoconstrictor",
+                "modulador",
+                "coagulacion",
+                "porcentaje",
+                "serotoninergicas",
+                "factor",
+                "trofico",
+                "patrones",
+                "expresion",
+                "hidroxindolacetico",
+                "higado",
+                "rinones",
+                "variedad",
+                "psicologicas",
+                "produccion",
+                "leche",
+                "materna",
+                "regeneracion",
+                "hepatica",
+                "division",
+                "sexualidad",
+                "reduccion",
+                "funcion",
+                "interconectan",
+                "circuitos",
+                "complejas",
+                "consecuencia",
+                "interaccion",
+                "caracteristicas",
+                "especificas",
+                "actividades",
+                "unico",
+                "porcion",
+                "prolongacion",
+                "dendritas",
+                "prolongaciones",
+                "plasmaticas",
+                "numero",
+                "presencia",
+                "quimico",
+                "localizado",
+                "presinapticos",
+                "precursores",
+                "especifico",
+                "receptores",
+                "liberacion",
+                "estimulacion",
+                "aferencias",
+                "cantidades",
+                "identidad",
+                "accion",
+                "aplicacion",
+                "identicos",
+                "activacion",
+                "receptor",
+                "membrana",
+                "postsinapticos",
+                "excitatorios",
+                "inhibitorios",
+                "semejantes",
+                "agentes",
+                "farmacologicos",
+                "inactivacion",
+                "mecanismos",
+                "difusion",
+                "neurotransmisores",
+                "sustancias",
+                "quimicas",
+                "transmision",
+                "siguiente",
+                "monoamina",
+                "noradrenalina",
+                "adrenalina",
+                "acetilcolina",
+                "histamina",
+                "dopamina",
+                "precursoras",
+                "captadas",
+                "correspondiente",
+                "almacenamiento",
+                "sinapticas",
+                "cuales",
+                "millares",
+                "cuantico",
+                "neurotransmisoras",
+                "terminacion",
+                "cantidad",
+                "insuficiente",
+                "fisiologica",
+                "presinaptica",
+                "sinaptico",
+                "distancia",
+                "interior",
+                "biologicos",
+                "postsinapticas",
+                "postsinaptico",
+                "postsinaptica",
+                "intracelulares",
+                "alteraciones",
+                "degradacion",
+                "actividad",
+                "neurotransmision",
+                "neurologicos",
+                "disminucion",
+                "determinados",
+                "alucinogenos",
+                "disfunciones",
+                "patologicas",
+                "antipsicoticos",
+                "principales",
+                "apetito",
+                "saciedad",
+                "motora",
+                "relacionados",
+                "angustia",
+                "ansiedad",
+                "agresividad",
+                "parametros",
+                "densidad",
+                "inhibidores",
+                "fuente",
+                "conjuntos",
+                "grupos",
+                "longitud",
+                "centrado",
+                "alrededor",
+                "formacion",
+                "serotoninergico",
+                "terapeuticos",
+                "modulacion",
+                "localizados",
+                "pericariones",
+                "terminaciones",
+                "presinapticas",
+                "adyacentes",
+                "definicion",
+                "inhitorios",
+                "diferencias",
+                "limbico",
+                "corteza",
+                "humanos",
+                "adenilato",
+                "sinaptica",
+                "formados",
+                "subunidades",
+                "nicotinico",
+                "dopaminergicas",
+                "heterorreceptor",
+                "memoria",
+                "afinidad",
+                "farmacos",
+                "inhibicion",
+                "variaciones",
+                "geneticas",
+                "actualmente",
+                "probabilidad",
+                "generacion",
+                "desordenes",
+                "mutacion",
+                "codifica",
+                "duplicacion",
+                "riesgo",
+                "quienes",
+                "mutaciones",
+                "susceptibilidad",
+                "asociados",
+                "pacientes",
+                "serotoninergica",
+                "captacion",
+                "transportador",
+                "anfetamina",
+                "cocaina",
+                "dextrometorfano",
+                "aromatico",
+                "hidroxitriptofano",
+                "adicion",
+                "quita",
+                "reaccion",
+                "vista",
+                "naturaleza",
+                "especifica",
+                "evidencia",
+                "depresion",
+                "tirosina",
+                "metabolitos",
+                "serotoninergicos",
+                "clivaje",
+                "excretado",
+                "tumores",
+                "canceres",
+                "niveles",
+                "patologias",
+                "investigaciones",
+                "recientes",
+                "mitogeno",
+                "serotoninicos",
+                "destaca",
+                "secrecion",
+                "estados",
+                "migranas",
+                "sanguineos",
+                "dilatan",
+                "inhibidor",
+                "comportamiento",
+                "exterior",
+                "circadianos",
+                "neuroendocrinas",
+                "dolor",
+                "regulacion",
+                "mediador",
+                "regulado",
+                "adrenergico",
+                "latencia",
+                "caracteristica",
+                "colinergico",
+                "inhibitorio",
+                "hipotalamica",
+                "gonadotrofinas",
+                "consecuente",
+                "supraquiasmatico",
+                "hipotalamico",
+                "sincronizacion",
+                "endogenos",
+                "organismo",
+                "neuromodulador",
+                "agonistas",
+                "analgesia",
+                "laboratorio",
+                "antalgico",
+                "verano",
+                "felicidad",
+                "concentraciones",
+                "humor",
+                "eyaculacion",
+                "oxitocina",
+                "contracciones",
+                "somatotropina",
+                "crecimiento",
+                "prolactina",
+                "esteroides",
+                "sexuales",
+                "serotonergicas",
+                "tecnica",
+                "histofluorescencia",
+                "mayoria",
+                "encontrados",
+                "celulares",
+                "previamente",
+                "designados",
+                "contribuciones",
+                "permanente",
+                "informacion",
+                "wikidata",
+                "marca",
+                "fundacion"
+            ],
+            "nodes": [
+                "navegacion_0",
+                "wikipedistas_1",
+                "seccion_2",
+                "causa_3",
+                "deficiencias_4",
+                "formato_5",
+                "correcciones_6",
+                "paginas_7",
+                "discusion_8",
+                "pagina_9",
+                "redaccion_10",
+                "hidroxitriptamina_11",
+                "serotonina_12",
+                "neurotransmisor_13",
+                "transformacion_14",
+                "triptofano_15",
+                "animales_16",
+                "fisiologicos_17",
+                "humano_18",
+                "sangre_19",
+                "sintetizado_20",
+                "metabolismo_21",
+                "asociado_22",
+                "concentracion_23",
+                "estres_24",
+                "investigador_25",
+                "italiano_26",
+                "vittorio_27",
+                "sustancia_28",
+                "enteramina_29",
+                "enterocromafines_30",
+                "intestino_31",
+                "contraccion_32",
+                "clinica_33",
+                "agente_34",
+                "identificado_35",
+                "entonces_36",
+                "propiedades_37",
+                "fisiologicas_38",
+                "adoptado_39",
+                "farmaceutica_40",
+                "grupo_41",
+                "monoaminas_42",
+                "liberada_43",
+                "suero_44",
+                "recaptacion_45",
+                "proteina_46",
+                "transmembrana_47",
+                "representa_48",
+                "mecanismo_49",
+                "aclaramiento_50",
+                "sanguineo_51",
+                "lesion_52",
+                "vasoconstrictor_53",
+                "modulador_54",
+                "coagulacion_55",
+                "porcentaje_56",
+                "serotoninergicas_57",
+                "factor_58",
+                "trofico_59",
+                "patrones_60",
+                "expresion_61",
+                "hidroxindolacetico_62",
+                "higado_63",
+                "rinones_64",
+                "variedad_65",
+                "psicologicas_66",
+                "produccion_67",
+                "leche_68",
+                "materna_69",
+                "regeneracion_70",
+                "hepatica_71",
+                "division_72",
+                "sexualidad_73",
+                "reduccion_74",
+                "funcion_75",
+                "interconectan_76",
+                "circuitos_77",
+                "complejas_78",
+                "consecuencia_79",
+                "interaccion_80",
+                "caracteristicas_81",
+                "especificas_82",
+                "actividades_83",
+                "unico_84",
+                "porcion_85",
+                "prolongacion_86",
+                "dendritas_87",
+                "prolongaciones_88",
+                "plasmaticas_89",
+                "numero_90",
+                "presencia_91",
+                "quimico_92",
+                "localizado_93",
+                "presinapticos_94",
+                "precursores_95",
+                "especifico_96",
+                "receptores_97",
+                "liberacion_98",
+                "estimulacion_99",
+                "aferencias_100",
+                "cantidades_101",
+                "identidad_102",
+                "accion_103",
+                "aplicacion_104",
+                "identicos_105",
+                "activacion_106",
+                "receptor_107",
+                "membrana_108",
+                "postsinapticos_109",
+                "excitatorios_110",
+                "inhibitorios_111",
+                "semejantes_112",
+                "agentes_113",
+                "farmacologicos_114",
+                "inactivacion_115",
+                "mecanismos_116",
+                "difusion_117",
+                "neurotransmisores_118",
+                "sustancias_119",
+                "quimicas_120",
+                "transmision_121",
+                "siguiente_122",
+                "monoamina_123",
+                "noradrenalina_124",
+                "adrenalina_125",
+                "acetilcolina_126",
+                "histamina_127",
+                "dopamina_128",
+                "precursoras_129",
+                "captadas_130",
+                "correspondiente_131",
+                "almacenamiento_132",
+                "sinapticas_133",
+                "cuales_134",
+                "millares_135",
+                "cuantico_136",
+                "neurotransmisoras_137",
+                "terminacion_138",
+                "cantidad_139",
+                "insuficiente_140",
+                "fisiologica_141",
+                "presinaptica_142",
+                "sinaptico_143",
+                "distancia_144",
+                "interior_145",
+                "biologicos_146",
+                "postsinapticas_147",
+                "postsinaptico_148",
+                "postsinaptica_149",
+                "intracelulares_150",
+                "alteraciones_151",
+                "degradacion_152",
+                "actividad_153",
+                "neurotransmision_154",
+                "neurologicos_155",
+                "disminucion_156",
+                "determinados_157",
+                "alucinogenos_158",
+                "disfunciones_159",
+                "patologicas_160",
+                "antipsicoticos_161",
+                "principales_162",
+                "apetito_163",
+                "saciedad_164",
+                "motora_165",
+                "relacionados_166",
+                "angustia_167",
+                "ansiedad_168",
+                "agresividad_169",
+                "parametros_170",
+                "densidad_171",
+                "inhibidores_172",
+                "fuente_173",
+                "conjuntos_174",
+                "grupos_175",
+                "longitud_176",
+                "centrado_177",
+                "alrededor_178",
+                "formacion_179",
+                "serotoninergico_180",
+                "terapeuticos_181",
+                "modulacion_182",
+                "localizados_183",
+                "pericariones_184",
+                "terminaciones_185",
+                "presinapticas_186",
+                "adyacentes_187",
+                "definicion_188",
+                "inhitorios_189",
+                "diferencias_190",
+                "limbico_191",
+                "corteza_192",
+                "humanos_193",
+                "adenilato_194",
+                "sinaptica_195",
+                "formados_196",
+                "subunidades_197",
+                "nicotinico_198",
+                "dopaminergicas_199",
+                "heterorreceptor_200",
+                "memoria_201",
+                "afinidad_202",
+                "farmacos_203",
+                "inhibicion_204",
+                "variaciones_205",
+                "geneticas_206",
+                "actualmente_207",
+                "probabilidad_208",
+                "generacion_209",
+                "desordenes_210",
+                "mutacion_211",
+                "codifica_212",
+                "duplicacion_213",
+                "riesgo_214",
+                "quienes_215",
+                "mutaciones_216",
+                "susceptibilidad_217",
+                "asociados_218",
+                "pacientes_219",
+                "serotoninergica_220",
+                "captacion_221",
+                "transportador_222",
+                "anfetamina_223",
+                "cocaina_224",
+                "dextrometorfano_225",
+                "aromatico_226",
+                "hidroxitriptofano_227",
+                "adicion_228",
+                "quita_229",
+                "reaccion_230",
+                "vista_231",
+                "naturaleza_232",
+                "especifica_233",
+                "evidencia_234",
+                "depresion_235",
+                "tirosina_236",
+                "metabolitos_237",
+                "serotoninergicos_238",
+                "clivaje_239",
+                "excretado_240",
+                "tumores_241",
+                "canceres_242",
+                "niveles_243",
+                "patologias_244",
+                "investigaciones_245",
+                "recientes_246",
+                "mitogeno_247",
+                "serotoninicos_248",
+                "destaca_249",
+                "secrecion_250",
+                "estados_251",
+                "migranas_252",
+                "sanguineos_253",
+                "dilatan_254",
+                "inhibidor_255",
+                "comportamiento_256",
+                "exterior_257",
+                "circadianos_258",
+                "neuroendocrinas_259",
+                "dolor_260",
+                "regulacion_261",
+                "mediador_262",
+                "regulado_263",
+                "adrenergico_264",
+                "latencia_265",
+                "caracteristica_266",
+                "colinergico_267",
+                "inhibitorio_268",
+                "hipotalamica_269",
+                "gonadotrofinas_270",
+                "consecuente_271",
+                "supraquiasmatico_272",
+                "hipotalamico_273",
+                "sincronizacion_274",
+                "endogenos_275",
+                "organismo_276",
+                "neuromodulador_277",
+                "agonistas_278",
+                "analgesia_279",
+                "laboratorio_280",
+                "antalgico_281",
+                "verano_282",
+                "felicidad_283",
+                "concentraciones_284",
+                "humor_285",
+                "eyaculacion_286",
+                "oxitocina_287",
+                "contracciones_288",
+                "somatotropina_289",
+                "crecimiento_290",
+                "prolactina_291",
+                "esteroides_292",
+                "sexuales_293",
+                "serotonergicas_294",
+                "tecnica_295",
+                "histofluorescencia_296",
+                "mayoria_297",
+                "encontrados_298",
+                "celulares_299",
+                "previamente_300",
+                "designados_301",
+                "contribuciones_302",
+                "permanente_303",
+                "informacion_304",
+                "wikidata_305",
+                "marca_306",
+                "fundacion_307"
+            ],
+            "start": [],
+            "width": 0
+        },
+        "nodes": [
+            {
+                "function": "null",
+                "id": "navegacion_0",
+                "name": "navegacion"
+            },
+            {
+                "function": "null",
+                "id": "wikipedistas_1",
+                "name": "wikipedistas"
+            },
+            {
+                "function": "null",
+                "id": "seccion_2",
+                "name": "seccion"
+            },
+            {
+                "function": "null",
+                "id": "causa_3",
+                "name": "causa"
+            },
+            {
+                "function": "null",
+                "id": "deficiencias_4",
+                "name": "deficiencias"
+            },
+            {
+                "function": "null",
+                "id": "formato_5",
+                "name": "formato"
+            },
+            {
+                "function": "null",
+                "id": "correcciones_6",
+                "name": "correcciones"
+            },
+            {
+                "function": "null",
+                "id": "paginas_7",
+                "name": "paginas"
+            },
+            {
+                "function": "null",
+                "id": "discusion_8",
+                "name": "discusion"
+            },
+            {
+                "function": "null",
+                "id": "pagina_9",
+                "name": "pagina"
+            },
+            {
+                "function": "null",
+                "id": "redaccion_10",
+                "name": "redaccion"
+            },
+            {
+                "function": "null",
+                "id": "hidroxitriptamina_11",
+                "name": "hidroxitriptamina"
+            },
+            {
+                "function": "null",
+                "id": "serotonina_12",
+                "name": "serotonina"
+            },
+            {
+                "function": "null",
+                "id": "neurotransmisor_13",
+                "name": "neurotransmisor"
+            },
+            {
+                "function": "null",
+                "id": "transformacion_14",
+                "name": "transformacion"
+            },
+            {
+                "function": "null",
+                "id": "triptofano_15",
+                "name": "triptofano"
+            },
+            {
+                "function": "null",
+                "id": "animales_16",
+                "name": "animales"
+            },
+            {
+                "function": "null",
+                "id": "fisiologicos_17",
+                "name": "fisiologicos"
+            },
+            {
+                "function": "null",
+                "id": "humano_18",
+                "name": "humano"
+            },
+            {
+                "function": "null",
+                "id": "sangre_19",
+                "name": "sangre"
+            },
+            {
+                "function": "null",
+                "id": "sintetizado_20",
+                "name": "sintetizado"
+            },
+            {
+                "function": "null",
+                "id": "metabolismo_21",
+                "name": "metabolismo"
+            },
+            {
+                "function": "null",
+                "id": "asociado_22",
+                "name": "asociado"
+            },
+            {
+                "function": "null",
+                "id": "concentracion_23",
+                "name": "concentracion"
+            },
+            {
+                "function": "null",
+                "id": "estres_24",
+                "name": "estres"
+            },
+            {
+                "function": "null",
+                "id": "investigador_25",
+                "name": "investigador"
+            },
+            {
+                "function": "null",
+                "id": "italiano_26",
+                "name": "italiano"
+            },
+            {
+                "function": "null",
+                "id": "vittorio_27",
+                "name": "vittorio"
+            },
+            {
+                "function": "null",
+                "id": "sustancia_28",
+                "name": "sustancia"
+            },
+            {
+                "function": "null",
+                "id": "enteramina_29",
+                "name": "enteramina"
+            },
+            {
+                "function": "null",
+                "id": "enterocromafines_30",
+                "name": "enterocromafines"
+            },
+            {
+                "function": "null",
+                "id": "intestino_31",
+                "name": "intestino"
+            },
+            {
+                "function": "null",
+                "id": "contraccion_32",
+                "name": "contraccion"
+            },
+            {
+                "function": "null",
+                "id": "clinica_33",
+                "name": "clinica"
+            },
+            {
+                "function": "null",
+                "id": "agente_34",
+                "name": "agente"
+            },
+            {
+                "function": "null",
+                "id": "identificado_35",
+                "name": "identificado"
+            },
+            {
+                "function": "null",
+                "id": "entonces_36",
+                "name": "entonces"
+            },
+            {
+                "function": "null",
+                "id": "propiedades_37",
+                "name": "propiedades"
+            },
+            {
+                "function": "null",
+                "id": "fisiologicas_38",
+                "name": "fisiologicas"
+            },
+            {
+                "function": "null",
+                "id": "adoptado_39",
+                "name": "adoptado"
+            },
+            {
+                "function": "null",
+                "id": "farmaceutica_40",
+                "name": "farmaceutica"
+            },
+            {
+                "function": "null",
+                "id": "grupo_41",
+                "name": "grupo"
+            },
+            {
+                "function": "null",
+                "id": "monoaminas_42",
+                "name": "monoaminas"
+            },
+            {
+                "function": "null",
+                "id": "liberada_43",
+                "name": "liberada"
+            },
+            {
+                "function": "null",
+                "id": "suero_44",
+                "name": "suero"
+            },
+            {
+                "function": "null",
+                "id": "recaptacion_45",
+                "name": "recaptacion"
+            },
+            {
+                "function": "null",
+                "id": "proteina_46",
+                "name": "proteina"
+            },
+            {
+                "function": "null",
+                "id": "transmembrana_47",
+                "name": "transmembrana"
+            },
+            {
+                "function": "null",
+                "id": "representa_48",
+                "name": "representa"
+            },
+            {
+                "function": "null",
+                "id": "mecanismo_49",
+                "name": "mecanismo"
+            },
+            {
+                "function": "null",
+                "id": "aclaramiento_50",
+                "name": "aclaramiento"
+            },
+            {
+                "function": "null",
+                "id": "sanguineo_51",
+                "name": "sanguineo"
+            },
+            {
+                "function": "null",
+                "id": "lesion_52",
+                "name": "lesion"
+            },
+            {
+                "function": "null",
+                "id": "vasoconstrictor_53",
+                "name": "vasoconstrictor"
+            },
+            {
+                "function": "null",
+                "id": "modulador_54",
+                "name": "modulador"
+            },
+            {
+                "function": "null",
+                "id": "coagulacion_55",
+                "name": "coagulacion"
+            },
+            {
+                "function": "null",
+                "id": "porcentaje_56",
+                "name": "porcentaje"
+            },
+            {
+                "function": "null",
+                "id": "serotoninergicas_57",
+                "name": "serotoninergicas"
+            },
+            {
+                "function": "null",
+                "id": "factor_58",
+                "name": "factor"
+            },
+            {
+                "function": "null",
+                "id": "trofico_59",
+                "name": "trofico"
+            },
+            {
+                "function": "null",
+                "id": "patrones_60",
+                "name": "patrones"
+            },
+            {
+                "function": "null",
+                "id": "expresion_61",
+                "name": "expresion"
+            },
+            {
+                "function": "null",
+                "id": "hidroxindolacetico_62",
+                "name": "hidroxindolacetico"
+            },
+            {
+                "function": "null",
+                "id": "higado_63",
+                "name": "higado"
+            },
+            {
+                "function": "null",
+                "id": "rinones_64",
+                "name": "rinones"
+            },
+            {
+                "function": "null",
+                "id": "variedad_65",
+                "name": "variedad"
+            },
+            {
+                "function": "null",
+                "id": "psicologicas_66",
+                "name": "psicologicas"
+            },
+            {
+                "function": "null",
+                "id": "produccion_67",
+                "name": "produccion"
+            },
+            {
+                "function": "null",
+                "id": "leche_68",
+                "name": "leche"
+            },
+            {
+                "function": "null",
+                "id": "materna_69",
+                "name": "materna"
+            },
+            {
+                "function": "null",
+                "id": "regeneracion_70",
+                "name": "regeneracion"
+            },
+            {
+                "function": "null",
+                "id": "hepatica_71",
+                "name": "hepatica"
+            },
+            {
+                "function": "null",
+                "id": "division_72",
+                "name": "division"
+            },
+            {
+                "function": "null",
+                "id": "sexualidad_73",
+                "name": "sexualidad"
+            },
+            {
+                "function": "null",
+                "id": "reduccion_74",
+                "name": "reduccion"
+            },
+            {
+                "function": "null",
+                "id": "funcion_75",
+                "name": "funcion"
+            },
+            {
+                "function": "null",
+                "id": "interconectan_76",
+                "name": "interconectan"
+            },
+            {
+                "function": "null",
+                "id": "circuitos_77",
+                "name": "circuitos"
+            },
+            {
+                "function": "null",
+                "id": "complejas_78",
+                "name": "complejas"
+            },
+            {
+                "function": "null",
+                "id": "consecuencia_79",
+                "name": "consecuencia"
+            },
+            {
+                "function": "null",
+                "id": "interaccion_80",
+                "name": "interaccion"
+            },
+            {
+                "function": "null",
+                "id": "caracteristicas_81",
+                "name": "caracteristicas"
+            },
+            {
+                "function": "null",
+                "id": "especificas_82",
+                "name": "especificas"
+            },
+            {
+                "function": "null",
+                "id": "actividades_83",
+                "name": "actividades"
+            },
+            {
+                "function": "null",
+                "id": "unico_84",
+                "name": "unico"
+            },
+            {
+                "function": "null",
+                "id": "porcion_85",
+                "name": "porcion"
+            },
+            {
+                "function": "null",
+                "id": "prolongacion_86",
+                "name": "prolongacion"
+            },
+            {
+                "function": "null",
+                "id": "dendritas_87",
+                "name": "dendritas"
+            },
+            {
+                "function": "null",
+                "id": "prolongaciones_88",
+                "name": "prolongaciones"
+            },
+            {
+                "function": "null",
+                "id": "plasmaticas_89",
+                "name": "plasmaticas"
+            },
+            {
+                "function": "null",
+                "id": "numero_90",
+                "name": "numero"
+            },
+            {
+                "function": "null",
+                "id": "presencia_91",
+                "name": "presencia"
+            },
+            {
+                "function": "null",
+                "id": "quimico_92",
+                "name": "quimico"
+            },
+            {
+                "function": "null",
+                "id": "localizado_93",
+                "name": "localizado"
+            },
+            {
+                "function": "null",
+                "id": "presinapticos_94",
+                "name": "presinapticos"
+            },
+            {
+                "function": "null",
+                "id": "precursores_95",
+                "name": "precursores"
+            },
+            {
+                "function": "null",
+                "id": "especifico_96",
+                "name": "especifico"
+            },
+            {
+                "function": "null",
+                "id": "receptores_97",
+                "name": "receptores"
+            },
+            {
+                "function": "null",
+                "id": "liberacion_98",
+                "name": "liberacion"
+            },
+            {
+                "function": "null",
+                "id": "estimulacion_99",
+                "name": "estimulacion"
+            },
+            {
+                "function": "null",
+                "id": "aferencias_100",
+                "name": "aferencias"
+            },
+            {
+                "function": "null",
+                "id": "cantidades_101",
+                "name": "cantidades"
+            },
+            {
+                "function": "null",
+                "id": "identidad_102",
+                "name": "identidad"
+            },
+            {
+                "function": "null",
+                "id": "accion_103",
+                "name": "accion"
+            },
+            {
+                "function": "null",
+                "id": "aplicacion_104",
+                "name": "aplicacion"
+            },
+            {
+                "function": "null",
+                "id": "identicos_105",
+                "name": "identicos"
+            },
+            {
+                "function": "null",
+                "id": "activacion_106",
+                "name": "activacion"
+            },
+            {
+                "function": "null",
+                "id": "receptor_107",
+                "name": "receptor"
+            },
+            {
+                "function": "null",
+                "id": "membrana_108",
+                "name": "membrana"
+            },
+            {
+                "function": "null",
+                "id": "postsinapticos_109",
+                "name": "postsinapticos"
+            },
+            {
+                "function": "null",
+                "id": "excitatorios_110",
+                "name": "excitatorios"
+            },
+            {
+                "function": "null",
+                "id": "inhibitorios_111",
+                "name": "inhibitorios"
+            },
+            {
+                "function": "null",
+                "id": "semejantes_112",
+                "name": "semejantes"
+            },
+            {
+                "function": "null",
+                "id": "agentes_113",
+                "name": "agentes"
+            },
+            {
+                "function": "null",
+                "id": "farmacologicos_114",
+                "name": "farmacologicos"
+            },
+            {
+                "function": "null",
+                "id": "inactivacion_115",
+                "name": "inactivacion"
+            },
+            {
+                "function": "null",
+                "id": "mecanismos_116",
+                "name": "mecanismos"
+            },
+            {
+                "function": "null",
+                "id": "difusion_117",
+                "name": "difusion"
+            },
+            {
+                "function": "null",
+                "id": "neurotransmisores_118",
+                "name": "neurotransmisores"
+            },
+            {
+                "function": "null",
+                "id": "sustancias_119",
+                "name": "sustancias"
+            },
+            {
+                "function": "null",
+                "id": "quimicas_120",
+                "name": "quimicas"
+            },
+            {
+                "function": "null",
+                "id": "transmision_121",
+                "name": "transmision"
+            },
+            {
+                "function": "null",
+                "id": "siguiente_122",
+                "name": "siguiente"
+            },
+            {
+                "function": "null",
+                "id": "monoamina_123",
+                "name": "monoamina"
+            },
+            {
+                "function": "null",
+                "id": "noradrenalina_124",
+                "name": "noradrenalina"
+            },
+            {
+                "function": "null",
+                "id": "adrenalina_125",
+                "name": "adrenalina"
+            },
+            {
+                "function": "null",
+                "id": "acetilcolina_126",
+                "name": "acetilcolina"
+            },
+            {
+                "function": "null",
+                "id": "histamina_127",
+                "name": "histamina"
+            },
+            {
+                "function": "null",
+                "id": "dopamina_128",
+                "name": "dopamina"
+            },
+            {
+                "function": "null",
+                "id": "precursoras_129",
+                "name": "precursoras"
+            },
+            {
+                "function": "null",
+                "id": "captadas_130",
+                "name": "captadas"
+            },
+            {
+                "function": "null",
+                "id": "correspondiente_131",
+                "name": "correspondiente"
+            },
+            {
+                "function": "null",
+                "id": "almacenamiento_132",
+                "name": "almacenamiento"
+            },
+            {
+                "function": "null",
+                "id": "sinapticas_133",
+                "name": "sinapticas"
+            },
+            {
+                "function": "null",
+                "id": "cuales_134",
+                "name": "cuales"
+            },
+            {
+                "function": "null",
+                "id": "millares_135",
+                "name": "millares"
+            },
+            {
+                "function": "null",
+                "id": "cuantico_136",
+                "name": "cuantico"
+            },
+            {
+                "function": "null",
+                "id": "neurotransmisoras_137",
+                "name": "neurotransmisoras"
+            },
+            {
+                "function": "null",
+                "id": "terminacion_138",
+                "name": "terminacion"
+            },
+            {
+                "function": "null",
+                "id": "cantidad_139",
+                "name": "cantidad"
+            },
+            {
+                "function": "null",
+                "id": "insuficiente_140",
+                "name": "insuficiente"
+            },
+            {
+                "function": "null",
+                "id": "fisiologica_141",
+                "name": "fisiologica"
+            },
+            {
+                "function": "null",
+                "id": "presinaptica_142",
+                "name": "presinaptica"
+            },
+            {
+                "function": "null",
+                "id": "sinaptico_143",
+                "name": "sinaptico"
+            },
+            {
+                "function": "null",
+                "id": "distancia_144",
+                "name": "distancia"
+            },
+            {
+                "function": "null",
+                "id": "interior_145",
+                "name": "interior"
+            },
+            {
+                "function": "null",
+                "id": "biologicos_146",
+                "name": "biologicos"
+            },
+            {
+                "function": "null",
+                "id": "postsinapticas_147",
+                "name": "postsinapticas"
+            },
+            {
+                "function": "null",
+                "id": "postsinaptico_148",
+                "name": "postsinaptico"
+            },
+            {
+                "function": "null",
+                "id": "postsinaptica_149",
+                "name": "postsinaptica"
+            },
+            {
+                "function": "null",
+                "id": "intracelulares_150",
+                "name": "intracelulares"
+            },
+            {
+                "function": "null",
+                "id": "alteraciones_151",
+                "name": "alteraciones"
+            },
+            {
+                "function": "null",
+                "id": "degradacion_152",
+                "name": "degradacion"
+            },
+            {
+                "function": "null",
+                "id": "actividad_153",
+                "name": "actividad"
+            },
+            {
+                "function": "null",
+                "id": "neurotransmision_154",
+                "name": "neurotransmision"
+            },
+            {
+                "function": "null",
+                "id": "neurologicos_155",
+                "name": "neurologicos"
+            },
+            {
+                "function": "null",
+                "id": "disminucion_156",
+                "name": "disminucion"
+            },
+            {
+                "function": "null",
+                "id": "determinados_157",
+                "name": "determinados"
+            },
+            {
+                "function": "null",
+                "id": "alucinogenos_158",
+                "name": "alucinogenos"
+            },
+            {
+                "function": "null",
+                "id": "disfunciones_159",
+                "name": "disfunciones"
+            },
+            {
+                "function": "null",
+                "id": "patologicas_160",
+                "name": "patologicas"
+            },
+            {
+                "function": "null",
+                "id": "antipsicoticos_161",
+                "name": "antipsicoticos"
+            },
+            {
+                "function": "null",
+                "id": "principales_162",
+                "name": "principales"
+            },
+            {
+                "function": "null",
+                "id": "apetito_163",
+                "name": "apetito"
+            },
+            {
+                "function": "null",
+                "id": "saciedad_164",
+                "name": "saciedad"
+            },
+            {
+                "function": "null",
+                "id": "motora_165",
+                "name": "motora"
+            },
+            {
+                "function": "null",
+                "id": "relacionados_166",
+                "name": "relacionados"
+            },
+            {
+                "function": "null",
+                "id": "angustia_167",
+                "name": "angustia"
+            },
+            {
+                "function": "null",
+                "id": "ansiedad_168",
+                "name": "ansiedad"
+            },
+            {
+                "function": "null",
+                "id": "agresividad_169",
+                "name": "agresividad"
+            },
+            {
+                "function": "null",
+                "id": "parametros_170",
+                "name": "parametros"
+            },
+            {
+                "function": "null",
+                "id": "densidad_171",
+                "name": "densidad"
+            },
+            {
+                "function": "null",
+                "id": "inhibidores_172",
+                "name": "inhibidores"
+            },
+            {
+                "function": "null",
+                "id": "fuente_173",
+                "name": "fuente"
+            },
+            {
+                "function": "null",
+                "id": "conjuntos_174",
+                "name": "conjuntos"
+            },
+            {
+                "function": "null",
+                "id": "grupos_175",
+                "name": "grupos"
+            },
+            {
+                "function": "null",
+                "id": "longitud_176",
+                "name": "longitud"
+            },
+            {
+                "function": "null",
+                "id": "centrado_177",
+                "name": "centrado"
+            },
+            {
+                "function": "null",
+                "id": "alrededor_178",
+                "name": "alrededor"
+            },
+            {
+                "function": "null",
+                "id": "formacion_179",
+                "name": "formacion"
+            },
+            {
+                "function": "null",
+                "id": "serotoninergico_180",
+                "name": "serotoninergico"
+            },
+            {
+                "function": "null",
+                "id": "terapeuticos_181",
+                "name": "terapeuticos"
+            },
+            {
+                "function": "null",
+                "id": "modulacion_182",
+                "name": "modulacion"
+            },
+            {
+                "function": "null",
+                "id": "localizados_183",
+                "name": "localizados"
+            },
+            {
+                "function": "null",
+                "id": "pericariones_184",
+                "name": "pericariones"
+            },
+            {
+                "function": "null",
+                "id": "terminaciones_185",
+                "name": "terminaciones"
+            },
+            {
+                "function": "null",
+                "id": "presinapticas_186",
+                "name": "presinapticas"
+            },
+            {
+                "function": "null",
+                "id": "adyacentes_187",
+                "name": "adyacentes"
+            },
+            {
+                "function": "null",
+                "id": "definicion_188",
+                "name": "definicion"
+            },
+            {
+                "function": "null",
+                "id": "inhitorios_189",
+                "name": "inhitorios"
+            },
+            {
+                "function": "null",
+                "id": "diferencias_190",
+                "name": "diferencias"
+            },
+            {
+                "function": "null",
+                "id": "limbico_191",
+                "name": "limbico"
+            },
+            {
+                "function": "null",
+                "id": "corteza_192",
+                "name": "corteza"
+            },
+            {
+                "function": "null",
+                "id": "humanos_193",
+                "name": "humanos"
+            },
+            {
+                "function": "null",
+                "id": "adenilato_194",
+                "name": "adenilato"
+            },
+            {
+                "function": "null",
+                "id": "sinaptica_195",
+                "name": "sinaptica"
+            },
+            {
+                "function": "null",
+                "id": "formados_196",
+                "name": "formados"
+            },
+            {
+                "function": "null",
+                "id": "subunidades_197",
+                "name": "subunidades"
+            },
+            {
+                "function": "null",
+                "id": "nicotinico_198",
+                "name": "nicotinico"
+            },
+            {
+                "function": "null",
+                "id": "dopaminergicas_199",
+                "name": "dopaminergicas"
+            },
+            {
+                "function": "null",
+                "id": "heterorreceptor_200",
+                "name": "heterorreceptor"
+            },
+            {
+                "function": "null",
+                "id": "memoria_201",
+                "name": "memoria"
+            },
+            {
+                "function": "null",
+                "id": "afinidad_202",
+                "name": "afinidad"
+            },
+            {
+                "function": "null",
+                "id": "farmacos_203",
+                "name": "farmacos"
+            },
+            {
+                "function": "null",
+                "id": "inhibicion_204",
+                "name": "inhibicion"
+            },
+            {
+                "function": "null",
+                "id": "variaciones_205",
+                "name": "variaciones"
+            },
+            {
+                "function": "null",
+                "id": "geneticas_206",
+                "name": "geneticas"
+            },
+            {
+                "function": "null",
+                "id": "actualmente_207",
+                "name": "actualmente"
+            },
+            {
+                "function": "null",
+                "id": "probabilidad_208",
+                "name": "probabilidad"
+            },
+            {
+                "function": "null",
+                "id": "generacion_209",
+                "name": "generacion"
+            },
+            {
+                "function": "null",
+                "id": "desordenes_210",
+                "name": "desordenes"
+            },
+            {
+                "function": "null",
+                "id": "mutacion_211",
+                "name": "mutacion"
+            },
+            {
+                "function": "null",
+                "id": "codifica_212",
+                "name": "codifica"
+            },
+            {
+                "function": "null",
+                "id": "duplicacion_213",
+                "name": "duplicacion"
+            },
+            {
+                "function": "null",
+                "id": "riesgo_214",
+                "name": "riesgo"
+            },
+            {
+                "function": "null",
+                "id": "quienes_215",
+                "name": "quienes"
+            },
+            {
+                "function": "null",
+                "id": "mutaciones_216",
+                "name": "mutaciones"
+            },
+            {
+                "function": "null",
+                "id": "susceptibilidad_217",
+                "name": "susceptibilidad"
+            },
+            {
+                "function": "null",
+                "id": "asociados_218",
+                "name": "asociados"
+            },
+            {
+                "function": "null",
+                "id": "pacientes_219",
+                "name": "pacientes"
+            },
+            {
+                "function": "null",
+                "id": "serotoninergica_220",
+                "name": "serotoninergica"
+            },
+            {
+                "function": "null",
+                "id": "captacion_221",
+                "name": "captacion"
+            },
+            {
+                "function": "null",
+                "id": "transportador_222",
+                "name": "transportador"
+            },
+            {
+                "function": "null",
+                "id": "anfetamina_223",
+                "name": "anfetamina"
+            },
+            {
+                "function": "null",
+                "id": "cocaina_224",
+                "name": "cocaina"
+            },
+            {
+                "function": "null",
+                "id": "dextrometorfano_225",
+                "name": "dextrometorfano"
+            },
+            {
+                "function": "null",
+                "id": "aromatico_226",
+                "name": "aromatico"
+            },
+            {
+                "function": "null",
+                "id": "hidroxitriptofano_227",
+                "name": "hidroxitriptofano"
+            },
+            {
+                "function": "null",
+                "id": "adicion_228",
+                "name": "adicion"
+            },
+            {
+                "function": "null",
+                "id": "quita_229",
+                "name": "quita"
+            },
+            {
+                "function": "null",
+                "id": "reaccion_230",
+                "name": "reaccion"
+            },
+            {
+                "function": "null",
+                "id": "vista_231",
+                "name": "vista"
+            },
+            {
+                "function": "null",
+                "id": "naturaleza_232",
+                "name": "naturaleza"
+            },
+            {
+                "function": "null",
+                "id": "especifica_233",
+                "name": "especifica"
+            },
+            {
+                "function": "null",
+                "id": "evidencia_234",
+                "name": "evidencia"
+            },
+            {
+                "function": "null",
+                "id": "depresion_235",
+                "name": "depresion"
+            },
+            {
+                "function": "null",
+                "id": "tirosina_236",
+                "name": "tirosina"
+            },
+            {
+                "function": "null",
+                "id": "metabolitos_237",
+                "name": "metabolitos"
+            },
+            {
+                "function": "null",
+                "id": "serotoninergicos_238",
+                "name": "serotoninergicos"
+            },
+            {
+                "function": "null",
+                "id": "clivaje_239",
+                "name": "clivaje"
+            },
+            {
+                "function": "null",
+                "id": "excretado_240",
+                "name": "excretado"
+            },
+            {
+                "function": "null",
+                "id": "tumores_241",
+                "name": "tumores"
+            },
+            {
+                "function": "null",
+                "id": "canceres_242",
+                "name": "canceres"
+            },
+            {
+                "function": "null",
+                "id": "niveles_243",
+                "name": "niveles"
+            },
+            {
+                "function": "null",
+                "id": "patologias_244",
+                "name": "patologias"
+            },
+            {
+                "function": "null",
+                "id": "investigaciones_245",
+                "name": "investigaciones"
+            },
+            {
+                "function": "null",
+                "id": "recientes_246",
+                "name": "recientes"
+            },
+            {
+                "function": "null",
+                "id": "mitogeno_247",
+                "name": "mitogeno"
+            },
+            {
+                "function": "null",
+                "id": "serotoninicos_248",
+                "name": "serotoninicos"
+            },
+            {
+                "function": "null",
+                "id": "destaca_249",
+                "name": "destaca"
+            },
+            {
+                "function": "null",
+                "id": "secrecion_250",
+                "name": "secrecion"
+            },
+            {
+                "function": "null",
+                "id": "estados_251",
+                "name": "estados"
+            },
+            {
+                "function": "null",
+                "id": "migranas_252",
+                "name": "migranas"
+            },
+            {
+                "function": "null",
+                "id": "sanguineos_253",
+                "name": "sanguineos"
+            },
+            {
+                "function": "null",
+                "id": "dilatan_254",
+                "name": "dilatan"
+            },
+            {
+                "function": "null",
+                "id": "inhibidor_255",
+                "name": "inhibidor"
+            },
+            {
+                "function": "null",
+                "id": "comportamiento_256",
+                "name": "comportamiento"
+            },
+            {
+                "function": "null",
+                "id": "exterior_257",
+                "name": "exterior"
+            },
+            {
+                "function": "null",
+                "id": "circadianos_258",
+                "name": "circadianos"
+            },
+            {
+                "function": "null",
+                "id": "neuroendocrinas_259",
+                "name": "neuroendocrinas"
+            },
+            {
+                "function": "null",
+                "id": "dolor_260",
+                "name": "dolor"
+            },
+            {
+                "function": "null",
+                "id": "regulacion_261",
+                "name": "regulacion"
+            },
+            {
+                "function": "null",
+                "id": "mediador_262",
+                "name": "mediador"
+            },
+            {
+                "function": "null",
+                "id": "regulado_263",
+                "name": "regulado"
+            },
+            {
+                "function": "null",
+                "id": "adrenergico_264",
+                "name": "adrenergico"
+            },
+            {
+                "function": "null",
+                "id": "latencia_265",
+                "name": "latencia"
+            },
+            {
+                "function": "null",
+                "id": "caracteristica_266",
+                "name": "caracteristica"
+            },
+            {
+                "function": "null",
+                "id": "colinergico_267",
+                "name": "colinergico"
+            },
+            {
+                "function": "null",
+                "id": "inhibitorio_268",
+                "name": "inhibitorio"
+            },
+            {
+                "function": "null",
+                "id": "hipotalamica_269",
+                "name": "hipotalamica"
+            },
+            {
+                "function": "null",
+                "id": "gonadotrofinas_270",
+                "name": "gonadotrofinas"
+            },
+            {
+                "function": "null",
+                "id": "consecuente_271",
+                "name": "consecuente"
+            },
+            {
+                "function": "null",
+                "id": "supraquiasmatico_272",
+                "name": "supraquiasmatico"
+            },
+            {
+                "function": "null",
+                "id": "hipotalamico_273",
+                "name": "hipotalamico"
+            },
+            {
+                "function": "null",
+                "id": "sincronizacion_274",
+                "name": "sincronizacion"
+            },
+            {
+                "function": "null",
+                "id": "endogenos_275",
+                "name": "endogenos"
+            },
+            {
+                "function": "null",
+                "id": "organismo_276",
+                "name": "organismo"
+            },
+            {
+                "function": "null",
+                "id": "neuromodulador_277",
+                "name": "neuromodulador"
+            },
+            {
+                "function": "null",
+                "id": "agonistas_278",
+                "name": "agonistas"
+            },
+            {
+                "function": "null",
+                "id": "analgesia_279",
+                "name": "analgesia"
+            },
+            {
+                "function": "null",
+                "id": "laboratorio_280",
+                "name": "laboratorio"
+            },
+            {
+                "function": "null",
+                "id": "antalgico_281",
+                "name": "antalgico"
+            },
+            {
+                "function": "null",
+                "id": "verano_282",
+                "name": "verano"
+            },
+            {
+                "function": "null",
+                "id": "felicidad_283",
+                "name": "felicidad"
+            },
+            {
+                "function": "null",
+                "id": "concentraciones_284",
+                "name": "concentraciones"
+            },
+            {
+                "function": "null",
+                "id": "humor_285",
+                "name": "humor"
+            },
+            {
+                "function": "null",
+                "id": "eyaculacion_286",
+                "name": "eyaculacion"
+            },
+            {
+                "function": "null",
+                "id": "oxitocina_287",
+                "name": "oxitocina"
+            },
+            {
+                "function": "null",
+                "id": "contracciones_288",
+                "name": "contracciones"
+            },
+            {
+                "function": "null",
+                "id": "somatotropina_289",
+                "name": "somatotropina"
+            },
+            {
+                "function": "null",
+                "id": "crecimiento_290",
+                "name": "crecimiento"
+            },
+            {
+                "function": "null",
+                "id": "prolactina_291",
+                "name": "prolactina"
+            },
+            {
+                "function": "null",
+                "id": "esteroides_292",
+                "name": "esteroides"
+            },
+            {
+                "function": "null",
+                "id": "sexuales_293",
+                "name": "sexuales"
+            },
+            {
+                "function": "null",
+                "id": "serotonergicas_294",
+                "name": "serotonergicas"
+            },
+            {
+                "function": "null",
+                "id": "tecnica_295",
+                "name": "tecnica"
+            },
+            {
+                "function": "null",
+                "id": "histofluorescencia_296",
+                "name": "histofluorescencia"
+            },
+            {
+                "function": "null",
+                "id": "mayoria_297",
+                "name": "mayoria"
+            },
+            {
+                "function": "null",
+                "id": "encontrados_298",
+                "name": "encontrados"
+            },
+            {
+                "function": "null",
+                "id": "celulares_299",
+                "name": "celulares"
+            },
+            {
+                "function": "null",
+                "id": "previamente_300",
+                "name": "previamente"
+            },
+            {
+                "function": "null",
+                "id": "designados_301",
+                "name": "designados"
+            },
+            {
+                "function": "null",
+                "id": "contribuciones_302",
+                "name": "contribuciones"
+            },
+            {
+                "function": "null",
+                "id": "permanente_303",
+                "name": "permanente"
+            },
+            {
+                "function": "null",
+                "id": "informacion_304",
+                "name": "informacion"
+            },
+            {
+                "function": "null",
+                "id": "wikidata_305",
+                "name": "wikidata"
+            },
+            {
+                "function": "null",
+                "id": "marca_306",
+                "name": "marca"
+            },
+            {
+                "function": "null",
+                "id": "fundacion_307",
+                "name": "fundacion"
+            }
+        ]
+    },
+    "width": 308
+}

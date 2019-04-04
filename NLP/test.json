@@ -1,0 +1,402 @@
+{
+    "actions": [
+        [
+            0,
+            1,
+            "entre"
+        ],
+        [
+            2,
+            3,
+            "de"
+        ],
+        [
+            5,
+            6,
+            "de"
+        ],
+        [
+            7,
+            8,
+            "de"
+        ],
+        [
+            9,
+            10,
+            "sobre"
+        ],
+        [
+            12,
+            13,
+            "del"
+        ],
+        [
+            14,
+            15,
+            "de"
+        ],
+        [
+            16,
+            17,
+            "bajo"
+        ],
+        [
+            18,
+            19,
+            "de"
+        ],
+        [
+            20,
+            21,
+            "de"
+        ],
+        [
+            22,
+            17,
+            "de"
+        ],
+        [
+            22,
+            22,
+            "de"
+        ],
+        [
+            23,
+            24,
+            "era"
+        ],
+        [
+            26,
+            27,
+            "de"
+        ],
+        [
+            28,
+            29,
+            "de"
+        ]
+    ],
+    "connects": [
+        [
+            0,
+            1,
+            1
+        ],
+        [
+            2,
+            3,
+            1
+        ],
+        [
+            5,
+            6,
+            1
+        ],
+        [
+            7,
+            8,
+            1
+        ],
+        [
+            9,
+            10,
+            1
+        ],
+        [
+            12,
+            13,
+            1
+        ],
+        [
+            14,
+            15,
+            1
+        ],
+        [
+            16,
+            17,
+            1
+        ],
+        [
+            18,
+            19,
+            1
+        ],
+        [
+            20,
+            21,
+            1
+        ],
+        [
+            22,
+            17,
+            1
+        ],
+        [
+            22,
+            22,
+            1
+        ],
+        [
+            23,
+            24,
+            1
+        ],
+        [
+            26,
+            27,
+            1
+        ],
+        [
+            28,
+            29,
+            1
+        ]
+    ],
+    "height": 31,
+    "net": {
+        "functions": [
+            [
+                "null"
+            ]
+        ],
+        "graph": {
+            "connects": [],
+            "factor": 0,
+            "factorFinnish": 0,
+            "factorStart": 0,
+            "finnish": [],
+            "first": 0,
+            "height": 0,
+            "id": "",
+            "iterations": 0,
+            "name": "net",
+            "nodeNames": [
+                "mitad",
+                "historicidad",
+                "recopilacion",
+                "refranes",
+                "taoistas",
+                "cautela",
+                "vista",
+                "tendencia",
+                "academica",
+                "escepticismo",
+                "espirituales",
+                "suficiente",
+                "existencia",
+                "autoria",
+                "objeto",
+                "controversia",
+                "tradicion",
+                "ciruelo",
+                "estado",
+                "distrito",
+                "provincia",
+                "henan",
+                "orejas",
+                "versiones",
+                "proveniente",
+                "pescadores",
+                "gestacion",
+                "cantidad",
+                "rostro",
+                "anciano",
+                "peculiares"
+            ],
+            "nodes": [
+                "mitad_0",
+                "historicidad_1",
+                "recopilacion_2",
+                "refranes_3",
+                "taoistas_4",
+                "cautela_5",
+                "vista_6",
+                "tendencia_7",
+                "academica_8",
+                "escepticismo_9",
+                "espirituales_10",
+                "suficiente_11",
+                "existencia_12",
+                "autoria_13",
+                "objeto_14",
+                "controversia_15",
+                "tradicion_16",
+                "ciruelo_17",
+                "estado_18",
+                "distrito_19",
+                "provincia_20",
+                "henan_21",
+                "orejas_22",
+                "versiones_23",
+                "proveniente_24",
+                "pescadores_25",
+                "gestacion_26",
+                "cantidad_27",
+                "rostro_28",
+                "anciano_29",
+                "peculiares_30"
+            ],
+            "start": [],
+            "width": 0
+        },
+        "nodes": [
+            {
+                "function": "null",
+                "id": "mitad_0",
+                "name": "mitad"
+            },
+            {
+                "function": "null",
+                "id": "historicidad_1",
+                "name": "historicidad"
+            },
+            {
+                "function": "null",
+                "id": "recopilacion_2",
+                "name": "recopilacion"
+            },
+            {
+                "function": "null",
+                "id": "refranes_3",
+                "name": "refranes"
+            },
+            {
+                "function": "null",
+                "id": "taoistas_4",
+                "name": "taoistas"
+            },
+            {
+                "function": "null",
+                "id": "cautela_5",
+                "name": "cautela"
+            },
+            {
+                "function": "null",
+                "id": "vista_6",
+                "name": "vista"
+            },
+            {
+                "function": "null",
+                "id": "tendencia_7",
+                "name": "tendencia"
+            },
+            {
+                "function": "null",
+                "id": "academica_8",
+                "name": "academica"
+            },
+            {
+                "function": "null",
+                "id": "escepticismo_9",
+                "name": "escepticismo"
+            },
+            {
+                "function": "null",
+                "id": "espirituales_10",
+                "name": "espirituales"
+            },
+            {
+                "function": "null",
+                "id": "suficiente_11",
+                "name": "suficiente"
+            },
+            {
+                "function": "null",
+                "id": "existencia_12",
+                "name": "existencia"
+            },
+            {
+                "function": "null",
+                "id": "autoria_13",
+                "name": "autoria"
+            },
+            {
+                "function": "null",
+                "id": "objeto_14",
+                "name": "objeto"
+            },
+            {
+                "function": "null",
+                "id": "controversia_15",
+                "name": "controversia"
+            },
+            {
+                "function": "null",
+                "id": "tradicion_16",
+                "name": "tradicion"
+            },
+            {
+                "function": "null",
+                "id": "ciruelo_17",
+                "name": "ciruelo"
+            },
+            {
+                "function": "null",
+                "id": "estado_18",
+                "name": "estado"
+            },
+            {
+                "function": "null",
+                "id": "distrito_19",
+                "name": "distrito"
+            },
+            {
+                "function": "null",
+                "id": "provincia_20",
+                "name": "provincia"
+            },
+            {
+                "function": "null",
+                "id": "henan_21",
+                "name": "henan"
+            },
+            {
+                "function": "null",
+                "id": "orejas_22",
+                "name": "orejas"
+            },
+            {
+                "function": "null",
+                "id": "versiones_23",
+                "name": "versiones"
+            },
+            {
+                "function": "null",
+                "id": "proveniente_24",
+                "name": "proveniente"
+            },
+            {
+                "function": "null",
+                "id": "pescadores_25",
+                "name": "pescadores"
+            },
+            {
+                "function": "null",
+                "id": "gestacion_26",
+                "name": "gestacion"
+            },
+            {
+                "function": "null",
+                "id": "cantidad_27",
+                "name": "cantidad"
+            },
+            {
+                "function": "null",
+                "id": "rostro_28",
+                "name": "rostro"
+            },
+            {
+                "function": "null",
+                "id": "anciano_29",
+                "name": "anciano"
+            },
+            {
+                "function": "null",
+                "id": "peculiares_30",
+                "name": "peculiares"
+            }
+        ]
+    },
+    "width": 31
+}

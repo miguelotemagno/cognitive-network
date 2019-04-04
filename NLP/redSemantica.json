@@ -1,0 +1,33 @@
+{
+    "actions": [],
+    "connects": [],
+    "contentList": [
+        ""
+    ],
+    "height": 0,
+    "net": {
+        "functions": [
+            [
+                "null"
+            ]
+        ],
+        "graph": {
+            "connects": [],
+            "factor": 0,
+            "factorFinnish": 0,
+            "factorStart": 0,
+            "finnish": [],
+            "first": 0,
+            "height": 0,
+            "id": "",
+            "iterations": 0,
+            "name": "net",
+            "nodeNames": [],
+            "nodes": [],
+            "start": [],
+            "width": 0
+        },
+        "nodes": []
+    },
+    "width": 0
+}

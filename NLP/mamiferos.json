@@ -1,0 +1,479 @@
+{
+    "actions": [
+        [
+            0,
+            1,
+            "encontramos"
+        ],
+        [
+            2,
+            3,
+            "pertenece"
+        ],
+        [
+            2,
+            9,
+            "pertenece"
+        ],
+        [
+            2,
+            15,
+            "tiene"
+        ],
+        [
+            3,
+            6,
+            "obtenemos"
+        ],
+        [
+            7,
+            8,
+            "identificamos"
+        ],
+        [
+            11,
+            1,
+            "clasificamos"
+        ],
+        [
+            17,
+            17,
+            "comer"
+        ],
+        [
+            18,
+            19,
+            "tiene"
+        ],
+        [
+            18,
+            21,
+            "es"
+        ],
+        [
+            20,
+            19,
+            "tiene"
+        ],
+        [
+            20,
+            21,
+            "es"
+        ],
+        [
+            21,
+            17,
+            "es"
+        ],
+        [
+            21,
+            22,
+            "nace"
+        ],
+        [
+            21,
+            23,
+            "bebe"
+        ],
+        [
+            24,
+            25,
+            "es"
+        ],
+        [
+            25,
+            17,
+            "es"
+        ],
+        [
+            25,
+            26,
+            "tiene"
+        ],
+        [
+            25,
+            27,
+            "desciende"
+        ],
+        [
+            28,
+            21,
+            "es"
+        ],
+        [
+            29,
+            28,
+            "es"
+        ]
+    ],
+    "connects": [
+        [
+            0,
+            1,
+            2.0
+        ],
+        [
+            2,
+            3,
+            2.0
+        ],
+        [
+            2,
+            9,
+            3.0
+        ],
+        [
+            2,
+            15,
+            5.0
+        ],
+        [
+            3,
+            6,
+            3.0
+        ],
+        [
+            7,
+            8,
+            3.0
+        ],
+        [
+            11,
+            1,
+            5.0
+        ],
+        [
+            17,
+            17,
+            6.0
+        ],
+        [
+            18,
+            19,
+            7.0
+        ],
+        [
+            18,
+            21,
+            10.0
+        ],
+        [
+            20,
+            19,
+            8.0
+        ],
+        [
+            20,
+            21,
+            9.0
+        ],
+        [
+            21,
+            17,
+            21.0
+        ],
+        [
+            21,
+            22,
+            11.0
+        ],
+        [
+            21,
+            23,
+            12.0
+        ],
+        [
+            24,
+            25,
+            13.0
+        ],
+        [
+            25,
+            17,
+            19.0
+        ],
+        [
+            25,
+            26,
+            14.0
+        ],
+        [
+            25,
+            27,
+            15.0
+        ],
+        [
+            28,
+            21,
+            16.0
+        ],
+        [
+            29,
+            28,
+            17.0
+        ]
+    ],
+    "contentList": [
+        "",
+        "en la naturaleza encontramos diversas especies , toda especie pertenece a uno de dos grupos : los vertebrados y los invertebrados",
+        "de estos grupos obtenemos clasificaciones , y de estas clases identificamos diversas familias",
+        "cada especie pertenece a una familia , y estas familias se distinguen como mamiferos , reptiles , aves , etc",
+        "entre los mamiferos clasificamos las especies , y cada especie tiene sus cualidades y atributos",
+        "todo animal nace de otro animal",
+        "todo animal puede comer otro animal",
+        "todo gato tiene cola",
+        "todo perro tiene cola",
+        "todo perro es un mamifero",
+        "todo gato es un mamifero",
+        "todo mamifero nace de una placenta",
+        "todo mamifero bebe leche",
+        "el pajaro es una ave",
+        "toda ave tiene plumas",
+        "el ave desciende de dinosaurios",
+        "todo humano es un mamifero",
+        "todo hombre es un humano",
+        "toda mujer es humano",
+        "toda ave es un animal",
+        "toda ave nace de un huevo",
+        "todo mamifero es un animal"
+    ],
+    "height": 30,
+    "net": {
+        "functions": [
+            [
+                "null"
+            ]
+        ],
+        "graph": {
+            "connects": [],
+            "factor": 0,
+            "factorFinnish": 0,
+            "factorStart": 0,
+            "finnish": [],
+            "first": 0,
+            "height": 0,
+            "id": "",
+            "iterations": 0,
+            "name": "net",
+            "nodeNames": [
+                "naturaleza",
+                "especies",
+                "especie",
+                "grupos",
+                "vertebrados",
+                "invertebrados",
+                "clasificaciones",
+                "clases",
+                "familias",
+                "familia",
+                "distinguen",
+                "mamiferos",
+                "reptiles",
+                "aves",
+                "etc",
+                "cualidades",
+                "atributos",
+                "animal",
+                "gato",
+                "cola",
+                "perro",
+                "mamifero",
+                "placenta",
+                "leche",
+                "pajaro",
+                "ave",
+                "plumas",
+                "dinosaurios",
+                "humano",
+                "hombre"
+            ],
+            "nodes": [
+                "naturaleza_0",
+                "especies_1",
+                "especie_2",
+                "grupos_3",
+                "vertebrados_4",
+                "invertebrados_5",
+                "clasificaciones_6",
+                "clases_7",
+                "familias_8",
+                "familia_9",
+                "distinguen_10",
+                "mamiferos_11",
+                "reptiles_12",
+                "aves_13",
+                "etc_14",
+                "cualidades_15",
+                "atributos_16",
+                "animal_17",
+                "gato_18",
+                "cola_19",
+                "perro_20",
+                "mamifero_21",
+                "placenta_22",
+                "leche_23",
+                "pajaro_24",
+                "ave_25",
+                "plumas_26",
+                "dinosaurios_27",
+                "humano_28",
+                "hombre_29"
+            ],
+            "start": [],
+            "width": 0
+        },
+        "nodes": [
+            {
+                "function": "null",
+                "id": "naturaleza_0",
+                "name": "naturaleza"
+            },
+            {
+                "function": "null",
+                "id": "especies_1",
+                "name": "especies"
+            },
+            {
+                "function": "null",
+                "id": "especie_2",
+                "name": "especie"
+            },
+            {
+                "function": "null",
+                "id": "grupos_3",
+                "name": "grupos"
+            },
+            {
+                "function": "null",
+                "id": "vertebrados_4",
+                "name": "vertebrados"
+            },
+            {
+                "function": "null",
+                "id": "invertebrados_5",
+                "name": "invertebrados"
+            },
+            {
+                "function": "null",
+                "id": "clasificaciones_6",
+                "name": "clasificaciones"
+            },
+            {
+                "function": "null",
+                "id": "clases_7",
+                "name": "clases"
+            },
+            {
+                "function": "null",
+                "id": "familias_8",
+                "name": "familias"
+            },
+            {
+                "function": "null",
+                "id": "familia_9",
+                "name": "familia"
+            },
+            {
+                "function": "null",
+                "id": "distinguen_10",
+                "name": "distinguen"
+            },
+            {
+                "function": "null",
+                "id": "mamiferos_11",
+                "name": "mamiferos"
+            },
+            {
+                "function": "null",
+                "id": "reptiles_12",
+                "name": "reptiles"
+            },
+            {
+                "function": "null",
+                "id": "aves_13",
+                "name": "aves"
+            },
+            {
+                "function": "null",
+                "id": "etc_14",
+                "name": "etc"
+            },
+            {
+                "function": "null",
+                "id": "cualidades_15",
+                "name": "cualidades"
+            },
+            {
+                "function": "null",
+                "id": "atributos_16",
+                "name": "atributos"
+            },
+            {
+                "function": "null",
+                "id": "animal_17",
+                "name": "animal"
+            },
+            {
+                "function": "null",
+                "id": "gato_18",
+                "name": "gato"
+            },
+            {
+                "function": "null",
+                "id": "cola_19",
+                "name": "cola"
+            },
+            {
+                "function": "null",
+                "id": "perro_20",
+                "name": "perro"
+            },
+            {
+                "function": "null",
+                "id": "mamifero_21",
+                "name": "mamifero"
+            },
+            {
+                "function": "null",
+                "id": "placenta_22",
+                "name": "placenta"
+            },
+            {
+                "function": "null",
+                "id": "leche_23",
+                "name": "leche"
+            },
+            {
+                "function": "null",
+                "id": "pajaro_24",
+                "name": "pajaro"
+            },
+            {
+                "function": "null",
+                "id": "ave_25",
+                "name": "ave"
+            },
+            {
+                "function": "null",
+                "id": "plumas_26",
+                "name": "plumas"
+            },
+            {
+                "function": "null",
+                "id": "dinosaurios_27",
+                "name": "dinosaurios"
+            },
+            {
+                "function": "null",
+                "id": "humano_28",
+                "name": "humano"
+            },
+            {
+                "function": "null",
+                "id": "hombre_29",
+                "name": "hombre"
+            }
+        ]
+    },
+    "width": 30
+}

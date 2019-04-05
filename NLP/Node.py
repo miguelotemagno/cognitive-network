@@ -55,9 +55,10 @@ class Node:
 
     def getJson(self):
         js = {
-            'id' : self.id,
-            'name' : self.name,
-            'function' : self.functionName
+            'id': self.id,
+            'name': self.name,
+            'function': self.functionName,
+            'extraInfo': []
         }
         return js
 

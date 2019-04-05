@@ -349,161 +349,193 @@
         },
         "nodes": [
             {
+                "extraInfo": [],
                 "function": "null",
                 "id": "naturaleza_0",
                 "name": "naturaleza"
             },
             {
+                "extraInfo": [],
                 "function": "null",
                 "id": "especies_1",
                 "name": "especies"
             },
             {
+                "extraInfo": [],
                 "function": "null",
                 "id": "especie_2",
                 "name": "especie"
             },
             {
+                "extraInfo": [],
                 "function": "null",
                 "id": "grupos_3",
                 "name": "grupos"
             },
             {
+                "extraInfo": [],
                 "function": "null",
                 "id": "vertebrados_4",
                 "name": "vertebrados"
             },
             {
+                "extraInfo": [],
                 "function": "null",
                 "id": "invertebrados_5",
                 "name": "invertebrados"
             },
             {
+                "extraInfo": [],
                 "function": "null",
                 "id": "clasificaciones_6",
                 "name": "clasificaciones"
             },
             {
+                "extraInfo": [],
                 "function": "null",
                 "id": "clases_7",
                 "name": "clases"
             },
             {
+                "extraInfo": [],
                 "function": "null",
                 "id": "familias_8",
                 "name": "familias"
             },
             {
+                "extraInfo": [],
                 "function": "null",
                 "id": "familia_9",
                 "name": "familia"
             },
             {
+                "extraInfo": [],
                 "function": "null",
                 "id": "distinguen_10",
                 "name": "distinguen"
             },
             {
+                "extraInfo": [],
                 "function": "null",
                 "id": "mamiferos_11",
                 "name": "mamiferos"
             },
             {
+                "extraInfo": [],
                 "function": "null",
                 "id": "reptiles_12",
                 "name": "reptiles"
             },
             {
+                "extraInfo": [],
                 "function": "null",
                 "id": "aves_13",
                 "name": "aves"
             },
             {
+                "extraInfo": [],
                 "function": "null",
                 "id": "etc_14",
                 "name": "etc"
             },
             {
+                "extraInfo": [],
                 "function": "null",
                 "id": "cualidades_15",
                 "name": "cualidades"
             },
             {
+                "extraInfo": [],
                 "function": "null",
                 "id": "atributos_16",
                 "name": "atributos"
             },
             {
+                "extraInfo": [],
                 "function": "null",
                 "id": "animal_17",
                 "name": "animal"
             },
             {
+                "extraInfo": [],
                 "function": "null",
                 "id": "gato_18",
                 "name": "gato"
             },
             {
+                "extraInfo": [],
                 "function": "null",
                 "id": "cola_19",
                 "name": "cola"
             },
             {
+                "extraInfo": [],
                 "function": "null",
                 "id": "perro_20",
                 "name": "perro"
             },
             {
+                "extraInfo": [],
                 "function": "null",
                 "id": "mamifero_21",
                 "name": "mamifero"
             },
             {
+                "extraInfo": [],
                 "function": "null",
                 "id": "placenta_22",
                 "name": "placenta"
             },
             {
+                "extraInfo": [],
                 "function": "null",
                 "id": "leche_23",
                 "name": "leche"
             },
             {
+                "extraInfo": [],
                 "function": "null",
                 "id": "pelos_24",
                 "name": "pelos"
             },
             {
+                "extraInfo": [],
                 "function": "null",
                 "id": "pajaro_25",
                 "name": "pajaro"
             },
             {
+                "extraInfo": [],
                 "function": "null",
                 "id": "ave_26",
                 "name": "ave"
             },
             {
+                "extraInfo": [],
                 "function": "null",
                 "id": "plumas_27",
                 "name": "plumas"
             },
             {
+                "extraInfo": [],
                 "function": "null",
                 "id": "dinosaurios_28",
                 "name": "dinosaurios"
             },
             {
+                "extraInfo": [],
                 "function": "null",
                 "id": "mujer_29",
                 "name": "mujer"
             },
             {
+                "extraInfo": [],
                 "function": "null",
                 "id": "humano_30",
                 "name": "humano"
             },
             {
+                "extraInfo": [],
                 "function": "null",
                 "id": "hombre_31",
                 "name": "hombre"

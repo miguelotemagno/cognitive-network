@@ -1,4 +1,4 @@
-En la naturaleza encontramos diversas especies, toda especie pertenece a uno de dos grupos, los vertebrados y los invertebrados.
+En la naturaleza encontramos diversas especies, toda especie pertenece a uno de dos grupos: los vertebrados y los invertebrados.
 De estos grupos obtenemos clasificaciones, y de estas clases identificamos diversas familias.
 
 Cada especie pertenece a una familia, y de estas familias se distinguen como mamiferos, reptiles, aves, etc.

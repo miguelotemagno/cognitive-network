@@ -675,6 +675,7 @@ class SemanticNetwork:
         verb = None
         prep = None
         noun = None
+        punct = None
         thisNoun = None
         prevNoun = None
         lastNoun = None
@@ -684,6 +685,7 @@ class SemanticNetwork:
         text = []
         tags = []
         words = []
+        nouns = []
         textId = 1.0 * len(self.text)
 
         # try:
@@ -693,6 +695,11 @@ class SemanticNetwork:
 
             if tag == 'DET':
                 det = word
+                tags.append(tag)
+                words.append(word)
+
+            if tag == 'PUNCT':
+                punct = word
                 tags.append(tag)
                 words.append(word)
 
@@ -717,9 +724,6 @@ class SemanticNetwork:
                     tag = 'VERB'
 
             if tag == 'VERB':
-                #verb = self.rules.getVerb(word)
-                # verb = "%s %s" % (aux, word)  if aux is not None else word
-                # verb = "%s %s" % (word, prep) if prep is not None else word
                 verb = word
                 tags.append(tag)
                 words.append(word)
@@ -736,8 +740,7 @@ class SemanticNetwork:
                     aux = None
                 elif lastTag == 'CONJ':
                     if conj == 'y':
-                        # TODO
-                        pass
+                        nouns.append(noun)
                 else:
                     prevNoun = thisNoun
                     thisNoun = noun
@@ -763,7 +766,7 @@ class SemanticNetwork:
                 origin  = self.net.search({'name': prevNoun})
                 destiny = self.net.search({'name': thisNoun})
 
-                #prep = "%s %s" % (prep, det) if re.search('PREP DET', ' '.join(tags)) else prep
+                prep = "%s %s" % (prep, det) if re.search('PREP DET', ' '.join(tags)) else prep
                 verb = "%s %s" % (aux, verb) if re.search('AUX VERB', ' '.join(tags)) else verb
                 verb = "%s %s" % (verb, prep) if re.search('VERB (PREP\s?)+', ' '.join(tags)) else verb
 

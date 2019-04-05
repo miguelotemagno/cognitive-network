@@ -8,12 +8,12 @@
         [
             2,
             3,
-            "pertenece de"
+            "pertenece de dos"
         ],
         [
             2,
             9,
-            "pertenece a"
+            "pertenece a una"
         ],
         [
             2,
@@ -68,7 +68,7 @@
         [
             21,
             22,
-            "nace de"
+            "nace de una"
         ],
         [
             21,
@@ -235,7 +235,7 @@
     ],
     "contentList": [
         "",
-        "en la naturaleza encontramos diversas especies , toda especie pertenece a uno de dos grupos , los vertebrados y los invertebrados",
+        "en la naturaleza encontramos diversas especies , toda especie pertenece a uno de dos grupos : los vertebrados y los invertebrados",
         "de estos grupos obtenemos clasificaciones , y de estas clases identificamos diversas familias",
         "cada especie pertenece a una familia , y de estas familias se distinguen como mamiferos , reptiles , aves , etc",
         "entre los mamiferos clasificamos las especies , y cada especie tiene sus cualidades y atributos",

@@ -173,20 +173,13 @@
 			var y = 0;
 			var x = 0;
 			for(var i=0; i < len; i++) {
-				/*
-				j++;
-				radio += (Math.pow(b, Math.cos(j)) * 10) / j*20 + 1;
-				angle += (Math.PI*2)/j;
-				var y = Math.sin(angle) * radio*2 ;
-				var x = Math.cos(angle) * radio;
-				*/
-
                 y = 160 * (i % r + 1);
                 x = i % r == 0 ?x + 90 : x;
 
 				var node = {
 					id: i,
-					text: data.net.graph.nodeNames[i],
+					//text: data.net.graph.nodeNames[i],
+					text: data.net.nodes[i].name,
 					loc: y.toString() + ' ' + x.toString()
 				}
 				model.nodeDataArray.push(node)

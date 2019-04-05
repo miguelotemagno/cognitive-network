@@ -17,9 +17,9 @@ un mamifero puede poseer pelos.
 el pajaro es una ave.
 toda ave tiene plumas.
 el ave desciende de dinosaurios.
-todo humano es mamifero.
 la mujer es humano.
 el hombre es humano.
 toda ave es un animal.
 toda ave nace de un huevo.
 todo mamifero es un animal.
+todo humano es un mamifero.

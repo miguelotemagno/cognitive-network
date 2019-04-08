@@ -8,7 +8,7 @@
         [
             2,
             3,
-            "pertenece de dos"
+            "pertenece de los"
         ],
         [
             2,
@@ -21,14 +21,14 @@
             "tiene"
         ],
         [
+            2,
+            16,
+            "tiene"
+        ],
+        [
             3,
             6,
             "obtenemos"
-        ],
-        [
-            7,
-            8,
-            "identificamos"
         ],
         [
             11,
@@ -138,13 +138,13 @@
             5.0
         ],
         [
-            3,
-            6,
-            3.0
+            2,
+            16,
+            5.0
         ],
         [
-            7,
-            8,
+            3,
+            6,
             3.0
         ],
         [
@@ -237,7 +237,7 @@
         "",
         "en la naturaleza encontramos diversas especies , toda especie pertenece a uno de dos grupos : los vertebrados y los invertebrados",
         "de estos grupos obtenemos clasificaciones , y de estas clases identificamos diversas familias",
-        "cada especie pertenece a una familia , y de estas familias se distinguen como mamiferos , reptiles , aves , etc",
+        "cada especie pertenece a una familia , y de estas familias se distinguen como : mamiferos , reptiles , aves y peces",
         "entre los mamiferos clasificamos las especies , y cada especie tiene sus cualidades y atributos",
         "todo animal nace de otro animal",
         "todo animal puede comer otro animal",
@@ -291,7 +291,7 @@
                 "mamiferos",
                 "reptiles",
                 "aves",
-                "etc",
+                "peces",
                 "cualidades",
                 "atributos",
                 "animal",
@@ -325,7 +325,7 @@
                 "mamiferos_11",
                 "reptiles_12",
                 "aves_13",
-                "etc_14",
+                "peces_14",
                 "cualidades_15",
                 "atributos_16",
                 "animal_17",
@@ -435,8 +435,8 @@
             {
                 "extraInfo": [],
                 "function": "null",
-                "id": "etc_14",
-                "name": "etc"
+                "id": "peces_14",
+                "name": "peces"
             },
             {
                 "extraInfo": [],

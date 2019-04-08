@@ -698,7 +698,7 @@ class SemanticNetwork:
                 tags.append(tag)
                 words.append(word)
 
-            if tag == 'PUNCT':
+            if tag == 'PUNC':
                 punct = word
                 tags.append(tag)
                 words.append(word)
@@ -738,9 +738,17 @@ class SemanticNetwork:
                     verb = None
                     prep = None
                     aux = None
-                elif lastTag == 'CONJ':
-                    if conj == 'y':
-                        nouns.append(noun)
+                elif punct == ',':
+                    nouns.append(thisNoun)
+                    nouns.append(noun)
+                    thisNoun = noun
+                    punct = ''
+                elif conj == 'y':
+                    nouns.append(thisNoun)
+                    nouns.append(noun)
+                    prevNoun = thisNoun
+                    thisNoun = noun
+                    conj = ''
                 else:
                     prevNoun = thisNoun
                     thisNoun = noun
@@ -753,7 +761,29 @@ class SemanticNetwork:
                 lastNoun = noun
 
             if thisNoun is not None and prevNoun is not None and verb is not None:
-                if self.connectNode(prevNoun, thisNoun, tags, words, args={
+                if len(nouns) > 0:
+                    prevNoun = nouns.pop(0)
+                    while prevNoun in nouns:
+                        idx = nouns.index(prevNoun)
+                        nouns.pop(idx)
+
+                    while len(nouns) > 0:
+                        thisNoun = nouns.pop(0)
+                        self.connectNode(prevNoun, thisNoun, tags, words, args={
+                            'det': det,
+                            'noun': noun,
+                            'verb': verb,
+                            'prep': prep,
+                            'aux': aux,
+                            'conj': conj,
+                            'textId': textId
+                        })
+
+                    prevNoun = None
+                    thisNoun = None
+                    tags = []
+                    words = []
+                elif self.connectNode(prevNoun, thisNoun, tags, words, args={
                     'det': det,
                     'noun': noun,
                     'verb': verb,

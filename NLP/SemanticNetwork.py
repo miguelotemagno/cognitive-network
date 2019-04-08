@@ -675,7 +675,7 @@ class SemanticNetwork:
         verb = None
         prep = None
         noun = None
-        punct = None
+        punc = None
         thisNoun = None
         prevNoun = None
         lastNoun = None
@@ -699,7 +699,7 @@ class SemanticNetwork:
                 words.append(word)
 
             if tag == 'PUNC':
-                punct = word
+                punc = word
                 tags.append(tag)
                 words.append(word)
 
@@ -738,13 +738,13 @@ class SemanticNetwork:
                     verb = None
                     prep = None
                     aux = None
-                elif punct == ',':
-                    nouns.append(thisNoun)
+                elif punc is not None and re.search(',|:', punc):
+                    nouns.append(lastNoun)
                     nouns.append(noun)
                     thisNoun = noun
-                    punct = ''
-                elif conj == 'y':
-                    nouns.append(thisNoun)
+                    punc = ''
+                elif conj is not None and re.search('y|e', conj):
+                    nouns.append(lastNoun)
                     nouns.append(noun)
                     prevNoun = thisNoun
                     thisNoun = noun

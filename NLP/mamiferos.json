@@ -12,6 +12,16 @@
         ],
         [
             2,
+            4,
+            "pertenece de los"
+        ],
+        [
+            2,
+            5,
+            "pertenece de los"
+        ],
+        [
+            2,
             9,
             "pertenece a una"
         ],
@@ -120,117 +130,127 @@
         [
             0,
             1,
-            2.0
+            2
         ],
         [
             2,
             3,
-            2.0
+            2
+        ],
+        [
+            2,
+            4,
+            2
+        ],
+        [
+            2,
+            5,
+            2
         ],
         [
             2,
             9,
-            3.0
+            3
         ],
         [
             2,
             15,
-            5.0
+            5
         ],
         [
             2,
             16,
-            5.0
+            5
         ],
         [
             3,
             6,
-            3.0
+            3
         ],
         [
             11,
             1,
-            5.0
+            5
         ],
         [
             17,
             17,
-            6.0
+            6
         ],
         [
             18,
             19,
-            7.0
+            7
         ],
         [
             18,
             21,
-            10.0
+            10
         ],
         [
             20,
             19,
-            8.0
+            8
         ],
         [
             20,
             21,
-            9.0
+            9
         ],
         [
             21,
             17,
-            21.0
+            21
         ],
         [
             21,
             22,
-            11.0
+            11
         ],
         [
             21,
             23,
-            12.0
+            12
         ],
         [
             21,
             24,
-            13.0
+            13
         ],
         [
             25,
             26,
-            14.0
+            14
         ],
         [
             26,
             17,
-            19.0
+            19
         ],
         [
             26,
             27,
-            15.0
+            15
         ],
         [
             26,
             28,
-            16.0
+            16
         ],
         [
             29,
             30,
-            17.0
+            17
         ],
         [
             30,
             21,
-            22.0
+            22
         ],
         [
             31,
             30,
-            18.0
+            18
         ]
     ],
     "contentList": [
@@ -349,193 +369,257 @@
         },
         "nodes": [
             {
-                "extraInfo": [],
+                "extraInfo": [
+                    "106.99999999999997 137"
+                ],
                 "function": "null",
                 "id": "naturaleza_0",
                 "name": "naturaleza"
             },
             {
-                "extraInfo": [],
+                "extraInfo": [
+                    "320 90"
+                ],
                 "function": "null",
                 "id": "especies_1",
                 "name": "especies"
             },
             {
-                "extraInfo": [],
+                "extraInfo": [
+                    "814 191"
+                ],
                 "function": "null",
                 "id": "especie_2",
                 "name": "especie"
             },
             {
-                "extraInfo": [],
+                "extraInfo": [
+                    "595.9999999999999 139"
+                ],
                 "function": "null",
                 "id": "grupos_3",
                 "name": "grupos"
             },
             {
-                "extraInfo": [],
+                "extraInfo": [
+                    "819 74"
+                ],
                 "function": "null",
                 "id": "vertebrados_4",
                 "name": "vertebrados"
             },
             {
-                "extraInfo": [],
+                "extraInfo": [
+                    "1038 90"
+                ],
                 "function": "null",
                 "id": "invertebrados_5",
                 "name": "invertebrados"
             },
             {
-                "extraInfo": [],
+                "extraInfo": [
+                    "449 60"
+                ],
                 "function": "null",
                 "id": "clasificaciones_6",
                 "name": "clasificaciones"
             },
             {
-                "extraInfo": [],
+                "extraInfo": [
+                    "1160 223"
+                ],
                 "function": "null",
                 "id": "clases_7",
                 "name": "clases"
             },
             {
-                "extraInfo": [],
+                "extraInfo": [
+                    "1098 523"
+                ],
                 "function": "null",
                 "id": "familias_8",
                 "name": "familias"
             },
             {
-                "extraInfo": [],
+                "extraInfo": [
+                    "536.9999999999999 223"
+                ],
                 "function": "null",
                 "id": "familia_9",
                 "name": "familia"
             },
             {
-                "extraInfo": [],
+                "extraInfo": [
+                    "1091 461"
+                ],
                 "function": "null",
                 "id": "distinguen_10",
                 "name": "distinguen"
             },
             {
-                "extraInfo": [],
+                "extraInfo": [
+                    "240.0000000000001 226"
+                ],
                 "function": "null",
                 "id": "mamiferos_11",
                 "name": "mamiferos"
             },
             {
-                "extraInfo": [],
+                "extraInfo": [
+                    "1113 400"
+                ],
                 "function": "null",
                 "id": "reptiles_12",
                 "name": "reptiles"
             },
             {
-                "extraInfo": [],
+                "extraInfo": [
+                    "1119 343"
+                ],
                 "function": "null",
                 "id": "aves_13",
                 "name": "aves"
             },
             {
-                "extraInfo": [],
+                "extraInfo": [
+                    "1115 292"
+                ],
                 "function": "null",
                 "id": "peces_14",
                 "name": "peces"
             },
             {
-                "extraInfo": [],
+                "extraInfo": [
+                    "796.9999999999999 291"
+                ],
                 "function": "null",
                 "id": "cualidades_15",
                 "name": "cualidades"
             },
             {
-                "extraInfo": [],
+                "extraInfo": [
+                    "949 284"
+                ],
                 "function": "null",
                 "id": "atributos_16",
                 "name": "atributos"
             },
             {
-                "extraInfo": [],
+                "extraInfo": [
+                    "520.0000000000001 457"
+                ],
                 "function": "null",
                 "id": "animal_17",
                 "name": "animal"
             },
             {
-                "extraInfo": [],
+                "extraInfo": [
+                    "422 281"
+                ],
                 "function": "null",
                 "id": "gato_18",
                 "name": "gato"
             },
             {
-                "extraInfo": [],
+                "extraInfo": [
+                    "320 360"
+                ],
                 "function": "null",
                 "id": "cola_19",
                 "name": "cola"
             },
             {
-                "extraInfo": [],
+                "extraInfo": [
+                    "480 360"
+                ],
                 "function": "null",
                 "id": "perro_20",
                 "name": "perro"
             },
             {
-                "extraInfo": [],
+                "extraInfo": [
+                    "640 360"
+                ],
                 "function": "null",
                 "id": "mamifero_21",
                 "name": "mamifero"
             },
             {
-                "extraInfo": [],
+                "extraInfo": [
+                    "744 481"
+                ],
                 "function": "null",
                 "id": "placenta_22",
                 "name": "placenta"
             },
             {
-                "extraInfo": [],
+                "extraInfo": [
+                    "960 360"
+                ],
                 "function": "null",
                 "id": "leche_23",
                 "name": "leche"
             },
             {
-                "extraInfo": [],
+                "extraInfo": [
+                    "916 455.99999999999994"
+                ],
                 "function": "null",
                 "id": "pelos_24",
                 "name": "pelos"
             },
             {
-                "extraInfo": [],
+                "extraInfo": [
+                    "219.99999999999994 451.99999999999994"
+                ],
                 "function": "null",
                 "id": "pajaro_25",
                 "name": "pajaro"
             },
             {
-                "extraInfo": [],
+                "extraInfo": [
+                    "402.00000000000006 459.99999999999994"
+                ],
                 "function": "null",
                 "id": "ave_26",
                 "name": "ave"
             },
             {
-                "extraInfo": [],
+                "extraInfo": [
+                    "232.9999999999999 576"
+                ],
                 "function": "null",
                 "id": "plumas_27",
                 "name": "plumas"
             },
             {
-                "extraInfo": [],
+                "extraInfo": [
+                    "130 521"
+                ],
                 "function": "null",
                 "id": "dinosaurios_28",
                 "name": "dinosaurios"
             },
             {
-                "extraInfo": [],
+                "extraInfo": [
+                    "795.0000000000001 550"
+                ],
                 "function": "null",
                 "id": "mujer_29",
                 "name": "mujer"
             },
             {
-                "extraInfo": [],
+                "extraInfo": [
+                    "620 552"
+                ],
                 "function": "null",
                 "id": "humano_30",
                 "name": "humano"
             },
             {
-                "extraInfo": [],
+                "extraInfo": [
+                    "475.99999999999994 554"
+                ],
                 "function": "null",
                 "id": "hombre_31",
                 "name": "hombre"

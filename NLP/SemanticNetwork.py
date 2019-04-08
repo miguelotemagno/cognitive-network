@@ -748,40 +748,20 @@ class SemanticNetwork:
                 node = self.net.search({'name': thisNoun}) if thisNoun is not None and tag == 'NOUN' else None
 
                 if node is not None and len(node) == 0:
-                    id = self.net.addNode(self.net, name=thisNoun, matrix=self.net.connects)
-                    n = len(self.net.nodeNames)
-                    arr1 = np.copy(self.net.connects)
-                    (m, l) = arr1.shape
-                    self.net.connects = np.zeros((n, n), dtype=float)
-                    self.net.connects[:m, :l] = arr1
-                    arr2 = np.copy(self.actions)
-                    #(m, l) = arr2.shape
-                    self.actions = np.chararray((n, n), itemsize=30)
-                    self.actions[:] = ''
-                    self.actions[:m, :l] = arr2
+                    id = self.addNode(thisNoun)
 
                 lastNoun = noun
 
             if thisNoun is not None and prevNoun is not None and verb is not None:
-                origin  = self.net.search({'name': prevNoun})
-                destiny = self.net.search({'name': thisNoun})
-
-                prep = "%s %s" % (prep, det) if re.search('PREP DET', ' '.join(tags)) else prep
-                verb = "%s %s" % (aux, verb) if re.search('AUX VERB', ' '.join(tags)) else verb
-                verb = "%s %s" % (verb, prep) if re.search('VERB (PREP\s?)+', ' '.join(tags)) else verb
-
-                print (">>\t%s\n\t%s") % (' '.join(tags), ' '.join(words))
-                print ("\t%s --(%s)--> %s\n") % (prevNoun, verb, thisNoun)
-
-                if verb not in self.actionList:
-                    self.actionList.append(verb)
-                    self.actionFunc.dictionary[verb] = 'null'
-
-                if origin is not None and destiny is not None and len(origin) > 0 and len(destiny) > 0:
-                    o = self.net.getIndexof(origin[0].name)
-                    d = self.net.getIndexof(destiny[0].name)
-                    self.net.setConnection(o, d, textId, matrix=self.net.connects)
-                    self.net.setConnection(o, d, verb, matrix=self.actions)
+                if self.connectNode(prevNoun, thisNoun, tags, words, args={
+                    'det': det,
+                    'noun': noun,
+                    'verb': verb,
+                    'prep': prep,
+                    'aux': aux,
+                    'conj': conj,
+                    'textId': textId
+                }):
                     prevNoun = None
                     thisNoun = None
                     tags = []
@@ -806,6 +786,51 @@ class SemanticNetwork:
         # except ValueError:
         #     print ("makeSemanticNetwork error: [%s]\n%s\n") % (ValueError, str(self.getSemanticNetwork()))
         pass
+
+    ####################################################################
+
+    def connectNode(self, prevNoun, thisNoun, tags, words, args={}):
+        origin = self.net.search({'name': prevNoun})
+        destiny = self.net.search({'name': thisNoun})
+
+        (prep, aux, verb, det, textId) = [args['prep'], args['aux'], args['verb'], args['det'], args['textId']]
+
+        prep = "%s %s" % (prep, det) if re.search('PREP DET', ' '.join(tags)) else prep
+        verb = "%s %s" % (aux, verb) if re.search('AUX VERB', ' '.join(tags)) else verb
+        verb = "%s %s" % (verb, prep) if re.search('VERB (PREP\s?)+', ' '.join(tags)) else verb
+
+        print (">>\t%s\n\t%s") % (' '.join(tags), ' '.join(words))
+        print ("\t%s --(%s)--> %s\n") % (prevNoun, verb, thisNoun)
+
+        if verb not in self.actionList:
+            self.actionList.append(verb)
+            self.actionFunc.dictionary[verb] = 'null'
+
+        if origin is not None and destiny is not None and len(origin) > 0 and len(destiny) > 0:
+            o = self.net.getIndexof(origin[0].name)
+            d = self.net.getIndexof(destiny[0].name)
+            self.net.setConnection(o, d, textId, matrix=self.net.connects)
+            self.net.setConnection(o, d, verb, matrix=self.actions)
+            return True
+        else:
+            return False
+
+
+    ####################################################################
+
+    def addNode(self, thisNoun):
+        id = self.net.addNode(self.net, name=thisNoun, matrix=self.net.connects)
+        n = len(self.net.nodeNames)
+        arr1 = np.copy(self.net.connects)
+        (m, l) = arr1.shape
+        self.net.connects = np.zeros((n, n), dtype=float)
+        self.net.connects[:m, :l] = arr1
+        arr2 = np.copy(self.actions)
+        self.actions = np.chararray((n, n), itemsize=30)
+        self.actions[:] = ''
+        self.actions[:m, :l] = arr2
+
+        return id
 
     ####################################################################
 

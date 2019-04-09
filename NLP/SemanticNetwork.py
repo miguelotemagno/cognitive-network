@@ -934,3 +934,45 @@ class SemanticNetwork:
         json = self.getSemanticNetwork()
         with open(file, "w") as text_file:
             text_file.write(js.dumps(json, sort_keys=True, indent=4, separators=(',', ': ')))
+
+    ####################################################################
+
+    def loadSemanticNetwork(self, dbFile):
+        self.fileDb = dbFile
+        f = open(self.fileDb, 'r')
+        json = f.read()
+        f.close()
+        self.importSemanticNetwork(json)
+
+    ####################################################################
+
+    def importSemanticNetwork(self, json):
+        data = js.loads(json)
+        self.net = Graph(name='net')
+        width = data['width']
+        height = data['height']
+        self.text = data['contentList']
+        self.actions = np.chararray((width, height), itemsize=30)
+        self.actions[:] = ''
+        self.net.functions = self.actionFunc
+        self.net.connects = np.zeros((width, height), dtype=float)
+
+        for node in data['net']['nodes']:
+            id = self.net.addNode(self.net, name=node['name'])
+            pNode = self.net.search({'id':id})
+            if len(pNode) > 0:
+                pNode[0].extraInfo = node['extraInfo']
+
+        for action in data['actions']:
+            (y, x, txt) = action
+            self.actions[y, x] = txt
+
+        for connect in data['connects']:
+            (y, x, val) = connect
+            self.net.connects[y, x] = val
+
+    ####################################################################
+
+    def select(self, topic):
+
+        return js.dumps(self.getSemanticNetwork(), sort_keys=True, indent=4, separators=(',', ': '))

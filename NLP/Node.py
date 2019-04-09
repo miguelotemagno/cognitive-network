@@ -43,6 +43,7 @@ class Node:
         self.parent = parent
         self.functionName = function
         self.function = self.parent.functions.names[function] if function is not None else self.null
+        self.extraInfo = []
         pass
 
     ####################################################################
@@ -58,7 +59,7 @@ class Node:
             'id': self.id,
             'name': self.name,
             'function': self.functionName,
-            'extraInfo': []
+            'extraInfo': self.extraInfo
         }
         return js
 

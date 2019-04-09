@@ -42,6 +42,7 @@ if sys.argv[1] == 'train':
                 print(ValueError)
                 continue
 
+
 # ejemplo: python testSemantic.py web https://definicion.de/taoismo '' 'taoismo.json'
 if sys.argv[1] == 'web':
     url = 'https://raw.githubusercontent.com/miguelotemagno/imagestion/imagestion_1.0/NLP/grammarTest.txt'
@@ -115,8 +116,20 @@ if sys.argv[1] == 'file':
     print ("\nactions:\n")
     print (s.actions)
 
+
 if sys.argv[1] == 'clean':
     dbFile = sys.argv[2] if sys.argv[2] is not None and sys.argv[2] != '' else 'semanticNet.json'
     s.save(dbFile)
+
+
+if sys.argv[1] == 'select':
+    query = sys.argv[2]
+    dbFile = sys.argv[3] if sys.argv[3] is not None and sys.argv[3] != '' else 'semanticNet.json'
+    dbSemantic = sys.argv[4] if sys.argv[4] is not None and sys.argv[4] != '' else 'redSemantica.json'
+    s.load(dbFile)
+    s.loadSemanticNetwork(dbSemantic)
+
+    print(s.select(query))
+
 
 print ('Done! Time taken: %f sec for %d CPUs') % (time.time() - start_time, multiprocessing.cpu_count())

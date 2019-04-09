@@ -69,7 +69,7 @@ class Graph:
 
     ####################################################################
 
-    def addNode(self, parent, name='', function='null', matrix=None):
+    def addNode(self, parent, name='', function='null'):
         id = None
 
         if not (name in self.nodeNames):

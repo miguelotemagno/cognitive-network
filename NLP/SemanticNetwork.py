@@ -756,7 +756,7 @@ class SemanticNetwork:
                 node = self.net.search({'name': thisNoun}) if thisNoun is not None and tag == 'NOUN' else None
 
                 if node is not None and len(node) == 0:
-                    id = self.addNode(thisNoun)
+                    self.addNode(thisNoun)
 
                 lastNoun = noun
 
@@ -882,7 +882,7 @@ class SemanticNetwork:
     ####################################################################
 
     def addNode(self, thisNoun):
-        id = self.net.addNode(self.net, name=thisNoun, matrix=self.net.connects)
+        node = self.net.addNode(self.net, name=thisNoun, matrix=self.net.connects)
         n = len(self.net.nodeNames)
         arr1 = np.copy(self.net.connects)
         (m, l) = arr1.shape
@@ -893,7 +893,7 @@ class SemanticNetwork:
         self.actions[:] = ''
         self.actions[:m, :l] = arr2
 
-        return id
+        return node
 
     ####################################################################
 
@@ -958,10 +958,9 @@ class SemanticNetwork:
         self.net.connects = np.zeros((width, height), dtype=float)
 
         for node in data['net']['nodes']:
-            id = self.net.addNode(self.net, name=node['name'])
-            pNode = self.net.search({'id':id})
-            if len(pNode) > 0:
-                pNode[0].extraInfo = node['extraInfo']
+            pNode = self.net.addNode(self.net, name=node['name'])
+            if pNode is not None:
+                pNode.extraInfo = node['extraInfo']
 
         for action in data['actions']:
             (y, x, txt) = action
@@ -974,5 +973,10 @@ class SemanticNetwork:
     ####################################################################
 
     def select(self, topic):
+        #idx = self.net.nodeNames.index(topic) if topic in self.net.nodeNames else None
+        node = self.net.search({'name': topic})
+        if len(node) > 0:
+            inputs = self.net.getEntriesNode(node, self.net)
+            ouputs = self.net.getConnectionsNode(node, self.net)
 
         return js.dumps(self.getSemanticNetwork(), sort_keys=True, indent=4, separators=(',', ': '))

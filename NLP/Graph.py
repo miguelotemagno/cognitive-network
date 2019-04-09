@@ -70,15 +70,16 @@ class Graph:
     ####################################################################
 
     def addNode(self, parent, name='', function='null'):
-        id = None
+        node = None
 
         if not (name in self.nodeNames):
             n = len(self.nodeNames)
             id = "%s_%s" % (name, n)
             self.nodeNames.append(name)
-            self.nodes.append(Node(parent, name, id, function))
+            node = Node(parent, name, id, function)
+            self.nodes.append(node)
 
-        return id
+        return node
 
     ####################################################################
 

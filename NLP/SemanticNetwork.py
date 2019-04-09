@@ -819,6 +819,39 @@ class SemanticNetwork:
 
     ####################################################################
 
+    def linkPlurals(self):
+        l = len(self.net.nodeNames)
+        for i in range(0, l):
+            str1 = self.net.nodeNames[i]
+            for j in range(i+1, l):
+                if j < l:
+                    str2 = self.net.nodeNames[j]
+                    type1 = self.rules.isNoun(str1)
+                    type2 = self.rules.isNoun(str2)
+                    if str1 != str2 and type1 is not None and type2 is not None and type1 == type2:
+                        if re.search('^'+str1, str2):
+                            self.connectNode(str2, str1, [], [], args={
+                                'det': None,
+                                'noun': None,
+                                'verb': 'es',
+                                'prep': None,
+                                'aux': None,
+                                'conj': None,
+                                'textId': 1
+                            })
+                        if re.search('^'+str2, str1):
+                            self.connectNode(str1, str2, [], [], args={
+                                'det': None,
+                                'noun': None,
+                                'verb': 'es',
+                                'prep': None,
+                                'aux': None,
+                                'conj': None,
+                                'textId': 1
+                            })
+
+    ####################################################################
+
     def connectNode(self, prevNoun, thisNoun, tags, words, args={}):
         origin = self.net.search({'name': prevNoun})
         destiny = self.net.search({'name': thisNoun})

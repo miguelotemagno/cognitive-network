@@ -99,7 +99,7 @@
 		],
         "sustComun" : [
             "(pajar|dinosauri|perr|[pg]at|conej|caball|yegu|aguil|mon|goril|lor|camell|lob|babos|molusc|pescad|simi",
-            "cerd|chanch|poll|gall(in)?)[oa][s]?",
+            "cerd|chanch|poll|gall(in)?|human)[oa][s]?|\\w{2,}([eo]r|an|e)o[s]?|\\w{2,}lia[s]?",
             "((elefa|rinocero|biso)nt|caracol|(rat|tibur)on|delfin)e?s?|(lapi|pe|codorni|lombri|lu)(z|ces)",
 			"(pluma|pelo|ave|vaca|toro|hom(bre|inido))[s]?|(animal|buey|mujer)(es)?"
         ],
@@ -119,9 +119,9 @@
 		"sustDisminutivo" : ["\\w{2,}(it|ill)[oa][s]?"],
 		"sustDerivado" :  ["floresta|\\w+ero|ojera|quesillo|\\w+eria"],
 		"sustAbstract" : [
-			"paz|guerra|amor|odio|hola|adios|(mito|base|cosa|objeto|hora|human[oa])[s]?",
+			"paz|guerra|amor|odio|hola|adios|(mito|base|cosa|objeto|hora)[s]?",
 			"\\w{2,}(eza|ismo|[td][ua]d|anza|[sftln]o[fgrm]ia|miento|aje|[tg]ica|rrota|encia)[s]?",
-            "\\w+rio[s]?"
+            "\\w+rio[s]?|\\w{2,}ie[s]?|\\w{2,}dad"
 		],
 		"sustColectivo" : ["cardumen(es)?|(piara|banda(da)?|ejercito|tropa|grupo|biblioteca|jauria|conjunto)[s]?"],
         "sustAll" : [

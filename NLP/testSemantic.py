@@ -62,6 +62,8 @@ if sys.argv[1] == 'web':
                 print ("%03d) texto:%s\n     nucleo:%s\n     sujeto:{%s}\n     predicado:{%s}\n     tokens:{%s}\n") % (y, item['text'], item['root'], str(item['subject']), str(item['predicate']), str(item['tokens']))
                 s.makeSemanticNetwork(item['tokens'])
 
+    s.linkPlurals()
+
     file = "redSemantica.json"
     if sys.argv[4] != '':
         file = sys.argv[4]
@@ -98,6 +100,8 @@ if sys.argv[1] == 'file':
             for item in list[y]:
                 print ("%03d) texto:%s\n     nucleo:%s\n     sujeto:{%s}\n     predicado:{%s}\n     tokens:{%s}\n") % (y, item['text'], item['root'], str(item['subject']), str(item['predicate']), str(item['tokens']))
                 s.makeSemanticNetwork(item['tokens'])
+
+    s.linkPlurals()
 
     file = "redSemantica.json"
     if sys.argv[4] != '':

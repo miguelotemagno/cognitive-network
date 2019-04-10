@@ -975,8 +975,51 @@ class SemanticNetwork:
     def select(self, topic):
         #idx = self.net.nodeNames.index(topic) if topic in self.net.nodeNames else None
         node = self.net.search({'name': topic})
+        json = {
+            'width': None,
+            'height': None,
+            'net': None,
+            'actions': [],
+            'connects': [],
+            'contentList': []
+        }
+
         if len(node) > 0:
             inputs = self.net.getEntriesNode(node, self.net)
-            ouputs = self.net.getConnectionsNode(node, self.net)
+            outputs = self.net.getConnectionsNode(node, self.net)
+            net = Graph(name='net')
+            net.functions = self.actionFunc
 
-        return js.dumps(self.getSemanticNetwork(), sort_keys=True, indent=4, separators=(',', ': '))
+            for item in inputs + outputs:
+                pNode = net.addNode(net, name=item.name)
+                if pNode is not None:
+                    pNode.extraInfo = item.extraInfo
+
+            size = len(net.nodeNames)
+            actions = np.chararray((size, size), itemsize=30)
+            actions[:] = ''
+            net.connects = np.zeros((size, size), dtype=float)
+            json['width'] = size
+            json['height'] = size
+
+            idN = self.net.getIndexof(node.name)
+            n = net.getIndexof(node.name)
+            for item in inputs:
+                x = net.getIndexof(item.name)
+                idX = self.net.getIndexof(item.name)
+                val = self.net.connects[idN, idX]
+                net.connects[n, x] = val
+                actions[n, x] = self.actions[idN, idX]
+                text = self.text[val]
+
+            for item in outputs:
+                y = net.getIndexof(item.name)
+                idY = self.net.getIndexof(item.name)
+                val = self.net.connects[idY, idN]
+                net.connects[y, n] = val
+                actions[y, n] = self.actions[idY, idN]
+                text = self.text[val]
+
+            json['net'] = net.getJson()
+
+        return js.dumps(json, sort_keys=True, indent=4, separators=(',', ': '))

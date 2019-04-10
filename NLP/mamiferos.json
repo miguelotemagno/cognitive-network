@@ -150,7 +150,7 @@
         [
             0,
             1,
-            2
+            1
         ],
         [
             1,
@@ -160,17 +160,17 @@
         [
             2,
             3,
-            2
+            1
         ],
         [
             2,
             4,
-            2
+            1
         ],
         [
             2,
             5,
-            2
+            1
         ],
         [
             2,
@@ -215,109 +215,110 @@
         [
             17,
             17,
-            6
-        ],
-        [
-            18,
-            19,
             7
         ],
         [
             18,
-            21,
-            10
-        ],
-        [
-            20,
             19,
             8
         ],
         [
+            18,
+            21,
+            11
+        ],
+        [
+            20,
+            19,
+            9
+        ],
+        [
             20,
             21,
-            9
+            10
         ],
         [
             21,
             17,
-            21
+            22
         ],
         [
             21,
             22,
-            11
-        ],
-        [
-            21,
-            23,
             12
         ],
         [
             21,
-            24,
+            23,
             13
+        ],
+        [
+            21,
+            24,
+            14
         ],
         [
             25,
             26,
-            14
-        ],
-        [
-            26,
-            17,
-            19
-        ],
-        [
-            26,
-            27,
             15
         ],
         [
             26,
-            28,
+            17,
+            20
+        ],
+        [
+            26,
+            27,
             16
+        ],
+        [
+            26,
+            28,
+            17
         ],
         [
             29,
             30,
-            17
+            18
         ],
         [
             30,
             21,
-            22
+            23
         ],
         [
             31,
             30,
-            18
+            19
         ]
     ],
-    "contentList": [
-        "",
-        "en la naturaleza encontramos diversas especies , toda especie pertenece a uno de dos grupos : los vertebrados y los invertebrados",
-        "de estos grupos obtenemos clasificaciones , y de estas clases identificamos diversas familias",
-        "cada especie pertenece a una familia , y de estas familias se distinguen como : mamiferos , reptiles , aves y peces",
-        "entre los mamiferos clasificamos las especies , y cada especie tiene sus cualidades y atributos",
-        "todo animal nace de otro animal",
-        "todo animal puede comer otro animal",
-        "todo gato tiene cola",
-        "todo perro tiene cola",
-        "todo perro es un mamifero",
-        "todo gato es un mamifero",
-        "todo mamifero nace de una placenta",
-        "todo mamifero bebe leche",
-        "un mamifero puede poseer pelos",
-        "el pajaro es una ave",
-        "toda ave tiene plumas",
-        "el ave desciende de dinosaurios",
-        "la mujer es humano",
-        "el hombre es humano",
-        "toda ave es un animal",
-        "toda ave nace de un huevo",
-        "todo mamifero es un animal",
-        "todo humano es un mamifero"
-    ],
+    "contentList": {
+        "0.0": "en la naturaleza encontramos diversas especies , toda especie pertenece a uno de dos grupos : los vertebrados y los invertebrados",
+        "1.0": "en la naturaleza encontramos diversas especies , toda especie pertenece a uno de dos grupos : los vertebrados y los invertebrados",
+        "10.0": "todo perro es un mamifero",
+        "11.0": "todo gato es un mamifero",
+        "12.0": "todo mamifero nace de una placenta",
+        "13.0": "todo mamifero bebe leche",
+        "14.0": "un mamifero puede poseer pelos",
+        "15.0": "el pajaro es una ave",
+        "16.0": "toda ave tiene plumas",
+        "17.0": "el ave desciende de dinosaurios",
+        "18.0": "la mujer es humano",
+        "19.0": "el hombre es humano",
+        "2.0": "de estos grupos obtenemos clasificaciones , y de estas clases identificamos diversas familias",
+        "20.0": "toda ave es un animal",
+        "21.0": "toda ave nace de un huevo",
+        "22.0": "todo mamifero es un animal",
+        "23.0": "todo humano es un mamifero",
+        "3.0": "cada especie pertenece a una familia , y de estas familias se distinguen como : mamiferos , reptiles , aves y peces",
+        "4.0": "entre los mamiferos clasificamos las especies , y cada especie tiene sus cualidades y atributos",
+        "5.0": "entre los mamiferos clasificamos las especies , y cada especie tiene sus cualidades y atributos",
+        "6.0": "todo animal nace de otro animal",
+        "7.0": "todo animal puede comer otro animal",
+        "8.0": "todo gato tiene cola",
+        "9.0": "todo perro tiene cola"
+    },
     "height": 32,
     "net": {
         "functions": [
@@ -410,7 +411,7 @@
         "nodes": [
             {
                 "extraInfo": [
-                    "226.6666666666667 251.9047619047618"
+                    "238.3051385208205 282.0692076925781"
                 ],
                 "function": "null",
                 "id": "naturaleza_0",
@@ -418,7 +419,7 @@
             },
             {
                 "extraInfo": [
-                    "357.1428571428571 151.90476190476187"
+                    "383.53058408292964 373.6714452075"
                 ],
                 "function": "null",
                 "id": "especies_1",
@@ -426,7 +427,7 @@
             },
             {
                 "extraInfo": [
-                    "613.3333333333335 187.14285714285714"
+                    "536.1433068639847 369.2390788761329"
                 ],
                 "function": "null",
                 "id": "especie_2",
@@ -434,7 +435,7 @@
             },
             {
                 "extraInfo": [
-                    "1005.7142857142857 190.9523809523809"
+                    "410.99440621269525 246.61027704164064"
                 ],
                 "function": "null",
                 "id": "grupos_3",
@@ -442,7 +443,7 @@
             },
             {
                 "extraInfo": [
-                    "795.2380952380951 87.14285714285708"
+                    "740.9017822484373 178.64732662734372"
                 ],
                 "function": "null",
                 "id": "vertebrados_4",
@@ -450,7 +451,7 @@
             },
             {
                 "extraInfo": [
-                    "1062.857142857143 105.23809523809517"
+                    "812.254455621094 270.2495641422656"
                 ],
                 "function": "null",
                 "id": "invertebrados_5",
@@ -458,7 +459,7 @@
             },
             {
                 "extraInfo": [
-                    "1068.5714285714284 312.38095238095224"
+                    "291.49353449722673 162.27053467453106"
                 ],
                 "function": "null",
                 "id": "clasificaciones_6",
@@ -466,7 +467,7 @@
             },
             {
                 "extraInfo": [
-                    "18.095238095238074 465.7142857142855"
+                    "1016.7190188768359 353.87500970437503"
                 ],
                 "function": "null",
                 "id": "clases_7",
@@ -474,7 +475,7 @@
             },
             {
                 "extraInfo": [
-                    "430.4761904761904 79.04761904761895"
+                    "895.9453361544143 436.77032645003897"
                 ],
                 "function": "null",
                 "id": "familias_8",
@@ -482,7 +483,7 @@
             },
             {
                 "extraInfo": [
-                    "615.2380952380951 91.42857142857136"
+                    "753.4571484024999 445.9506828997264"
                 ],
                 "function": "null",
                 "id": "familia_9",
@@ -490,7 +491,7 @@
             },
             {
                 "extraInfo": [
-                    "15.23809523809507 330.47619047619037"
+                    "977.0361778702347 180.96050467488277"
                 ],
                 "function": "null",
                 "id": "distinguen_10",
@@ -498,7 +499,7 @@
             },
             {
                 "extraInfo": [
-                    "496.19047619047626 253.3333333333332"
+                    "575.8615846148439 445.94197988203126"
                 ],
                 "function": "null",
                 "id": "mamiferos_11",
@@ -506,7 +507,7 @@
             },
             {
                 "extraInfo": [
-                    "23.809523809523753 395.71428571428555"
+                    "1006.7969295871098 296.24999999999994"
                 ],
                 "function": "null",
                 "id": "reptiles_12",
@@ -514,7 +515,7 @@
             },
             {
                 "extraInfo": [
-                    "503.8095238095238 557.6190476190476"
+                    "229.87521792886707 382.28661372796887"
                 ],
                 "function": "null",
                 "id": "aves_13",
@@ -522,7 +523,7 @@
             },
             {
                 "extraInfo": [
-                    "40.95238095238085 263.3333333333332"
+                    "1013.1489200600397 237.57923769222649"
                 ],
                 "function": "null",
                 "id": "peces_14",
@@ -530,7 +531,7 @@
             },
             {
                 "extraInfo": [
-                    "718.095238095238 282.3809523809523"
+                    "558.7399505916014 188.73995059160154"
                 ],
                 "function": "null",
                 "id": "cualidades_15",
@@ -538,7 +539,7 @@
             },
             {
                 "extraInfo": [
-                    "875.2380952380951 269.0476190476189"
+                    "817.7294653254685 348.3051385208204"
                 ],
                 "function": "null",
                 "id": "atributos_16",
@@ -546,7 +547,7 @@
             },
             {
                 "extraInfo": [
-                    "583.809523809524 457.6190476190475"
+                    "420.7287630169923 512.3026927814064"
                 ],
                 "function": "null",
                 "id": "animal_17",
@@ -554,7 +555,7 @@
             },
             {
                 "extraInfo": [
-                    "380 281.9047619047617"
+                    "787.918563610352 664.3558214205466"
                 ],
                 "function": "null",
                 "id": "gato_18",
@@ -562,7 +563,7 @@
             },
             {
                 "extraInfo": [
-                    "301.90476190476187 369.5238095238093"
+                    "928.7116428410943 704.2471184028514"
                 ],
                 "function": "null",
                 "id": "cola_19",
@@ -570,7 +571,7 @@
             },
             {
                 "extraInfo": [
-                    "480 360"
+                    "886.3002470419926 612.6448808879295"
                 ],
                 "function": "null",
                 "id": "perro_20",
@@ -578,7 +579,7 @@
             },
             {
                 "extraInfo": [
-                    "640 360"
+                    "672.5040197633596 562.4113957991013"
                 ],
                 "function": "null",
                 "id": "mamifero_21",
@@ -586,7 +587,7 @@
             },
             {
                 "extraInfo": [
-                    "801.9047619047616 420.95238095238074"
+                    "520.7609211238666 685.0401976335935"
                 ],
                 "function": "null",
                 "id": "placenta_22",
@@ -594,7 +595,7 @@
             },
             {
                 "extraInfo": [
-                    "921.9047619047619 347.6190476190474"
+                    "654.1667231356643 693.904930296328"
                 ],
                 "function": "null",
                 "id": "leche_23",
@@ -602,7 +603,7 @@
             },
             {
                 "extraInfo": [
-                    "672.3809523809523 545.2380952380953"
+                    "454.01363331402365 619.907376035742"
                 ],
                 "function": "null",
                 "id": "pelos_24",
@@ -618,7 +619,7 @@
             },
             {
                 "extraInfo": [
-                    "480 450"
+                    "237.6973072185936 534.2149602959763"
                 ],
                 "function": "null",
                 "id": "ave_26",
@@ -626,7 +627,7 @@
             },
             {
                 "extraInfo": [
-                    "331.42857142857133 545.2380952380953"
+                    "198.24082230707006 639.1142968049999"
                 ],
                 "function": "null",
                 "id": "plumas_27",
@@ -634,7 +635,7 @@
             },
             {
                 "extraInfo": [
-                    "146.6666666666664 506.1904761904763"
+                    "310.96224810581975 640.591752248789"
                 ],
                 "function": "null",
                 "id": "dinosaurios_28",
@@ -642,7 +643,7 @@
             },
             {
                 "extraInfo": [
-                    "960 450"
+                    "1047.169871183555 494.3236633136718"
                 ],
                 "function": "null",
                 "id": "mujer_29",
@@ -650,7 +651,7 @@
             },
             {
                 "extraInfo": [
-                    "822.8571428571428 502.8571428571427"
+                    "879.5208011252735 541.477455443789"
                 ],
                 "function": "null",
                 "id": "humano_30",
@@ -658,7 +659,7 @@
             },
             {
                 "extraInfo": [
-                    "1036.1904761904764 534.285714285714"
+                    "1023.2687912435943 602.0531286391407"
                 ],
                 "function": "null",
                 "id": "hombre_31",

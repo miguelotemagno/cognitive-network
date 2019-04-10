@@ -101,7 +101,7 @@ class SemanticNetwork:
         self.net.functions = self.actionFunc
         self.actions = np.chararray((1, 1), itemsize=30)
         self.actions[:] = ''
-        self.text = ['']
+        self.text = {}
         pass
 
     ####################################################################
@@ -811,7 +811,7 @@ class SemanticNetwork:
 
         txt = ' '.join(text)
         if txt not in self.text:
-            self.text.append(txt)
+            self.text[str(textId)] = txt
 
         # except ValueError:
         #     print ("makeSemanticNetwork error: [%s]\n%s\n") % (ValueError, str(self.getSemanticNetwork()))
@@ -882,7 +882,7 @@ class SemanticNetwork:
     ####################################################################
 
     def addNode(self, thisNoun):
-        node = self.net.addNode(self.net, name=thisNoun, matrix=self.net.connects)
+        node = self.net.addNode(self.net, name=thisNoun)
         n = len(self.net.nodeNames)
         arr1 = np.copy(self.net.connects)
         (m, l) = arr1.shape
@@ -981,16 +981,20 @@ class SemanticNetwork:
             'net': None,
             'actions': [],
             'connects': [],
-            'contentList': []
+            'contentList': {}
         }
 
         if len(node) > 0:
-            inputs = self.net.getEntriesNode(node, self.net)
-            outputs = self.net.getConnectionsNode(node, self.net)
+            inputs = self.net.getEntriesNode(node[0], self.net)
+            outputs = self.net.getConnectionsNode(node[0], self.net)
+            connects = []
+            lstAction = []
             net = Graph(name='net')
             net.functions = self.actionFunc
+            all = inputs + outputs
+            all.append(node[0])
 
-            for item in inputs + outputs:
+            for item in all:
                 pNode = net.addNode(net, name=item.name)
                 if pNode is not None:
                     pNode.extraInfo = item.extraInfo
@@ -1002,15 +1006,15 @@ class SemanticNetwork:
             json['width'] = size
             json['height'] = size
 
-            idN = self.net.getIndexof(node.name)
-            n = net.getIndexof(node.name)
+            idN = self.net.getIndexof(node[0].name)
+            n = net.getIndexof(node[0].name)
             for item in inputs:
                 x = net.getIndexof(item.name)
                 idX = self.net.getIndexof(item.name)
                 val = self.net.connects[idN, idX]
                 net.connects[n, x] = val
                 actions[n, x] = self.actions[idN, idX]
-                text = self.text[val]
+                json['contentList'][str(val)] = self.text[str(val)]
 
             for item in outputs:
                 y = net.getIndexof(item.name)
@@ -1018,8 +1022,21 @@ class SemanticNetwork:
                 val = self.net.connects[idY, idN]
                 net.connects[y, n] = val
                 actions[y, n] = self.actions[idY, idN]
-                text = self.text[val]
+                json['contentList'][str(val)] = self.text[str(val)]
 
+            for y in range(0, size):
+                for x in range(0, size):
+                    if net.connects[y, x] > 0.0:
+                        connects.append([y, x, net.connects[y, x]])
+
+            for y in range(0, size):
+                for x in range(0, size):
+                    if actions[y, x] != '':
+                        lstAction.append([y, x, actions[y, x]])
+
+            net.connects = np.array(())
+            json['actions'] = lstAction
+            json['connects'] = connects
             json['net'] = net.getJson()
 
         return js.dumps(json, sort_keys=True, indent=4, separators=(',', ': '))

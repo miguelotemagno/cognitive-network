@@ -1040,1061 +1040,1098 @@
         [
             0,
             0,
-            15
+            53.0
         ],
         [
             0,
             5,
-            14
+            44.0
         ],
         [
             0,
             16,
-            3
+            2.0
         ],
         [
             0,
             30,
-            13
+            42.0
         ],
         [
             0,
             50,
-            4
+            12.0
         ],
         [
             0,
             81,
-            4
-        ],
-        [
-            3,
-            4,
-            1
+            12.0
         ],
         [
             5,
             6,
-            17
+            57.0
         ],
         [
             6,
             167,
-            10
+            33.0
         ],
         [
             8,
             144,
-            7
+            27.0
         ],
         [
             14,
             15,
-            3
+            2.0
         ],
         [
             20,
             21,
-            3
+            2.0
         ],
         [
             24,
             25,
-            3
+            2.0
         ],
         [
             24,
             26,
-            3
+            2.0
         ],
         [
             24,
             27,
-            3
+            2.0
         ],
         [
             24,
             28,
-            3
+            2.0
         ],
         [
             24,
             29,
-            3
+            2.0
         ],
         [
             24,
             33,
-            3
+            2.0
         ],
         [
             24,
             34,
-            3
+            2.0
         ],
         [
             26,
             260,
-            17
+            57.0
         ],
         [
             28,
             36,
-            3
+            2.0
         ],
         [
             28,
             37,
-            3
+            2.0
         ],
         [
             32,
             129,
-            11
+            36.0
         ],
         [
             35,
             5,
-            3
+            2.0
         ],
         [
             38,
             0,
-            3
+            2.0
         ],
         [
             38,
             5,
-            15
+            53.0
         ],
         [
             38,
             26,
-            15
+            53.0
         ],
         [
             38,
             40,
-            4
+            12.0
         ],
         [
             38,
             75,
-            4
+            12.0
         ],
         [
             38,
             76,
-            4
+            12.0
         ],
         [
             38,
             132,
-            7
+            26.0
         ],
         [
             38,
             145,
-            9
+            30.0
         ],
         [
             38,
             261,
-            19
+            60.0
         ],
         [
             38,
             269,
-            19
+            60.0
         ],
         [
             38,
             296,
-            19
+            61.0
         ],
         [
             39,
             0,
-            3
+            2.0
         ],
         [
             40,
             0,
-            17
+            56.0
         ],
         [
             40,
             51,
-            4
+            12.0
         ],
         [
             40,
             58,
-            1
+            1.0
         ],
         [
             40,
             99,
-            6
+            22.0
         ],
         [
             40,
             117,
-            6
+            22.0
         ],
         [
             40,
             159,
-            17
+            56.0
         ],
         [
             41,
             0,
-            4
+            12.0
         ],
         [
             41,
             24,
-            3
+            2.0
         ],
         [
             41,
             42,
-            3
+            2.0
         ],
         [
             44,
             8,
-            3
+            2.0
         ],
         [
             44,
             26,
-            3
+            2.0
         ],
         [
             44,
             47,
-            3
+            2.0
         ],
         [
             44,
             48,
-            3
+            2.0
         ],
         [
             46,
             160,
-            9
+            30.0
         ],
         [
             47,
             119,
-            7
+            26.0
         ],
         [
             51,
             0,
-            11
+            37.0
         ],
         [
             51,
             5,
-            13
+            42.0
         ],
         [
             51,
             206,
-            11
+            37.0
         ],
         [
             52,
             204,
-            1
+            1.0
         ],
         [
             53,
             0,
-            4
+            12.0
         ],
         [
             53,
             207,
-            11
+            37.0
         ],
         [
             53,
             208,
-            11
+            37.0
         ],
         [
             53,
             209,
-            11
+            37.0
         ],
         [
             54,
             55,
-            4
+            12.0
         ],
         [
             54,
             56,
-            4
+            12.0
         ],
         [
             54,
             276,
-            19
+            60.0
         ],
         [
             54,
             306,
-            19
+            61.0
         ],
         [
             57,
             0,
-            4
+            12.0
         ],
         [
             58,
             59,
-            4
+            12.0
         ],
         [
             61,
             44,
-            4
+            12.0
         ],
         [
             66,
             67,
-            4
+            12.0
         ],
         [
             66,
             68,
-            4
+            12.0
         ],
         [
             66,
             69,
-            4
+            12.0
         ],
         [
             66,
             70,
-            4
+            12.0
         ],
         [
             70,
             69,
-            13
+            42.0
         ],
         [
             71,
             26,
-            14
+            44.0
         ],
         [
             71,
             38,
-            14
+            44.0
         ],
         [
             71,
             66,
-            14
+            44.0
         ],
         [
             71,
             72,
-            4
+            12.0
         ],
         [
             71,
             93,
-            14
+            44.0
         ],
         [
             71,
             111,
-            14
+            44.0
         ],
         [
             71,
             115,
-            14
+            44.0
         ],
         [
             71,
             116,
-            14
+            44.0
         ],
         [
             71,
             131,
-            7
+            26.0
         ],
         [
             71,
             223,
-            14
+            44.0
         ],
         [
             71,
             224,
-            14
+            44.0
         ],
         [
             71,
             225,
-            14
+            44.0
         ],
         [
             71,
             226,
-            14
+            44.0
         ],
         [
             71,
             227,
-            14
+            44.0
         ],
         [
             71,
             228,
-            14
+            44.0
         ],
         [
             71,
             229,
-            14
+            44.0
         ],
         [
             71,
             231,
-            14
+            44.0
         ],
         [
             71,
             233,
-            14
+            44.0
         ],
         [
             71,
             286,
-            19
+            61.0
         ],
         [
             77,
             78,
-            4
+            12.0
         ],
         [
             79,
             5,
-            4
+            12.0
         ],
         [
             79,
             6,
-            4
+            12.0
         ],
         [
             79,
             80,
-            4
+            12.0
         ],
         [
             82,
             299,
-            19
+            61.0
         ],
         [
             85,
             86,
-            4
+            12.0
         ],
         [
             87,
             88,
-            4
+            12.0
         ],
         [
             90,
             38,
-            4
+            12.0
         ],
         [
             91,
             92,
-            5
+            18.0
         ],
         [
             95,
             0,
-            5
+            18.0
         ],
         [
             96,
             51,
-            5
+            18.0
         ],
         [
             97,
             93,
-            5
+            18.0
         ],
         [
             97,
             98,
-            5
+            18.0
         ],
         [
             98,
             50,
-            1
+            1.0
         ],
         [
             99,
             100,
-            5
+            18.0
         ],
         [
             99,
             101,
-            5
+            18.0
         ],
         [
             102,
             0,
-            9
+            30.0
         ],
         [
             102,
             39,
-            9
+            30.0
         ],
         [
             102,
             40,
-            9
+            30.0
         ],
         [
             102,
             66,
-            9
+            30.0
         ],
         [
             102,
             82,
-            9
+            30.0
         ],
         [
             102,
             141,
-            7
+            26.0
         ],
         [
             102,
             142,
-            7
+            26.0
         ],
         [
             102,
             150,
-            9
+            30.0
         ],
         [
             102,
             151,
-            9
+            30.0
         ],
         [
             102,
             152,
-            9
+            30.0
         ],
         [
             102,
             156,
-            9
+            30.0
         ],
         [
             102,
             161,
-            9
+            30.0
         ],
         [
             102,
             162,
-            9
+            30.0
         ],
         [
             103,
             104,
-            5
+            18.0
         ],
         [
             103,
             105,
-            5
+            18.0
         ],
         [
             103,
             106,
-            5
+            18.0
         ],
         [
             108,
             109,
-            5
+            18.0
         ],
         [
             110,
             93,
-            5
+            18.0
         ],
         [
             112,
             0,
-            5
+            18.0
         ],
         [
             112,
             113,
-            5
+            18.0
         ],
         [
             112,
             114,
-            5
+            18.0
         ],
         [
             115,
             116,
-            13
+            42.0
         ],
         [
             115,
             215,
-            13
+            42.0
         ],
         [
             116,
             118,
-            6
+            22.0
         ],
         [
             116,
             119,
-            6
+            22.0
         ],
         [
             116,
             120,
-            6
+            22.0
         ],
         [
             122,
             123,
-            6
+            22.0
         ],
         [
             124,
             125,
-            6
+            22.0
         ],
         [
             124,
             126,
-            6
+            22.0
         ],
         [
             127,
             0,
-            6
+            22.0
         ],
         [
             135,
             40,
-            7
+            26.0
         ],
         [
             137,
             0,
-            15
+            53.0
         ],
         [
             137,
             138,
-            7
+            26.0
         ],
         [
             139,
             140,
-            7
+            26.0
         ],
         [
             157,
             158,
-            9
+            30.0
         ],
         [
             157,
             159,
-            9
+            30.0
         ],
         [
             161,
             289,
-            19
+            61.0
         ],
         [
             168,
             99,
-            10
+            33.0
         ],
         [
             168,
             169,
-            10
+            33.0
         ],
         [
             170,
             171,
-            10
+            33.0
         ],
         [
             172,
             51,
-            10
+            33.0
         ],
         [
             172,
             81,
-            10
+            33.0
         ],
         [
             172,
             173,
-            10
+            33.0
         ],
         [
             177,
             178,
-            11
+            36.0
         ],
         [
             177,
             179,
-            11
+            36.0
         ],
         [
             182,
             183,
-            11
+            36.0
         ],
         [
             184,
             0,
-            11
+            36.0
         ],
         [
             184,
             54,
-            19
+            61.0
         ],
         [
             184,
             287,
-            19
+            61.0
         ],
         [
             184,
             288,
-            19
+            61.0
         ],
         [
             185,
             51,
-            11
+            36.0
         ],
         [
             185,
             186,
-            11
+            36.0
         ],
         [
             185,
             187,
-            11
+            36.0
         ],
         [
             185,
             188,
-            11
+            36.0
         ],
         [
             189,
             190,
-            11
+            36.0
         ],
         [
             193,
             194,
-            11
+            36.0
         ],
         [
             195,
             196,
-            11
+            36.0
         ],
         [
             198,
             199,
-            11
+            36.0
         ],
         [
             203,
             5,
-            11
+            37.0
         ],
         [
             204,
             0,
-            13
+            42.0
         ],
         [
             204,
             205,
-            11
+            37.0
         ],
         [
             211,
             137,
-            13
+            42.0
         ],
         [
             211,
             194,
-            13
+            42.0
         ],
         [
             211,
             212,
-            13
+            42.0
         ],
         [
             213,
             214,
-            13
+            42.0
         ],
         [
             219,
             66,
-            13
+            42.0
         ],
         [
             219,
             220,
-            13
+            42.0
         ],
         [
             222,
             38,
-            14
+            44.0
         ],
         [
             227,
             247,
-            15
+            52.0
         ],
         [
             227,
             250,
-            15
+            52.0
         ],
         [
             227,
             253,
-            15
+            52.0
         ],
         [
             233,
             189,
-            1
+            1.0
         ],
         [
             234,
             227,
-            15
+            52.0
         ],
         [
             235,
             236,
-            15
+            52.0
         ],
         [
             236,
             5,
-            17
+            56.0
         ],
         [
             241,
             5,
-            19
+            60.0
         ],
         [
             241,
             52,
-            15
+            52.0
         ],
         [
             243,
             244,
-            15
+            52.0
         ],
         [
             243,
             245,
-            15
+            52.0
         ],
         [
             246,
             38,
-            15
+            52.0
         ],
         [
             246,
             159,
-            15
+            52.0
         ],
         [
             247,
             248,
-            15
+            52.0
         ],
         [
             249,
             26,
-            15
+            52.0
         ],
         [
             249,
             241,
-            15
+            52.0
         ],
         [
             255,
             256,
-            17
+            56.0
         ],
         [
             258,
             259,
-            17
+            57.0
         ],
         [
             262,
             263,
-            17
+            57.0
         ],
         [
             262,
             264,
-            17
+            57.0
         ],
         [
             262,
             266,
-            17
+            57.0
         ],
         [
             262,
             267,
-            17
+            57.0
         ],
         [
             279,
             40,
-            19
+            61.0
         ],
         [
             279,
             81,
-            19
+            61.0
         ],
         [
             279,
             280,
-            19
+            61.0
         ],
         [
             292,
             293,
-            19
+            61.0
         ],
         [
             294,
             54,
-            19
+            61.0
         ],
         [
             296,
             297,
-            19
+            61.0
         ],
         [
             301,
             302,
-            19
+            61.0
         ],
         [
             303,
             294,
-            19
+            61.0
         ],
         [
             304,
             38,
-            19
+            61.0
         ],
         [
             304,
             241,
-            19
+            61.0
         ],
         [
             304,
             305,
-            19
+            61.0
         ]
     ],
-    "contentList": [
-        "",
-        "tao la base del pensamiento cosmologico y filosofico de lao tse es el tao ( dao ) , un concepto abstracto generalmente poco entendible y hasta malinterpretado por los occidentales y los orientales que desconocen los conceptos del pensamiento taoista",
-        "la malinterpretacion superficial y religiosa hace creer que el tao es un dios o algun otro tipo de entidad espiritual o suprema , pero en realidad lao tse describe al tao como el origen de todo , la fuente primordial de todo lo existente , tanto lo fisico como lo abstracto , 19 por lo que define al tao como un concepto superprofundo de unidad primordial que escapa a la idea fijista y mitica de un dios , un ser , o cualquier otra personificacion ; 20 contrariamente , lao tse describe al tao como abstracto , amorfo , intangible , inaudible e inasible , por lo que las posteriores formas de la naturaleza han surgido del tao , y asi tambien lo que carece de forma , 21 por lo que el tao no se describe como una de estas dos cosas , sino como la primordialidad neutra de la cual todo lo demas surge , siendo asi el origen cosmologico y esencia de todo lo existente ; 22 23 y el concepto basico de la filosofia taoista , pero no una sustancia vaporosa o un ser sobrenatural",
-        "acerca del origen del tao , lao tse plantea que al ser este la primordialidad esencial de todo , es entonces el tao el origen de las cosas y no el tao la creacion de algo o alguien mas , debido a que son las cosas definidas del universo las que fluyeron de las mutaciones constantes y consecuentes del tao , por lo que estas son las cosas que el hombre logra conocer y catalogar bajo nomenclaturas , 24 pero el tao en si no es una cosa , sino que es la cosa en si ; no de la forma absolutista de imperatividad jerarquica , 25 sino como esencia infinita generadora de los posteriores cambios que tomaron forma en las diferentes manifestaciones ; 26 por lo que tanto los seres vivos , los objetos inanimados , la tierra misma y el cielo , todos han de ser formas que surgieron de cambios anteriores de la propia naturaleza , 24 27 siendo asi la naturaleza la madre de todas las cosas , 23 28 y en su punto ancestralmente neutral la naturaleza no habia adoptado formas pero existia en si misma , y por si misma fluyo y adopto formas en las cuales manifestarse , y es a eso lo que lao tse llama tao , explicando que tao es solo uno de los nombres posibles de darle , pero no el nombre original en si , 24 ya que son los hombres quienes requieren de nombrar las cosas para reconocerlas , 29 pero la naturaleza en si misma carece de nombres ya que no los necesita",
-        "lao tse llama ser ( you ) y no ser ( wu ) a los dos aspectos ontologicos emergentes del tao ; 19 30 el ser como categorizacion de todo lo manifiesto y perceptible del universo , englobando asi todos sus aspectos y creaciones , y el no ser como el aspecto oculto y metafisico de la existencia , siendo este la etereidad ontologica de lo manifiesto , 31 pero no una antitesis del ser , ya que la metafisica taoista no trata de antagonicos como los occidentales acostumbran a ver , sino que para lao tse la naturaleza es relativa y dialectica , por lo que ser y no ser son dos aspectos diferentes pero complementarios , 30 ambos provenientes del tao , y no dos posturas distintas que se confrontan entre si",
-        "el ser es el mundo fenomenico en el cual suceden las cosas , y el no ser el aspecto no fenomenico de ese mundo fenomenico , por lo que no existiria uno sin otro , y ninguno implica la anulacion de su contraparte ; no es el no ser un reino vaporoso y espiritual , y no es el ser una tangibilidad absoluta y permanentemente inmutable ; ambos son parte del devenir cosmico del tao , y esto es lo que lao tse explica en su filosofia",
-        "este es un principio altamente importante en la filosofia taoista , ya que implica que el orden natural de las cosas es el fluir constante y que permite los cambios que generan la evolucion en todos los aspectos de la naturaleza , razon por la cual lao tse insiste en la relatividad mutacional del tao , ya que este es el unico modo de lograr que las diferentes cosas logren amoldarse a los cambios para mutar y transformarse en formas mas eficientes que permitan continuar el fluir natural de la existencia , 34 24 32 ya que de lo contrario , se produciria el estancamiento que detendria el avance u orden natural de las cosas",
-        "35 este concepto ha sido aplicado por lao tse en toda su filosofia",
-        "en cuanto al orden natural del tao , lao tse explica que este es el modo en que la naturaleza permite la continuidad de la existencia , por lo que el tao no realiza cosas en favor de intereses personales , ya que carece de intereses propios , solo es el fluir constante de la existencia , favoreciendo asi a todos los seres y cosas en pos de su continuidad en vez de inclinarse solo por unos pocos , 33 por lo que el tao es imparcial y justo , 22 36 es el equilibrio y la armonia que la filosofia oriental impulsa a seguir para mejorar la existencia , contrariamente a los tabues y reglas absolutistas que el hombre impuso para favorecer a unos pocos , a costa del infortunio de todos los otros",
-        "lao tse ensena que todo es causa y efecto , por lo que cada aspecto que podemos percibir hoy , es originario de otro aspecto oculto que le antecedio historicamente , 40 explicando asi como el universo mismo y sus cosas existentes son resultado de hechos anteriores , y no de creaciones espontaneas",
-        "32 41 de esta idea nace el principio de accion y reaccion , que los taoistas mencionan al explicar como es que todo lo existente deviene de algo anterior ; todo tiene un por que , mostrando como el tao no hace las cosas arbitrariamente , sino que todo es causal , y no casual , 42 25 y esto no se limita solo al origen cosmologico del universo , sino a la vida diaria de todos los seres vivos , 41 incluido entre estos el ser humano , ya que todo lo que esta establecido en la esfera de la sociedad humana no ha de haber sido eterno ni absoluto , sino que fue creado por las propias causas que los seres humanos han desarrollado , 43 siendo la vida actual la consecuencia de los propios hechos que la humanidad ha desarrollado anteriormente",
-        "con la importante tonica del cambio constante , lao tse explica como este principio de la mutacion perpetua es lo que origino el universo y todo lo conocido , a raiz del tao y sus consecuentes cambios metafisica y fisicamente ontologicos llamados ser y no ser",
-        "32 24 lao tse explica que el tao en su unidad es minimo y absoluto , pero tras mutar y relativizarse da origen a la dualidad , la cual se explico anteriormente como ser y no ser , pero asi mismo , el mundo del ser se subdivide en una consecuente tercera fase de esta mutacion del tao , originando asi el universo conocido , representado por lao tse como cielo y tierra , siendo este el mundo fenomenico donde tras las posteriores mutaciones naturales consecuentes se originaron los diferentes elementos y los seres vivos , entre los cuales se encuentra el hombre",
-        "tras la division del tao , lao tse hace hincapie en el hecho de que toda la naturaleza es relativa y se sucede de cambios constantes dialecticamente complementarios , llamandole asi a los dos aspectos opuestos y complementarios yin y yang , presentes en todo el devenir cosmico de la naturaleza , tanto en los origenes metafisicos como en los seres vivos y el mundo fenomenico , 41 aplicandose asi tambien para analizar todo lo existente , incluidos los aspectos sociales y humanos que lao tse estudia en su filosofia",
-        "lao tse explica como yin y yang no son elementos confrontados , sino que sus caracteristicas opuestas se complementan para conformar asi la totalidad del tao , siendo que de esa manera , las mutaciones naturales permiten que lo asociado como yin se vuelva yang , y viceversa , 30 dando asi el ritmo dialectico que permite la fluidez natural de la energia ( chi ) , la cual representa la vitalidad de lo existente , siendo de esa manera el yin y el yang la mecanica de funcionamiento dialectico de la energia , en otras palabras , el cambio natural que permite la fluidez de la naturaleza , la cual obtiene armonia al hallar equilibrio entre sus dos aspectos opuestamente complementarios",
-        "tras mutar el tao y cambiar constantemente la naturaleza , todo lo existente se ha creado , por lo que lao tse sostiene que todo es naturalmente tao ya que el tao es el origen comun de todas las cosas",
-        "45 siendo asi , todas las cosas funcionan en armonia con la naturaleza cuando cumplen la funcion natural que poseen dadas sus caracteristicas , a las cuales lao tse se refiere como la virtud ( de ) que las cosas obtienen del tao",
-        "25 con este sentido de virtud como cualidad de cada forma existente para lograr su desempeno natural , lao tse explica que el orden natural de las cosas es seguir su desenvolvimiento nato , y no descarriarse en maneras contrarias a su comportamiento natural , ya que estas desequilibran la naturaleza y acaban por destruirla",
-        "43 de esa manera , lao tse habla de la virtud en el hombre como el funcionamiento armonioso en pos de su naturaleza y su desenvolvimiento social , en contraste con el comportamiento rutinario forjado por ordenanzas impuestas artificialmente que resultan contradecir la naturaleza universalista que el hombre deberia seguir naturalmente para perpetuar su bienestar en el mundo",
-        "asi , con este analisis cosmologico lao tse basa sus ensenanzas en el funcionamiento natural de las cosas , explicando que la naturaleza prospero debido a sus constantes cambios evolutivos y a la no obstruccion de su desarrollo natural , mostrando esto como ejemplo para la vida del hombre , argumentando como las normas y tabues impuestos no han de ser la propia naturaleza del hombre sino reglamentaciones artificiales impuestas por mandato jerarquico , siendo estas normativas restricciones que impiden al hombre desenvolverse con libertad y naturalidad para forjar un desarrollo prospero acorde a su naturaleza , por lo que la libertad que el hombre necesita solo la alcanzara tras liberarse de las ataduras superficiales para asi adoptar la forma de vida libre y sin restricciones , que le permitan desenvolverse armonicamente como la naturaleza ensena , 29 y de esa manera alcanzar el hombre la prosperidad para su vida y el desarrollo del bien comun"
-    ],
+    "contentList": {
+        "0.0": "tao la base del pensamiento cosmologico y filosofico de lao tse es el tao ( dao ) , un concepto abstracto generalmente poco entendible y hasta malinterpretado por los occidentales y los orientales que desconocen los conceptos del pensamiento taoista",
+        "1.0": "la malinterpretacion superficial y religiosa hace creer que el tao es un dios o algun otro tipo de entidad espiritual o suprema , pero en realidad lao tse describe al tao como el origen de todo , la fuente primordial de todo lo existente , tanto lo fisico como lo abstracto , 19 por lo que define al tao como un concepto superprofundo de unidad primordial que escapa a la idea fijista y mitica de un dios , un ser , o cualquier otra personificacion ; 20 contrariamente , lao tse describe al tao como abstracto , amorfo , intangible , inaudible e inasible , por lo que las posteriores formas de la naturaleza han surgido del tao , y asi tambien lo que carece de forma , 21 por lo que el tao no se describe como una de estas dos cosas , sino como la primordialidad neutra de la cual todo lo demas surge , siendo asi el origen cosmologico y esencia de todo lo existente ; 22 23 y el concepto basico de la filosofia taoista , pero no una sustancia vaporosa o un ser sobrenatural",
+        "10.0": "acerca del origen del tao , lao tse plantea que al ser este la primordialidad esencial de todo , es entonces el tao el origen de las cosas y no el tao la creacion de algo o alguien mas , debido a que son las cosas definidas del universo las que fluyeron de las mutaciones constantes y consecuentes del tao , por lo que estas son las cosas que el hombre logra conocer y catalogar bajo nomenclaturas , 24 pero el tao en si no es una cosa , sino que es la cosa en si ; no de la forma absolutista de imperatividad jerarquica , 25 sino como esencia infinita generadora de los posteriores cambios que tomaron forma en las diferentes manifestaciones ; 26 por lo que tanto los seres vivos , los objetos inanimados , la tierra misma y el cielo , todos han de ser formas que surgieron de cambios anteriores de la propia naturaleza , 24 27 siendo asi la naturaleza la madre de todas las cosas , 23 28 y en su punto ancestralmente neutral la naturaleza no habia adoptado formas pero existia en si misma , y por si misma fluyo y adopto formas en las cuales manifestarse , y es a eso lo que lao tse llama tao , explicando que tao es solo uno de los nombres posibles de darle , pero no el nombre original en si , 24 ya que son los hombres quienes requieren de nombrar las cosas para reconocerlas , 29 pero la naturaleza en si misma carece de nombres ya que no los necesita",
+        "11.0": "acerca del origen del tao , lao tse plantea que al ser este la primordialidad esencial de todo , es entonces el tao el origen de las cosas y no el tao la creacion de algo o alguien mas , debido a que son las cosas definidas del universo las que fluyeron de las mutaciones constantes y consecuentes del tao , por lo que estas son las cosas que el hombre logra conocer y catalogar bajo nomenclaturas , 24 pero el tao en si no es una cosa , sino que es la cosa en si ; no de la forma absolutista de imperatividad jerarquica , 25 sino como esencia infinita generadora de los posteriores cambios que tomaron forma en las diferentes manifestaciones ; 26 por lo que tanto los seres vivos , los objetos inanimados , la tierra misma y el cielo , todos han de ser formas que surgieron de cambios anteriores de la propia naturaleza , 24 27 siendo asi la naturaleza la madre de todas las cosas , 23 28 y en su punto ancestralmente neutral la naturaleza no habia adoptado formas pero existia en si misma , y por si misma fluyo y adopto formas en las cuales manifestarse , y es a eso lo que lao tse llama tao , explicando que tao es solo uno de los nombres posibles de darle , pero no el nombre original en si , 24 ya que son los hombres quienes requieren de nombrar las cosas para reconocerlas , 29 pero la naturaleza en si misma carece de nombres ya que no los necesita",
+        "12.0": "acerca del origen del tao , lao tse plantea que al ser este la primordialidad esencial de todo , es entonces el tao el origen de las cosas y no el tao la creacion de algo o alguien mas , debido a que son las cosas definidas del universo las que fluyeron de las mutaciones constantes y consecuentes del tao , por lo que estas son las cosas que el hombre logra conocer y catalogar bajo nomenclaturas , 24 pero el tao en si no es una cosa , sino que es la cosa en si ; no de la forma absolutista de imperatividad jerarquica , 25 sino como esencia infinita generadora de los posteriores cambios que tomaron forma en las diferentes manifestaciones ; 26 por lo que tanto los seres vivos , los objetos inanimados , la tierra misma y el cielo , todos han de ser formas que surgieron de cambios anteriores de la propia naturaleza , 24 27 siendo asi la naturaleza la madre de todas las cosas , 23 28 y en su punto ancestralmente neutral la naturaleza no habia adoptado formas pero existia en si misma , y por si misma fluyo y adopto formas en las cuales manifestarse , y es a eso lo que lao tse llama tao , explicando que tao es solo uno de los nombres posibles de darle , pero no el nombre original en si , 24 ya que son los hombres quienes requieren de nombrar las cosas para reconocerlas , 29 pero la naturaleza en si misma carece de nombres ya que no los necesita",
+        "13.0": "lao tse llama ser ( you ) y no ser ( wu ) a los dos aspectos ontologicos emergentes del tao ; 19 30 el ser como categorizacion de todo lo manifiesto y perceptible del universo , englobando asi todos sus aspectos y creaciones , y el no ser como el aspecto oculto y metafisico de la existencia , siendo este la etereidad ontologica de lo manifiesto , 31 pero no una antitesis del ser , ya que la metafisica taoista no trata de antagonicos como los occidentales acostumbran a ver , sino que para lao tse la naturaleza es relativa y dialectica , por lo que ser y no ser son dos aspectos diferentes pero complementarios , 30 ambos provenientes del tao , y no dos posturas distintas que se confrontan entre si",
+        "14.0": "lao tse llama ser ( you ) y no ser ( wu ) a los dos aspectos ontologicos emergentes del tao ; 19 30 el ser como categorizacion de todo lo manifiesto y perceptible del universo , englobando asi todos sus aspectos y creaciones , y el no ser como el aspecto oculto y metafisico de la existencia , siendo este la etereidad ontologica de lo manifiesto , 31 pero no una antitesis del ser , ya que la metafisica taoista no trata de antagonicos como los occidentales acostumbran a ver , sino que para lao tse la naturaleza es relativa y dialectica , por lo que ser y no ser son dos aspectos diferentes pero complementarios , 30 ambos provenientes del tao , y no dos posturas distintas que se confrontan entre si",
+        "15.0": "lao tse llama ser ( you ) y no ser ( wu ) a los dos aspectos ontologicos emergentes del tao ; 19 30 el ser como categorizacion de todo lo manifiesto y perceptible del universo , englobando asi todos sus aspectos y creaciones , y el no ser como el aspecto oculto y metafisico de la existencia , siendo este la etereidad ontologica de lo manifiesto , 31 pero no una antitesis del ser , ya que la metafisica taoista no trata de antagonicos como los occidentales acostumbran a ver , sino que para lao tse la naturaleza es relativa y dialectica , por lo que ser y no ser son dos aspectos diferentes pero complementarios , 30 ambos provenientes del tao , y no dos posturas distintas que se confrontan entre si",
+        "16.0": "lao tse llama ser ( you ) y no ser ( wu ) a los dos aspectos ontologicos emergentes del tao ; 19 30 el ser como categorizacion de todo lo manifiesto y perceptible del universo , englobando asi todos sus aspectos y creaciones , y el no ser como el aspecto oculto y metafisico de la existencia , siendo este la etereidad ontologica de lo manifiesto , 31 pero no una antitesis del ser , ya que la metafisica taoista no trata de antagonicos como los occidentales acostumbran a ver , sino que para lao tse la naturaleza es relativa y dialectica , por lo que ser y no ser son dos aspectos diferentes pero complementarios , 30 ambos provenientes del tao , y no dos posturas distintas que se confrontan entre si",
+        "17.0": "lao tse llama ser ( you ) y no ser ( wu ) a los dos aspectos ontologicos emergentes del tao ; 19 30 el ser como categorizacion de todo lo manifiesto y perceptible del universo , englobando asi todos sus aspectos y creaciones , y el no ser como el aspecto oculto y metafisico de la existencia , siendo este la etereidad ontologica de lo manifiesto , 31 pero no una antitesis del ser , ya que la metafisica taoista no trata de antagonicos como los occidentales acostumbran a ver , sino que para lao tse la naturaleza es relativa y dialectica , por lo que ser y no ser son dos aspectos diferentes pero complementarios , 30 ambos provenientes del tao , y no dos posturas distintas que se confrontan entre si",
+        "18.0": "lao tse llama ser ( you ) y no ser ( wu ) a los dos aspectos ontologicos emergentes del tao ; 19 30 el ser como categorizacion de todo lo manifiesto y perceptible del universo , englobando asi todos sus aspectos y creaciones , y el no ser como el aspecto oculto y metafisico de la existencia , siendo este la etereidad ontologica de lo manifiesto , 31 pero no una antitesis del ser , ya que la metafisica taoista no trata de antagonicos como los occidentales acostumbran a ver , sino que para lao tse la naturaleza es relativa y dialectica , por lo que ser y no ser son dos aspectos diferentes pero complementarios , 30 ambos provenientes del tao , y no dos posturas distintas que se confrontan entre si",
+        "19.0": "el ser es el mundo fenomenico en el cual suceden las cosas , y el no ser el aspecto no fenomenico de ese mundo fenomenico , por lo que no existiria uno sin otro , y ninguno implica la anulacion de su contraparte ; no es el no ser un reino vaporoso y espiritual , y no es el ser una tangibilidad absoluta y permanentemente inmutable ; ambos son parte del devenir cosmico del tao , y esto es lo que lao tse explica en su filosofia",
+        "2.0": "la malinterpretacion superficial y religiosa hace creer que el tao es un dios o algun otro tipo de entidad espiritual o suprema , pero en realidad lao tse describe al tao como el origen de todo , la fuente primordial de todo lo existente , tanto lo fisico como lo abstracto , 19 por lo que define al tao como un concepto superprofundo de unidad primordial que escapa a la idea fijista y mitica de un dios , un ser , o cualquier otra personificacion ; 20 contrariamente , lao tse describe al tao como abstracto , amorfo , intangible , inaudible e inasible , por lo que las posteriores formas de la naturaleza han surgido del tao , y asi tambien lo que carece de forma , 21 por lo que el tao no se describe como una de estas dos cosas , sino como la primordialidad neutra de la cual todo lo demas surge , siendo asi el origen cosmologico y esencia de todo lo existente ; 22 23 y el concepto basico de la filosofia taoista , pero no una sustancia vaporosa o un ser sobrenatural",
+        "20.0": "el ser es el mundo fenomenico en el cual suceden las cosas , y el no ser el aspecto no fenomenico de ese mundo fenomenico , por lo que no existiria uno sin otro , y ninguno implica la anulacion de su contraparte ; no es el no ser un reino vaporoso y espiritual , y no es el ser una tangibilidad absoluta y permanentemente inmutable ; ambos son parte del devenir cosmico del tao , y esto es lo que lao tse explica en su filosofia",
+        "21.0": "el ser es el mundo fenomenico en el cual suceden las cosas , y el no ser el aspecto no fenomenico de ese mundo fenomenico , por lo que no existiria uno sin otro , y ninguno implica la anulacion de su contraparte ; no es el no ser un reino vaporoso y espiritual , y no es el ser una tangibilidad absoluta y permanentemente inmutable ; ambos son parte del devenir cosmico del tao , y esto es lo que lao tse explica en su filosofia",
+        "22.0": "el ser es el mundo fenomenico en el cual suceden las cosas , y el no ser el aspecto no fenomenico de ese mundo fenomenico , por lo que no existiria uno sin otro , y ninguno implica la anulacion de su contraparte ; no es el no ser un reino vaporoso y espiritual , y no es el ser una tangibilidad absoluta y permanentemente inmutable ; ambos son parte del devenir cosmico del tao , y esto es lo que lao tse explica en su filosofia",
+        "23.0": "este es un principio altamente importante en la filosofia taoista , ya que implica que el orden natural de las cosas es el fluir constante y que permite los cambios que generan la evolucion en todos los aspectos de la naturaleza , razon por la cual lao tse insiste en la relatividad mutacional del tao , ya que este es el unico modo de lograr que las diferentes cosas logren amoldarse a los cambios para mutar y transformarse en formas mas eficientes que permitan continuar el fluir natural de la existencia , 34 24 32 ya que de lo contrario , se produciria el estancamiento que detendria el avance u orden natural de las cosas",
+        "24.0": "este es un principio altamente importante en la filosofia taoista , ya que implica que el orden natural de las cosas es el fluir constante y que permite los cambios que generan la evolucion en todos los aspectos de la naturaleza , razon por la cual lao tse insiste en la relatividad mutacional del tao , ya que este es el unico modo de lograr que las diferentes cosas logren amoldarse a los cambios para mutar y transformarse en formas mas eficientes que permitan continuar el fluir natural de la existencia , 34 24 32 ya que de lo contrario , se produciria el estancamiento que detendria el avance u orden natural de las cosas",
+        "25.0": "este es un principio altamente importante en la filosofia taoista , ya que implica que el orden natural de las cosas es el fluir constante y que permite los cambios que generan la evolucion en todos los aspectos de la naturaleza , razon por la cual lao tse insiste en la relatividad mutacional del tao , ya que este es el unico modo de lograr que las diferentes cosas logren amoldarse a los cambios para mutar y transformarse en formas mas eficientes que permitan continuar el fluir natural de la existencia , 34 24 32 ya que de lo contrario , se produciria el estancamiento que detendria el avance u orden natural de las cosas",
+        "26.0": "este es un principio altamente importante en la filosofia taoista , ya que implica que el orden natural de las cosas es el fluir constante y que permite los cambios que generan la evolucion en todos los aspectos de la naturaleza , razon por la cual lao tse insiste en la relatividad mutacional del tao , ya que este es el unico modo de lograr que las diferentes cosas logren amoldarse a los cambios para mutar y transformarse en formas mas eficientes que permitan continuar el fluir natural de la existencia , 34 24 32 ya que de lo contrario , se produciria el estancamiento que detendria el avance u orden natural de las cosas",
+        "27.0": "35 este concepto ha sido aplicado por lao tse en toda su filosofia",
+        "28.0": "en cuanto al orden natural del tao , lao tse explica que este es el modo en que la naturaleza permite la continuidad de la existencia , por lo que el tao no realiza cosas en favor de intereses personales , ya que carece de intereses propios , solo es el fluir constante de la existencia , favoreciendo asi a todos los seres y cosas en pos de su continuidad en vez de inclinarse solo por unos pocos , 33 por lo que el tao es imparcial y justo , 22 36 es el equilibrio y la armonia que la filosofia oriental impulsa a seguir para mejorar la existencia , contrariamente a los tabues y reglas absolutistas que el hombre impuso para favorecer a unos pocos , a costa del infortunio de todos los otros",
+        "29.0": "en cuanto al orden natural del tao , lao tse explica que este es el modo en que la naturaleza permite la continuidad de la existencia , por lo que el tao no realiza cosas en favor de intereses personales , ya que carece de intereses propios , solo es el fluir constante de la existencia , favoreciendo asi a todos los seres y cosas en pos de su continuidad en vez de inclinarse solo por unos pocos , 33 por lo que el tao es imparcial y justo , 22 36 es el equilibrio y la armonia que la filosofia oriental impulsa a seguir para mejorar la existencia , contrariamente a los tabues y reglas absolutistas que el hombre impuso para favorecer a unos pocos , a costa del infortunio de todos los otros",
+        "3.0": "acerca del origen del tao , lao tse plantea que al ser este la primordialidad esencial de todo , es entonces el tao el origen de las cosas y no el tao la creacion de algo o alguien mas , debido a que son las cosas definidas del universo las que fluyeron de las mutaciones constantes y consecuentes del tao , por lo que estas son las cosas que el hombre logra conocer y catalogar bajo nomenclaturas , 24 pero el tao en si no es una cosa , sino que es la cosa en si ; no de la forma absolutista de imperatividad jerarquica , 25 sino como esencia infinita generadora de los posteriores cambios que tomaron forma en las diferentes manifestaciones ; 26 por lo que tanto los seres vivos , los objetos inanimados , la tierra misma y el cielo , todos han de ser formas que surgieron de cambios anteriores de la propia naturaleza , 24 27 siendo asi la naturaleza la madre de todas las cosas , 23 28 y en su punto ancestralmente neutral la naturaleza no habia adoptado formas pero existia en si misma , y por si misma fluyo y adopto formas en las cuales manifestarse , y es a eso lo que lao tse llama tao , explicando que tao es solo uno de los nombres posibles de darle , pero no el nombre original en si , 24 ya que son los hombres quienes requieren de nombrar las cosas para reconocerlas , 29 pero la naturaleza en si misma carece de nombres ya que no los necesita",
+        "30.0": "en cuanto al orden natural del tao , lao tse explica que este es el modo en que la naturaleza permite la continuidad de la existencia , por lo que el tao no realiza cosas en favor de intereses personales , ya que carece de intereses propios , solo es el fluir constante de la existencia , favoreciendo asi a todos los seres y cosas en pos de su continuidad en vez de inclinarse solo por unos pocos , 33 por lo que el tao es imparcial y justo , 22 36 es el equilibrio y la armonia que la filosofia oriental impulsa a seguir para mejorar la existencia , contrariamente a los tabues y reglas absolutistas que el hombre impuso para favorecer a unos pocos , a costa del infortunio de todos los otros",
+        "31.0": "lao tse ensena que todo es causa y efecto , por lo que cada aspecto que podemos percibir hoy , es originario de otro aspecto oculto que le antecedio historicamente , 40 explicando asi como el universo mismo y sus cosas existentes son resultado de hechos anteriores , y no de creaciones espontaneas",
+        "32.0": "lao tse ensena que todo es causa y efecto , por lo que cada aspecto que podemos percibir hoy , es originario de otro aspecto oculto que le antecedio historicamente , 40 explicando asi como el universo mismo y sus cosas existentes son resultado de hechos anteriores , y no de creaciones espontaneas",
+        "33.0": "lao tse ensena que todo es causa y efecto , por lo que cada aspecto que podemos percibir hoy , es originario de otro aspecto oculto que le antecedio historicamente , 40 explicando asi como el universo mismo y sus cosas existentes son resultado de hechos anteriores , y no de creaciones espontaneas",
+        "34.0": "32 41 de esta idea nace el principio de accion y reaccion , que los taoistas mencionan al explicar como es que todo lo existente deviene de algo anterior ; todo tiene un por que , mostrando como el tao no hace las cosas arbitrariamente , sino que todo es causal , y no casual , 42 25 y esto no se limita solo al origen cosmologico del universo , sino a la vida diaria de todos los seres vivos , 41 incluido entre estos el ser humano , ya que todo lo que esta establecido en la esfera de la sociedad humana no ha de haber sido eterno ni absoluto , sino que fue creado por las propias causas que los seres humanos han desarrollado , 43 siendo la vida actual la consecuencia de los propios hechos que la humanidad ha desarrollado anteriormente",
+        "35.0": "32 41 de esta idea nace el principio de accion y reaccion , que los taoistas mencionan al explicar como es que todo lo existente deviene de algo anterior ; todo tiene un por que , mostrando como el tao no hace las cosas arbitrariamente , sino que todo es causal , y no casual , 42 25 y esto no se limita solo al origen cosmologico del universo , sino a la vida diaria de todos los seres vivos , 41 incluido entre estos el ser humano , ya que todo lo que esta establecido en la esfera de la sociedad humana no ha de haber sido eterno ni absoluto , sino que fue creado por las propias causas que los seres humanos han desarrollado , 43 siendo la vida actual la consecuencia de los propios hechos que la humanidad ha desarrollado anteriormente",
+        "36.0": "32 41 de esta idea nace el principio de accion y reaccion , que los taoistas mencionan al explicar como es que todo lo existente deviene de algo anterior ; todo tiene un por que , mostrando como el tao no hace las cosas arbitrariamente , sino que todo es causal , y no casual , 42 25 y esto no se limita solo al origen cosmologico del universo , sino a la vida diaria de todos los seres vivos , 41 incluido entre estos el ser humano , ya que todo lo que esta establecido en la esfera de la sociedad humana no ha de haber sido eterno ni absoluto , sino que fue creado por las propias causas que los seres humanos han desarrollado , 43 siendo la vida actual la consecuencia de los propios hechos que la humanidad ha desarrollado anteriormente",
+        "37.0": "con la importante tonica del cambio constante , lao tse explica como este principio de la mutacion perpetua es lo que origino el universo y todo lo conocido , a raiz del tao y sus consecuentes cambios metafisica y fisicamente ontologicos llamados ser y no ser",
+        "38.0": "32 24 lao tse explica que el tao en su unidad es minimo y absoluto , pero tras mutar y relativizarse da origen a la dualidad , la cual se explico anteriormente como ser y no ser , pero asi mismo , el mundo del ser se subdivide en una consecuente tercera fase de esta mutacion del tao , originando asi el universo conocido , representado por lao tse como cielo y tierra , siendo este el mundo fenomenico donde tras las posteriores mutaciones naturales consecuentes se originaron los diferentes elementos y los seres vivos , entre los cuales se encuentra el hombre",
+        "39.0": "32 24 lao tse explica que el tao en su unidad es minimo y absoluto , pero tras mutar y relativizarse da origen a la dualidad , la cual se explico anteriormente como ser y no ser , pero asi mismo , el mundo del ser se subdivide en una consecuente tercera fase de esta mutacion del tao , originando asi el universo conocido , representado por lao tse como cielo y tierra , siendo este el mundo fenomenico donde tras las posteriores mutaciones naturales consecuentes se originaron los diferentes elementos y los seres vivos , entre los cuales se encuentra el hombre",
+        "4.0": "acerca del origen del tao , lao tse plantea que al ser este la primordialidad esencial de todo , es entonces el tao el origen de las cosas y no el tao la creacion de algo o alguien mas , debido a que son las cosas definidas del universo las que fluyeron de las mutaciones constantes y consecuentes del tao , por lo que estas son las cosas que el hombre logra conocer y catalogar bajo nomenclaturas , 24 pero el tao en si no es una cosa , sino que es la cosa en si ; no de la forma absolutista de imperatividad jerarquica , 25 sino como esencia infinita generadora de los posteriores cambios que tomaron forma en las diferentes manifestaciones ; 26 por lo que tanto los seres vivos , los objetos inanimados , la tierra misma y el cielo , todos han de ser formas que surgieron de cambios anteriores de la propia naturaleza , 24 27 siendo asi la naturaleza la madre de todas las cosas , 23 28 y en su punto ancestralmente neutral la naturaleza no habia adoptado formas pero existia en si misma , y por si misma fluyo y adopto formas en las cuales manifestarse , y es a eso lo que lao tse llama tao , explicando que tao es solo uno de los nombres posibles de darle , pero no el nombre original en si , 24 ya que son los hombres quienes requieren de nombrar las cosas para reconocerlas , 29 pero la naturaleza en si misma carece de nombres ya que no los necesita",
+        "40.0": "32 24 lao tse explica que el tao en su unidad es minimo y absoluto , pero tras mutar y relativizarse da origen a la dualidad , la cual se explico anteriormente como ser y no ser , pero asi mismo , el mundo del ser se subdivide en una consecuente tercera fase de esta mutacion del tao , originando asi el universo conocido , representado por lao tse como cielo y tierra , siendo este el mundo fenomenico donde tras las posteriores mutaciones naturales consecuentes se originaron los diferentes elementos y los seres vivos , entre los cuales se encuentra el hombre",
+        "41.0": "32 24 lao tse explica que el tao en su unidad es minimo y absoluto , pero tras mutar y relativizarse da origen a la dualidad , la cual se explico anteriormente como ser y no ser , pero asi mismo , el mundo del ser se subdivide en una consecuente tercera fase de esta mutacion del tao , originando asi el universo conocido , representado por lao tse como cielo y tierra , siendo este el mundo fenomenico donde tras las posteriores mutaciones naturales consecuentes se originaron los diferentes elementos y los seres vivos , entre los cuales se encuentra el hombre",
+        "42.0": "32 24 lao tse explica que el tao en su unidad es minimo y absoluto , pero tras mutar y relativizarse da origen a la dualidad , la cual se explico anteriormente como ser y no ser , pero asi mismo , el mundo del ser se subdivide en una consecuente tercera fase de esta mutacion del tao , originando asi el universo conocido , representado por lao tse como cielo y tierra , siendo este el mundo fenomenico donde tras las posteriores mutaciones naturales consecuentes se originaron los diferentes elementos y los seres vivos , entre los cuales se encuentra el hombre",
+        "43.0": "tras la division del tao , lao tse hace hincapie en el hecho de que toda la naturaleza es relativa y se sucede de cambios constantes dialecticamente complementarios , llamandole asi a los dos aspectos opuestos y complementarios yin y yang , presentes en todo el devenir cosmico de la naturaleza , tanto en los origenes metafisicos como en los seres vivos y el mundo fenomenico , 41 aplicandose asi tambien para analizar todo lo existente , incluidos los aspectos sociales y humanos que lao tse estudia en su filosofia",
+        "44.0": "tras la division del tao , lao tse hace hincapie en el hecho de que toda la naturaleza es relativa y se sucede de cambios constantes dialecticamente complementarios , llamandole asi a los dos aspectos opuestos y complementarios yin y yang , presentes en todo el devenir cosmico de la naturaleza , tanto en los origenes metafisicos como en los seres vivos y el mundo fenomenico , 41 aplicandose asi tambien para analizar todo lo existente , incluidos los aspectos sociales y humanos que lao tse estudia en su filosofia",
+        "45.0": "lao tse explica como yin y yang no son elementos confrontados , sino que sus caracteristicas opuestas se complementan para conformar asi la totalidad del tao , siendo que de esa manera , las mutaciones naturales permiten que lo asociado como yin se vuelva yang , y viceversa , 30 dando asi el ritmo dialectico que permite la fluidez natural de la energia ( chi ) , la cual representa la vitalidad de lo existente , siendo de esa manera el yin y el yang la mecanica de funcionamiento dialectico de la energia , en otras palabras , el cambio natural que permite la fluidez de la naturaleza , la cual obtiene armonia al hallar equilibrio entre sus dos aspectos opuestamente complementarios",
+        "46.0": "lao tse explica como yin y yang no son elementos confrontados , sino que sus caracteristicas opuestas se complementan para conformar asi la totalidad del tao , siendo que de esa manera , las mutaciones naturales permiten que lo asociado como yin se vuelva yang , y viceversa , 30 dando asi el ritmo dialectico que permite la fluidez natural de la energia ( chi ) , la cual representa la vitalidad de lo existente , siendo de esa manera el yin y el yang la mecanica de funcionamiento dialectico de la energia , en otras palabras , el cambio natural que permite la fluidez de la naturaleza , la cual obtiene armonia al hallar equilibrio entre sus dos aspectos opuestamente complementarios",
+        "47.0": "lao tse explica como yin y yang no son elementos confrontados , sino que sus caracteristicas opuestas se complementan para conformar asi la totalidad del tao , siendo que de esa manera , las mutaciones naturales permiten que lo asociado como yin se vuelva yang , y viceversa , 30 dando asi el ritmo dialectico que permite la fluidez natural de la energia ( chi ) , la cual representa la vitalidad de lo existente , siendo de esa manera el yin y el yang la mecanica de funcionamiento dialectico de la energia , en otras palabras , el cambio natural que permite la fluidez de la naturaleza , la cual obtiene armonia al hallar equilibrio entre sus dos aspectos opuestamente complementarios",
+        "48.0": "lao tse explica como yin y yang no son elementos confrontados , sino que sus caracteristicas opuestas se complementan para conformar asi la totalidad del tao , siendo que de esa manera , las mutaciones naturales permiten que lo asociado como yin se vuelva yang , y viceversa , 30 dando asi el ritmo dialectico que permite la fluidez natural de la energia ( chi ) , la cual representa la vitalidad de lo existente , siendo de esa manera el yin y el yang la mecanica de funcionamiento dialectico de la energia , en otras palabras , el cambio natural que permite la fluidez de la naturaleza , la cual obtiene armonia al hallar equilibrio entre sus dos aspectos opuestamente complementarios",
+        "49.0": "lao tse explica como yin y yang no son elementos confrontados , sino que sus caracteristicas opuestas se complementan para conformar asi la totalidad del tao , siendo que de esa manera , las mutaciones naturales permiten que lo asociado como yin se vuelva yang , y viceversa , 30 dando asi el ritmo dialectico que permite la fluidez natural de la energia ( chi ) , la cual representa la vitalidad de lo existente , siendo de esa manera el yin y el yang la mecanica de funcionamiento dialectico de la energia , en otras palabras , el cambio natural que permite la fluidez de la naturaleza , la cual obtiene armonia al hallar equilibrio entre sus dos aspectos opuestamente complementarios",
+        "5.0": "acerca del origen del tao , lao tse plantea que al ser este la primordialidad esencial de todo , es entonces el tao el origen de las cosas y no el tao la creacion de algo o alguien mas , debido a que son las cosas definidas del universo las que fluyeron de las mutaciones constantes y consecuentes del tao , por lo que estas son las cosas que el hombre logra conocer y catalogar bajo nomenclaturas , 24 pero el tao en si no es una cosa , sino que es la cosa en si ; no de la forma absolutista de imperatividad jerarquica , 25 sino como esencia infinita generadora de los posteriores cambios que tomaron forma en las diferentes manifestaciones ; 26 por lo que tanto los seres vivos , los objetos inanimados , la tierra misma y el cielo , todos han de ser formas que surgieron de cambios anteriores de la propia naturaleza , 24 27 siendo asi la naturaleza la madre de todas las cosas , 23 28 y en su punto ancestralmente neutral la naturaleza no habia adoptado formas pero existia en si misma , y por si misma fluyo y adopto formas en las cuales manifestarse , y es a eso lo que lao tse llama tao , explicando que tao es solo uno de los nombres posibles de darle , pero no el nombre original en si , 24 ya que son los hombres quienes requieren de nombrar las cosas para reconocerlas , 29 pero la naturaleza en si misma carece de nombres ya que no los necesita",
+        "50.0": "lao tse explica como yin y yang no son elementos confrontados , sino que sus caracteristicas opuestas se complementan para conformar asi la totalidad del tao , siendo que de esa manera , las mutaciones naturales permiten que lo asociado como yin se vuelva yang , y viceversa , 30 dando asi el ritmo dialectico que permite la fluidez natural de la energia ( chi ) , la cual representa la vitalidad de lo existente , siendo de esa manera el yin y el yang la mecanica de funcionamiento dialectico de la energia , en otras palabras , el cambio natural que permite la fluidez de la naturaleza , la cual obtiene armonia al hallar equilibrio entre sus dos aspectos opuestamente complementarios",
+        "51.0": "lao tse explica como yin y yang no son elementos confrontados , sino que sus caracteristicas opuestas se complementan para conformar asi la totalidad del tao , siendo que de esa manera , las mutaciones naturales permiten que lo asociado como yin se vuelva yang , y viceversa , 30 dando asi el ritmo dialectico que permite la fluidez natural de la energia ( chi ) , la cual representa la vitalidad de lo existente , siendo de esa manera el yin y el yang la mecanica de funcionamiento dialectico de la energia , en otras palabras , el cambio natural que permite la fluidez de la naturaleza , la cual obtiene armonia al hallar equilibrio entre sus dos aspectos opuestamente complementarios",
+        "52.0": "lao tse explica como yin y yang no son elementos confrontados , sino que sus caracteristicas opuestas se complementan para conformar asi la totalidad del tao , siendo que de esa manera , las mutaciones naturales permiten que lo asociado como yin se vuelva yang , y viceversa , 30 dando asi el ritmo dialectico que permite la fluidez natural de la energia ( chi ) , la cual representa la vitalidad de lo existente , siendo de esa manera el yin y el yang la mecanica de funcionamiento dialectico de la energia , en otras palabras , el cambio natural que permite la fluidez de la naturaleza , la cual obtiene armonia al hallar equilibrio entre sus dos aspectos opuestamente complementarios",
+        "53.0": "tras mutar el tao y cambiar constantemente la naturaleza , todo lo existente se ha creado , por lo que lao tse sostiene que todo es naturalmente tao ya que el tao es el origen comun de todas las cosas",
+        "54.0": "45 siendo asi , todas las cosas funcionan en armonia con la naturaleza cuando cumplen la funcion natural que poseen dadas sus caracteristicas , a las cuales lao tse se refiere como la virtud ( de ) que las cosas obtienen del tao",
+        "55.0": "45 siendo asi , todas las cosas funcionan en armonia con la naturaleza cuando cumplen la funcion natural que poseen dadas sus caracteristicas , a las cuales lao tse se refiere como la virtud ( de ) que las cosas obtienen del tao",
+        "56.0": "45 siendo asi , todas las cosas funcionan en armonia con la naturaleza cuando cumplen la funcion natural que poseen dadas sus caracteristicas , a las cuales lao tse se refiere como la virtud ( de ) que las cosas obtienen del tao",
+        "57.0": "25 con este sentido de virtud como cualidad de cada forma existente para lograr su desempeno natural , lao tse explica que el orden natural de las cosas es seguir su desenvolvimiento nato , y no descarriarse en maneras contrarias a su comportamiento natural , ya que estas desequilibran la naturaleza y acaban por destruirla",
+        "58.0": "43 de esa manera , lao tse habla de la virtud en el hombre como el funcionamiento armonioso en pos de su naturaleza y su desenvolvimiento social , en contraste con el comportamiento rutinario forjado por ordenanzas impuestas artificialmente que resultan contradecir la naturaleza universalista que el hombre deberia seguir naturalmente para perpetuar su bienestar en el mundo",
+        "59.0": "43 de esa manera , lao tse habla de la virtud en el hombre como el funcionamiento armonioso en pos de su naturaleza y su desenvolvimiento social , en contraste con el comportamiento rutinario forjado por ordenanzas impuestas artificialmente que resultan contradecir la naturaleza universalista que el hombre deberia seguir naturalmente para perpetuar su bienestar en el mundo",
+        "6.0": "acerca del origen del tao , lao tse plantea que al ser este la primordialidad esencial de todo , es entonces el tao el origen de las cosas y no el tao la creacion de algo o alguien mas , debido a que son las cosas definidas del universo las que fluyeron de las mutaciones constantes y consecuentes del tao , por lo que estas son las cosas que el hombre logra conocer y catalogar bajo nomenclaturas , 24 pero el tao en si no es una cosa , sino que es la cosa en si ; no de la forma absolutista de imperatividad jerarquica , 25 sino como esencia infinita generadora de los posteriores cambios que tomaron forma en las diferentes manifestaciones ; 26 por lo que tanto los seres vivos , los objetos inanimados , la tierra misma y el cielo , todos han de ser formas que surgieron de cambios anteriores de la propia naturaleza , 24 27 siendo asi la naturaleza la madre de todas las cosas , 23 28 y en su punto ancestralmente neutral la naturaleza no habia adoptado formas pero existia en si misma , y por si misma fluyo y adopto formas en las cuales manifestarse , y es a eso lo que lao tse llama tao , explicando que tao es solo uno de los nombres posibles de darle , pero no el nombre original en si , 24 ya que son los hombres quienes requieren de nombrar las cosas para reconocerlas , 29 pero la naturaleza en si misma carece de nombres ya que no los necesita",
+        "60.0": "43 de esa manera , lao tse habla de la virtud en el hombre como el funcionamiento armonioso en pos de su naturaleza y su desenvolvimiento social , en contraste con el comportamiento rutinario forjado por ordenanzas impuestas artificialmente que resultan contradecir la naturaleza universalista que el hombre deberia seguir naturalmente para perpetuar su bienestar en el mundo",
+        "61.0": "asi , con este analisis cosmologico lao tse basa sus ensenanzas en el funcionamiento natural de las cosas , explicando que la naturaleza prospero debido a sus constantes cambios evolutivos y a la no obstruccion de su desarrollo natural , mostrando esto como ejemplo para la vida del hombre , argumentando como las normas y tabues impuestos no han de ser la propia naturaleza del hombre sino reglamentaciones artificiales impuestas por mandato jerarquico , siendo estas normativas restricciones que impiden al hombre desenvolverse con libertad y naturalidad para forjar un desarrollo prospero acorde a su naturaleza , por lo que la libertad que el hombre necesita solo la alcanzara tras liberarse de las ataduras superficiales para asi adoptar la forma de vida libre y sin restricciones , que le permitan desenvolverse armonicamente como la naturaleza ensena , 29 y de esa manera alcanzar el hombre la prosperidad para su vida y el desarrollo del bien comun",
+        "7.0": "acerca del origen del tao , lao tse plantea que al ser este la primordialidad esencial de todo , es entonces el tao el origen de las cosas y no el tao la creacion de algo o alguien mas , debido a que son las cosas definidas del universo las que fluyeron de las mutaciones constantes y consecuentes del tao , por lo que estas son las cosas que el hombre logra conocer y catalogar bajo nomenclaturas , 24 pero el tao en si no es una cosa , sino que es la cosa en si ; no de la forma absolutista de imperatividad jerarquica , 25 sino como esencia infinita generadora de los posteriores cambios que tomaron forma en las diferentes manifestaciones ; 26 por lo que tanto los seres vivos , los objetos inanimados , la tierra misma y el cielo , todos han de ser formas que surgieron de cambios anteriores de la propia naturaleza , 24 27 siendo asi la naturaleza la madre de todas las cosas , 23 28 y en su punto ancestralmente neutral la naturaleza no habia adoptado formas pero existia en si misma , y por si misma fluyo y adopto formas en las cuales manifestarse , y es a eso lo que lao tse llama tao , explicando que tao es solo uno de los nombres posibles de darle , pero no el nombre original en si , 24 ya que son los hombres quienes requieren de nombrar las cosas para reconocerlas , 29 pero la naturaleza en si misma carece de nombres ya que no los necesita",
+        "8.0": "acerca del origen del tao , lao tse plantea que al ser este la primordialidad esencial de todo , es entonces el tao el origen de las cosas y no el tao la creacion de algo o alguien mas , debido a que son las cosas definidas del universo las que fluyeron de las mutaciones constantes y consecuentes del tao , por lo que estas son las cosas que el hombre logra conocer y catalogar bajo nomenclaturas , 24 pero el tao en si no es una cosa , sino que es la cosa en si ; no de la forma absolutista de imperatividad jerarquica , 25 sino como esencia infinita generadora de los posteriores cambios que tomaron forma en las diferentes manifestaciones ; 26 por lo que tanto los seres vivos , los objetos inanimados , la tierra misma y el cielo , todos han de ser formas que surgieron de cambios anteriores de la propia naturaleza , 24 27 siendo asi la naturaleza la madre de todas las cosas , 23 28 y en su punto ancestralmente neutral la naturaleza no habia adoptado formas pero existia en si misma , y por si misma fluyo y adopto formas en las cuales manifestarse , y es a eso lo que lao tse llama tao , explicando que tao es solo uno de los nombres posibles de darle , pero no el nombre original en si , 24 ya que son los hombres quienes requieren de nombrar las cosas para reconocerlas , 29 pero la naturaleza en si misma carece de nombres ya que no los necesita",
+        "9.0": "acerca del origen del tao , lao tse plantea que al ser este la primordialidad esencial de todo , es entonces el tao el origen de las cosas y no el tao la creacion de algo o alguien mas , debido a que son las cosas definidas del universo las que fluyeron de las mutaciones constantes y consecuentes del tao , por lo que estas son las cosas que el hombre logra conocer y catalogar bajo nomenclaturas , 24 pero el tao en si no es una cosa , sino que es la cosa en si ; no de la forma absolutista de imperatividad jerarquica , 25 sino como esencia infinita generadora de los posteriores cambios que tomaron forma en las diferentes manifestaciones ; 26 por lo que tanto los seres vivos , los objetos inanimados , la tierra misma y el cielo , todos han de ser formas que surgieron de cambios anteriores de la propia naturaleza , 24 27 siendo asi la naturaleza la madre de todas las cosas , 23 28 y en su punto ancestralmente neutral la naturaleza no habia adoptado formas pero existia en si misma , y por si misma fluyo y adopto formas en las cuales manifestarse , y es a eso lo que lao tse llama tao , explicando que tao es solo uno de los nombres posibles de darle , pero no el nombre original en si , 24 ya que son los hombres quienes requieren de nombrar las cosas para reconocerlas , 29 pero la naturaleza en si misma carece de nombres ya que no los necesita"
+    },
     "height": 308,
     "net": {
         "functions": [
@@ -2738,2465 +2775,1849 @@
         },
         "nodes": [
             {
-                "extraInfo": [
-                    "-209.6408336934916 409.8654149721786"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "tao_0",
                 "name": "tao"
             },
             {
-                "extraInfo": [
-                    "3195.1133932944967 254.37179283369704"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "base_1",
                 "name": "base"
             },
             {
-                "extraInfo": [
-                    "3168.4538997375867 145.71925180803294"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "pensamiento_2",
                 "name": "pensamiento"
             },
             {
-                "extraInfo": [
-                    "380.0430121311663 83.98716771274238"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "pensamiento cosmologico_3",
                 "name": "pensamiento cosmologico"
             },
             {
-                "extraInfo": [
-                    "168.88477685507962 84.86898192565108"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "filosofico_4",
                 "name": "filosofico"
             },
             {
-                "extraInfo": [
-                    "-97.20254308158627 568.9917565297062"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "lao_5",
                 "name": "lao"
             },
             {
-                "extraInfo": [
-                    "-386.0188073530204 528.7090061341572"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "lao tse_6",
                 "name": "lao tse"
             },
             {
-                "extraInfo": [
-                    "3121.521272255487 204.2244662064674"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "dao_7",
                 "name": "dao"
             },
             {
-                "extraInfo": [
-                    "1440 90"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "concepto_8",
                 "name": "concepto"
             },
             {
-                "extraInfo": [
-                    "3143.4232750825104 413.1716604865907"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "concepto abstracto_9",
                 "name": "concepto abstracto"
             },
             {
-                "extraInfo": [
-                    "3178.054958514437 633.2627051283206"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "malinterpretado_10",
                 "name": "malinterpretado"
             },
             {
-                "extraInfo": [
-                    "3190.3989412231494 683.4100317555502"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "desconocen_11",
                 "name": "desconocen"
             },
             {
-                "extraInfo": [
-                    "3186.0271483894526 574.7574907298862"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "conceptos_12",
                 "name": "conceptos"
             },
             {
-                "extraInfo": [
-                    "3148.2238044709356 485.6066878370335"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "pensamiento taoista_13",
                 "name": "pensamiento taoista"
             },
             {
-                "extraInfo": [
-                    "1993.2494618013598 70.4982618671885"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "malinterpretacion_14",
                 "name": "malinterpretacion"
             },
             {
-                "extraInfo": [
-                    "2341.0765621611117 71.18626706072055"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "creer_15",
                 "name": "creer"
             },
             {
-                "extraInfo": [
-                    "-124.46780480007874 285.0173813281151"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "dios_16",
                 "name": "dios"
             },
             {
-                "extraInfo": [
-                    "3125.164707955345 259.9437180145003"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "tipo_17",
                 "name": "tipo"
             },
             {
-                "extraInfo": [
-                    "3199.485186128194 856.9889094675996"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "entidad_18",
                 "name": "entidad"
             },
             {
-                "extraInfo": [
-                    "3186.7555055232924 926.6379742276408"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "entidad espiritual_19",
                 "name": "entidad espiritual"
             },
             {
-                "extraInfo": [
-                    "480 180"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "suprema_20",
                 "name": "suprema"
             },
             {
-                "extraInfo": [
-                    "640 180"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "realidad_21",
                 "name": "realidad"
             },
             {
-                "extraInfo": [
-                    "3201.4997529262178 1052.0062907957147"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "realidad lao_22",
                 "name": "realidad lao"
             },
             {
-                "extraInfo": [
-                    "3180.412184550111 990.7151138068785"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "realidad lao tse_23",
                 "name": "realidad lao tse"
             },
             {
-                "extraInfo": [
-                    "1080.9965237343768 132.63863596317208"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "origen_24",
                 "name": "origen"
             },
             {
-                "extraInfo": [
-                    "1280 180"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "fuente_25",
                 "name": "fuente"
             },
             {
-                "extraInfo": [
-                    "1440 180"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "existente_26",
                 "name": "existente"
             },
             {
-                "extraInfo": [
-                    "1600 180"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "fisico_27",
                 "name": "fisico"
             },
             {
-                "extraInfo": [
-                    "1760 180"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "abstracto_28",
                 "name": "abstracto"
             },
             {
-                "extraInfo": [
-                    "1920 180"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "define_29",
                 "name": "define"
             },
             {
-                "extraInfo": [
-                    "2080 180"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "unidad_30",
                 "name": "unidad"
             },
             {
-                "extraInfo": [
-                    "2990.838978213062 152.634570270139"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "escapa_31",
                 "name": "escapa"
             },
             {
-                "extraInfo": [
-                    "2400 180"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "idea_32",
                 "name": "idea"
             },
             {
-                "extraInfo": [
-                    "2560 180"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "idea fijista_33",
                 "name": "idea fijista"
             },
             {
-                "extraInfo": [
-                    "2213.739549997571 121.84846182404533"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "mitica_34",
                 "name": "mitica"
             },
             {
-                "extraInfo": [
-                    "1102.9574069171495 202.23441165551213"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "personificacion_35",
                 "name": "personificacion"
             },
             {
-                "extraInfo": [
-                    "1792.5740779753637 69.41069349108162"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "amorfo_36",
                 "name": "amorfo"
             },
             {
-                "extraInfo": [
-                    "1604.3287541751579 49.908955358270134"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "posteriores_37",
                 "name": "posteriores"
             },
             {
-                "extraInfo": [
-                    "-144.92957939645868 803.1372613980892"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "naturaleza_38",
                 "name": "naturaleza"
             },
             {
-                "extraInfo": [
-                    "85.59344451007291 214.28074819196715"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "carece_39",
                 "name": "carece"
             },
             {
-                "extraInfo": [
-                    "800 270"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "cosas_40",
                 "name": "cosas"
             },
             {
-                "extraInfo": [
-                    "960 270"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "primordialidad_41",
                 "name": "primordialidad"
             },
             {
-                "extraInfo": [
-                    "1120 270"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "primordialidad neutra_42",
                 "name": "primordialidad neutra"
             },
             {
-                "extraInfo": [
-                    "1280 270"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "origen cosmologico_43",
                 "name": "origen cosmologico"
             },
             {
-                "extraInfo": [
-                    "1440 270"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "esencia_44",
                 "name": "esencia"
             },
             {
-                "extraInfo": [
-                    "1600 270"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "concepto basico_45",
                 "name": "concepto basico"
             },
             {
-                "extraInfo": [
-                    "1760 270"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "filosofia_46",
                 "name": "filosofia"
             },
             {
-                "extraInfo": [
-                    "1920 270"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "filosofia taoista_47",
                 "name": "filosofia taoista"
             },
             {
-                "extraInfo": [
-                    "2080 270"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "sustancia_48",
                 "name": "sustancia"
             },
             {
-                "extraInfo": [
-                    "2240 270"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "acerca_49",
                 "name": "acerca"
             },
             {
-                "extraInfo": [
-                    "2400 270"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "creacion_50",
                 "name": "creacion"
             },
             {
-                "extraInfo": [
-                    "2560 270"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "universo_51",
                 "name": "universo"
             },
             {
-                "extraInfo": [
-                    "489.7174770163261 1369.7482072687899"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "mutaciones_52",
                 "name": "mutaciones"
             },
             {
-                "extraInfo": [
-                    "1650.2660015143701 784.8121467930106"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "consecuentes_53",
                 "name": "consecuentes"
             },
             {
-                "extraInfo": [
-                    "979.2525525377145 1560.6582293976528"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "hombre_54",
                 "name": "hombre"
             },
             {
-                "extraInfo": [
-                    "320 360"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "hombre logra_55",
                 "name": "hombre logra"
             },
             {
-                "extraInfo": [
-                    "480 360"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "catalogar_56",
                 "name": "catalogar"
             },
             {
-                "extraInfo": [
-                    "640 360"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "nomenclaturas_57",
                 "name": "nomenclaturas"
             },
             {
-                "extraInfo": [
-                    "800 360"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "cosa_58",
                 "name": "cosa"
             },
             {
-                "extraInfo": [
-                    "960 360"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "absolutista_59",
                 "name": "absolutista"
             },
             {
-                "extraInfo": [
-                    "1120 360"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "imperatividad_60",
                 "name": "imperatividad"
             },
             {
-                "extraInfo": [
-                    "1280 360"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "imperatividad jerarquica_61",
                 "name": "imperatividad jerarquica"
             },
             {
-                "extraInfo": [
-                    "1440 360"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "esencia infinita_62",
                 "name": "esencia infinita"
             },
             {
-                "extraInfo": [
-                    "1600 360"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "esencia infinita generadora_63",
                 "name": "esencia infinita generadora"
             },
             {
-                "extraInfo": [
-                    "1760 360"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "posteriores cambios_64",
                 "name": "posteriores cambios"
             },
             {
-                "extraInfo": [
-                    "1920 360"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "manifestaciones_65",
                 "name": "manifestaciones"
             },
             {
-                "extraInfo": [
-                    "2080 360"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "seres_66",
                 "name": "seres"
             },
             {
-                "extraInfo": [
-                    "2240 360"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "objetos_67",
                 "name": "objetos"
             },
             {
-                "extraInfo": [
-                    "2400 360"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "objetos inanimados_68",
                 "name": "objetos inanimados"
             },
             {
-                "extraInfo": [
-                    "2560 360"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "tierra_69",
                 "name": "tierra"
             },
             {
-                "extraInfo": [
-                    "2720 360"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "cielo_70",
                 "name": "cielo"
             },
             {
-                "extraInfo": [
-                    "-59.81065443471974 1375.6456077477937"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "cambios_71",
                 "name": "cambios"
             },
             {
-                "extraInfo": [
-                    "-308.63298412387024 1151.239136827689"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "cambios anteriores_72",
                 "name": "cambios anteriores"
             },
             {
-                "extraInfo": [
-                    "1029.7908336182704 66.88398378194557"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "propia_73",
                 "name": "propia"
             },
             {
-                "extraInfo": [
-                    "480 450"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "propia naturaleza_74",
                 "name": "propia naturaleza"
             },
             {
-                "extraInfo": [
-                    "640 450"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "madre_75",
                 "name": "madre"
             },
             {
-                "extraInfo": [
-                    "800 450"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "punto_76",
                 "name": "punto"
             },
             {
-                "extraInfo": [
-                    "960 450"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "adoptado_77",
                 "name": "adoptado"
             },
             {
-                "extraInfo": [
-                    "1120 450"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "existia_78",
                 "name": "existia"
             },
             {
-                "extraInfo": [
-                    "-336.2706934199168 369.61405016853325"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "adopto_79",
                 "name": "adopto"
             },
             {
-                "extraInfo": [
-                    "1440 450"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "manifestarse_80",
                 "name": "manifestarse"
             },
             {
-                "extraInfo": [
-                    "1600 450"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "explicando_81",
                 "name": "explicando"
             },
             {
-                "extraInfo": [
-                    "1760 450"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "solo_82",
                 "name": "solo"
             },
             {
-                "extraInfo": [
-                    "1920 450"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "nombres_83",
                 "name": "nombres"
             },
             {
-                "extraInfo": [
-                    "2080 450"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "nombres posibles_84",
                 "name": "nombres posibles"
             },
             {
-                "extraInfo": [
-                    "2240 450"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "darle_85",
                 "name": "darle"
             },
             {
-                "extraInfo": [
-                    "2400 450"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "nombre_86",
                 "name": "nombre"
             },
             {
-                "extraInfo": [
-                    "2914.040247130077 390.138122465929"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "hombres_87",
                 "name": "hombres"
             },
             {
-                "extraInfo": [
-                    "2868.7995241561193 511.5722168921873"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "hombres quienes_88",
                 "name": "hombres quienes"
             },
             {
-                "extraInfo": [
-                    "3189.241847534583 305.12994529911447"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "nombrar_89",
                 "name": "nombrar"
             },
             {
-                "extraInfo": [
-                    "160 540"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "reconocerlas_90",
                 "name": "reconocerlas"
             },
             {
-                "extraInfo": [
-                    "320 540"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "you_91",
                 "name": "you"
             },
             {
-                "extraInfo": [
-                    "480 540"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "wu_92",
                 "name": "wu"
             },
             {
-                "extraInfo": [
-                    "-15.059974158548414 1198.480652874781"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "aspectos_93",
                 "name": "aspectos"
             },
             {
-                "extraInfo": [
-                    "800 540"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "aspectos ontologicos_94",
                 "name": "aspectos ontologicos"
             },
             {
-                "extraInfo": [
-                    "960 540"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "aspectos ontologicos emergentes_95",
                 "name": "aspectos ontologicos emergentes"
             },
             {
-                "extraInfo": [
-                    "1120 540"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "categorizacion_96",
                 "name": "categorizacion"
             },
             {
-                "extraInfo": [
-                    "1280 540"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "englobando_97",
                 "name": "englobando"
             },
             {
-                "extraInfo": [
-                    "1440 540"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "creaciones_98",
                 "name": "creaciones"
             },
             {
-                "extraInfo": [
-                    "1600 540"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "aspecto_99",
                 "name": "aspecto"
             },
             {
-                "extraInfo": [
-                    "1760 540"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "aspecto oculto_100",
                 "name": "aspecto oculto"
             },
             {
-                "extraInfo": [
-                    "1920 540"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "metafisico_101",
                 "name": "metafisico"
             },
             {
-                "extraInfo": [
-                    "249.51599997071764 196.23163089688472"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "existencia_102",
                 "name": "existencia"
             },
             {
-                "extraInfo": [
-                    "2600.8816045625426 435.6692991549048"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "etereidad_103",
                 "name": "etereidad"
             },
             {
-                "extraInfo": [
-                    "2400 540"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "etereidad ontologica_104",
                 "name": "etereidad ontologica"
             },
             {
-                "extraInfo": [
-                    "2587.3654297298613 540"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "antitesis_105",
                 "name": "antitesis"
             },
             {
-                "extraInfo": [
-                    "2720 540"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "metafisica_106",
                 "name": "metafisica"
             },
             {
-                "extraInfo": [
-                    "3155.810296449763 358.9124316238931"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "metafisica taoista_107",
                 "name": "metafisica taoista"
             },
             {
-                "extraInfo": [
-                    "160 630"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "antagonicos_108",
                 "name": "antagonicos"
             },
             {
-                "extraInfo": [
-                    "321.71033935811636 647.1033935811631"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "occidentales_109",
                 "name": "occidentales"
             },
             {
-                "extraInfo": [
-                    "-4.026038346917005 1081.529590542707"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "dialectica_110",
                 "name": "dialectica"
             },
             {
-                "extraInfo": [
-                    "640 630"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "complementarios_111",
                 "name": "complementarios"
             },
             {
-                "extraInfo": [
-                    "800 630"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "provenientes_112",
                 "name": "provenientes"
             },
             {
-                "extraInfo": [
-                    "960 630"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "posturas_113",
                 "name": "posturas"
             },
             {
-                "extraInfo": [
-                    "1120 630"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "posturas distintas_114",
                 "name": "posturas distintas"
             },
             {
-                "extraInfo": [
-                    "1280 630"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "mundo_115",
                 "name": "mundo"
             },
             {
-                "extraInfo": [
-                    "1440 630"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "mundo fenomenico_116",
                 "name": "mundo fenomenico"
             },
             {
-                "extraInfo": [
-                    "1600 630"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "fenomenico_117",
                 "name": "fenomenico"
             },
             {
-                "extraInfo": [
-                    "1760 630"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "existiria_118",
                 "name": "existiria"
             },
             {
-                "extraInfo": [
-                    "1920 630"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "implica_119",
                 "name": "implica"
             },
             {
-                "extraInfo": [
-                    "2080 630"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "anulacion_120",
                 "name": "anulacion"
             },
             {
-                "extraInfo": [
-                    "2240 630"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "contraparte_121",
                 "name": "contraparte"
             },
             {
-                "extraInfo": [
-                    "2400 630"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "reino_122",
                 "name": "reino"
             },
             {
-                "extraInfo": [
-                    "2560 630"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "espiritual_123",
                 "name": "espiritual"
             },
             {
-                "extraInfo": [
-                    "2720 630"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "tangibilidad_124",
                 "name": "tangibilidad"
             },
             {
-                "extraInfo": [
-                    "2910.786108446094 691.5722168921874"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "tangibilidad absoluta_125",
                 "name": "tangibilidad absoluta"
             },
             {
-                "extraInfo": [
-                    "160 720"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "devenir_126",
                 "name": "devenir"
             },
             {
-                "extraInfo": [
-                    "320 720"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "devenir cosmico_127",
                 "name": "devenir cosmico"
             },
             {
-                "extraInfo": [
-                    "480 720"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "lao tse explica_128",
                 "name": "lao tse explica"
             },
             {
-                "extraInfo": [
-                    "640 720"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "principio_129",
                 "name": "principio"
             },
             {
-                "extraInfo": [
-                    "800 720"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "orden_130",
                 "name": "orden"
             },
             {
-                "extraInfo": [
-                    "960 720"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "evolucion_131",
                 "name": "evolucion"
             },
             {
-                "extraInfo": [
-                    "1120 720"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "razon_132",
                 "name": "razon"
             },
             {
-                "extraInfo": [
-                    "1280 720"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "lao tse insiste_133",
                 "name": "lao tse insiste"
             },
             {
-                "extraInfo": [
-                    "1440 720"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "relatividad_134",
                 "name": "relatividad"
             },
             {
-                "extraInfo": [
-                    "1600 720"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "unico_135",
                 "name": "unico"
             },
             {
-                "extraInfo": [
-                    "1760 720"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "amoldarse_136",
                 "name": "amoldarse"
             },
             {
-                "extraInfo": [
-                    "1920 720"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "mutar_137",
                 "name": "mutar"
             },
             {
-                "extraInfo": [
-                    "2080 720"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "transformarse_138",
                 "name": "transformarse"
             },
             {
-                "extraInfo": [
-                    "2240 720"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "eficientes_139",
                 "name": "eficientes"
             },
             {
-                "extraInfo": [
-                    "2400 720"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "continuar_140",
                 "name": "continuar"
             },
             {
-                "extraInfo": [
-                    "2560 720"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "contrario_141",
                 "name": "contrario"
             },
             {
-                "extraInfo": [
-                    "2720 720"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "estancamiento_142",
                 "name": "estancamiento"
             },
             {
-                "extraInfo": [
-                    "3186.455884944181 199.02499559489263"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "detendria_143",
                 "name": "detendria"
             },
             {
-                "extraInfo": [
-                    "160 810"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "aplicado_144",
                 "name": "aplicado"
             },
             {
-                "extraInfo": [
-                    "320 810"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "continuidad_145",
                 "name": "continuidad"
             },
             {
-                "extraInfo": [
-                    "962.3156989888007 122.44357803724165"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "realiza_146",
                 "name": "realiza"
             },
             {
-                "extraInfo": [
-                    "1135.9984138537313 67.71271857751958"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "realiza cosas_147",
                 "name": "realiza cosas"
             },
             {
-                "extraInfo": [
-                    "1304.5501106443126 72.84373665186854"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "favor_148",
                 "name": "favor"
             },
             {
-                "extraInfo": [
-                    "927.5035521957901 76.26441536810114"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "intereses_149",
                 "name": "intereses"
             },
             {
-                "extraInfo": [
-                    "1120 810"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "intereses personales_150",
                 "name": "intereses personales"
             },
             {
-                "extraInfo": [
-                    "1280 810"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "intereses propios_151",
                 "name": "intereses propios"
             },
             {
-                "extraInfo": [
-                    "1440 810"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "favoreciendo_152",
                 "name": "favoreciendo"
             },
             {
-                "extraInfo": [
-                    "3087.9952415611933 144.67798969275373"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "pos_153",
                 "name": "pos"
             },
             {
-                "extraInfo": [
-                    "2982.8926410531653 76.26441536810114"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "vez_154",
                 "name": "vez"
             },
             {
-                "extraInfo": [
-                    "1920 810"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "inclinarse_155",
                 "name": "inclinarse"
             },
             {
-                "extraInfo": [
-                    "2080 810"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "inclinarse solo_156",
                 "name": "inclinarse solo"
             },
             {
-                "extraInfo": [
-                    "2354.592736993794 1217.0607672316828"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "justo_157",
                 "name": "justo"
             },
             {
-                "extraInfo": [
-                    "2482.096289189583 1196.536694934287"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "equilibrio_158",
                 "name": "equilibrio"
             },
             {
-                "extraInfo": [
-                    "2204.2494135118063 1222.1917853060318"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "armonia_159",
                 "name": "armonia"
             },
             {
-                "extraInfo": [
-                    "2720 810"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "impulsa_160",
                 "name": "impulsa"
             },
             {
-                "extraInfo": [
-                    "2880 810"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "tabues_161",
                 "name": "tabues"
             },
             {
-                "extraInfo": [
-                    "160 900"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "reglas_162",
                 "name": "reglas"
             },
             {
-                "extraInfo": [
-                    "320 900"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "reglas absolutistas_163",
                 "name": "reglas absolutistas"
             },
             {
-                "extraInfo": [
-                    "480 900"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "favorecer_164",
                 "name": "favorecer"
             },
             {
-                "extraInfo": [
-                    "640 900"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "costa_165",
                 "name": "costa"
             },
             {
-                "extraInfo": [
-                    "2994.3653964632317 1197.599048312239"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "infortunio_166",
                 "name": "infortunio"
             },
             {
-                "extraInfo": [
-                    "-391.16809291188827 672.5248653705302"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "lao tse ensena_167",
                 "name": "lao tse ensena"
             },
             {
-                "extraInfo": [
-                    "1120 900"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "causa_168",
                 "name": "causa"
             },
             {
-                "extraInfo": [
-                    "1280 900"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "efecto_169",
                 "name": "efecto"
             },
             {
-                "extraInfo": [
-                    "1440 900"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "percibir_170",
                 "name": "percibir"
             },
             {
-                "extraInfo": [
-                    "1600 900"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "originario_171",
                 "name": "originario"
             },
             {
-                "extraInfo": [
-                    "1953.268347467144 913.6827148649305"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "antecedio_172",
                 "name": "antecedio"
             },
             {
-                "extraInfo": [
-                    "2038.0134157100265 994.0686646963973"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "existentes_173",
                 "name": "existentes"
             },
             {
-                "extraInfo": [
-                    "2885.569837672784 77.32676874605284"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "hechos_174",
                 "name": "hechos"
             },
             {
-                "extraInfo": [
-                    "2240 900"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "hechos anteriores_175",
                 "name": "hechos anteriores"
             },
             {
-                "extraInfo": [
-                    "3106.370154902038 84.16812617851804"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "creaciones espontaneas_176",
                 "name": "creaciones espontaneas"
             },
             {
-                "extraInfo": [
-                    "2560 900"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "accion_177",
                 "name": "accion"
             },
             {
-                "extraInfo": [
-                    "2720 900"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "reaccion_178",
                 "name": "reaccion"
             },
             {
-                "extraInfo": [
-                    "2880 900"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "taoistas_179",
                 "name": "taoistas"
             },
             {
-                "extraInfo": [
-                    "160 990"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "taoistas mencionan_180",
                 "name": "taoistas mencionan"
             },
             {
-                "extraInfo": [
-                    "320 990"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "explicar_181",
                 "name": "explicar"
             },
             {
-                "extraInfo": [
-                    "480 990"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "deviene_182",
                 "name": "deviene"
             },
             {
-                "extraInfo": [
-                    "640 990"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "anterior_183",
                 "name": "anterior"
             },
             {
-                "extraInfo": [
-                    "800 990"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "mostrando_184",
                 "name": "mostrando"
             },
             {
-                "extraInfo": [
-                    "960 990"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "casual_185",
                 "name": "casual"
             },
             {
-                "extraInfo": [
-                    "1120 990"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "limita_186",
                 "name": "limita"
             },
             {
-                "extraInfo": [
-                    "1280 990"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "limita solo_187",
                 "name": "limita solo"
             },
             {
-                "extraInfo": [
-                    "1440 990"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "diaria_188",
                 "name": "diaria"
             },
             {
-                "extraInfo": [
-                    "93.19102549952675 1669.004725172177"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "humano_189",
                 "name": "humano"
             },
             {
-                "extraInfo": [
-                    "285.6874733037378 1670.7150645302934"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "esfera_190",
                 "name": "esfera"
             },
             {
-                "extraInfo": [
-                    "3209.595876019702 1123.4064699330725"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "sociedad_191",
                 "name": "sociedad"
             },
             {
-                "extraInfo": [
-                    "2938.5903577743898 271.6574695911479"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "sociedad humana_192",
                 "name": "sociedad humana"
             },
             {
-                "extraInfo": [
-                    "2240 990"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "eterno_193",
                 "name": "eterno"
             },
             {
-                "extraInfo": [
-                    "2400 990"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "absoluto_194",
                 "name": "absoluto"
             },
             {
-                "extraInfo": [
-                    "2975.6124640222642 991.7103393581162"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "propias_195",
                 "name": "propias"
             },
             {
-                "extraInfo": [
-                    "2720 990"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "propias causas_196",
                 "name": "propias causas"
             },
             {
-                "extraInfo": [
-                    "3183.66992235378 744.8352920446551"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "seres humanos_197",
                 "name": "seres humanos"
             },
             {
-                "extraInfo": [
-                    "160 1080"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "actual_198",
                 "name": "actual"
             },
             {
-                "extraInfo": [
-                    "320 1080"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "consecuencia_199",
                 "name": "consecuencia"
             },
             {
-                "extraInfo": [
-                    "480 1080"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "propios_200",
                 "name": "propios"
             },
             {
-                "extraInfo": [
-                    "640 1080"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "propios hechos_201",
                 "name": "propios hechos"
             },
             {
-                "extraInfo": [
-                    "800 1080"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "humanidad_202",
                 "name": "humanidad"
             },
             {
-                "extraInfo": [
-                    "960 1080"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "tonica_203",
                 "name": "tonica"
             },
             {
-                "extraInfo": [
-                    "379.4230579356357 1261.295971960329"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "mutacion_204",
                 "name": "mutacion"
             },
             {
-                "extraInfo": [
-                    "688.2225820917554 1387.8610844609364"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "mutacion perpetua_205",
                 "name": "mutacion perpetua"
             },
             {
-                "extraInfo": [
-                    "1440 1080"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "raiz_206",
                 "name": "raiz"
             },
             {
-                "extraInfo": [
-                    "1600 1080"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "consecuentes cambios_207",
                 "name": "consecuentes cambios"
             },
             {
-                "extraInfo": [
-                    "1686.4554076009988 1011.5864256753475"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "consecuentes cambios metafisica_208",
                 "name": "consecuentes cambios metafisica"
             },
             {
-                "extraInfo": [
-                    "1920 1080"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "ontologicos_209",
                 "name": "ontologicos"
             },
             {
-                "extraInfo": [
-                    "2936.8800184162737 1249.3235964535152"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "ontologicos llamados_210",
                 "name": "ontologicos llamados"
             },
             {
-                "extraInfo": [
-                    "2240 1080"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "minimo_211",
                 "name": "minimo"
             },
             {
-                "extraInfo": [
-                    "2400 1080"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "relativizarse_212",
                 "name": "relativizarse"
             },
             {
-                "extraInfo": [
-                    "2560 1080"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "dualidad_213",
                 "name": "dualidad"
             },
             {
-                "extraInfo": [
-                    "2720 1080"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "explico_214",
                 "name": "explico"
             },
             {
-                "extraInfo": [
-                    "1804.196543744839 1138.1515381759548"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "subdivide_215",
                 "name": "subdivide"
             },
             {
-                "extraInfo": [
-                    "2706.695304235192 1325.6408815885848"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "consecuente_216",
                 "name": "consecuente"
             },
             {
-                "extraInfo": [
-                    "2842.750553221563 1317.089184798003"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "fase_217",
                 "name": "fase"
             },
             {
-                "extraInfo": [
-                    "2041.539833960195 1551.4056768599382"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "posteriores mutaciones_218",
                 "name": "posteriores mutaciones"
             },
             {
-                "extraInfo": [
-                    "547.641674661719 1176.8413574324652"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "elementos_219",
                 "name": "elementos"
             },
             {
-                "extraInfo": [
-                    "599.8902951003912 1264.0686646963973"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "cuales_220",
                 "name": "cuales"
             },
             {
-                "extraInfo": [
-                    "960 1170"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "division_221",
                 "name": "division"
             },
             {
-                "extraInfo": [
-                    "1120 1170"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "hincapie_222",
                 "name": "hincapie"
             },
             {
-                "extraInfo": [
-                    "-230.22965321670563 1679.6811287186617"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "cambios constantes_223",
                 "name": "cambios constantes"
             },
             {
-                "extraInfo": [
-                    "-278.89105490689593 1488.1231206096343"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "llamandole_224",
                 "name": "llamandole"
             },
             {
-                "extraInfo": [
-                    "-281.3732939279462 1570.2194097992178"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "aspectos opuestos_225",
                 "name": "aspectos opuestos"
             },
             {
-                "extraInfo": [
-                    "-309.51062332074014 1223.0205201016058"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "complementarios yin_226",
                 "name": "complementarios yin"
             },
             {
-                "extraInfo": [
-                    "153.21944306584737 1527.46092584631"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "yang_227",
                 "name": "yang"
             },
             {
-                "extraInfo": [
-                    "-312.7647620047238 1303.406469933073"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "presentes_228",
                 "name": "presentes"
             },
             {
-                "extraInfo": [
-                    "-287.88157129591286 1388.923437838888"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "origenes_229",
                 "name": "origenes"
             },
             {
-                "extraInfo": [
-                    "3133.7355846318987 1238.4135743246527"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "origenes metafisicos_230",
                 "name": "origenes metafisicos"
             },
             {
-                "extraInfo": [
-                    "223.67643681311415 1406.0268314200516"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "aplicandose_231",
                 "name": "aplicandose"
             },
             {
-                "extraInfo": [
-                    "2754.206787162326 1193.9447510136283"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "analizar_232",
                 "name": "analizar"
             },
             {
-                "extraInfo": [
-                    "16.891914513289976 1556.536694934287"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "humanos_233",
                 "name": "humanos"
             },
             {
-                "extraInfo": [
-                    "213.02052010160583 1603.7782109813793"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "yin_234",
                 "name": "yin"
             },
             {
-                "extraInfo": [
-                    "-427.41829949682943 998.3180782082038"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "elementos confrontados_235",
                 "name": "elementos confrontados"
             },
             {
-                "extraInfo": [
-                    "-315.3078015240862 876.8839837819456"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "caracteristicas_236",
                 "name": "caracteristicas"
             },
             {
-                "extraInfo": [
-                    "2714.641641395089 1249.737963851302"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "caracteristicas opuestas_237",
                 "name": "caracteristicas opuestas"
             },
             {
-                "extraInfo": [
-                    "2854.1175690976943 1200.1381224659287"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "complementan_238",
                 "name": "complementan"
             },
             {
-                "extraInfo": [
-                    "960 1260"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "conformar_239",
                 "name": "conformar"
             },
             {
-                "extraInfo": [
-                    "1120 1260"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "totalidad_240",
                 "name": "totalidad"
             },
             {
-                "extraInfo": [
-                    "665.988170436243 1463.530383615841"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "manera_241",
                 "name": "manera"
             },
             {
-                "extraInfo": [
-                    "1440 1260"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "mutaciones naturales_242",
                 "name": "mutaciones naturales"
             },
             {
-                "extraInfo": [
-                    "1600 1260"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "viceversa_243",
                 "name": "viceversa"
             },
             {
-                "extraInfo": [
-                    "1760 1260"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "ritmo_244",
                 "name": "ritmo"
             },
             {
-                "extraInfo": [
-                    "1920 1260"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "ritmo dialectico_245",
                 "name": "ritmo dialectico"
             },
             {
-                "extraInfo": [
-                    "1707.1460199306434 1189.876086317231"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "fluidez_246",
                 "name": "fluidez"
             },
             {
-                "extraInfo": [
-                    "420.1989229642413 1550.7576908797732"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "energia_247",
                 "name": "energia"
             },
             {
-                "extraInfo": [
-                    "552.8334932343801 1665.3504278735666"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "chi_248",
                 "name": "chi"
             },
             {
-                "extraInfo": [
-                    "818.8745334375922 1519.9715824336795"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "vitalidad_249",
                 "name": "vitalidad"
             },
             {
-                "extraInfo": [
-                    "393.9384729618123 1624.3022832787747"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "mecanica_250",
                 "name": "mecanica"
             },
             {
-                "extraInfo": [
-                    "3189.241847534583 803.1021351741305"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "funcionamiento_251",
                 "name": "funcionamiento"
             },
             {
-                "extraInfo": [
-                    "2624.5990150456087 1476.5651125006073"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "funcionamiento dialectico_252",
                 "name": "funcionamiento dialectico"
             },
             {
-                "extraInfo": [
-                    "349.0757690879773 1478.2754518587237"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "palabras_253",
                 "name": "palabras"
             },
             {
-                "extraInfo": [
-                    "3151.5500773776835 1367.1033935811633"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "origen comun_254",
                 "name": "origen comun"
             },
             {
-                "extraInfo": [
-                    "1490.0386609838083 1659.5714238190528"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "funcion_255",
                 "name": "funcion"
             },
             {
-                "extraInfo": [
-                    "1687.6661268623673 1659.5714238190528"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "dadas_256",
                 "name": "dadas"
             },
             {
-                "extraInfo": [
-                    "960 1350"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "refiere_257",
                 "name": "refiere"
             },
             {
-                "extraInfo": [
-                    "1120 1350"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "virtud_258",
                 "name": "virtud"
             },
             {
-                "extraInfo": [
-                    "1280 1350"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "cualidad_259",
                 "name": "cualidad"
             },
             {
-                "extraInfo": [
-                    "1440 1350"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "desempeno_260",
                 "name": "desempeno"
             },
             {
-                "extraInfo": [
-                    "1600 1350"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "desenvolvimiento_261",
                 "name": "desenvolvimiento"
             },
             {
-                "extraInfo": [
-                    "2259.419092569964 1314.0828734795573"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "desenvolvimiento nato_262",
                 "name": "desenvolvimiento nato"
             },
             {
-                "extraInfo": [
-                    "2455.336219090407 1433.8066285476993"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "descarriarse_263",
                 "name": "descarriarse"
             },
             {
-                "extraInfo": [
-                    "2080 1350"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "maneras_264",
                 "name": "maneras"
             },
             {
-                "extraInfo": [
-                    "2939.528797469572 1351.7103393581165"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "maneras contrarias_265",
                 "name": "maneras contrarias"
             },
             {
-                "extraInfo": [
-                    "2206.731652532856 1437.227307263932"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "comportamiento_266",
                 "name": "comportamiento"
             },
             {
-                "extraInfo": [
-                    "2560 1350"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "desequilibran_267",
                 "name": "desequilibran"
             },
             {
-                "extraInfo": [
-                    "3202.315698988801 1185.8074216208338"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "destruirla_268",
                 "name": "destruirla"
             },
             {
-                "extraInfo": [
-                    "-267.0244189340183 1079.7663814176221"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "contraste_269",
                 "name": "contraste"
             },
             {
-                "extraInfo": [
-                    "2657.0954628498193 1532.3583253382812"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "comportamiento rutinario_270",
                 "name": "comportamiento rutinario"
             },
             {
-                "extraInfo": [
-                    "2806.8334267011214 1380.138122465929"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "ordenanzas_271",
                 "name": "ordenanzas"
             },
             {
-                "extraInfo": [
-                    "2559.7726594694386 1597.3512209467012"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "ordenanzas impuestas_272",
                 "name": "ordenanzas impuestas"
             },
             {
-                "extraInfo": [
-                    "3084.0749427482133 1085.9597528699232"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "resultan_273",
                 "name": "resultan"
             },
             {
-                "extraInfo": [
-                    "2922.5311434223463 1660.633777197005"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "resultan contradecir_274",
                 "name": "resultan contradecir"
             },
             {
-                "extraInfo": [
-                    "2909.7868682525987 1597.351220946701"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "naturaleza universalista_275",
                 "name": "naturaleza universalista"
             },
             {
-                "extraInfo": [
-                    "1120 1440"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "hombre deberia_276",
                 "name": "hombre deberia"
             },
             {
-                "extraInfo": [
-                    "3159.662954569829 1662.344116555121"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "perpetuar_277",
                 "name": "perpetuar"
             },
             {
-                "extraInfo": [
-                    "2760.381984465795 1587.089184798003"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "bienestar_278",
                 "name": "bienestar"
             },
             {
-                "extraInfo": [
-                    "1600 1440"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "analisis_279",
                 "name": "analisis"
             },
             {
-                "extraInfo": [
-                    "1760 1440"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "analisis cosmologico_280",
                 "name": "analisis cosmologico"
             },
             {
-                "extraInfo": [
-                    "2693.0733898685744 1650.371741048307"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "analisis cosmologico lao_281",
                 "name": "analisis cosmologico lao"
             },
             {
-                "extraInfo": [
-                    "2878.728480240319 1528.9376466220485"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "analisis cosmologico lao tse_282",
                 "name": "analisis cosmologico lao tse"
             },
             {
-                "extraInfo": [
-                    "2850.591150847524 1470.786108446094"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "analisis cosmologico lao tse basa_283",
                 "name": "analisis cosmologico lao tse basa"
             },
             {
-                "extraInfo": [
-                    "2942.177576522872 1410.924230912023"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "ensenanzas_284",
                 "name": "ensenanzas"
             },
             {
-                "extraInfo": [
-                    "3138.0947030433135 1304.8831907088113"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "naturaleza prospero_285",
                 "name": "naturaleza prospero"
             },
             {
-                "extraInfo": [
-                    "-54.17043886466172 1628.1373293927948"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "obstruccion_286",
                 "name": "obstruccion"
             },
             {
-                "extraInfo": [
-                    "1167.9503025255694 1665.7647952713537"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "ejemplo_287",
                 "name": "ejemplo"
             },
             {
-                "extraInfo": [
-                    "917.6803356455273 820.2091663817296"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "argumentando_288",
                 "name": "argumentando"
             },
             {
-                "extraInfo": [
-                    "1712.21623750668 878.360704557684"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "tabues impuestos_289",
                 "name": "tabues impuestos"
             },
             {
-                "extraInfo": [
-                    "3137.867362512752 1439.3520140198352"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "reglamentaciones_290",
                 "name": "reglamentaciones"
             },
             {
-                "extraInfo": [
-                    "3162.7505532215637 1593.2825562503035"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "impuestas_291",
                 "name": "impuestas"
             },
             {
-                "extraInfo": [
-                    "1899.7482072687899 1572.7584839529081"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "mandato_292",
                 "name": "mandato"
             },
             {
-                "extraInfo": [
-                    "1866.4798598016469 1649.723755068142"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "mandato jerarquico_293",
                 "name": "mandato jerarquico"
             },
             {
-                "extraInfo": [
-                    "1120 1530"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "restricciones_294",
                 "name": "restricciones"
             },
             {
-                "extraInfo": [
-                    "2920.215444433545 1307.655883444879"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "hombre desenvolverse_295",
                 "name": "hombre desenvolverse"
             },
             {
-                "extraInfo": [
-                    "52.91478056766937 963.8776724635"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "libertad_296",
                 "name": "libertad"
             },
             {
-                "extraInfo": [
-                    "-81.26358902833749 1023.739549997571"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "naturalidad_297",
                 "name": "naturalidad"
             },
             {
-                "extraInfo": [
-                    "3118.0094503443543 1518.0276244931858"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "acorde_298",
                 "name": "acorde"
             },
             {
-                "extraInfo": [
-                    "1962.758483952908 1475.269140540278"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "liberarse_299",
                 "name": "liberarse"
             },
             {
-                "extraInfo": [
-                    "3092.520900004858 1148.594323140062"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "ataduras_300",
                 "name": "ataduras"
             },
             {
-                "extraInfo": [
-                    "2334.0686646963973 1659.98579121684"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "ataduras superficiales_301",
                 "name": "ataduras superficiales"
             },
             {
-                "extraInfo": [
-                    "2140.0284175663205 1668.5374880074216"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "adoptar_302",
                 "name": "adoptar"
             },
             {
-                "extraInfo": [
-                    "1294.3488749939277 1610.3859498314669"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "libre_303",
                 "name": "libre"
             },
             {
-                "extraInfo": [
-                    "583.7861417127234 1576.1791626691402"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "desenvolverse_304",
                 "name": "desenvolverse"
             },
             {
-                "extraInfo": [
-                    "656.5588344487917 1661.6961305749564"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "naturaleza ensena_305",
                 "name": "naturaleza ensena"
             },
             {
-                "extraInfo": [
-                    "991.2249280445287 1655.9171265204427"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "prosperidad_306",
                 "name": "prosperidad"
             },
             {
-                "extraInfo": [
-                    "3212.1838545746873 1510.5382810805559"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "comun_307",
                 "name": "comun"

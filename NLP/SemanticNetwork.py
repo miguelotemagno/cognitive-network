@@ -972,8 +972,7 @@ class SemanticNetwork:
 
     ####################################################################
 
-    def select(self, topic):
-        #idx = self.net.nodeNames.index(topic) if topic in self.net.nodeNames else None
+    def select(self, topic, returns=None):
         node = self.net.search({'name': topic})
         json = {
             'width': None,
@@ -1039,4 +1038,10 @@ class SemanticNetwork:
             json['connects'] = connects
             json['net'] = net.getJson()
 
-        return js.dumps(json, sort_keys=True, indent=4, separators=(',', ': '))
+        return js.dumps(json, sort_keys=True, indent=4, separators=(',', ': ')) if returns == 'json' else json
+
+    ####################################################################
+
+    def selectAll(self, topic):
+        data = self.select(topic)
+        # TODO construir recorrido de grafo en forma recursiva

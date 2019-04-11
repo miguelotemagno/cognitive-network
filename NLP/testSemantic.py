@@ -6,9 +6,11 @@ import numpy as np
 
 from SemanticNetwork import *
 
+LANGUAGE_RULES = 'spanishRules.json'
+
 start_time = time.time()
 
-s = SemanticNetwork()
+s = SemanticNetwork(LANGUAGE_RULES)
 
 # ejemplo: python testSemantic.py train '' ''
 if sys.argv[1] == 'train':
@@ -120,6 +122,19 @@ if sys.argv[1] == 'file':
 if sys.argv[1] == 'clean':
     dbFile = sys.argv[2] if sys.argv[2] is not None and sys.argv[2] != '' else 'semanticNet.json'
     s.save(dbFile)
+
+
+if sys.argv[1] == 'add-verb':
+    verb = sys.argv[2]
+    first = verb[0]
+    s.rules.registerVerb(first, verb)
+
+if sys.argv[1] == 'import-verbs':
+    for car in range(ord('a'), ord('z')):
+        first = chr(car)
+        for verb in s.rules.rules[first].keys():
+            print("%s %s" % (first, verb))
+            s.rules.registerVerb(first, verb, rules=s.rules.getJsonFrom(s.rules.rules[first][verb]))
 
 
 if sys.argv[1] == 'select':

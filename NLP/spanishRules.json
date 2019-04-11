@@ -1,6 +1,7 @@
 {
     "readFromFile" : "loadFromFile2.sh",
     "readFromWeb" : "loadFromWeb3.sh",
+    "readFromVerb" : "etl.pl",
     "verb" : [
         "(\\w+[ae]r|\\w*ir)(se)?"
     ],

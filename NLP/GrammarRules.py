@@ -37,6 +37,7 @@ import re
 import json
 import subprocess as sp
 import os
+import sqlite3
 
 class GrammarRules:
     def jsonLoad(self, dbFile):
@@ -48,10 +49,11 @@ class GrammarRules:
     ####################################################################
     
     def __init__(self, db_file=None):
-        self.dbFile = "spanishRules.json" if db_file is None else db_file
-        self.rules = self.jsonLoad(self.dbFile)
+        self.dbFile   = "spanishRules.json" if db_file is None else db_file
+        self.rules    = self.jsonLoad(self.dbFile)
         self.fromFile = self.rules['readFromFile']     #'loadFromFile2.sh'
         self.fromWeb  = self.rules['readFromWeb']      #'loadFromWeb3.sh'
+        self.fromVerb = self.rules['readFromVerb']     #'loadFromWeb3.sh'
         self.path = os.getcwd()
         self.text = ""
 
@@ -275,6 +277,13 @@ class GrammarRules:
 
     ##########################################################################
 
+    def loadFromVerb(self, verb):
+        print ("=> loadFromVerb (%s)\n") % (verb)
+        print ("   perl  %s/%s %s\n") % (self.path, self.fromVerb, verb)
+        return sp.check_output(['perl', "%s/%s" % (self.path, self.fromVerb), verb])
+
+    ##########################################################################
+
     def word_tokenize(self, text):
         punct = '('+self.rules['punctuation'][0]+')'
         text = re.sub(punct, r' \1 ', text)
@@ -450,4 +459,41 @@ class GrammarRules:
         else:
             return types[type](word)
 
+    ####################################################################
 
+    def registerVerb(self, first, verb, rules=None):
+        DB_PATH = "%s/%s.db" % (os.path.dirname(__file__), self.dbFile)
+
+        #try:
+        conn = sqlite3.connect(DB_PATH)
+        c = conn.cursor()
+        table = """
+            CREATE TABLE IF NOT EXISTS verbs (
+                verb    VARCHAR(30),
+                first   VARCHAR(1),
+                rule    VARCHAR(1000),
+                PRIMARY KEY(first, verb)
+            )
+        """
+        c.execute(table)
+
+        select = "select count(*) from verbs where verb=?"
+        c.execute(select, (verb,))
+        count = c.fetchone()[0]
+
+        if count == 0:
+            rule = rules if rules is not None else "{\n%s\n}" % self.loadFromVerb(verb)
+            data = (verb, first, rule)
+            insert = "insert into verbs (verb, first, rule) values (?, ?, ?)"
+            c.execute(insert, data)
+
+        conn.commit()
+        conn.close()
+        #except Exception, e:
+        #    print "ERROR: %s" % (e)
+        pass
+
+    ####################################################################
+
+    def getJsonFrom(self, data):
+        return json.dumps(data, sort_keys=True, indent=4, separators=(',', ': '))

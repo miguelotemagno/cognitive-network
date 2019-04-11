@@ -65,8 +65,9 @@ class SemanticNetwork:
             "spi2" : "subjuntivo preterito imperfecto 2" ,
             "sf"   : "subjuntivo futuro"
     """
-    def __init__(self):
-        self.rules = GrammarRules()
+    def __init__(self, db_file=None):
+        self.dbLangRules = db_file
+        self.rules = GrammarRules(self.dbLangRules)
         self.grammarTypes = ['DET', 'NOUN', 'ADJ', 'PREP', 'VERB', 'ADV', 'PRON', 'INTJ', 'CONJ', 'NUM', 'PUNC', 'AUX']
         self.verbTenses = ['inf', 'ger', 'par', 'ip', 'ipi', 'if', 'ic', 'ipps', 'i', 'sp', 'spi', 'spi2', 'sf']
         self.pronouns = ['yo', 'tu', 'el_la', 'nos', 'uds', 'ellos']

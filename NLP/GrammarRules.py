@@ -56,7 +56,18 @@ class GrammarRules:
         self.fromVerb = self.rules['readFromVerb']     #'loadFromWeb3.sh'
         self.path = os.getcwd()
         self.text = ""
+        self.DB_PATH = "%s/%s.db" % (os.path.dirname(__file__), self.dbFile)
 
+        conn = sqlite3.connect(self.DB_PATH)
+        c = conn.cursor()
+        getVerbs = "select first, verb, rule from verbs order by first, verb"
+
+        for row in c.execute(getVerbs):
+            (char, verb, hash) = row
+            if char not in self.rules.keys():
+                self.rules[char] = {}
+
+            self.rules[char][verb] = json.loads(hash)
 
     ####################################################################
     
@@ -219,12 +230,12 @@ class GrammarRules:
                         eval = re.compile(expr)
                         if eval.match(text):
                             return tense
-        except ValueError:
-            print("ERROR getVerbTense(%s,%s): %s\n" % (verb, text, str(ValueError)))
-        except IndexError:
-            print("ERROR getVerbTense(%s,%s): %s\n" % (verb, text, str(IndexError)))
-        except KeyError:
-            print("ERROR getVerbTense(%s,%s): %s\n" % (verb, text, str(KeyError)))
+        except ValueError, e:
+            print("ERROR getVerbTense(%s,%s): %s\n" % (verb, text, str(e)))
+        except IndexError, e:
+            print("ERROR getVerbTense(%s,%s): %s\n" % (verb, text, str(e)))
+        except KeyError, e:
+            print("ERROR getVerbTense(%s,%s): %s\n" % (verb, text, str(e)))
 
         return None
 
@@ -453,19 +464,23 @@ class GrammarRules:
             'AUX':  self.isAuxiliar     # (word),
         }
 
-        if type == 'VERB':
-            verb = self.getVerb(word)
-            return types[type](verb, word) if verb is not None else None
-        else:
-            return types[type](word)
+        try:
+            if type == 'VERB':
+                verb = self.getVerb(word)
+                return types[type](verb, word) if verb is not None else None
+            else:
+                return types[type](word)
+        except KeyError, e:
+            print ("ERROR getIndexFromType(%s,%s): %s" % (type, word, e))
+            pass
 
     ####################################################################
 
     def registerVerb(self, first, verb, rules=None):
-        DB_PATH = "%s/%s.db" % (os.path.dirname(__file__), self.dbFile)
+        # DB_PATH = "%s/%s.db" % (os.path.dirname(__file__), self.dbFile)
 
         #try:
-        conn = sqlite3.connect(DB_PATH)
+        conn = sqlite3.connect(self.DB_PATH)
         c = conn.cursor()
         table = """
             CREATE TABLE IF NOT EXISTS verbs (

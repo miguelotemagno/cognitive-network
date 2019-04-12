@@ -6,7 +6,7 @@ import numpy as np
 
 from SemanticNetwork import *
 
-LANGUAGE_RULES = 'spanishRules-original.json'
+LANGUAGE_RULES = 'spanishRules.json'
 
 start_time = time.time()
 

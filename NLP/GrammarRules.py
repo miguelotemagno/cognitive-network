@@ -49,7 +49,7 @@ class GrammarRules:
     ####################################################################
     
     def __init__(self, db_file=None):
-        self.dbFile   = "spanishRules.json" if db_file is None else db_file
+        self.dbFile   = "spanishRules-original.json" if db_file is None else db_file
         self.rules    = self.jsonLoad(self.dbFile)
         self.fromFile = self.rules['readFromFile']     #'loadFromFile2.sh'
         self.fromWeb  = self.rules['readFromWeb']      #'loadFromWeb3.sh'
@@ -58,16 +58,20 @@ class GrammarRules:
         self.text = ""
         self.DB_PATH = "%s/%s.db" % (os.path.dirname(__file__), self.dbFile)
 
-        conn = sqlite3.connect(self.DB_PATH)
+        for car in range(ord('a'), ord('z')):
+            char = chr(car)
+            if char not in self.rules.keys():
+                self.rules[char] = {}
+
+        conn = self.sqliteConnect()
         c = conn.cursor()
         getVerbs = "select first, verb, rule from verbs order by first, verb"
 
         for row in c.execute(getVerbs):
             (char, verb, hash) = row
-            if char not in self.rules.keys():
-                self.rules[char] = {}
-
             self.rules[char][verb] = json.loads(hash)
+
+        conn.close()
 
     ####################################################################
     
@@ -477,9 +481,28 @@ class GrammarRules:
     ####################################################################
 
     def registerVerb(self, first, verb, rules=None):
-        # DB_PATH = "%s/%s.db" % (os.path.dirname(__file__), self.dbFile)
+        try:
+            conn = self.sqliteConnect()
+            c = conn.cursor()
+            select = "select count(*) from verbs where verb=?"
+            c.execute(select, (verb,))
+            count = c.fetchone()[0]
 
-        #try:
+            if count == 0:
+                rule = rules if rules is not None else "{\n%s\n}" % self.loadFromVerb(verb)
+                data = (verb, first, rule)
+                insert = "insert into verbs (verb, first, rule) values (?, ?, ?)"
+                c.execute(insert, data)
+
+            conn.commit()
+            conn.close()
+        except Exception, e:
+            print "ERROR: %s" % (e)
+        pass
+
+    ####################################################################
+
+    def sqliteConnect(self):
         conn = sqlite3.connect(self.DB_PATH)
         c = conn.cursor()
         table = """
@@ -491,24 +514,7 @@ class GrammarRules:
             )
         """
         c.execute(table)
-
-        select = "select count(*) from verbs where verb=?"
-        c.execute(select, (verb,))
-        count = c.fetchone()[0]
-
-        if count == 0:
-            rule = rules if rules is not None else "{\n%s\n}" % self.loadFromVerb(verb)
-            data = (verb, first, rule)
-            insert = "insert into verbs (verb, first, rule) values (?, ?, ?)"
-            c.execute(insert, data)
-
-        conn.commit()
-        conn.close()
-        #except Exception, e:
-        #    print "ERROR: %s" % (e)
-        pass
-
-    ####################################################################
+        return conn
 
     def getJsonFrom(self, data):
         return json.dumps(data, sort_keys=True, indent=4, separators=(',', ': '))

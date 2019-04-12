@@ -67,7 +67,7 @@ class SemanticNetwork:
     """
     def __init__(self, db_file=None):
         self.dbLangRules = db_file
-        self.rules = GrammarRules(self.dbLangRules)
+        self.rules = GrammarRules(db_file=self.dbLangRules)
         self.grammarTypes = ['DET', 'NOUN', 'ADJ', 'PREP', 'VERB', 'ADV', 'PRON', 'INTJ', 'CONJ', 'NUM', 'PUNC', 'AUX']
         self.verbTenses = ['inf', 'ger', 'par', 'ip', 'ipi', 'if', 'ic', 'ipps', 'i', 'sp', 'spi', 'spi2', 'sf']
         self.pronouns = ['yo', 'tu', 'el_la', 'nos', 'uds', 'ellos']

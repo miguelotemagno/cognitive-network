@@ -219,20 +219,20 @@ m[NUM,NOUN]   		{ 100 (number), metros (None) }
 
 RAW: la pelicula fue aburridisima => [fue]
 1) tokens: [('la', u'PRON|DET'), ('pelicula', '??'), ('fue', u'VERB|AUX'), ('aburridisima', u'ADJ|ADV')]
-2) syntax: [('la', 'DET', u'detArticle'), ('pelicula', 'NOUN', None), ('fue', 'VERB', u'ipps'), ('aburridisima', 'NOUN', None)]
+2) syntax: [('la', 'DET', u'detArticle'), ('pelicula', 'NOUN', None), ('fue', 'VERB', u'ipps'), ('aburridisima', u'ADV', u'advSuperlative')]
 3) train:
 m[DET,NOUN]   		{ la (detArticle), pelicula (None) }
 m[NOUN,VERB]   		{ pelicula (None), fue (ipps) }
 prevVerb[NOUN,VERB] -> fue {ipps(ser: indicativo preterito perfecto simple), NOUN}
-m[VERB,NOUN]   		{ fue (ipps), aburridisima (None) }
-postVerb[VERB,NOUN] -> fue {NOUN, ipps(ser: indicativo preterito perfecto simple)}
+m[VERB,ADV]   		{ fue (ipps), aburridisima (advSuperlative) }
+postVerb[VERB,ADV] -> fue {ADV, ipps(ser: indicativo preterito perfecto simple)}
 0 la pelicula fue aburridisima 
-4) test: [[{'tokens': [('la', 'DET', u'detArticle'), ('pelicula', 'NOUN', None), ('fue', 'VERB', u'ipps'), ('aburridisima', 'NOUN', None)], 'text': 'la pelicula fue aburridisima', 'predicate': [('aburridisima', 'NOUN', None)], 'root': 'fue', 'subject': [('la', 'DET', u'detArticle'), ('pelicula', 'NOUN', None), ('fue', 'VERB', u'ipps')]}]]
+4) test: [[{'tokens': [('la', 'DET', u'detArticle'), ('pelicula', 'NOUN', None), ('fue', 'VERB', u'ipps'), ('aburridisima', u'ADV', u'advSuperlative')], 'text': 'la pelicula fue aburridisima', 'predicate': [('aburridisima', u'ADV', u'advSuperlative')], 'root': 'fue', 'subject': [('la', 'DET', u'detArticle'), ('pelicula', 'NOUN', None), ('fue', 'VERB', u'ipps')]}]]
 
 000) texto:la pelicula fue aburridisima
      nucleo:fue
      sujeto:{[('la', 'DET', u'detArticle'), ('pelicula', 'NOUN', None), ('fue', 'VERB', u'ipps')]}
-     predicado:{[('aburridisima', 'NOUN', None)]}
+     predicado:{[('aburridisima', u'ADV', u'advSuperlative')]}
 
 
 RAW: el maestro califico los examenes => [califico]
@@ -911,7 +911,7 @@ m[DET,NOUN]   		{ muy (detUndefined), helada (sustPropio) }
 
 RAW: el show fue magnifico => [fue]
 1) tokens: [('el', u'PRON|DET'), ('show', '??'), ('fue', u'VERB|AUX'), ('magnifico', u'ADJ|NOUN')]
-2) syntax: [('el', 'DET', u'detArticle'), ('show', 'NOUN', None), ('fue', 'VERB', u'ipps'), ('magnifico', 'NOUN', u'sustCompuesto')]
+2) syntax: [('el', 'DET', u'detArticle'), ('show', 'NOUN', None), ('fue', 'VERB', u'ipps'), ('magnifico', u'NOUN', u'sustCompuesto')]
 3) train:
 m[DET,NOUN]   		{ el (detArticle), show (None) }
 m[NOUN,VERB]   		{ show (None), fue (ipps) }
@@ -919,12 +919,12 @@ prevVerb[NOUN,VERB] -> fue {ipps(ser: indicativo preterito perfecto simple), NOU
 m[VERB,NOUN]   		{ fue (ipps), magnifico (sustCompuesto) }
 postVerb[VERB,NOUN] -> fue {NOUN, ipps(ser: indicativo preterito perfecto simple)}
 0 el show fue magnifico 
-4) test: [[{'tokens': [('el', 'DET', u'detArticle'), ('show', 'NOUN', None), ('fue', 'VERB', u'ipps'), ('magnifico', 'NOUN', u'sustCompuesto')], 'text': 'el show fue magnifico', 'predicate': [('magnifico', 'NOUN', u'sustCompuesto')], 'root': 'fue', 'subject': [('el', 'DET', u'detArticle'), ('show', 'NOUN', None), ('fue', 'VERB', u'ipps')]}]]
+4) test: [[{'tokens': [('el', 'DET', u'detArticle'), ('show', 'NOUN', None), ('fue', 'VERB', u'ipps'), ('magnifico', u'NOUN', u'sustCompuesto')], 'text': 'el show fue magnifico', 'predicate': [('magnifico', u'NOUN', u'sustCompuesto')], 'root': 'fue', 'subject': [('el', 'DET', u'detArticle'), ('show', 'NOUN', None), ('fue', 'VERB', u'ipps')]}]]
 
 000) texto:el show fue magnifico
      nucleo:fue
      sujeto:{[('el', 'DET', u'detArticle'), ('show', 'NOUN', None), ('fue', 'VERB', u'ipps')]}
-     predicado:{[('magnifico', 'NOUN', u'sustCompuesto')]}
+     predicado:{[('magnifico', u'NOUN', u'sustCompuesto')]}
 
 
 RAW: los ninos juegan a las escondidas => [juegan]
@@ -1009,26 +1009,25 @@ postVerb[VERB,NOUN] -> son {NOUN, ip(ser: indicativo presente)}
 
 
 RAW: la gente reclamo cuando se acabaron las entradas => [reclamo]
-1) tokens: [('la', u'PRON|DET'), ('gente', u'NOUN'), ('reclamo', u'VERB'), ('cuando', u'PRON|CONJ'), ('se', u'VERB|AUX|PRON'), ('acabaron', '??'), ('las', u'PRON|DET'), ('entradas', '??')]
-2) syntax: [('la', 'DET', u'detArticle'), ('gente', u'NOUN', u'sustSimple'), ('reclamo', u'VERB', u'ipps'), ('cuando', 'CONJ', u'conjConssesive'), ('se', 'PRON', u'pronUndefined'), ('acabaron', 'NOUN', None), ('las', 'DET', u'detArticle'), ('entradas', 'NOUN', None)]
+1) tokens: [('la', u'PRON|DET'), ('gente', u'NOUN'), ('reclamo', u'VERB'), ('cuando', u'PRON|CONJ'), ('se', u'VERB|AUX|PRON'), ('acabaron', u'VERB'), ('las', u'PRON|DET'), ('entradas', '??')]
+2) syntax: [('la', 'DET', u'detArticle'), ('gente', u'NOUN', u'sustSimple'), ('reclamo', u'VERB', u'ipps'), ('cuando', u'CONJ', u'conjConssesive'), ('se', 'AUX', None), ('acabaron', u'VERB', u'ipps'), ('las', 'DET', u'detArticle'), ('entradas', 'NOUN', None)]
 3) train:
 m[DET,NOUN]   		{ la (detArticle), gente (sustSimple) }
 m[NOUN,VERB]   		{ gente (sustSimple), reclamo (ipps) }
 prevVerb[NOUN,VERB] -> reclamo {ipps(reclamar: indicativo preterito perfecto simple), NOUN}
 m[VERB,CONJ]   		{ reclamo (ipps), cuando (conjConssesive) }
 postVerb[VERB,CONJ] -> reclamo {CONJ, ipps(reclamar: indicativo preterito perfecto simple)}
-m[CONJ,PRON]   		{ cuando (conjConssesive), se (pronUndefined) }
-m[PRON,NOUN]   		{ se (pronUndefined), acabaron (None) }
-m[NOUN,DET]   		{ acabaron (None), las (detArticle) }
-noun[ipps,undefined] -> {reclamo (reclamar: indicativo preterito perfecto simple), yo}
+m[CONJ,AUX]   		{ cuando (conjConssesive), se (None) }
+m[AUX,VERB]   		{ se (None), acabaron (ipps) }
+m[VERB,DET]   		{ acabaron (ipps), las (detArticle) }
 m[DET,NOUN]   		{ las (detArticle), entradas (None) }
 0 la gente reclamo cuando se acabaron las entradas 
-4) test: [[{'tokens': [('la', 'DET', u'detArticle'), ('gente', u'NOUN', u'sustSimple'), ('reclamo', u'VERB', u'ipps'), ('cuando', 'CONJ', u'conjConssesive'), ('se', 'PRON', u'pronUndefined'), ('acabaron', 'NOUN', None), ('las', 'DET', u'detArticle'), ('entradas', 'NOUN', None)], 'text': 'la gente reclamo cuando se acabaron las entradas', 'predicate': [('cuando', 'CONJ', u'conjConssesive'), ('se', 'PRON', u'pronUndefined'), ('acabaron', 'NOUN', None)], 'root': 'reclamo', 'subject': [('la', 'DET', u'detArticle'), ('gente', u'NOUN', u'sustSimple'), ('reclamo', u'VERB', u'ipps')]}]]
+4) test: [[{'tokens': [('la', 'DET', u'detArticle'), ('gente', u'NOUN', u'sustSimple'), ('reclamo', u'VERB', u'ipps'), ('cuando', u'CONJ', u'conjConssesive'), ('se', 'AUX', None), ('acabaron', u'VERB', u'ipps'), ('las', 'DET', u'detArticle'), ('entradas', 'NOUN', None)], 'text': 'la gente reclamo cuando se acabaron las entradas', 'predicate': [('cuando', u'CONJ', u'conjConssesive'), ('se', 'AUX', None), ('acabaron', u'VERB', u'ipps'), ('las', 'DET', u'detArticle'), ('entradas', 'NOUN', None)], 'root': 'acabaron', 'subject': [('la', 'DET', u'detArticle'), ('gente', u'NOUN', u'sustSimple'), ('reclamo', u'VERB', u'ipps')]}]]
 
 000) texto:la gente reclamo cuando se acabaron las entradas
-     nucleo:reclamo
+     nucleo:acabaron
      sujeto:{[('la', 'DET', u'detArticle'), ('gente', u'NOUN', u'sustSimple'), ('reclamo', u'VERB', u'ipps')]}
-     predicado:{[('cuando', 'CONJ', u'conjConssesive'), ('se', 'PRON', u'pronUndefined'), ('acabaron', 'NOUN', None)]}
+     predicado:{[('cuando', u'CONJ', u'conjConssesive'), ('se', 'AUX', None), ('acabaron', u'VERB', u'ipps'), ('las', 'DET', u'detArticle'), ('entradas', 'NOUN', None)]}
 
 
 RAW: el peru tiene gran riqueza natural => [tiene]
@@ -2600,7 +2599,7 @@ m[PREP,ADJ]   		{ de (prepPosesion), nuevo (adjAll) }
 
 RAW: mi familia invito a cenar a julia, la vecina de enfrente => [invito]
 1) tokens: [('mi', u'PRON|ADJ|DET'), ('familia', '??'), ('invito', u'VERB|NOUN'), ('a', u'PREP'), ('cenar', '??'), ('a', u'PREP'), ('julia', '??'), (',', u'PUNC'), ('la', u'PRON|DET'), ('vecina', u'NOUN'), ('de', u'VERB|PREP'), ('enfrente', u'ADJ|ADV|NOUN')]
-2) syntax: [('mi', 'DET', u'detPossesive'), ('familia', 'NOUN', None), ('invito', 'VERB', u'ipps'), ('a', u'PREP', u'prepTemporal'), ('cenar', 'NOUN', None), ('a', u'PREP', u'prepTemporal'), ('julia', 'NOUN', None), (',', u'PUNC', 'punctuation'), ('la', 'DET', u'detArticle'), ('vecina', u'NOUN', u'sustAll'), ('de', 'PREP', u'prepPosesion'), ('enfrente', 'NOUN', u'sustSimple')]
+2) syntax: [('mi', 'DET', u'detPossesive'), ('familia', 'NOUN', None), ('invito', 'VERB', u'ipps'), ('a', u'PREP', u'prepTemporal'), ('cenar', 'NOUN', None), ('a', u'PREP', u'prepTemporal'), ('julia', 'NOUN', None), (',', u'PUNC', 'punctuation'), ('la', 'DET', u'detArticle'), ('vecina', u'NOUN', u'sustAll'), ('de', 'PREP', u'prepPosesion'), ('enfrente', 'ADV', u'advPlace')]
 3) train:
 m[DET,NOUN]   		{ mi (detPossesive), familia (None) }
 m[NOUN,VERB]   		{ familia (None), invito (ipps) }
@@ -2617,9 +2616,9 @@ m[PUNC,DET]   		{ , (punctuation), la (detArticle) }
 m[DET,NOUN]   		{ la (detArticle), vecina (sustAll) }
 m[NOUN,PREP]   		{ vecina (sustAll), de (prepPosesion) }
 noun[ipps,sustAll] -> {invito (invitar: indicativo preterito perfecto simple), yo}
-m[PREP,NOUN]   		{ de (prepPosesion), enfrente (sustSimple) }
+m[PREP,ADV]   		{ de (prepPosesion), enfrente (advPlace) }
 0 mi familia invito a cenar a julia, la vecina de enfrente 
-4) test: [[{'tokens': [('mi', 'DET', u'detPossesive'), ('familia', 'NOUN', None), ('invito', 'VERB', u'ipps'), ('a', u'PREP', u'prepTemporal'), ('cenar', 'NOUN', None), ('a', u'PREP', u'prepTemporal'), ('julia', 'NOUN', None), (',', u'PUNC', 'punctuation'), ('la', 'DET', u'detArticle'), ('vecina', u'NOUN', u'sustAll'), ('de', 'PREP', u'prepPosesion'), ('enfrente', 'NOUN', u'sustSimple')], 'text': 'mi familia invito a cenar a julia, la vecina de enfrente', 'predicate': [('a', u'PREP', u'prepTemporal'), ('cenar', 'NOUN', None)], 'root': 'invito', 'subject': [('mi', 'DET', u'detPossesive'), ('familia', 'NOUN', None), ('invito', 'VERB', u'ipps')]}]]
+4) test: [[{'tokens': [('mi', 'DET', u'detPossesive'), ('familia', 'NOUN', None), ('invito', 'VERB', u'ipps'), ('a', u'PREP', u'prepTemporal'), ('cenar', 'NOUN', None), ('a', u'PREP', u'prepTemporal'), ('julia', 'NOUN', None), (',', u'PUNC', 'punctuation'), ('la', 'DET', u'detArticle'), ('vecina', u'NOUN', u'sustAll'), ('de', 'PREP', u'prepPosesion'), ('enfrente', 'ADV', u'advPlace')], 'text': 'mi familia invito a cenar a julia, la vecina de enfrente', 'predicate': [('a', u'PREP', u'prepTemporal'), ('cenar', 'NOUN', None)], 'root': 'invito', 'subject': [('mi', 'DET', u'detPossesive'), ('familia', 'NOUN', None), ('invito', 'VERB', u'ipps')]}]]
 
 000) texto:mi familia invito a cenar a julia, la vecina de enfrente
      nucleo:invito
@@ -2788,25 +2787,24 @@ m[PRON,NOUN]   		{ esta (pronAll), navidad (sustAbstract) }
 
 RAW: mis vacaciones fueron mejor de lo que esperaba => [fueron]
 1) tokens: [('mis', u'ADJ'), ('vacaciones', u'NOUN'), ('fueron', u'VERB|AUX'), ('mejor', u'ADJ|ADV'), ('de', u'VERB|PREP'), ('lo', u'PRON|DET'), ('que', u'PRON|ADV|CONJ'), ('esperaba', u'VERB')]
-2) syntax: [('mis', u'ADJ', u'adjPossesive'), ('vacaciones', u'NOUN', u'sustAll'), ('fueron', 'VERB', u'ipps'), ('mejor', 'NOUN', None), ('de', 'PREP', u'prepPosesion'), ('lo', 'DET', u'detArticle'), ('que', 'CONJ', u'conjComparative'), ('esperaba', u'VERB', u'ipi')]
+2) syntax: [('mis', u'ADJ', u'adjPossesive'), ('vacaciones', u'NOUN', u'sustAll'), ('fueron', 'VERB', u'ipps'), ('mejor', u'ADV', u'advComparative'), ('de', 'PREP', u'prepPosesion'), ('lo', 'DET', u'detArticle'), ('que', 'CONJ', u'conjComparative'), ('esperaba', u'VERB', u'ipi')]
 3) train:
 m[ADJ,NOUN]   		{ mis (adjPossesive), vacaciones (sustAll) }
 m[NOUN,VERB]   		{ vacaciones (sustAll), fueron (ipps) }
 prevVerb[NOUN,VERB] -> fueron {ipps(ser: indicativo preterito perfecto simple), NOUN}
-m[VERB,NOUN]   		{ fueron (ipps), mejor (None) }
-postVerb[VERB,NOUN] -> fueron {NOUN, ipps(ser: indicativo preterito perfecto simple)}
-m[NOUN,PREP]   		{ mejor (None), de (prepPosesion) }
-noun[ipps,undefined] -> {fueron (ser: indicativo preterito perfecto simple), ellos}
+m[VERB,ADV]   		{ fueron (ipps), mejor (advComparative) }
+postVerb[VERB,ADV] -> fueron {ADV, ipps(ser: indicativo preterito perfecto simple)}
+m[ADV,PREP]   		{ mejor (advComparative), de (prepPosesion) }
 m[PREP,DET]   		{ de (prepPosesion), lo (detArticle) }
 m[DET,CONJ]   		{ lo (detArticle), que (conjComparative) }
 m[CONJ,VERB]   		{ que (conjComparative), esperaba (ipi) }
 0 mis vacaciones fueron mejor de lo que esperaba 
-4) test: [[{'tokens': [('mis', u'ADJ', u'adjPossesive'), ('vacaciones', u'NOUN', u'sustAll'), ('fueron', 'VERB', u'ipps'), ('mejor', 'NOUN', None), ('de', 'PREP', u'prepPosesion'), ('lo', 'DET', u'detArticle'), ('que', 'CONJ', u'conjComparative'), ('esperaba', u'VERB', u'ipi')], 'text': 'mis vacaciones fueron mejor de lo que esperaba', 'predicate': [('mejor', 'NOUN', None)], 'root': 'fueron', 'subject': [('mis', u'ADJ', u'adjPossesive'), ('vacaciones', u'NOUN', u'sustAll'), ('fueron', 'VERB', u'ipps')]}]]
+4) test: [[{'tokens': [('mis', u'ADJ', u'adjPossesive'), ('vacaciones', u'NOUN', u'sustAll'), ('fueron', 'VERB', u'ipps'), ('mejor', u'ADV', u'advComparative'), ('de', 'PREP', u'prepPosesion'), ('lo', 'DET', u'detArticle'), ('que', 'CONJ', u'conjComparative'), ('esperaba', u'VERB', u'ipi')], 'text': 'mis vacaciones fueron mejor de lo que esperaba', 'predicate': [('mejor', u'ADV', u'advComparative'), ('de', 'PREP', u'prepPosesion'), ('lo', 'DET', u'detArticle'), ('que', 'CONJ', u'conjComparative'), ('esperaba', u'VERB', u'ipi')], 'root': 'fueron', 'subject': [('mis', u'ADJ', u'adjPossesive'), ('vacaciones', u'NOUN', u'sustAll'), ('fueron', 'VERB', u'ipps')]}]]
 
 000) texto:mis vacaciones fueron mejor de lo que esperaba
      nucleo:fueron
      sujeto:{[('mis', u'ADJ', u'adjPossesive'), ('vacaciones', u'NOUN', u'sustAll'), ('fueron', 'VERB', u'ipps')]}
-     predicado:{[('mejor', 'NOUN', None)]}
+     predicado:{[('mejor', u'ADV', u'advComparative'), ('de', 'PREP', u'prepPosesion'), ('lo', 'DET', u'detArticle'), ('que', 'CONJ', u'conjComparative'), ('esperaba', u'VERB', u'ipi')]}
 
 
 RAW: nosotros subiremos el cerro => [subiremos]
@@ -3004,7 +3002,7 @@ noun[ipi,sustDisminutivo] -> {era (ser: indicativo preterito imperfecto), yo}
 
 RAW: todo animal nace de otro animal => [nace]
 1) tokens: [('todo', u'PRON|ADJ|DET'), ('animal', u'ADJ|NOUN'), ('nace', u'VERB'), ('de', u'VERB|PREP'), ('otro', u'PRON|ADJ'), ('animal', u'ADJ|NOUN')]
-2) syntax: [('todo', 'DET', u'detPredetermining'), ('animal', 'NOUN', u'sustComun'), ('nace', u'VERB', u'i'), ('de', 'PREP', u'prepPosesion'), ('otro', 'PRON', u'pronUndefined'), ('animal', 'NOUN', u'sustComun')]
+2) syntax: [('todo', 'DET', u'detPredetermining'), ('animal', 'NOUN', u'sustComun'), ('nace', u'VERB', u'i'), ('de', 'PREP', u'prepPosesion'), ('otro', 'PRON', u'pronUndefined'), ('animal', u'NOUN', u'sustComun')]
 3) train:
 m[DET,NOUN]   		{ todo (detPredetermining), animal (sustComun) }
 m[NOUN,VERB]   		{ animal (sustComun), nace (i) }
@@ -3014,17 +3012,17 @@ postVerb[VERB,PREP] -> nace {PREP, i(nacer: imperativo)}
 m[PREP,PRON]   		{ de (prepPosesion), otro (pronUndefined) }
 m[PRON,NOUN]   		{ otro (pronUndefined), animal (sustComun) }
 0 todo animal nace de otro animal 
-4) test: [[{'tokens': [('todo', 'DET', u'detPredetermining'), ('animal', 'NOUN', u'sustComun'), ('nace', u'VERB', u'i'), ('de', 'PREP', u'prepPosesion'), ('otro', 'PRON', u'pronUndefined'), ('animal', 'NOUN', u'sustComun')], 'text': 'todo animal nace de otro animal', 'predicate': [('de', 'PREP', u'prepPosesion'), ('otro', 'PRON', u'pronUndefined'), ('animal', 'NOUN', u'sustComun')], 'root': 'nace', 'subject': [('todo', 'DET', u'detPredetermining'), ('animal', 'NOUN', u'sustComun'), ('nace', u'VERB', u'i')]}]]
+4) test: [[{'tokens': [('todo', 'DET', u'detPredetermining'), ('animal', 'NOUN', u'sustComun'), ('nace', u'VERB', u'i'), ('de', 'PREP', u'prepPosesion'), ('otro', 'PRON', u'pronUndefined'), ('animal', u'NOUN', u'sustComun')], 'text': 'todo animal nace de otro animal', 'predicate': [('de', 'PREP', u'prepPosesion'), ('otro', 'PRON', u'pronUndefined'), ('animal', u'NOUN', u'sustComun')], 'root': 'nace', 'subject': [('todo', 'DET', u'detPredetermining'), ('animal', 'NOUN', u'sustComun'), ('nace', u'VERB', u'i')]}]]
 
 000) texto:todo animal nace de otro animal
      nucleo:nace
      sujeto:{[('todo', 'DET', u'detPredetermining'), ('animal', 'NOUN', u'sustComun'), ('nace', u'VERB', u'i')]}
-     predicado:{[('de', 'PREP', u'prepPosesion'), ('otro', 'PRON', u'pronUndefined'), ('animal', 'NOUN', u'sustComun')]}
+     predicado:{[('de', 'PREP', u'prepPosesion'), ('otro', 'PRON', u'pronUndefined'), ('animal', u'NOUN', u'sustComun')]}
 
 
 RAW: todo animal puede comer otro animal => [puede]
 1) tokens: [('todo', u'PRON|ADJ|DET'), ('animal', u'ADJ|NOUN'), ('puede', u'VERB|AUX'), ('comer', u'VERB'), ('otro', u'PRON|ADJ'), ('animal', u'ADJ|NOUN')]
-2) syntax: [('todo', 'DET', u'detPredetermining'), ('animal', 'NOUN', u'sustComun'), ('puede', 'AUX', None), ('comer', u'VERB', u'i'), ('otro', 'PRON', u'pronUndefined'), ('animal', 'NOUN', u'sustComun')]
+2) syntax: [('todo', 'DET', u'detPredetermining'), ('animal', u'NOUN', u'sustComun'), ('puede', 'AUX', None), ('comer', u'VERB', u'i'), ('otro', 'PRON', u'pronUndefined'), ('animal', u'NOUN', u'sustComun')]
 3) train:
 m[DET,NOUN]   		{ todo (detPredetermining), animal (sustComun) }
 m[NOUN,AUX]   		{ animal (sustComun), puede (None) }
@@ -3034,12 +3032,12 @@ postVerb[AUX,VERB] -> puede {VERB, i(poder: imperativo)}
 m[VERB,PRON]   		{ comer (i), otro (pronUndefined) }
 m[PRON,NOUN]   		{ otro (pronUndefined), animal (sustComun) }
 0 todo animal puede comer otro animal 
-4) test: [[{'tokens': [('todo', 'DET', u'detPredetermining'), ('animal', 'NOUN', u'sustComun'), ('puede', 'AUX', None), ('comer', u'VERB', u'i'), ('otro', 'PRON', u'pronUndefined'), ('animal', 'NOUN', u'sustComun')], 'text': 'todo animal puede comer otro animal', 'predicate': [('otro', 'PRON', u'pronUndefined'), ('animal', 'NOUN', u'sustComun')], 'root': 'comer', 'subject': [('todo', 'DET', u'detPredetermining'), ('animal', 'NOUN', u'sustComun'), ('puede', 'AUX', None), ('comer', u'VERB', u'i')]}]]
+4) test: [[{'tokens': [('todo', 'DET', u'detPredetermining'), ('animal', u'NOUN', u'sustComun'), ('puede', 'AUX', None), ('comer', u'VERB', u'i'), ('otro', 'PRON', u'pronUndefined'), ('animal', u'NOUN', u'sustComun')], 'text': 'todo animal puede comer otro animal', 'predicate': [('otro', 'PRON', u'pronUndefined'), ('animal', u'NOUN', u'sustComun')], 'root': 'comer', 'subject': [('todo', 'DET', u'detPredetermining'), ('animal', u'NOUN', u'sustComun'), ('puede', 'AUX', None), ('comer', u'VERB', u'i')]}]]
 
 000) texto:todo animal puede comer otro animal
      nucleo:comer
-     sujeto:{[('todo', 'DET', u'detPredetermining'), ('animal', 'NOUN', u'sustComun'), ('puede', 'AUX', None), ('comer', u'VERB', u'i')]}
-     predicado:{[('otro', 'PRON', u'pronUndefined'), ('animal', 'NOUN', u'sustComun')]}
+     sujeto:{[('todo', 'DET', u'detPredetermining'), ('animal', u'NOUN', u'sustComun'), ('puede', 'AUX', None), ('comer', u'VERB', u'i')]}
+     predicado:{[('otro', 'PRON', u'pronUndefined'), ('animal', u'NOUN', u'sustComun')]}
 
 
 RAW: todo gato tiene cola => [tiene]
@@ -3194,36 +3192,76 @@ m[DET,ADJ]   		{ un (detArticle), huevo (adjAll) }
 
 
 RAW: el ave desciende de dinosaurios => [era]
-1) tokens: [('el', u'PRON|DET'), ('ave', u'NOUN'), ('desciende', '??'), ('de', u'VERB|PREP'), ('dinosaurios', u'NOUN')]
-2) syntax: [('el', 'DET', u'detArticle'), ('ave', u'NOUN', u'sustComun'), ('desciende', 'NOUN', None), ('de', 'PREP', u'prepPosesion'), ('dinosaurios', u'NOUN', u'sustComun')]
+1) tokens: [('el', u'PRON|DET'), ('ave', u'NOUN'), ('desciende', u'VERB'), ('de', u'VERB|PREP'), ('dinosaurios', u'NOUN')]
+2) syntax: [('el', 'DET', u'detArticle'), ('ave', u'NOUN', u'sustComun'), ('desciende', u'VERB', u'i'), ('de', 'PREP', u'prepPosesion'), ('dinosaurios', u'NOUN', u'sustComun')]
 3) train:
 m[DET,NOUN]   		{ el (detArticle), ave (sustComun) }
-m[NOUN,NOUN]   		{ ave (sustComun), desciende (None) }
+m[NOUN,VERB]   		{ ave (sustComun), desciende (i) }
 noun[ipi,sustComun] -> {era (ser: indicativo preterito imperfecto), yo}
-m[NOUN,PREP]   		{ desciende (None), de (prepPosesion) }
-noun[ipi,undefined] -> {era (ser: indicativo preterito imperfecto), yo}
+m[VERB,PREP]   		{ desciende (i), de (prepPosesion) }
 m[PREP,NOUN]   		{ de (prepPosesion), dinosaurios (sustComun) }
 0 el ave desciende de dinosaurios 
-4) test: [[]]
+4) test: [[{'tokens': [('el', 'DET', u'detArticle'), ('ave', u'NOUN', u'sustComun'), ('desciende', u'VERB', u'i'), ('de', 'PREP', u'prepPosesion'), ('dinosaurios', u'NOUN', u'sustComun')], 'text': 'el ave desciende de dinosaurios', 'predicate': [('de', 'PREP', u'prepPosesion'), ('dinosaurios', u'NOUN', u'sustComun')], 'root': 'desciende', 'subject': [('el', 'DET', u'detArticle'), ('ave', u'NOUN', u'sustComun'), ('desciende', u'VERB', u'i')]}]]
+
+000) texto:el ave desciende de dinosaurios
+     nucleo:desciende
+     sujeto:{[('el', 'DET', u'detArticle'), ('ave', u'NOUN', u'sustComun'), ('desciende', u'VERB', u'i')]}
+     predicado:{[('de', 'PREP', u'prepPosesion'), ('dinosaurios', u'NOUN', u'sustComun')]}
 
 
 RAW: un mamifero puede poseer pelos => [puede]
-1) tokens: [('un', u'PRON|DET'), ('mamifero', u'NOUN'), ('puede', u'VERB|AUX'), ('poseer', '??'), ('pelos', u'NOUN')]
-2) syntax: [('un', 'DET', u'detArticle'), ('mamifero', u'NOUN', u'sustDerivado'), ('puede', 'VERB', u'i'), ('poseer', 'NOUN', None), ('pelos', u'NOUN', u'sustComun')]
+1) tokens: [('un', u'PRON|DET'), ('mamifero', u'NOUN'), ('puede', u'VERB|AUX'), ('poseer', u'VERB'), ('pelos', u'NOUN')]
+2) syntax: [('un', 'DET', u'detArticle'), ('mamifero', u'NOUN', u'sustDerivado'), ('puede', 'AUX', None), ('poseer', u'VERB', u'i'), ('pelos', u'NOUN', u'sustComun')]
 3) train:
 m[DET,NOUN]   		{ un (detArticle), mamifero (sustDerivado) }
-m[NOUN,VERB]   		{ mamifero (sustDerivado), puede (i) }
-prevVerb[NOUN,VERB] -> puede {i(poder: imperativo), NOUN}
-m[VERB,NOUN]   		{ puede (i), poseer (None) }
-postVerb[VERB,NOUN] -> puede {NOUN, i(poder: imperativo)}
-m[NOUN,NOUN]   		{ poseer (None), pelos (sustComun) }
-noun[i,undefined] -> {puede (poder: imperativo), el_la}
+m[NOUN,AUX]   		{ mamifero (sustDerivado), puede (None) }
+prevVerb[NOUN,AUX] -> puede {i(poder: imperativo), NOUN}
+m[AUX,VERB]   		{ puede (None), poseer (i) }
+postVerb[AUX,VERB] -> puede {VERB, i(poder: imperativo)}
+m[VERB,NOUN]   		{ poseer (i), pelos (sustComun) }
 0 un mamifero puede poseer pelos 
-4) test: [[{'tokens': [('un', 'DET', u'detArticle'), ('mamifero', u'NOUN', u'sustDerivado'), ('puede', 'VERB', u'i'), ('poseer', 'NOUN', None), ('pelos', u'NOUN', u'sustComun')], 'text': 'un mamifero puede poseer pelos', 'predicate': [('poseer', 'NOUN', None)], 'root': 'puede', 'subject': [('un', 'DET', u'detArticle'), ('mamifero', u'NOUN', u'sustDerivado'), ('puede', 'VERB', u'i')]}]]
+4) test: [[{'tokens': [('un', 'DET', u'detArticle'), ('mamifero', u'NOUN', u'sustDerivado'), ('puede', 'AUX', None), ('poseer', u'VERB', u'i'), ('pelos', u'NOUN', u'sustComun')], 'text': 'un mamifero puede poseer pelos', 'predicate': [('pelos', u'NOUN', u'sustComun')], 'root': 'poseer', 'subject': [('un', 'DET', u'detArticle'), ('mamifero', u'NOUN', u'sustDerivado'), ('puede', 'AUX', None), ('poseer', u'VERB', u'i')]}]]
 
 000) texto:un mamifero puede poseer pelos
-     nucleo:puede
-     sujeto:{[('un', 'DET', u'detArticle'), ('mamifero', u'NOUN', u'sustDerivado'), ('puede', 'VERB', u'i')]}
-     predicado:{[('poseer', 'NOUN', None)]}
+     nucleo:poseer
+     sujeto:{[('un', 'DET', u'detArticle'), ('mamifero', u'NOUN', u'sustDerivado'), ('puede', 'AUX', None), ('poseer', u'VERB', u'i')]}
+     predicado:{[('pelos', u'NOUN', u'sustComun')]}
 
-Done! Time taken: 195.260551 sec for 4 CPUs
+
+RAW: toda mujer es humano => [es]
+1) tokens: [('toda', u'PRON|ADJ|DET'), ('mujer', u'NOUN'), ('es', u'VERB|AUX'), ('humano', u'NOUN')]
+2) syntax: [('toda', 'DET', u'detPredetermining'), ('mujer', u'NOUN', u'sustComun'), ('es', 'VERB', u'ip'), ('humano', u'NOUN', u'sustAll')]
+3) train:
+m[DET,NOUN]   		{ toda (detPredetermining), mujer (sustComun) }
+m[NOUN,VERB]   		{ mujer (sustComun), es (ip) }
+prevVerb[NOUN,VERB] -> es {ip(ser: indicativo presente), NOUN}
+m[VERB,NOUN]   		{ es (ip), humano (sustAll) }
+postVerb[VERB,NOUN] -> es {NOUN, ip(ser: indicativo presente)}
+0 toda mujer es humano 
+4) test: [[{'tokens': [('toda', 'DET', u'detPredetermining'), ('mujer', u'NOUN', u'sustComun'), ('es', 'VERB', u'ip'), ('humano', u'NOUN', u'sustAll')], 'text': 'toda mujer es humano', 'predicate': [('humano', u'NOUN', u'sustAll')], 'root': 'es', 'subject': [('toda', 'DET', u'detPredetermining'), ('mujer', u'NOUN', u'sustComun'), ('es', 'VERB', u'ip')]}]]
+
+000) texto:toda mujer es humano
+     nucleo:es
+     sujeto:{[('toda', 'DET', u'detPredetermining'), ('mujer', u'NOUN', u'sustComun'), ('es', 'VERB', u'ip')]}
+     predicado:{[('humano', u'NOUN', u'sustAll')]}
+
+
+RAW: todo hombre es un humano => [es]
+1) tokens: [('todo', u'PRON|ADJ|DET'), ('hombre', u'NOUN'), ('es', u'VERB|AUX'), ('un', u'PRON|DET'), ('humano', u'NOUN')]
+2) syntax: [('todo', 'DET', u'detPredetermining'), ('hombre', u'NOUN', u'sustComun'), ('es', 'VERB', u'ip'), ('un', 'DET', u'detArticle'), ('humano', u'NOUN', u'sustAll')]
+3) train:
+m[DET,NOUN]   		{ todo (detPredetermining), hombre (sustComun) }
+m[NOUN,VERB]   		{ hombre (sustComun), es (ip) }
+prevVerb[NOUN,VERB] -> es {ip(ser: indicativo presente), NOUN}
+m[VERB,DET]   		{ es (ip), un (detArticle) }
+postVerb[VERB,DET] -> es {DET, ip(ser: indicativo presente)}
+m[DET,NOUN]   		{ un (detArticle), humano (sustAll) }
+0 todo hombre es un humano 
+4) test: [[{'tokens': [('todo', 'DET', u'detPredetermining'), ('hombre', u'NOUN', u'sustComun'), ('es', 'VERB', u'ip'), ('un', 'DET', u'detArticle'), ('humano', u'NOUN', u'sustAll')], 'text': 'todo hombre es un humano', 'predicate': [('un', 'DET', u'detArticle'), ('humano', u'NOUN', u'sustAll')], 'root': 'es', 'subject': [('todo', 'DET', u'detPredetermining'), ('hombre', u'NOUN', u'sustComun'), ('es', 'VERB', u'ip')]}]]
+
+000) texto:todo hombre es un humano
+     nucleo:es
+     sujeto:{[('todo', 'DET', u'detPredetermining'), ('hombre', u'NOUN', u'sustComun'), ('es', 'VERB', u'ip')]}
+     predicado:{[('un', 'DET', u'detArticle'), ('humano', u'NOUN', u'sustAll')]}
+
+Done! Time taken: 234.627932 sec for 4 CPUs

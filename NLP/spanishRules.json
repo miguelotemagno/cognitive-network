@@ -1,6 +1,7 @@
 {
     "readFromFile" : "loadFromFile2.sh",
     "readFromWeb" : "loadFromWeb3.sh",
+    "readFromVerb" : "etl.pl",
     "verb" : [
         "(\\w+[ae]r|\\w*ir)(se)?"
     ],
@@ -99,7 +100,7 @@
 		],
         "sustComun" : [
             "(pajar|dinosauri|perr|[pg]at|conej|caball|yegu|aguil|mon|goril|lor|camell|lob|babos|molusc|pescad|simi",
-            "cerd|chanch|poll|gall(in)?)[oa][s]?",
+            "cerd|chanch|poll|gall(in)?|human)[oa][s]?|\\w{2,}([eo]r|an|e)o[s]?|\\w{2,}lia[s]?",
             "((elefa|rinocero|biso)nt|caracol|(rat|tibur)on|delfin)e?s?|(lapi|pe|codorni|lombri|lu)(z|ces)",
 			"(pluma|pelo|ave|vaca|toro|hom(bre|inido))[s]?|(animal|buey|mujer)(es)?"
         ],
@@ -119,9 +120,9 @@
 		"sustDisminutivo" : ["\\w{2,}(it|ill)[oa][s]?"],
 		"sustDerivado" :  ["floresta|\\w+ero|ojera|quesillo|\\w+eria"],
 		"sustAbstract" : [
-			"paz|guerra|amor|odio|hola|adios|(mito|base|cosa|objeto|hora|human[oa])[s]?",
+			"paz|guerra|amor|odio|hola|adios|(mito|base|cosa|objeto|hora)[s]?",
 			"\\w{2,}(eza|ismo|[td][ua]d|anza|[sftln]o[fgrm]ia|miento|aje|[tg]ica|rrota|encia)[s]?",
-            "\\w+rio[s]?"
+            "\\w+rio[s]?|\\w{2,}ie[s]?|\\w{2,}dad"
 		],
 		"sustColectivo" : ["cardumen(es)?|(piara|banda(da)?|ejercito|tropa|grupo|biblioteca|jauria|conjunto)[s]?"],
         "sustAll" : [
@@ -4535,7 +4536,7 @@
 			"par"   : "suspendido",
 			"ip"    : "suspendo|suspende(is|mos|n|s)?",
 			"ipi"   : "suspendia(is|mos|n|s)?",
-			"if"    : "s(uspendera|uspenderan|uspenderas|uspendere|uspendereis|uspenderemos)",
+			"if"    : "suspend(era|eran|eras|ere|ereis|eremos)",
 			"ic"    : "suspenderia(is|mos|n|s)?",
 			"ipps"  : "suspendi(eron|mos|o|ste|steis)?",
 			"i"     : "suspende|suspended|suspenda(mos|n)?",
@@ -4544,10 +4545,10 @@
 			"spi2"  : "suspendiese(is|mos|n|s)?",
 			"sf"    : "suspendiere(is|mos|n|s)?",
 			"yo"    : "suspend(a|ere|eria|i|ia|iera|iere|iese|o)",
-			"tu"    : "s(uspendas|uspende|uspenderas|uspenderias|uspendes|uspendias|uspendieras|uspendieres|uspendieses|uspendiste)",
+			"tu"    : "suspend(as|e|eras|erias|es|ias|ieras|ieres|ieses|iste)",
 			"el_la" : "suspend(a|e|era|eria|ia|iera|iere|iese|io)",
-			"nos"   : "s(uspendamos|uspendemos|uspenderemos|uspenderiamos|uspendiamos|uspendieramos|uspendieremos|uspendiesemos|uspendimos)",
-			"uds"   : "s(uspendais|uspended|uspendeis|uspendereis|uspenderiais|uspendiais|uspendierais|uspendiereis|uspendieseis|uspendisteis)",
+			"nos"   : "suspend(amos|emos|eremos|eriamos|iamos|ieramos|ieremos|iesemos|imos)",
+			"uds"   : "suspend(ais|ed|eis|ereis|eriais|iais|ierais|iereis|ieseis|isteis)",
 			"ellos" : "suspend(an|en|eran|erian|ian|ieran|ieren|ieron|iesen)"
 		},
 		"sacar" : {
@@ -4762,7 +4763,7 @@
 			"uds"   : "termin(abais|ad|ais|arais|areis|ariais|aseis|asteis|eis)",
 			"ellos" : "termin(aban|an|aran|aren|arian|aron|asen|en)"
 		},
-		"terminar" : {
+		"tratar" : {
 			"inf"   : "tratar",
 			"ger"   : "tratando",
 			"par"   : "tratado",

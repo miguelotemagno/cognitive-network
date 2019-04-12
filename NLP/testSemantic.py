@@ -6,9 +6,11 @@ import numpy as np
 
 from SemanticNetwork import *
 
+LANGUAGE_RULES = 'spanishRules.json'
+
 start_time = time.time()
 
-s = SemanticNetwork()
+s = SemanticNetwork(LANGUAGE_RULES)
 
 # ejemplo: python testSemantic.py train '' ''
 if sys.argv[1] == 'train':
@@ -42,6 +44,7 @@ if sys.argv[1] == 'train':
                 print(ValueError)
                 continue
 
+
 # ejemplo: python testSemantic.py web https://definicion.de/taoismo '' 'taoismo.json'
 if sys.argv[1] == 'web':
     url = 'https://raw.githubusercontent.com/miguelotemagno/imagestion/imagestion_1.0/NLP/grammarTest.txt'
@@ -61,6 +64,8 @@ if sys.argv[1] == 'web':
             for item in list[y]:
                 print ("%03d) texto:%s\n     nucleo:%s\n     sujeto:{%s}\n     predicado:{%s}\n     tokens:{%s}\n") % (y, item['text'], item['root'], str(item['subject']), str(item['predicate']), str(item['tokens']))
                 s.makeSemanticNetwork(item['tokens'])
+
+    s.linkPlurals()
 
     file = "redSemantica.json"
     if sys.argv[4] != '':
@@ -99,6 +104,8 @@ if sys.argv[1] == 'file':
                 print ("%03d) texto:%s\n     nucleo:%s\n     sujeto:{%s}\n     predicado:{%s}\n     tokens:{%s}\n") % (y, item['text'], item['root'], str(item['subject']), str(item['predicate']), str(item['tokens']))
                 s.makeSemanticNetwork(item['tokens'])
 
+    s.linkPlurals()
+
     file = "redSemantica.json"
     if sys.argv[4] != '':
         file = sys.argv[4]
@@ -111,8 +118,33 @@ if sys.argv[1] == 'file':
     print ("\nactions:\n")
     print (s.actions)
 
+
 if sys.argv[1] == 'clean':
     dbFile = sys.argv[2] if sys.argv[2] is not None and sys.argv[2] != '' else 'semanticNet.json'
     s.save(dbFile)
+
+
+if sys.argv[1] == 'add-verb':
+    verb = sys.argv[2]
+    first = verb[0]
+    s.rules.registerVerb(first, verb)
+
+if sys.argv[1] == 'import-verbs':
+    for car in range(ord('a'), ord('z')):
+        first = chr(car)
+        for verb in s.rules.rules[first].keys():
+            print("%s %s" % (first, verb))
+            s.rules.registerVerb(first, verb, rules=s.rules.getJsonFrom(s.rules.rules[first][verb]))
+
+
+if sys.argv[1] == 'select':
+    query = sys.argv[2]
+    dbFile = sys.argv[3] if sys.argv[3] is not None and sys.argv[3] != '' else 'semanticNet.json'
+    dbSemantic = sys.argv[4] if sys.argv[4] is not None and sys.argv[4] != '' else 'redSemantica.json'
+    s.load(dbFile)
+    s.loadSemanticNetwork(dbSemantic)
+
+    print(s.select(query, returns='json'))
+
 
 print ('Done! Time taken: %f sec for %d CPUs') % (time.time() - start_time, multiprocessing.cpu_count())

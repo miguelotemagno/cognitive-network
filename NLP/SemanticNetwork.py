@@ -65,8 +65,9 @@ class SemanticNetwork:
             "spi2" : "subjuntivo preterito imperfecto 2" ,
             "sf"   : "subjuntivo futuro"
     """
-    def __init__(self):
-        self.rules = GrammarRules()
+    def __init__(self, db_file=None):
+        self.dbLangRules = db_file
+        self.rules = GrammarRules(self.dbLangRules)
         self.grammarTypes = ['DET', 'NOUN', 'ADJ', 'PREP', 'VERB', 'ADV', 'PRON', 'INTJ', 'CONJ', 'NUM', 'PUNC', 'AUX']
         self.verbTenses = ['inf', 'ger', 'par', 'ip', 'ipi', 'if', 'ic', 'ipps', 'i', 'sp', 'spi', 'spi2', 'sf']
         self.pronouns = ['yo', 'tu', 'el_la', 'nos', 'uds', 'ellos']
@@ -101,7 +102,7 @@ class SemanticNetwork:
         self.net.functions = self.actionFunc
         self.actions = np.chararray((1, 1), itemsize=30)
         self.actions[:] = ''
-        self.text = ['']
+        self.text = {}
         pass
 
     ####################################################################
@@ -675,13 +676,17 @@ class SemanticNetwork:
         verb = None
         prep = None
         noun = None
+        punc = None
         thisNoun = None
         prevNoun = None
         lastNoun = None
-        lastConj = None
+        conj = None
+        det = None
         lastTag = None
         text = []
-
+        tags = []
+        words = []
+        nouns = []
         textId = 1.0 * len(self.text)
 
         # try:
@@ -689,29 +694,62 @@ class SemanticNetwork:
             (word, tag, type) = token
             text.append(word)
 
+            if tag == 'DET':
+                det = word
+                tags.append(tag)
+                words.append(word)
+
+            if tag == 'PUNC':
+                punc = word
+                tags.append(tag)
+                words.append(word)
+
             if tag == 'CONJ':
-                lastConj = word if self.rules.isConjunction(word) == 'conjCopulative' else None
+                conj = word if self.rules.isConjunction(word) == 'conjCopulative' else None
+                tags.append(tag)
+                words.append(word)
+
             if tag == 'PREP':
                 prep = None if self.rules.isPreposition(word) is None else word
+                tags.append(tag)
+                words.append(word)
+
             if tag == 'AUX':
                 aux = self.rules.getVerb(word)
                 aux = None if self.rules.isAuxiliar(aux) is None else word
+                tags.append(tag)
+                words.append(word)
+
+            if self.rules.isVerb().match(word):
+                if self.rules.getVerb(word) is not None:
+                    tag = 'VERB'
+
             if tag == 'VERB':
-                #verb = self.rules.getVerb(word)
-                verb = "%s %s" % (aux, word)  if aux is not None else word
-                verb = "%s %s" % (word, prep) if prep is not None else word
-            if tag == 'NOUN' and not self.rules.isVerb().match(word):
-                noun = "%s %s" % (noun, word) if lastTag == 'NOUN' else word
+                verb = word
+                tags.append(tag)
+                words.append(word)
+
+            if tag == 'NOUN':
+                noun = "%s %s" % (lastNoun, word) if lastTag == 'NOUN' else word
+                tags.append(tag)
+                words.append(word)
 
                 if thisNoun is None:
                     thisNoun = noun
                     verb = None
                     prep = None
                     aux = None
-                elif lastTag == 'CONJ':
-                    if lastConj == 'y':
-                        # TODO
-                        pass
+                elif punc is not None and re.search(',|:', punc):
+                    nouns.append(lastNoun)
+                    nouns.append(noun)
+                    thisNoun = noun
+                    punc = ''
+                elif conj is not None and re.search('y|e', conj):
+                    nouns.append(lastNoun)
+                    nouns.append(noun)
+                    prevNoun = thisNoun
+                    thisNoun = noun
+                    conj = ''
                 else:
                     prevNoun = thisNoun
                     thisNoun = noun
@@ -719,55 +757,144 @@ class SemanticNetwork:
                 node = self.net.search({'name': thisNoun}) if thisNoun is not None and tag == 'NOUN' else None
 
                 if node is not None and len(node) == 0:
-                    id = self.net.addNode(self.net, name=thisNoun, matrix=self.net.connects)
-                    n = len(self.net.nodeNames)
-                    arr1 = np.copy(self.net.connects)
-                    (m, l) = arr1.shape
-                    self.net.connects = np.zeros((n, n), dtype=float)
-                    self.net.connects[:m, :l] = arr1
-                    arr2 = np.copy(self.actions)
-                    #(m, l) = arr2.shape
-                    self.actions = np.chararray((n, n), itemsize=30)
-                    self.actions[:] = ''
-                    self.actions[:m, :l] = arr2
+                    self.addNode(thisNoun)
 
                 lastNoun = noun
 
             if thisNoun is not None and prevNoun is not None and verb is not None:
-                print ("%s --(%s)--> %s\n") % (prevNoun, verb, thisNoun)
-                origin  = self.net.search({'name': prevNoun})
-                destiny = self.net.search({'name': thisNoun})
+                if len(nouns) > 0:
+                    prevNoun = nouns.pop(0)
+                    while prevNoun in nouns:
+                        idx = nouns.index(prevNoun)
+                        nouns.pop(idx)
 
-                if verb not in self.actionList:
-                    self.actionList.append(verb)
-                    self.actionFunc.dictionary[verb] = 'null'
+                    while len(nouns) > 0:
+                        thisNoun = nouns.pop(0)
+                        self.connectNode(prevNoun, thisNoun, tags, words, args={
+                            'det': det,
+                            'noun': noun,
+                            'verb': verb,
+                            'prep': prep,
+                            'aux': aux,
+                            'conj': conj,
+                            'textId': textId
+                        })
 
-                if origin is not None and destiny is not None and len(origin) > 0 and len(destiny) > 0:
-                    o = self.net.getIndexof(origin[0].name)
-                    d = self.net.getIndexof(destiny[0].name)
-                    self.net.setConnection(o, d, textId, matrix=self.net.connects)
-                    self.net.setConnection(o, d, verb, matrix=self.actions)
                     prevNoun = None
                     thisNoun = None
+                    tags = []
+                    words = []
+                elif self.connectNode(prevNoun, thisNoun, tags, words, args={
+                    'det': det,
+                    'noun': noun,
+                    'verb': verb,
+                    'prep': prep,
+                    'aux': aux,
+                    'conj': conj,
+                    'textId': textId
+                }):
+                    prevNoun = None
+                    thisNoun = None
+                    tags = []
+                    words = []
                 else:
                     prevNoun = thisNoun
                     thisNoun = None
 
+                det = None
                 noun = None
                 verb = None
                 prep = None
                 aux = None
-                lastConj = None
+                conj = None
 
             lastTag = tag
 
         txt = ' '.join(text)
         if txt not in self.text:
-            self.text.append(txt)
+            self.text[str(textId)] = txt
 
         # except ValueError:
         #     print ("makeSemanticNetwork error: [%s]\n%s\n") % (ValueError, str(self.getSemanticNetwork()))
         pass
+
+    ####################################################################
+
+    def linkPlurals(self):
+        l = len(self.net.nodeNames)
+        for i in range(0, l):
+            str1 = self.net.nodeNames[i]
+            for j in range(i+1, l):
+                if j < l:
+                    str2 = self.net.nodeNames[j]
+                    type1 = self.rules.isNoun(str1)
+                    type2 = self.rules.isNoun(str2)
+                    if str1 != str2 and type1 is not None and type2 is not None and type1 == type2:
+                        if re.search('^'+str1, str2):
+                            self.connectNode(str2, str1, [], [], args={
+                                'det': None,
+                                'noun': None,
+                                'verb': 'es',
+                                'prep': None,
+                                'aux': None,
+                                'conj': None,
+                                'textId': 1
+                            })
+                        if re.search('^'+str2, str1):
+                            self.connectNode(str1, str2, [], [], args={
+                                'det': None,
+                                'noun': None,
+                                'verb': 'es',
+                                'prep': None,
+                                'aux': None,
+                                'conj': None,
+                                'textId': 1
+                            })
+
+    ####################################################################
+
+    def connectNode(self, prevNoun, thisNoun, tags, words, args={}):
+        origin = self.net.search({'name': prevNoun})
+        destiny = self.net.search({'name': thisNoun})
+
+        (prep, aux, verb, det, textId) = [args['prep'], args['aux'], args['verb'], args['det'], args['textId']]
+
+        prep = "%s %s" % (prep, det) if re.search('PREP DET', ' '.join(tags)) else prep
+        verb = "%s %s" % (aux, verb) if re.search('AUX VERB', ' '.join(tags)) else verb
+        verb = "%s %s" % (verb, prep) if re.search('VERB (PREP\s?)+', ' '.join(tags)) else verb
+
+        print (">>\t%s\n\t%s") % (' '.join(tags), ' '.join(words))
+        print ("\t%s --(%s)--> %s\n") % (prevNoun, verb, thisNoun)
+
+        if verb not in self.actionList:
+            self.actionList.append(verb)
+            self.actionFunc.dictionary[verb] = 'null'
+
+        if origin is not None and destiny is not None and len(origin) > 0 and len(destiny) > 0:
+            o = self.net.getIndexof(origin[0].name)
+            d = self.net.getIndexof(destiny[0].name)
+            self.net.setConnection(o, d, textId, matrix=self.net.connects)
+            self.net.setConnection(o, d, verb, matrix=self.actions)
+            return True
+        else:
+            return False
+
+
+    ####################################################################
+
+    def addNode(self, thisNoun):
+        node = self.net.addNode(self.net, name=thisNoun)
+        n = len(self.net.nodeNames)
+        arr1 = np.copy(self.net.connects)
+        (m, l) = arr1.shape
+        self.net.connects = np.zeros((n, n), dtype=float)
+        self.net.connects[:m, :l] = arr1
+        arr2 = np.copy(self.actions)
+        self.actions = np.chararray((n, n), itemsize=30)
+        self.actions[:] = ''
+        self.actions[:m, :l] = arr2
+
+        return node
 
     ####################################################################
 
@@ -808,3 +935,114 @@ class SemanticNetwork:
         json = self.getSemanticNetwork()
         with open(file, "w") as text_file:
             text_file.write(js.dumps(json, sort_keys=True, indent=4, separators=(',', ': ')))
+
+    ####################################################################
+
+    def loadSemanticNetwork(self, dbFile):
+        self.fileDb = dbFile
+        f = open(self.fileDb, 'r')
+        json = f.read()
+        f.close()
+        self.importSemanticNetwork(json)
+
+    ####################################################################
+
+    def importSemanticNetwork(self, json):
+        data = js.loads(json)
+        self.net = Graph(name='net')
+        width = data['width']
+        height = data['height']
+        self.text = data['contentList']
+        self.actions = np.chararray((width, height), itemsize=30)
+        self.actions[:] = ''
+        self.net.functions = self.actionFunc
+        self.net.connects = np.zeros((width, height), dtype=float)
+
+        for node in data['net']['nodes']:
+            pNode = self.net.addNode(self.net, name=node['name'])
+            if pNode is not None:
+                pNode.extraInfo = node['extraInfo']
+
+        for action in data['actions']:
+            (y, x, txt) = action
+            self.actions[y, x] = txt
+
+        for connect in data['connects']:
+            (y, x, val) = connect
+            self.net.connects[y, x] = val
+
+    ####################################################################
+
+    def select(self, topic, returns=None):
+        node = self.net.search({'name': topic})
+        json = {
+            'width': None,
+            'height': None,
+            'net': None,
+            'actions': [],
+            'connects': [],
+            'contentList': {}
+        }
+
+        if len(node) > 0:
+            inputs = self.net.getEntriesNode(node[0], self.net)
+            outputs = self.net.getConnectionsNode(node[0], self.net)
+            connects = []
+            lstAction = []
+            net = Graph(name='net')
+            net.functions = self.actionFunc
+            all = inputs + outputs
+            all.append(node[0])
+
+            for item in all:
+                pNode = net.addNode(net, name=item.name)
+                if pNode is not None:
+                    pNode.extraInfo = item.extraInfo
+
+            size = len(net.nodeNames)
+            actions = np.chararray((size, size), itemsize=30)
+            actions[:] = ''
+            net.connects = np.zeros((size, size), dtype=float)
+            json['width'] = size
+            json['height'] = size
+
+            idN = self.net.getIndexof(node[0].name)
+            n = net.getIndexof(node[0].name)
+            for item in inputs:
+                x = net.getIndexof(item.name)
+                idX = self.net.getIndexof(item.name)
+                val = self.net.connects[idN, idX]
+                net.connects[n, x] = val
+                actions[n, x] = self.actions[idN, idX]
+                json['contentList'][str(val)] = self.text[str(val)]
+
+            for item in outputs:
+                y = net.getIndexof(item.name)
+                idY = self.net.getIndexof(item.name)
+                val = self.net.connects[idY, idN]
+                net.connects[y, n] = val
+                actions[y, n] = self.actions[idY, idN]
+                json['contentList'][str(val)] = self.text[str(val)]
+
+            for y in range(0, size):
+                for x in range(0, size):
+                    if net.connects[y, x] > 0.0:
+                        connects.append([y, x, net.connects[y, x]])
+
+            for y in range(0, size):
+                for x in range(0, size):
+                    if actions[y, x] != '':
+                        lstAction.append([y, x, actions[y, x]])
+
+            net.connects = np.array(())
+            json['actions'] = lstAction
+            json['connects'] = connects
+            json['net'] = net.getJson()
+
+        return js.dumps(json, sort_keys=True, indent=4, separators=(',', ': ')) if returns == 'json' else json
+
+    ####################################################################
+
+    def selectAll(self, topic):
+        data = self.select(topic)
+        # TODO construir recorrido de grafo en forma recursiva

@@ -150,7 +150,15 @@
 
     // Show the diagram's model in JSON format
     function save() {
-      document.getElementById("mySavedModel").value = myDiagram.model.toJson();
+	    var model = jQuery.parseJSON(myDiagram.model.toJson());
+		var data = jQuery.parseJSON(document.getElementById("mySavedModel").value);
+		
+		for(var i in model.nodeDataArray) {
+			var node = model.nodeDataArray[i];
+			data.net.nodes[i].extraInfo = new Array(node.loc.toString());
+		} 
+
+		document.getElementById("mySavedModel").value = JSON.stringify(data); // myDiagram.model.toJson();
     }
     function load() {
 		var data = jQuery.parseJSON(document.getElementById("mySavedModel").value);
@@ -173,21 +181,14 @@
 			var y = 0;
 			var x = 0;
 			for(var i=0; i < len; i++) {
-				/*
-				j++;
-				radio += (Math.pow(b, Math.cos(j)) * 10) / j*20 + 1;
-				angle += (Math.PI*2)/j;
-				var y = Math.sin(angle) * radio*2 ;
-				var x = Math.cos(angle) * radio;
-				*/
-
                 y = 160 * (i % r + 1);
                 x = i % r == 0 ?x + 90 : x;
+                var loc = data.net.nodes[i].extraInfo.length == 0 ?y.toString()+' '+x.toString() :data.net.nodes[i].extraInfo[0];
 
 				var node = {
 					id: i,
-					text: data.net.graph.nodeNames[i],
-					loc: y.toString() + ' ' + x.toString()
+					text: data.net.nodes[i].name,
+					loc: loc
 				}
 				model.nodeDataArray.push(node)
 			}

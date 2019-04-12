@@ -37,6 +37,7 @@ import re
 import json
 import subprocess as sp
 import os
+import sqlite3
 
 class GrammarRules:
     def jsonLoad(self, dbFile):
@@ -48,10 +49,11 @@ class GrammarRules:
     ####################################################################
     
     def __init__(self, db_file=None):
-        self.dbFile = "spanishRules.json" if db_file is None else db_file
-        self.rules = self.jsonLoad(self.dbFile)
+        self.dbFile   = "spanishRules.json" if db_file is None else db_file
+        self.rules    = self.jsonLoad(self.dbFile)
         self.fromFile = self.rules['readFromFile']     #'loadFromFile2.sh'
         self.fromWeb  = self.rules['readFromWeb']      #'loadFromWeb3.sh'
+        self.fromVerb = self.rules['readFromVerb']     #'loadFromWeb3.sh'
         self.path = os.getcwd()
         self.text = ""
 
@@ -196,7 +198,7 @@ class GrammarRules:
                         #print ("%s {%s}") % (text, expr)
                         eval = re.compile(expr)
                     except ValueError:
-                        print ("%s {%s} %s") % (text, expr, ValueError)
+                        print ("ERROR getVerb(%s): {%s} %s") % (text, expr, ValueError)
 
                     if eval.match(text):
                         return verb
@@ -208,15 +210,22 @@ class GrammarRules:
     def getVerbTense(self, verb, text):
         char = text[0]
         isIn = re.compile('^(ger|par|i([cpf]|nf|pi|pps)?|sp[i]?[2]?|sf)$')
-        
-        if char in self.rules:
-            for tense, hash in self.rules[char][verb].iteritems():
-                if isIn.match(tense):
-                    expr = '^'+hash+'$'
-                    eval = re.compile(expr)
-                    if eval.match(text):
-                        return tense
-        
+
+        try:
+            if char in self.rules:
+                for tense, hash in self.rules[char][verb].iteritems():
+                    if isIn.match(tense):
+                        expr = '^'+hash+'$'
+                        eval = re.compile(expr)
+                        if eval.match(text):
+                            return tense
+        except ValueError:
+            print("ERROR getVerbTense(%s,%s): %s\n" % (verb, text, str(ValueError)))
+        except IndexError:
+            print("ERROR getVerbTense(%s,%s): %s\n" % (verb, text, str(IndexError)))
+        except KeyError:
+            print("ERROR getVerbTense(%s,%s): %s\n" % (verb, text, str(KeyError)))
+
         return None
 
     ##########################################################################
@@ -224,15 +233,22 @@ class GrammarRules:
     def getVerbPron(self, verb, text):
         char = text[0]
         isIn = re.compile('^(yo|tu|el_la|nos|uds|ellos)$')
-        
-        if char in self.rules:
-            for pron, hash in self.rules[char][verb].iteritems():
-                if isIn.match(pron):
-                    expr = '^'+hash+'$'
-                    eval = re.compile(expr)
-                    if eval.match(text):
-                        return pron
-        
+
+        try:
+            if char in self.rules:
+                for pron, hash in self.rules[char][verb].iteritems():
+                    if isIn.match(pron):
+                        expr = '^'+hash+'$'
+                        eval = re.compile(expr)
+                        if eval.match(text):
+                            return pron
+        except ValueError:
+            print("ERROR getVerbTense(%s,%s): %s\n" % (verb, text, str(ValueError)))
+        except IndexError:
+            print("ERROR getVerbTense(%s,%s): %s\n" % (verb, text, str(IndexError)))
+        except KeyError:
+            print("ERROR getVerbTense(%s,%s): %s\n" % (verb, text, str(KeyError)))
+
         return None
 
     ##########################################################################
@@ -258,6 +274,13 @@ class GrammarRules:
         print ("=> loadFromWeb (%s)\n") % (source)
         print ("   sh  %s/%s %s\n") % (self.path, self.fromWeb, source)
         self.text = sp.check_output(['sh', "%s/%s" % (self.path,self.fromWeb), source])
+
+    ##########################################################################
+
+    def loadFromVerb(self, verb):
+        print ("=> loadFromVerb (%s)\n") % (verb)
+        print ("   perl  %s/%s %s\n") % (self.path, self.fromVerb, verb)
+        return sp.check_output(['perl', "%s/%s" % (self.path, self.fromVerb), verb])
 
     ##########################################################################
 
@@ -436,4 +459,41 @@ class GrammarRules:
         else:
             return types[type](word)
 
+    ####################################################################
 
+    def registerVerb(self, first, verb, rules=None):
+        DB_PATH = "%s/%s.db" % (os.path.dirname(__file__), self.dbFile)
+
+        #try:
+        conn = sqlite3.connect(DB_PATH)
+        c = conn.cursor()
+        table = """
+            CREATE TABLE IF NOT EXISTS verbs (
+                verb    VARCHAR(30),
+                first   VARCHAR(1),
+                rule    VARCHAR(1000),
+                PRIMARY KEY(first, verb)
+            )
+        """
+        c.execute(table)
+
+        select = "select count(*) from verbs where verb=?"
+        c.execute(select, (verb,))
+        count = c.fetchone()[0]
+
+        if count == 0:
+            rule = rules if rules is not None else "{\n%s\n}" % self.loadFromVerb(verb)
+            data = (verb, first, rule)
+            insert = "insert into verbs (verb, first, rule) values (?, ?, ?)"
+            c.execute(insert, data)
+
+        conn.commit()
+        conn.close()
+        #except Exception, e:
+        #    print "ERROR: %s" % (e)
+        pass
+
+    ####################################################################
+
+    def getJsonFrom(self, data):
+        return json.dumps(data, sort_keys=True, indent=4, separators=(',', ': '))

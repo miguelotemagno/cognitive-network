@@ -69,16 +69,17 @@ class Graph:
 
     ####################################################################
 
-    def addNode(self, parent, name='', function='null', matrix=None):
-        id = None
+    def addNode(self, parent, name='', function='null'):
+        node = None
 
         if not (name in self.nodeNames):
             n = len(self.nodeNames)
             id = "%s_%s" % (name, n)
             self.nodeNames.append(name)
-            self.nodes.append(Node(parent, name, id, function))
+            node = Node(parent, name, id, function)
+            self.nodes.append(node)
 
-        return id
+        return node
 
     ####################################################################
 
@@ -287,24 +288,28 @@ class Graph:
     ####################################################################
 
     def getConnectionsNode(self, node, matrix=None):
-        col = self.getConnectColumn(node.id, matrix)
+        idx = self.nodeNames.index(node.name) if node.name in self.nodeNames else None
         nodes = []
 
-        for i in xrange(col):
-            if col[i] > 0:
-                nodes.append(self.nodes[i])
+        if idx is not None:
+            col = self.getConnectColumn(idx, matrix)
+            for i in range(0, len(col)):
+                if col[i] > 0:
+                    nodes.append(self.nodes[i])
 
         return nodes
 
     ####################################################################
 
     def getEntriesNode(self, node, matrix=None):
-        row = self.getConnectRow(node.id, matrix)
+        idx = self.nodeNames.index(node.name) if node.name in self.nodeNames else None
         nodes = []
 
-        for i in xrange(row):
-            if row[i] > 0:
-                nodes.append(self.nodes[i])
+        if idx is not None:
+            row = self.getConnectRow(idx, matrix)
+            for i in range(0, len(row)):
+                if row[i] > 0:
+                    nodes.append(self.nodes[i])
 
         return nodes
 

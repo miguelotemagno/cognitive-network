@@ -6,7 +6,7 @@ import numpy as np
 
 from SemanticNetwork import *
 
-LANGUAGE_RULES = 'spanishRules.json'
+LANGUAGE_RULES = 'spanishRules-original.json'
 
 start_time = time.time()
 
@@ -130,7 +130,7 @@ if sys.argv[1] == 'add-verb':
     s.rules.registerVerb(first, verb)
 
 if sys.argv[1] == 'import-verbs':
-    for car in range(ord('a'), ord('z')):
+    for car in range(ord('a'), ord('z')+1):
         first = chr(car)
         for verb in s.rules.rules[first].keys():
             print("%s %s" % (first, verb))

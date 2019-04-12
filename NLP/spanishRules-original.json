@@ -4858,6 +4858,27 @@
 		}
 	},
 	"v" : {
+		"ir" : {
+			"inf"   : "ir",
+			"ger"   : "yendo",
+			"par"   : "ido",
+			"ip"    : "voy|va(is|mos|n|s)?",
+			"ipi"   : "iba(is|mos|n|s)?",
+			"if"    : "ire|ireis|iremos|ira(n|s)?",
+			"ic"    : "iria(is|mos|n|s)?",
+			"ipps"  : "fue|fueron|fui(mos|ste|steis)?",
+			"i"     : "id|ve|vaya(mos|n)?",
+			"sp"    : "vaya(is|mos|n|s)?",
+			"spi"   : "fuera(is|mos|n|s)?",
+			"spi2"  : "fuese(is|mos|n|s)?",
+			"sf"    : "fuere(is|mos|n|s)?",
+			"yo"    : "(fuera|fuere|fuese|fui|iba|ire|iria|vaya|voy)",
+			"tu"    : "(fueras|fueres|fueses|fuiste|ibas|iras|irias|vas|vayas|ve)",
+			"el_la" : "(fue|fuera|fuere|fuese|iba|ira|iria|va|vaya)",
+			"nos"   : "(fueramos|fueremos|fuesemos|fuimos|ibamos|iremos|iriamos|vamos|vayamos)",
+			"uds"   : "(fuerais|fuereis|fueseis|fuisteis|ibais|id|ireis|iriais|vais|vayais)",
+			"ellos" : "(fueran|fueren|fueron|fuesen|iban|iran|irian|van|vayan)"
+		},
 		"verificar" : {
 			"inf"   : "verificar",
 			"ger"   : "verificando",

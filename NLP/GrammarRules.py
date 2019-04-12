@@ -58,7 +58,7 @@ class GrammarRules:
         self.text = ""
         self.DB_PATH = "%s/%s.db" % (os.path.dirname(__file__), self.dbFile)
 
-        for car in range(ord('a'), ord('z')):
+        for car in range(ord('a'), ord('z')+1):
             char = chr(car)
             if char not in self.rules.keys():
                 self.rules[char] = {}
@@ -484,8 +484,8 @@ class GrammarRules:
         try:
             conn = self.sqliteConnect()
             c = conn.cursor()
-            select = "select count(*) from verbs where verb=?"
-            c.execute(select, (verb,))
+            select = "select count(*) from verbs where first=? and verb=?"
+            c.execute(select, (first, verb))
             count = c.fetchone()[0]
 
             if count == 0:

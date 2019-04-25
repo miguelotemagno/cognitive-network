@@ -1039,10 +1039,16 @@ class SemanticNetwork:
             json['connects'] = connects
             json['net'] = net.getJson()
 
-        return js.dumps(json, sort_keys=True, indent=4, separators=(',', ': ')) if returns == 'json' else json
+        return js.dumps(json, sort_keys=True, indent=4, separators=(',', ': ')) if returns == 'data' else json
 
     ####################################################################
 
-    def selectAll(self, topic):
-        data = self.select(topic)
+    def selectDeep(self, topic, returns=None):
+        data = self.select(topic, 'data')
         # TODO construir recorrido de grafo en forma recursiva
+        items = []
+        
+        for item in data['net']['graph']['nodeNames']:
+            items[item] = self.selectDeep(item, 'data')
+            pass
+        pass

@@ -1043,12 +1043,14 @@ class SemanticNetwork:
 
     ####################################################################
 
-    def selectDeep(self, topic, returns=None):
+    def selectDeep(self, topic, returns=None, deep=[]):
         data = self.select(topic, 'data')
         # TODO construir recorrido de grafo en forma recursiva
-        items = []
-        
+        items = deep
+        items.append(topic)
+
         for item in data['net']['graph']['nodeNames']:
-            items[item] = self.selectDeep(item, 'data')
+            if item not in items:
+                items[item] = self.selectDeep(item, 'data')
             pass
         pass

@@ -1058,4 +1058,16 @@ class SemanticNetwork:
     ####################################################################
 
     def combine(self, base, item):
+        json = {
+            'width': None,
+            'height': None,
+            'net': None,
+            'actions': [],
+            'connects': [],
+            'contentList': {}
+        }
+        
+        net = Graph(name='net')
+        net.functions = self.actionFunc
+        
         pass

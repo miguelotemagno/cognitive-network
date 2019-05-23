@@ -973,7 +973,7 @@ class SemanticNetwork:
 
     ####################################################################
 
-    def select(self, topic, returns=None):
+    def select(self, topic, data=None):
         node = self.net.search({'name': topic})
         json = {
             'width': None,
@@ -1039,7 +1039,7 @@ class SemanticNetwork:
             json['connects'] = connects
             json['net'] = net.getJson()
 
-        return js.dumps(json, sort_keys=True, indent=4, separators=(',', ': ')) if returns == 'json' else json
+        return js.dumps(json, sort_keys=True, indent=4, separators=(',', ': ')) if data == 'json' else json
 
     ####################################################################
 
@@ -1057,7 +1057,7 @@ class SemanticNetwork:
 
     ####################################################################
 
-    def combine(self, base, item):
+    def combine(self, base, item, data=None):
         json = {
             'width': None,
             'height': None,
@@ -1066,8 +1066,18 @@ class SemanticNetwork:
             'connects': [],
             'contentList': {}
         }
-        
+
+        if type(base) is str:
+            base = js.loads(base)
+
+        if type(item) is str:
+            item = js.loads(item)
+
         net = Graph(name='net')
         net.functions = self.actionFunc
-        
-        pass
+        connects = []
+        lstAction = []
+
+        pass #TODO hay que continuar...
+
+        return js.dumps(json, sort_keys=True, indent=4, separators=(',', ': ')) if data == 'json' else json

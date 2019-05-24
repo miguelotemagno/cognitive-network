@@ -144,7 +144,7 @@ if sys.argv[1] == 'select':
     s.load(dbFile)
     s.loadSemanticNetwork(dbSemantic)
 
-    print(s.select(query, returns='json'))
+    print(s.select(query, data='json'))
 
 
 print ('Done! Time taken: %f sec for %d CPUs') % (time.time() - start_time, multiprocessing.cpu_count())

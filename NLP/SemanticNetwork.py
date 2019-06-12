@@ -1067,16 +1067,36 @@ class SemanticNetwork:
             'contentList': {}
         }
 
+        connects = []
+        lstAction = []
+        net = Graph(name='net')
+        net.functions = self.actionFunc
+
         if type(base) is str:
             base = js.loads(base)
 
         if type(item) is str:
             item = js.loads(item)
 
+        all = base['net']['graph']['nodeNames'] + item['net']['graph']['nodeNames']
+
         net = Graph(name='net')
         net.functions = self.actionFunc
         connects = []
         lstAction = []
+
+        for item in all:
+            pNode = net.addNode(net, name=item.name)
+            if pNode is not None:
+                pNode.extraInfo = item.extraInfo
+
+        size = len(net.nodeNames)
+        actions = np.chararray((size, size), itemsize=30)
+        actions[:] = ''
+        net.connects = np.zeros((size, size), dtype=float)
+        json['width'] = size
+        json['height'] = size
+
 
         pass #TODO hay que continuar...
 

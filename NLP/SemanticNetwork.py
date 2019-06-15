@@ -41,6 +41,7 @@ from Graph import *
 from time import sleep
 import re
 import thread
+import zlib
 
 # http://chriskiehl.com/article/parallelism-in-one-line/
 #from multiprocessing import Pool
@@ -688,6 +689,7 @@ class SemanticNetwork:
         words = []
         nouns = []
         textId = 1.0 * len(self.text)
+        #textId = round(100 * zlib.crc32(bytes(self.text, 'utf-8')), 4)
 
         # try:
         for token in tokens:
@@ -1079,11 +1081,6 @@ class SemanticNetwork:
             item = js.loads(item)
 
         all = base['net']['graph']['nodeNames'] + item['net']['graph']['nodeNames']
-
-        net = Graph(name='net')
-        net.functions = self.actionFunc
-        connects = []
-        lstAction = []
 
         for item in all:
             pNode = net.addNode(net, name=item.name)

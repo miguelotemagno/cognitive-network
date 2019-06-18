@@ -1010,13 +1010,16 @@ class SemanticNetwork:
 
             idN = self.net.getIndexof(node[0].name)
             n = net.getIndexof(node[0].name)
-            for item in inputs:
-                x = net.getIndexof(item.name)
-                idX = self.net.getIndexof(item.name)
-                val = self.net.connects[idN, idX]
-                net.connects[n, x] = val
-                actions[n, x] = self.actions[idN, idX]
-                json['contentList'][str(val)] = self.text[str(val)]
+            try:
+                for item in inputs:
+                    x = net.getIndexof(item.name)
+                    idX = self.net.getIndexof(item.name)
+                    val = self.net.connects[idN, idX]
+                    net.connects[n, x] = val
+                    actions[n, x] = self.actions[idN, idX]
+                    json['contentList'][str(val)] = self.text[str(val)]
+            except KeyError:
+                print("ERROR SemanticNetwork.select(): %s; value:%s\n" % (str(KeyError), str(val)))
 
             for item in outputs:
                 y = net.getIndexof(item.name)

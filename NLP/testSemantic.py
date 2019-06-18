@@ -147,4 +147,15 @@ if sys.argv[1] == 'select':
     print(s.select(query, data='json'))
 
 
+if sys.argv[1] == 'combine':
+    base = sys.argv[2]
+    item = sys.argv[3]
+    dbFile = sys.argv[4] if sys.argv[4] is not None and sys.argv[4] != '' else 'semanticNet.json'
+    dbSemantic = sys.argv[5] if sys.argv[5] is not None and sys.argv[5] != '' else 'redSemantica.json'
+    s.load(dbFile)
+    s.loadSemanticNetwork(dbSemantic)
+
+    print(s.combine(base, item, data='json'))
+
+
 print ('Done! Time taken: %f sec for %d CPUs') % (time.time() - start_time, multiprocessing.cpu_count())

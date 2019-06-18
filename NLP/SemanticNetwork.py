@@ -688,8 +688,8 @@ class SemanticNetwork:
         tags = []
         words = []
         nouns = []
-        textId = 1.0 * len(self.text)
-        #textId = round(100 * zlib.crc32(bytes(self.text, 'utf-8')), 4)
+        #textId = 1.0 * len(self.text)
+        textId = abs(round(100 * (1.0*zlib.crc32(bytes(self.text))/2**32), 4))
 
         # try:
         for token in tokens:

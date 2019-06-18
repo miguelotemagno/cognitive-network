@@ -57,92 +57,97 @@
         ],
         [
             11,
-            21,
+            24,
             "es"
         ],
         [
             13,
-            26,
+            29,
             "es"
         ],
         [
             17,
-            17,
+            18,
+            "definimos"
+        ],
+        [
+            20,
+            20,
             "puede comer"
-        ],
-        [
-            18,
-            19,
-            "tiene"
-        ],
-        [
-            18,
-            21,
-            "es"
-        ],
-        [
-            20,
-            19,
-            "tiene"
-        ],
-        [
-            20,
-            21,
-            "es"
-        ],
-        [
-            21,
-            17,
-            "es"
         ],
         [
             21,
             22,
-            "nace de una"
-        ],
-        [
-            21,
-            23,
-            "bebe"
+            "tiene"
         ],
         [
             21,
             24,
-            "puede poseer"
-        ],
-        [
-            25,
-            26,
             "es"
         ],
         [
-            26,
-            17,
-            "es"
-        ],
-        [
-            26,
-            27,
+            23,
+            22,
             "tiene"
         ],
         [
+            23,
+            24,
+            "es"
+        ],
+        [
+            24,
+            20,
+            "es"
+        ],
+        [
+            24,
+            25,
+            "nace de una"
+        ],
+        [
+            24,
             26,
+            "bebe"
+        ],
+        [
+            24,
+            27,
+            "puede poseer"
+        ],
+        [
             28,
-            "desciende de"
+            29,
+            "es"
+        ],
+        [
+            29,
+            20,
+            "es"
         ],
         [
             29,
             30,
-            "es"
+            "tiene"
         ],
         [
-            30,
-            21,
-            "es"
-        ],
-        [
+            29,
             31,
-            30,
+            "desciende de"
+        ],
+        [
+            32,
+            33,
+            "es"
+        ],
+        [
+            33,
+            24,
+            "es"
+        ],
+        [
+            34,
+            33,
             "es"
         ]
     ],
@@ -150,176 +155,182 @@
         [
             0,
             1,
-            1
+            6.9038
         ],
         [
             1,
             2,
-            1
+            1.0
         ],
         [
             2,
             3,
-            1
+            6.9038
         ],
         [
             2,
             4,
-            1
+            6.9038
         ],
         [
             2,
             5,
-            1
+            6.9038
         ],
         [
             2,
             9,
-            3
+            26.911
         ],
         [
             2,
             15,
-            5
+            1.8623
         ],
         [
             2,
             16,
-            5
+            1.8623
         ],
         [
             3,
             6,
-            2
+            11.0795
         ],
         [
             8,
             9,
-            1
+            1.0
         ],
         [
             11,
             1,
-            5
+            1.8623
         ],
         [
             11,
-            21,
-            1
+            24,
+            1.0
         ],
         [
             13,
-            26,
-            1
+            29,
+            1.0
         ],
         [
             17,
-            17,
-            7
-        ],
-        [
             18,
-            19,
-            8
-        ],
-        [
-            18,
-            21,
-            11
+            22.3937
         ],
         [
             20,
-            19,
-            9
-        ],
-        [
             20,
-            21,
-            10
-        ],
-        [
-            21,
-            17,
-            22
+            5.97
         ],
         [
             21,
             22,
-            12
-        ],
-        [
-            21,
-            23,
-            13
+            33.768
         ],
         [
             21,
             24,
-            14
+            29.7733
         ],
         [
+            23,
+            22,
+            30.4428
+        ],
+        [
+            23,
+            24,
+            29.7772
+        ],
+        [
+            24,
+            20,
+            45.7081
+        ],
+        [
+            24,
             25,
-            26,
-            15
+            8.8954
         ],
         [
+            24,
             26,
-            17,
-            20
+            4.5103
         ],
         [
-            26,
+            24,
             27,
-            16
+            29.4255
         ],
         [
-            26,
             28,
-            17
+            29,
+            44.2318
+        ],
+        [
+            29,
+            20,
+            39.9261
         ],
         [
             29,
             30,
-            18
+            36.3241
         ],
         [
-            30,
-            21,
-            23
-        ],
-        [
+            29,
             31,
-            30,
-            19
+            36.1894
+        ],
+        [
+            32,
+            33,
+            47.3136
+        ],
+        [
+            33,
+            24,
+            15.4023
+        ],
+        [
+            34,
+            33,
+            34.1329
         ]
     ],
     "contentList": {
-        "0.0": "en la naturaleza encontramos diversas especies , toda especie pertenece a uno de dos grupos : los vertebrados y los invertebrados",
-        "1.0": "en la naturaleza encontramos diversas especies , toda especie pertenece a uno de dos grupos : los vertebrados y los invertebrados",
-        "10.0": "todo perro es un mamifero",
-        "11.0": "todo gato es un mamifero",
-        "12.0": "todo mamifero nace de una placenta",
-        "13.0": "todo mamifero bebe leche",
-        "14.0": "un mamifero puede poseer pelos",
-        "15.0": "el pajaro es una ave",
-        "16.0": "toda ave tiene plumas",
-        "17.0": "el ave desciende de dinosaurios",
-        "18.0": "la mujer es humano",
-        "19.0": "el hombre es humano",
-        "2.0": "de estos grupos obtenemos clasificaciones , y de estas clases identificamos diversas familias",
-        "20.0": "toda ave es un animal",
-        "21.0": "toda ave nace de un huevo",
-        "22.0": "todo mamifero es un animal",
-        "23.0": "todo humano es un mamifero",
-        "3.0": "cada especie pertenece a una familia , y de estas familias se distinguen como : mamiferos , reptiles , aves y peces",
-        "4.0": "entre los mamiferos clasificamos las especies , y cada especie tiene sus cualidades y atributos",
-        "5.0": "entre los mamiferos clasificamos las especies , y cada especie tiene sus cualidades y atributos",
-        "6.0": "todo animal nace de otro animal",
-        "7.0": "todo animal puede comer otro animal",
-        "8.0": "todo gato tiene cola",
-        "9.0": "todo perro tiene cola"
+        "1.8623": "entre los mamiferos clasificamos las especies , y cada especie tiene sus cualidades y atributos",
+        "11.0795": "de estos grupos obtenemos clasificaciones , y de estas clases identificamos diversas familias",
+        "15.4023": "todo humano es un mamifero",
+        "18.6091": "todo animal nace de otro animal",
+        "22.3937": "entre los cuales definimos las siguientes reglas :",
+        "26.911": "cada especie pertenece a una familia , y de estas familias se distinguen como : mamiferos , reptiles , aves y peces",
+        "27.8471": "toda ave nace de un huevo",
+        "29.4255": "un mamifero puede poseer pelos",
+        "29.7733": "todo gato es un mamifero",
+        "29.7772": "todo perro es un mamifero",
+        "30.4428": "todo perro tiene cola",
+        "33.768": "todo gato tiene cola",
+        "34.1329": "el hombre es humano",
+        "36.0737": "en la naturaleza encontramos diversas especies , toda especie pertenece a uno de dos grupos : los vertebrados y los invertebrados",
+        "36.1894": "el ave desciende de dinosaurios",
+        "36.3241": "toda ave tiene plumas",
+        "37.149": "entre los mamiferos clasificamos las especies , y cada especie tiene sus cualidades y atributos",
+        "39.9261": "toda ave es un animal",
+        "4.5103": "todo mamifero bebe leche",
+        "44.2318": "el pajaro es una ave",
+        "45.7081": "todo mamifero es un animal",
+        "47.3136": "la mujer es humano",
+        "5.97": "todo animal puede comer otro animal",
+        "6.9038": "en la naturaleza encontramos diversas especies , toda especie pertenece a uno de dos grupos : los vertebrados y los invertebrados",
+        "8.8954": "todo mamifero nace de una placenta"
     },
-    "height": 32,
+    "height": 35,
     "net": {
         "functions": [
             [
@@ -355,6 +366,9 @@
                 "peces",
                 "cualidades",
                 "atributos",
+                "cuales",
+                "siguientes",
+                "siguientes reglas",
                 "animal",
                 "gato",
                 "cola",
@@ -389,283 +403,240 @@
                 "peces_14",
                 "cualidades_15",
                 "atributos_16",
-                "animal_17",
-                "gato_18",
-                "cola_19",
-                "perro_20",
-                "mamifero_21",
-                "placenta_22",
-                "leche_23",
-                "pelos_24",
-                "pajaro_25",
-                "ave_26",
-                "plumas_27",
-                "dinosaurios_28",
-                "mujer_29",
-                "humano_30",
-                "hombre_31"
+                "cuales_17",
+                "siguientes_18",
+                "siguientes reglas_19",
+                "animal_20",
+                "gato_21",
+                "cola_22",
+                "perro_23",
+                "mamifero_24",
+                "placenta_25",
+                "leche_26",
+                "pelos_27",
+                "pajaro_28",
+                "ave_29",
+                "plumas_30",
+                "dinosaurios_31",
+                "mujer_32",
+                "humano_33",
+                "hombre_34"
             ],
             "start": [],
             "width": 0
         },
         "nodes": [
             {
-                "extraInfo": [
-                    "238.3051385208205 282.0692076925781"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "naturaleza_0",
                 "name": "naturaleza"
             },
             {
-                "extraInfo": [
-                    "383.53058408292964 373.6714452075"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "especies_1",
                 "name": "especies"
             },
             {
-                "extraInfo": [
-                    "536.1433068639847 369.2390788761329"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "especie_2",
                 "name": "especie"
             },
             {
-                "extraInfo": [
-                    "410.99440621269525 246.61027704164064"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "grupos_3",
                 "name": "grupos"
             },
             {
-                "extraInfo": [
-                    "740.9017822484373 178.64732662734372"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "vertebrados_4",
                 "name": "vertebrados"
             },
             {
-                "extraInfo": [
-                    "812.254455621094 270.2495641422656"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "invertebrados_5",
                 "name": "invertebrados"
             },
             {
-                "extraInfo": [
-                    "291.49353449722673 162.27053467453106"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "clasificaciones_6",
                 "name": "clasificaciones"
             },
             {
-                "extraInfo": [
-                    "1016.7190188768359 353.87500970437503"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "clases_7",
                 "name": "clases"
             },
             {
-                "extraInfo": [
-                    "895.9453361544143 436.77032645003897"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "familias_8",
                 "name": "familias"
             },
             {
-                "extraInfo": [
-                    "753.4571484024999 445.9506828997264"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "familia_9",
                 "name": "familia"
             },
             {
-                "extraInfo": [
-                    "977.0361778702347 180.96050467488277"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "distinguen_10",
                 "name": "distinguen"
             },
             {
-                "extraInfo": [
-                    "575.8615846148439 445.94197988203126"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "mamiferos_11",
                 "name": "mamiferos"
             },
             {
-                "extraInfo": [
-                    "1006.7969295871098 296.24999999999994"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "reptiles_12",
                 "name": "reptiles"
             },
             {
-                "extraInfo": [
-                    "229.87521792886707 382.28661372796887"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "aves_13",
                 "name": "aves"
             },
             {
-                "extraInfo": [
-                    "1013.1489200600397 237.57923769222649"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "peces_14",
                 "name": "peces"
             },
             {
-                "extraInfo": [
-                    "558.7399505916014 188.73995059160154"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "cualidades_15",
                 "name": "cualidades"
             },
             {
-                "extraInfo": [
-                    "817.7294653254685 348.3051385208204"
-                ],
+                "extraInfo": [],
                 "function": "null",
                 "id": "atributos_16",
                 "name": "atributos"
             },
             {
-                "extraInfo": [
-                    "420.7287630169923 512.3026927814064"
-                ],
+                "extraInfo": [],
                 "function": "null",
-                "id": "animal_17",
+                "id": "cuales_17",
+                "name": "cuales"
+            },
+            {
+                "extraInfo": [],
+                "function": "null",
+                "id": "siguientes_18",
+                "name": "siguientes"
+            },
+            {
+                "extraInfo": [],
+                "function": "null",
+                "id": "siguientes reglas_19",
+                "name": "siguientes reglas"
+            },
+            {
+                "extraInfo": [],
+                "function": "null",
+                "id": "animal_20",
                 "name": "animal"
             },
             {
-                "extraInfo": [
-                    "787.918563610352 664.3558214205466"
-                ],
+                "extraInfo": [],
                 "function": "null",
-                "id": "gato_18",
+                "id": "gato_21",
                 "name": "gato"
             },
             {
-                "extraInfo": [
-                    "928.7116428410943 704.2471184028514"
-                ],
+                "extraInfo": [],
                 "function": "null",
-                "id": "cola_19",
+                "id": "cola_22",
                 "name": "cola"
             },
             {
-                "extraInfo": [
-                    "886.3002470419926 612.6448808879295"
-                ],
+                "extraInfo": [],
                 "function": "null",
-                "id": "perro_20",
+                "id": "perro_23",
                 "name": "perro"
             },
             {
-                "extraInfo": [
-                    "672.5040197633596 562.4113957991013"
-                ],
+                "extraInfo": [],
                 "function": "null",
-                "id": "mamifero_21",
+                "id": "mamifero_24",
                 "name": "mamifero"
             },
             {
-                "extraInfo": [
-                    "520.7609211238666 685.0401976335935"
-                ],
+                "extraInfo": [],
                 "function": "null",
-                "id": "placenta_22",
+                "id": "placenta_25",
                 "name": "placenta"
             },
             {
-                "extraInfo": [
-                    "654.1667231356643 693.904930296328"
-                ],
+                "extraInfo": [],
                 "function": "null",
-                "id": "leche_23",
+                "id": "leche_26",
                 "name": "leche"
             },
             {
-                "extraInfo": [
-                    "454.01363331402365 619.907376035742"
-                ],
+                "extraInfo": [],
                 "function": "null",
-                "id": "pelos_24",
+                "id": "pelos_27",
                 "name": "pelos"
             },
             {
-                "extraInfo": [
-                    "320 450"
-                ],
+                "extraInfo": [],
                 "function": "null",
-                "id": "pajaro_25",
+                "id": "pajaro_28",
                 "name": "pajaro"
             },
             {
-                "extraInfo": [
-                    "237.6973072185936 534.2149602959763"
-                ],
+                "extraInfo": [],
                 "function": "null",
-                "id": "ave_26",
+                "id": "ave_29",
                 "name": "ave"
             },
             {
-                "extraInfo": [
-                    "198.24082230707006 639.1142968049999"
-                ],
+                "extraInfo": [],
                 "function": "null",
-                "id": "plumas_27",
+                "id": "plumas_30",
                 "name": "plumas"
             },
             {
-                "extraInfo": [
-                    "310.96224810581975 640.591752248789"
-                ],
+                "extraInfo": [],
                 "function": "null",
-                "id": "dinosaurios_28",
+                "id": "dinosaurios_31",
                 "name": "dinosaurios"
             },
             {
-                "extraInfo": [
-                    "1047.169871183555 494.3236633136718"
-                ],
+                "extraInfo": [],
                 "function": "null",
-                "id": "mujer_29",
+                "id": "mujer_32",
                 "name": "mujer"
             },
             {
-                "extraInfo": [
-                    "879.5208011252735 541.477455443789"
-                ],
+                "extraInfo": [],
                 "function": "null",
-                "id": "humano_30",
+                "id": "humano_33",
                 "name": "humano"
             },
             {
-                "extraInfo": [
-                    "1023.2687912435943 602.0531286391407"
-                ],
+                "extraInfo": [],
                 "function": "null",
-                "id": "hombre_31",
+                "id": "hombre_34",
                 "name": "hombre"
             }
         ]
     },
-    "width": 32
+    "width": 35
 }

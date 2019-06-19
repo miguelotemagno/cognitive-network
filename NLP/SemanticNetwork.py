@@ -833,6 +833,10 @@ class SemanticNetwork:
                     type2 = self.rules.isNoun(str2)
                     if str1 != str2 and type1 is not None and type2 is not None and type1 == type2:
                         if re.search('^'+str1, str2):
+                            o = self.net.getIndexof(str2)
+                            d = self.net.getIndexof(str1)
+                            textId = self.net.getConnection(o, d, matrix=self.net.connects)
+
                             self.connectNode(str2, str1, [], [], args={
                                 'det': None,
                                 'noun': None,
@@ -840,9 +844,13 @@ class SemanticNetwork:
                                 'prep': None,
                                 'aux': None,
                                 'conj': None,
-                                'textId': 1
+                                'textId': textId
                             })
                         if re.search('^'+str2, str1):
+                            o = self.net.getIndexof(str2)
+                            d = self.net.getIndexof(str1)
+                            textId = self.net.getConnection(o, d, matrix=self.net.connects)
+
                             self.connectNode(str1, str2, [], [], args={
                                 'det': None,
                                 'noun': None,
@@ -850,7 +858,7 @@ class SemanticNetwork:
                                 'prep': None,
                                 'aux': None,
                                 'conj': None,
-                                'textId': 1
+                                'textId': textId
                             })
 
     ####################################################################
@@ -1012,14 +1020,19 @@ class SemanticNetwork:
             n = net.getIndexof(node[0].name)
             try:
                 for item in inputs:
+                    #print ("item: %s\n" % item.name)
                     x = net.getIndexof(item.name)
                     idX = self.net.getIndexof(item.name)
                     val = self.net.connects[idN, idX]
+                    #print ("value(%s, %s): %s\n" % (idN, idX, val))
                     net.connects[n, x] = val
                     actions[n, x] = self.actions[idN, idX]
+
+                    #if str(val) in self.text:
                     json['contentList'][str(val)] = self.text[str(val)]
             except KeyError:
-                print("ERROR SemanticNetwork.select(): %s; value:%s\n" % (str(KeyError), str(val)))
+                exc_type, exc_obj, exc_tb = sys.exc_info()
+                print("ERROR SemanticNetwork.select()[%s]: %s; value:%s\n" % (exc_tb.tb_lineno , str(KeyError), str(val)))
 
             for item in outputs:
                 y = net.getIndexof(item.name)

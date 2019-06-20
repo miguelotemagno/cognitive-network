@@ -148,12 +148,15 @@ if sys.argv[1] == 'select':
 
 
 if sys.argv[1] == 'combine':
-    base = sys.argv[2]
-    item = sys.argv[3]
+    txt1 = sys.argv[2]
+    txt2 = sys.argv[3]
     dbFile = sys.argv[4] if sys.argv[4] is not None and sys.argv[4] != '' else 'semanticNet.json'
     dbSemantic = sys.argv[5] if sys.argv[5] is not None and sys.argv[5] != '' else 'redSemantica.json'
     s.load(dbFile)
     s.loadSemanticNetwork(dbSemantic)
+
+    base = s.select(txt1)
+    item = s.select(txt2)
 
     print(s.combine(base, item, data='json'))
 

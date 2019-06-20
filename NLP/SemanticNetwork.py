@@ -1085,7 +1085,7 @@ class SemanticNetwork:
             'contentList': {}
         }
 
-        connects = []
+        lstConnects = []
         lstAction = []
         net = Graph(name='net')
         net.functions = self.actionFunc
@@ -1098,19 +1098,56 @@ class SemanticNetwork:
 
         all = base['net']['graph']['nodeNames'] + item['net']['graph']['nodeNames']
 
-        for item in all:
-            pNode = net.addNode(net, name=item.name)
+        for each in all:
+            pNode = net.addNode(net, name=each.name)
             if pNode is not None:
-                pNode.extraInfo = item.extraInfo
+                pNode.extraInfo = each.extraInfo
 
         size = len(net.nodeNames)
         actions = np.chararray((size, size), itemsize=30)
         actions[:] = ''
         net.connects = np.zeros((size, size), dtype=float)
+
+        for i in range(0, len(base['actions'])):
+            (o, d, act) = base['actions'][i]
+            (o, d, val) = base['connects'][i]
+            txt1 = base['net']['graph']['nodeNames'][o]
+            txt2 = base['net']['graph']['nodeNames'][d]
+            y = net.getIndexOf(txt1)
+            x = net.getIndexOf(txt2)
+            actions[y, x] = act
+            net.connects[y, x] = val
+
+        for i in range(0, len(item['actions'])):
+            (o, d, act) = item['actions'][i]
+            (o, d, val) = item['connects'][i]
+            txt1 = item['net']['graph']['nodeNames'][o]
+            txt2 = item['net']['graph']['nodeNames'][d]
+            y = net.getIndexOf(txt1)
+            x = net.getIndexOf(txt2)
+            actions[y, x] = act
+            net.connects[y, x] = val
+
+        for y in range(0, size):
+           for x in range(0, size):
+              if net.connects[y, x] > 0.0:
+                 lstConnects.append([y, x, net.connects[y, x]])
+
+        for y in range(0, size):
+           for x in range(0, size):
+              if actions[y, x] != '':
+                 lstAction.append([y, x, actions[y, x]])
+
+        for key in base['contentList']:
+            json['contentList'][key] = base['contentList'][key]
+
+        for key in item['contentList']:
+            json['contentList'][key] = item['contentList'][key]
+
+        json['actions'] = lstAction
+        json['connects'] = lstConnects
+        json['net'] = net.getJson()
         json['width'] = size
         json['height'] = size
-
-
-        pass #TODO hay que continuar...
 
         return js.dumps(json, sort_keys=True, indent=4, separators=(',', ': ')) if data == 'json' else json

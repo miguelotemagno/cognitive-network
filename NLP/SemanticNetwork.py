@@ -1097,11 +1097,11 @@ class SemanticNetwork:
             item = js.loads(item)
 
         all = base['net']['graph']['nodeNames'] + item['net']['graph']['nodeNames']
-
+        #print ("base+item : %s\n" % str(all))
         for each in all:
-            pNode = net.addNode(net, name=each.name)
-            if pNode is not None:
-                pNode.extraInfo = each.extraInfo
+            pNode = net.addNode(net, name=each)
+            #if pNode is not None:
+            #    pNode.extraInfo = each.extraInfo
 
         size = len(net.nodeNames)
         actions = np.chararray((size, size), itemsize=30)
@@ -1113,8 +1113,9 @@ class SemanticNetwork:
             (o, d, val) = base['connects'][i]
             txt1 = base['net']['graph']['nodeNames'][o]
             txt2 = base['net']['graph']['nodeNames'][d]
-            y = net.getIndexOf(txt1)
-            x = net.getIndexOf(txt2)
+            #print("i:%d, act:%s; val:%s; o:%s; d:%s; txt1:%s; txt2:%s\nnodeNames:%s\n" % (i, act, val, o, d, txt1, txt2, str(net.nodeNames)))
+            y = net.getIndexof(txt1)
+            x = net.getIndexof(txt2)
             actions[y, x] = act
             net.connects[y, x] = val
 
@@ -1123,8 +1124,8 @@ class SemanticNetwork:
             (o, d, val) = item['connects'][i]
             txt1 = item['net']['graph']['nodeNames'][o]
             txt2 = item['net']['graph']['nodeNames'][d]
-            y = net.getIndexOf(txt1)
-            x = net.getIndexOf(txt2)
+            y = net.getIndexof(txt1)
+            x = net.getIndexof(txt2)
             actions[y, x] = act
             net.connects[y, x] = val
 

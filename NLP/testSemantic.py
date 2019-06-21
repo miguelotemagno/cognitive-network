@@ -156,7 +156,9 @@ if sys.argv[1] == 'combine':
     s.loadSemanticNetwork(dbSemantic)
 
     base = s.select(txt1)
+    #print ("%s : %s\n" % (txt1, str(base)))
     item = s.select(txt2)
+    #print ("%s : %s\n" % (txt2, str(item)))
 
     print(s.combine(base, item, data='json'))
 

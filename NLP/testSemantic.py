@@ -130,7 +130,7 @@ if sys.argv[1] == 'add-verb':
     s.rules.registerVerb(first, verb)
 
 if sys.argv[1] == 'import-verbs':
-    for car in range(ord('a'), ord('z')):
+    for car in range(ord('a'), ord('z')+1):
         first = chr(car)
         for verb in s.rules.rules[first].keys():
             print("%s %s" % (first, verb))
@@ -144,7 +144,23 @@ if sys.argv[1] == 'select':
     s.load(dbFile)
     s.loadSemanticNetwork(dbSemantic)
 
-    print(s.select(query, returns='json'))
+    print(s.select(query, data='json'))
+
+
+if sys.argv[1] == 'combine':
+    txt1 = sys.argv[2]
+    txt2 = sys.argv[3]
+    dbFile = sys.argv[4] if sys.argv[4] is not None and sys.argv[4] != '' else 'semanticNet.json'
+    dbSemantic = sys.argv[5] if sys.argv[5] is not None and sys.argv[5] != '' else 'redSemantica.json'
+    s.load(dbFile)
+    s.loadSemanticNetwork(dbSemantic)
+
+    base = s.select(txt1)
+    #print ("%s : %s\n" % (txt1, str(base)))
+    item = s.select(txt2)
+    #print ("%s : %s\n" % (txt2, str(item)))
+
+    print(s.combine(base, item, data='json'))
 
 
 print ('Done! Time taken: %f sec for %d CPUs') % (time.time() - start_time, multiprocessing.cpu_count())

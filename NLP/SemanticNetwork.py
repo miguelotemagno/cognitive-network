@@ -41,6 +41,7 @@ from Graph import *
 from time import sleep
 import re
 import thread
+import zlib
 
 # http://chriskiehl.com/article/parallelism-in-one-line/
 #from multiprocessing import Pool
@@ -67,7 +68,7 @@ class SemanticNetwork:
     """
     def __init__(self, db_file=None):
         self.dbLangRules = db_file
-        self.rules = GrammarRules(self.dbLangRules)
+        self.rules = GrammarRules(db_file=self.dbLangRules)
         self.grammarTypes = ['DET', 'NOUN', 'ADJ', 'PREP', 'VERB', 'ADV', 'PRON', 'INTJ', 'CONJ', 'NUM', 'PUNC', 'AUX']
         self.verbTenses = ['inf', 'ger', 'par', 'ip', 'ipi', 'if', 'ic', 'ipps', 'i', 'sp', 'spi', 'spi2', 'sf']
         self.pronouns = ['yo', 'tu', 'el_la', 'nos', 'uds', 'ellos']
@@ -687,7 +688,8 @@ class SemanticNetwork:
         tags = []
         words = []
         nouns = []
-        textId = 1.0 * len(self.text)
+        #textId = 1.0 * len(self.text)
+        textId = abs(round(100 * (1.0*zlib.crc32(bytes(self.text))/2**32), 4))
 
         # try:
         for token in tokens:
@@ -831,6 +833,10 @@ class SemanticNetwork:
                     type2 = self.rules.isNoun(str2)
                     if str1 != str2 and type1 is not None and type2 is not None and type1 == type2:
                         if re.search('^'+str1, str2):
+                            o = self.net.getIndexof(str2)
+                            d = self.net.getIndexof(str1)
+                            textId = self.net.getConnection(o, d, matrix=self.net.connects)
+
                             self.connectNode(str2, str1, [], [], args={
                                 'det': None,
                                 'noun': None,
@@ -838,9 +844,13 @@ class SemanticNetwork:
                                 'prep': None,
                                 'aux': None,
                                 'conj': None,
-                                'textId': 1
+                                'textId': textId
                             })
                         if re.search('^'+str2, str1):
+                            o = self.net.getIndexof(str2)
+                            d = self.net.getIndexof(str1)
+                            textId = self.net.getConnection(o, d, matrix=self.net.connects)
+
                             self.connectNode(str1, str2, [], [], args={
                                 'det': None,
                                 'noun': None,
@@ -848,7 +858,7 @@ class SemanticNetwork:
                                 'prep': None,
                                 'aux': None,
                                 'conj': None,
-                                'textId': 1
+                                'textId': textId
                             })
 
     ####################################################################
@@ -973,7 +983,7 @@ class SemanticNetwork:
 
     ####################################################################
 
-    def select(self, topic, returns=None):
+    def select(self, topic, data=None):
         node = self.net.search({'name': topic})
         json = {
             'width': None,
@@ -1008,13 +1018,21 @@ class SemanticNetwork:
 
             idN = self.net.getIndexof(node[0].name)
             n = net.getIndexof(node[0].name)
-            for item in inputs:
-                x = net.getIndexof(item.name)
-                idX = self.net.getIndexof(item.name)
-                val = self.net.connects[idN, idX]
-                net.connects[n, x] = val
-                actions[n, x] = self.actions[idN, idX]
-                json['contentList'][str(val)] = self.text[str(val)]
+            try:
+                for item in inputs:
+                    #print ("item: %s\n" % item.name)
+                    x = net.getIndexof(item.name)
+                    idX = self.net.getIndexof(item.name)
+                    val = self.net.connects[idN, idX]
+                    #print ("value(%s, %s): %s\n" % (idN, idX, val))
+                    net.connects[n, x] = val
+                    actions[n, x] = self.actions[idN, idX]
+
+                    #if str(val) in self.text:
+                    json['contentList'][str(val)] = self.text[str(val)]
+            except KeyError:
+                exc_type, exc_obj, exc_tb = sys.exc_info()
+                print("ERROR SemanticNetwork.select()[%s]: %s; value:%s\n" % (exc_tb.tb_lineno , str(KeyError), str(val)))
 
             for item in outputs:
                 y = net.getIndexof(item.name)
@@ -1039,10 +1057,98 @@ class SemanticNetwork:
             json['connects'] = connects
             json['net'] = net.getJson()
 
-        return js.dumps(json, sort_keys=True, indent=4, separators=(',', ': ')) if returns == 'json' else json
+        return js.dumps(json, sort_keys=True, indent=4, separators=(',', ': ')) if data == 'json' else json
 
     ####################################################################
 
-    def selectAll(self, topic):
-        data = self.select(topic)
+    def selectDeep(self, topic, returns=None, deep=[]):
+        data = self.select(topic, 'json')
         # TODO construir recorrido de grafo en forma recursiva
+        items = deep
+        items.append(topic)
+
+        for item in data['net']['graph']['nodeNames']:
+            if item not in items:
+                items[item] = self.selectDeep(item, 'json')
+            pass
+        pass
+
+    ####################################################################
+
+    def combine(self, base, item, data=None):
+        json = {
+            'width': None,
+            'height': None,
+            'net': None,
+            'actions': [],
+            'connects': [],
+            'contentList': {}
+        }
+
+        lstConnects = []
+        lstAction = []
+        net = Graph(name='net')
+        net.functions = self.actionFunc
+
+        if type(base) is str:
+            base = js.loads(base)
+
+        if type(item) is str:
+            item = js.loads(item)
+
+        all = base['net']['graph']['nodeNames'] + item['net']['graph']['nodeNames']
+        #print ("base+item : %s\n" % str(all))
+        for each in all:
+            pNode = net.addNode(net, name=each)
+            #if pNode is not None:
+            #    pNode.extraInfo = each.extraInfo
+
+        size = len(net.nodeNames)
+        actions = np.chararray((size, size), itemsize=30)
+        actions[:] = ''
+        net.connects = np.zeros((size, size), dtype=float)
+
+        for i in range(0, len(base['actions'])):
+            (o, d, act) = base['actions'][i]
+            (o, d, val) = base['connects'][i]
+            txt1 = base['net']['graph']['nodeNames'][o]
+            txt2 = base['net']['graph']['nodeNames'][d]
+            #print("i:%d, act:%s; val:%s; o:%s; d:%s; txt1:%s; txt2:%s\nnodeNames:%s\n" % (i, act, val, o, d, txt1, txt2, str(net.nodeNames)))
+            y = net.getIndexof(txt1)
+            x = net.getIndexof(txt2)
+            actions[y, x] = act
+            net.connects[y, x] = val
+
+        for i in range(0, len(item['actions'])):
+            (o, d, act) = item['actions'][i]
+            (o, d, val) = item['connects'][i]
+            txt1 = item['net']['graph']['nodeNames'][o]
+            txt2 = item['net']['graph']['nodeNames'][d]
+            y = net.getIndexof(txt1)
+            x = net.getIndexof(txt2)
+            actions[y, x] = act
+            net.connects[y, x] = val
+
+        for y in range(0, size):
+           for x in range(0, size):
+              if net.connects[y, x] > 0.0:
+                 lstConnects.append([y, x, net.connects[y, x]])
+
+        for y in range(0, size):
+           for x in range(0, size):
+              if actions[y, x] != '':
+                 lstAction.append([y, x, actions[y, x]])
+
+        for key in base['contentList']:
+            json['contentList'][key] = base['contentList'][key]
+
+        for key in item['contentList']:
+            json['contentList'][key] = item['contentList'][key]
+
+        json['actions'] = lstAction
+        json['connects'] = lstConnects
+        json['net'] = net.getJson()
+        json['width'] = size
+        json['height'] = size
+
+        return js.dumps(json, sort_keys=True, indent=4, separators=(',', ': ')) if data == 'json' else json

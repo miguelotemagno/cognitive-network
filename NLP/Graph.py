@@ -224,7 +224,7 @@ class Graph:
     ####################################################################
 
     def getConnection(self, y, x, matrix=None):
-        return self.connects.item((y, x)) if matrix is None else matrix.connects.item((y, x))
+        return self.connects.item((y, x)) if matrix is None else matrix.item((y, x))
 
     ####################################################################
 

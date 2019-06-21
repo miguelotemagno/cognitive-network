@@ -147,6 +147,16 @@ if sys.argv[1] == 'select':
     print(s.select(query, data='json'))
 
 
+if sys.argv[1] == 'select-deep':
+    query = sys.argv[2]
+    dbFile = sys.argv[3] if sys.argv[3] is not None and sys.argv[3] != '' else 'semanticNet.json'
+    dbSemantic = sys.argv[4] if sys.argv[4] is not None and sys.argv[4] != '' else 'redSemantica.json'
+    s.load(dbFile)
+    s.loadSemanticNetwork(dbSemantic)
+
+    print(s.selectDeep(query, returns='json'))
+
+
 if sys.argv[1] == 'combine':
     txt1 = sys.argv[2]
     txt2 = sys.argv[3]

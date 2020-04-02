@@ -1,0 +1,554 @@
+{
+    "actions": [
+        [
+            6,
+            0,
+            "pertenece de los"
+        ],
+        [
+            6,
+            1,
+            "pertenece de los"
+        ],
+        [
+            6,
+            2,
+            "pertenece de los"
+        ],
+        [
+            6,
+            3,
+            "pertenece a una"
+        ],
+        [
+            6,
+            4,
+            "tiene"
+        ],
+        [
+            6,
+            5,
+            "tiene"
+        ],
+        [
+            11,
+            14,
+            "es"
+        ],
+        [
+            12,
+            14,
+            "es"
+        ],
+        [
+            13,
+            14,
+            "es"
+        ],
+        [
+            14,
+            7,
+            "es"
+        ],
+        [
+            14,
+            8,
+            "nace de una"
+        ],
+        [
+            14,
+            9,
+            "bebe"
+        ],
+        [
+            14,
+            10,
+            "puede poseer"
+        ]
+    ],
+    "connects": [
+        [
+            6,
+            0,
+            6.9038
+        ],
+        [
+            6,
+            1,
+            6.9038
+        ],
+        [
+            6,
+            2,
+            6.9038
+        ],
+        [
+            6,
+            3,
+            26.911
+        ],
+        [
+            6,
+            4,
+            1.8623
+        ],
+        [
+            6,
+            5,
+            1.8623
+        ],
+        [
+            11,
+            14,
+            29.7733
+        ],
+        [
+            12,
+            14,
+            29.7772
+        ],
+        [
+            13,
+            14,
+            15.4023
+        ],
+        [
+            14,
+            7,
+            45.7081
+        ],
+        [
+            14,
+            8,
+            8.8954
+        ],
+        [
+            14,
+            9,
+            4.5103
+        ],
+        [
+            14,
+            10,
+            29.4255
+        ]
+    ],
+    "contentList": {
+        "1.8623": "entre los mamiferos clasificamos las especies , y cada especie tiene sus cualidades y atributos",
+        "15.4023": "todo humano es un mamifero",
+        "26.911": "cada especie pertenece a una familia , y de estas familias se distinguen como : mamiferos , reptiles , aves y peces",
+        "29.4255": "un mamifero puede poseer pelos",
+        "29.7733": "todo gato es un mamifero",
+        "29.7772": "todo perro es un mamifero",
+        "4.5103": "todo mamifero bebe leche",
+        "45.7081": "todo mamifero es un animal",
+        "6.9038": "en la naturaleza encontramos diversas especies , toda especie pertenece a uno de dos grupos : los vertebrados y los invertebrados",
+        "8.8954": "todo mamifero nace de una placenta"
+    },
+    "height": 15,
+    "net": {
+        "functions": [
+            [
+                "null"
+            ]
+        ],
+        "graph": {
+            "connects": [
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    6.9038,
+                    6.9038,
+                    6.9038,
+                    26.911,
+                    1.8623,
+                    1.8623,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    29.7733
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    29.7772
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    15.4023
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    45.7081,
+                    8.8954,
+                    4.5103,
+                    29.4255,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            ],
+            "factor": 0,
+            "factorFinnish": 0,
+            "factorStart": 0,
+            "finnish": [],
+            "first": 0,
+            "height": 0,
+            "id": "",
+            "iterations": 0,
+            "name": "net",
+            "nodeNames": [
+                "grupos",
+                "vertebrados",
+                "invertebrados",
+                "familia",
+                "cualidades",
+                "atributos",
+                "especie",
+                "animal",
+                "placenta",
+                "leche",
+                "pelos",
+                "gato",
+                "perro",
+                "humano",
+                "mamifero"
+            ],
+            "nodes": [
+                "grupos_0",
+                "vertebrados_1",
+                "invertebrados_2",
+                "familia_3",
+                "cualidades_4",
+                "atributos_5",
+                "especie_6",
+                "animal_7",
+                "placenta_8",
+                "leche_9",
+                "pelos_10",
+                "gato_11",
+                "perro_12",
+                "humano_13",
+                "mamifero_14"
+            ],
+            "start": [],
+            "width": 0
+        },
+        "nodes": [
+            {
+                "extraInfo": [],
+                "function": "null",
+                "id": "grupos_0",
+                "name": "grupos"
+            },
+            {
+                "extraInfo": [],
+                "function": "null",
+                "id": "vertebrados_1",
+                "name": "vertebrados"
+            },
+            {
+                "extraInfo": [],
+                "function": "null",
+                "id": "invertebrados_2",
+                "name": "invertebrados"
+            },
+            {
+                "extraInfo": [],
+                "function": "null",
+                "id": "familia_3",
+                "name": "familia"
+            },
+            {
+                "extraInfo": [],
+                "function": "null",
+                "id": "cualidades_4",
+                "name": "cualidades"
+            },
+            {
+                "extraInfo": [],
+                "function": "null",
+                "id": "atributos_5",
+                "name": "atributos"
+            },
+            {
+                "extraInfo": [],
+                "function": "null",
+                "id": "especie_6",
+                "name": "especie"
+            },
+            {
+                "extraInfo": [],
+                "function": "null",
+                "id": "animal_7",
+                "name": "animal"
+            },
+            {
+                "extraInfo": [],
+                "function": "null",
+                "id": "placenta_8",
+                "name": "placenta"
+            },
+            {
+                "extraInfo": [],
+                "function": "null",
+                "id": "leche_9",
+                "name": "leche"
+            },
+            {
+                "extraInfo": [],
+                "function": "null",
+                "id": "pelos_10",
+                "name": "pelos"
+            },
+            {
+                "extraInfo": [],
+                "function": "null",
+                "id": "gato_11",
+                "name": "gato"
+            },
+            {
+                "extraInfo": [],
+                "function": "null",
+                "id": "perro_12",
+                "name": "perro"
+            },
+            {
+                "extraInfo": [],
+                "function": "null",
+                "id": "humano_13",
+                "name": "humano"
+            },
+            {
+                "extraInfo": [],
+                "function": "null",
+                "id": "mamifero_14",
+                "name": "mamifero"
+            }
+        ]
+    },
+    "width": 15
+}
+Done! Time taken: 0.013904 sec for 1 CPUs

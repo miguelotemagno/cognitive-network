@@ -234,11 +234,11 @@ class GrammarRules:
                         eval = re.compile(expr)
                         if eval.match(text):
                             return tense
-        except ValueError, e:
+        except (ValueError, e):
             print("ERROR getVerbTense(%s,%s): %s\n" % (verb, text, str(e)))
-        except IndexError, e:
+        except (IndexError, e):
             print("ERROR getVerbTense(%s,%s): %s\n" % (verb, text, str(e)))
-        except KeyError, e:
+        except (KeyError, e):
             print("ERROR getVerbTense(%s,%s): %s\n" % (verb, text, str(e)))
 
         return None
@@ -257,11 +257,11 @@ class GrammarRules:
                         eval = re.compile(expr)
                         if eval.match(text):
                             return pron
-        except ValueError:
+        except (ValueError):
             print("ERROR getVerbTense(%s,%s): %s\n" % (verb, text, str(ValueError)))
-        except IndexError:
+        except (IndexError):
             print("ERROR getVerbTense(%s,%s): %s\n" % (verb, text, str(IndexError)))
-        except KeyError:
+        except (KeyError):
             print("ERROR getVerbTense(%s,%s): %s\n" % (verb, text, str(KeyError)))
 
         return None
@@ -474,7 +474,7 @@ class GrammarRules:
                 return types[type](verb, word) if verb is not None else None
             else:
                 return types[type](word)
-        except KeyError, e:
+        except (KeyError, e):
             print ("ERROR getIndexFromType(%s,%s): %s" % (type, word, e))
             pass
 
@@ -496,8 +496,8 @@ class GrammarRules:
 
             conn.commit()
             conn.close()
-        except Exception, e:
-            print "ERROR: %s" % (e)
+        except (Exception, e):
+            print ("ERROR: %s") % (e)
         pass
 
     ####################################################################

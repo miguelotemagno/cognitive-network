@@ -40,7 +40,7 @@ from GrammarRules import *
 from Graph import *
 from time import sleep
 import re
-import thread
+from threading import *
 import zlib
 
 # http://chriskiehl.com/article/parallelism-in-one-line/
